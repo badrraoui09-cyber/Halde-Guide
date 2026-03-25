@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+
+<html lang="de">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<title>Halde Springer Guide</title>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700;800;900&family=Nunito+Sans:wght@400;600&display=swap" rel="stylesheet"/>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#faf8f4;--card:#fff;--dark:#1c1a14;--text:#2c2820;--muted:#9a9080;
+  --border:#e8e0d0;--accent:#c8860a;--accent2:#e8a020;
+  --red:#b83020;--green:#3a7a35;
+}
+html,body{background:var(--bg);font-family:'Nunito Sans',sans-serif;min-height:100vh;padding-bottom:48px}
+
+.header{background:var(–dark);padding:28px 24px 18px;text-align:center;position:relative;overflow:hidden}
+.header::before{content:’’;position:absolute;inset:0;background:radial-gradient(ellipse at 75% 50%,rgba(200,134,10,0.12),transparent 65%)}
+.logo-wrap{position:relative;z-index:1;display:flex;justify-content:center}
+.logo-img{height:56px;width:auto}
+
+.tabs{display:flex;background:var(–dark);padding:0 14px 14px;gap:8px;overflow-x:auto;scrollbar-width:none}
+.tabs::-webkit-scrollbar{display:none}
+.tab{flex-shrink:0;padding:9px 18px;border-radius:20px;font-family:‘Nunito’,sans-serif;font-size:13px;font-weight:800;cursor:pointer;border:none;transition:all .2s;color:rgba(255,255,255,0.45);background:rgba(255,255,255,0.07)}
+.tab.active{background:var(–accent);color:#fff}
+
+.page{display:none;padding:18px 14px 0}.page.active{display:block}
+.sec{font-family:‘Nunito’,sans-serif;font-size:10px;font-weight:800;letter-spacing:2.5px;text-transform:uppercase;color:var(–muted);margin:18px 0 10px 2px}
+.sec:first-child{margin-top:0}
+
+/* PRIORITY CARD — dark bg, colored left borders only */
+.pcard{background:var(–dark);border-radius:18px;padding:18px;margin-bottom:12px}
+.pcard-hd{display:flex;align-items:center;gap:10px;margin-bottom:14px}
+.pcard-hd .he{font-size:20px}
+.pcard-hd .ht{font-family:‘Nunito’,sans-serif;font-size:16px;font-weight:900;color:#fff}
+.pcard-hd .hs{font-size:11px;color:rgba(255,255,255,0.38)}
+.plist{display:flex;flex-direction:column;gap:7px}
+.pi{display:flex;align-items:center;gap:11px;background:rgba(255,255,255,0.07);border-radius:11px;padding:10px 13px}
+.pi.p1{border-left:3px solid var(–red)}
+.pi.p2{border-left:3px solid #e08030}
+.pi.p3,.pi.p4,.pi.p5{border-left:3px solid rgba(255,255,255,0.15)}
+.pn{font-family:‘Nunito’,sans-serif;font-size:18px;font-weight:900;color:rgba(255,255,255,0.15);min-width:20px;text-align:center}
+.pe{font-size:19px}.pt{flex:1}
+.pt strong{font-family:‘Nunito’,sans-serif;font-size:14px;font-weight:800;color:#fff;display:block}
+.pt span{font-size:11px;color:rgba(255,255,255,0.42)}
+.ptag{font-size:10px;font-weight:700;padding:3px 8px;border-radius:20px;text-transform:uppercase}
+.t-r{background:rgba(184,48,32,0.25);color:#ff8070}
+.t-o{background:rgba(224,128,48,0.25);color:#ffaa60}
+
+/* RULE CARD — white bg, subtle left accent, NO rainbow */
+.rc{background:var(–card);border-radius:16px;padding:15px;margin-bottom:10px;display:flex;align-items:flex-start;gap:12px;box-shadow:0 1px 8px rgba(0,0,0,.06);position:relative;overflow:hidden;border:1px solid var(–border)}
+.rc::after{content:’’;position:absolute;top:0;left:0;width:3px;height:100%;background:var(–accent)}
+.rc.alert::after{background:var(–red)}
+.ri{width:42px;height:42px;border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:19px;flex-shrink:0;background:#f5f0e8}
+.rcon{flex:1}
+.rtit{font-family:‘Nunito’,sans-serif;font-size:15px;font-weight:900;color:var(–text);margin-bottom:7px}
+.rs{display:flex;align-items:flex-start;gap:8px;font-size:13px;color:#5a5248;line-height:1.5;margin-bottom:4px}
+.sd{width:6px;height:6px;border-radius:50%;background:var(–accent);flex-shrink:0;margin-top:7px}
+.rc.alert .sd{background:var(–red)}
+.rtip{margin-top:8px;background:#f5f0e8;border-radius:9px;padding:8px 11px;font-size:12px;color:#6a6050;line-height:1.5}
+.rtip strong{color:var(–text)}
+.rtip.warn{background:rgba(184,48,32,0.07);color:#8a3020}
+.rtip.warn strong{color:var(–red)}
+.hl{color:var(–red);font-weight:700}
+.hl2{color:var(–green);font-weight:700}
+
+/* TABLE */
+.tcard{background:var(–card);border-radius:16px;overflow:hidden;margin-bottom:10px;box-shadow:0 1px 8px rgba(0,0,0,.06);border:1px solid var(–border)}
+.thd{background:var(–dark);padding:12px 15px;display:flex;align-items:center;gap:8px}
+.thd strong{font-family:‘Nunito’,sans-serif;font-size:14px;font-weight:900;color:#fff}
+.trow{display:flex;align-items:flex-start;padding:11px 15px;gap:10px;border-bottom:1px solid var(–border)}
+.trow:last-child{border-bottom:none}
+.tgang{font-family:‘Nunito’,sans-serif;font-size:12px;font-weight:800;color:var(–text);min-width:90px;padding-top:1px}
+.titems{flex:1;font-size:13px;color:#5a5248;line-height:1.6}
+
+/* GOLDEN RULE */
+.gcard{background:var(–dark);border-radius:18px;padding:19px;margin-bottom:10px}
+.gcard .gt{font-family:‘Nunito’,sans-serif;font-size:18px;font-weight:900;color:var(–accent2);margin-bottom:12px}
+.gcard .grow{display:flex;align-items:flex-start;gap:10px;margin-bottom:8px}
+.gcard .grow:last-child{margin-bottom:0}
+.gcard .gicon{font-size:18px;flex-shrink:0;margin-top:1px}
+.gcard .gtext{font-size:13px;color:rgba(255,255,255,0.75);line-height:1.6}
+.gcard .gtext strong{color:#fff}
+
+/* COMPLAINT */
+.csteps{display:flex;gap:8px;margin-top:10px}
+.cstep{flex:1;background:rgba(184,48,32,0.08);border-radius:10px;padding:10px 5px;text-align:center}
+.cstep .ce{font-size:21px;margin-bottom:3px}
+.cstep .cl{font-family:‘Nunito’,sans-serif;font-size:11px;font-weight:800;color:var(–red)}
+
+/* TIMES */
+.thero{background:var(–dark);border-radius:18px;padding:18px;margin-bottom:10px}
+.therotit{font-family:‘Nunito’,sans-serif;font-size:14px;font-weight:900;color:var(–accent2);margin-bottom:12px}
+.trow2{display:flex;align-items:center;gap:11px;padding:9px 0;border-bottom:1px solid rgba(255,255,255,0.07)}
+.trow2:last-child{border-bottom:none}
+.te{font-size:18px;flex-shrink:0}.tinfo{flex:1}
+.tinfo .tl{font-family:‘Nunito’,sans-serif;font-size:13px;font-weight:800;color:#fff}
+.tinfo .ts{font-size:11px;color:rgba(255,255,255,0.42);margin-top:1px}
+.tbadge{font-family:‘Nunito’,sans-serif;font-size:11px;font-weight:800;color:var(–accent2);background:rgba(232,160,32,0.15);padding:4px 9px;border-radius:20px;white-space:nowrap;text-align:right;line-height:1.5}
+.tbadge.pause{color:#888;background:rgba(160,150,130,0.15)}
+.tb-sub{display:block;font-size:10px;color:rgba(255,255,255,0.3);font-weight:600}
+
+/* ROOMS — 3 groups, distinct but not rainbow */
+.rg{border-radius:18px;overflow:hidden;margin-bottom:14px;border:1px solid transparent}
+.rg-modern{background:#0f1e2e;border-color:#1a3a54}
+.rg-rustic{background:#1e1208;border-color:#3a2010}
+.rg-bar{background:#160e1e;border-color:#2e1848}
+
+.rg-hd{padding:13px 16px;display:flex;align-items:center;gap:11px}
+.rg-modern .rg-hd{background:#1a4a72}
+.rg-rustic .rg-hd{background:#6a3c0e}
+.rg-bar   .rg-hd{background:#3a1260}
+
+.rgh-icon{font-size:20px;flex-shrink:0}
+.rgh-title{font-family:‘Nunito’,sans-serif;font-size:15px;font-weight:900;color:#fff}
+.rgh-sub{font-size:11px;color:rgba(255,255,255,0.45);margin-top:2px}
+
+.room-row{display:flex;align-items:flex-start;gap:12px;padding:12px 16px;border-bottom:1px solid rgba(255,255,255,0.06)}
+.room-row:last-child{border-bottom:none}
+.rr-icon{font-size:19px;flex-shrink:0;padding-top:2px}
+.rr-name{font-family:‘Nunito’,sans-serif;font-size:14px;font-weight:900;color:#fff}
+.rr-offer{font-size:12px;color:rgba(255,255,255,0.45);margin-top:3px;line-height:1.5}
+
+.room-note{margin:0 14px 14px;border-radius:9px;padding:9px 12px;font-size:12px;line-height:1.5}
+.rg-modern .room-note{background:rgba(255,80,60,0.12);color:#ffaaaa}
+.rg-modern .room-note strong{color:#fff}
+.rg-rustic .room-note{background:rgba(255,200,80,0.08);color:#ffc870}
+.rg-rustic .room-note strong{color:#ffe0a0}
+
+.footer{text-align:center;padding:26px 20px 0;font-size:12px;color:var(–muted)}
+.page.active>*{animation:fadeUp .3s ease both}
+@keyframes fadeUp{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+</style>
+
+</head>
+<body>
+
+<div class="header">
+  <div class="logo-wrap"><img class="logo-img" src="data:image/png;base64,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" alt="Die Halde"/></div>
+</div>
+
+<div class="tabs">
+  <button class="tab active" onclick="switchTab('service',this)">⚡ Service</button>
+  <button class="tab" onclick="switchTab('zeiten',this)">🕐 Zeiten</button>
+  <button class="tab" onclick="switchTab('raeume',this)">🏠 Räume</button>
+</div>
+
+<!-- ═══ SERVICE ═══ -->
+
+<div class="page active" id="page-service">
+
+  <div class="sec">Reihenfolge beim Laufen</div>
+  <div class="pcard">
+    <div class="pcard-hd"><div class="he">⚡</div><div><div class="ht">Was zuerst?</div><div class="hs">Immer diese Reihenfolge!</div></div></div>
+    <div class="plist">
+      <div class="pi p1"><div class="pn">1</div><div class="pe">🍽️</div><div class="pt"><strong>Warmes Essen</strong><span>Wird sofort kalt!</span></div><div class="ptag t-r">Sofort!</div></div>
+      <div class="pi p2"><div class="pn">2</div><div class="pe">🍦</div><div class="pt"><strong>Eis-Desserts</strong><span>Schmilzt schnell</span></div><div class="ptag t-o">Eilig</div></div>
+      <div class="pi p3"><div class="pn">3</div><div class="pe">🥤</div><div class="pt"><strong>Getränke</strong><span>Von der Theke</span></div></div>
+      <div class="pi p4"><div class="pn">4</div><div class="pe">🥗</div><div class="pt"><strong>Kalte Speisen</strong><span>Salate, Vorspeisen</span></div></div>
+      <div class="pi p5"><div class="pn">5</div><div class="pe">🫙</div><div class="pt"><strong>Abräumen</strong><span>Leere Teller & Gläser</span></div></div>
+    </div>
+  </div>
+
+  <div class="sec">Gläser checken</div>
+  <div class="rc">
+    <div class="ri">🥛</div>
+    <div class="rcon">
+      <div class="rtit">Was tun mit leeren Gläsern?</div>
+      <div class="rs"><div class="sd"></div><strong>Wasserglas:</strong> immer stehen lassen & nachfüllen</div>
+      <div class="rs"><div class="sd"></div><strong>Wein:</strong> leer oder fast leer → nachfragen. Sagen sie Nein → abräumen</div>
+      <div class="rs"><div class="sd"></div><strong>Aperitif-Gläser:</strong> leer → sofort abräumen</div>
+      <div class="rtip">Neue Bestellung → <strong>bonnieren</strong> oder <strong>Stationskellner</strong> informieren</div>
+    </div>
+  </div>
+
+  <div class="sec">Brot-Service</div>
+  <div class="rc">
+    <div class="ri">🍞</div>
+    <div class="rcon">
+      <div class="rtit">Brot nachfragen</div>
+      <div class="rs"><div class="sd"></div>Brotkorb leer? → <em>„Noch Brot dazu?"</em></div>
+      <div class="rs"><div class="sd"></div>Nur bis zur Suppe — danach Brot, Teller & Aufstrich <span class="hl">abräumen</span></div>
+    </div>
+  </div>
+
+  <div class="sec">Abräumen – Was & Wann</div>
+  <div class="tcard">
+    <div class="thd"><span>🫙</span><strong>Nach jedem Gang abräumen</strong></div>
+    <div class="trow"><div class="tgang">🥗 Vorspeise</div><div class="titems">Teller + kleines Besteck</div></div>
+    <div class="trow">
+      <div class="tgang">🍲 Suppe</div>
+      <div class="titems">
+        Suppenteller + Löffel<br/>
+        <span class="hl">+ Brotteller, Brot & Aufstrich weg</span><br/>
+        <span style="color:var(--accent);font-weight:700">+ Olivenöl-Flasche weg (Feldberg & Schauinslandsaal)</span>
+      </div>
+    </div>
+    <div class="trow"><div class="tgang">🍽️ Hauptgang</div><div class="titems">Alles weg — <span class="hl2">Servietten & Wasserglas bleiben</span></div></div>
+    <div class="trow"><div class="tgang">✨ Immer</div><div class="titems"><strong>Getränke beim Abräumen anbieten!</strong></div></div>
+  </div>
+
+  <div class="sec">Goldene Regel</div>
+  <div class="gcard">
+    <div class="gt">Niemals leer laufen!</div>
+    <div class="grow"><div class="gicon">🚶‍♂️</div><div class="gtext"><strong>Raus aus dem Restaurant?</strong> Schau auf den Guéridon & Tische — leere Teller, Gläser oder Flaschen mitnehmen.</div></div>
+    <div class="grow"><div class="gicon">🏃‍♂️</div><div class="gtext"><strong>Rein ins Restaurant?</strong> Check ob Essen in der Küche wartet. Check ob Getränke an der Theke stehen.</div></div>
+  </div>
+
+  <div class="sec">Bei Beschwerden</div>
+  <div class="rc alert">
+    <div class="ri">😟</div>
+    <div class="rcon">
+      <div class="rtit">Gast beschwert sich?</div>
+      <div class="csteps">
+        <div class="cstep"><div class="ce">🙏</div><div class="cl">Entschuldigen</div></div>
+        <div class="cstep"><div class="ce">📢</div><div class="cl">Teamleitung rufen</div></div>
+      </div>
+      <div class="rtip warn" style="margin-top:10px">🚫 <strong>Nie selbst lösen oder diskutieren</strong> — die Teamleitung übernimmt.</div>
+    </div>
+  </div>
+
+</div>
+
+<!-- ═══ ZEITEN ═══ -->
+
+<div class="page" id="page-zeiten">
+
+  <div class="sec">Frühstück</div>
+  <div class="thero">
+    <div class="therotit">☀️ Frühstück</div>
+    <div class="trow2"><div class="te">🛏️</div><div class="tinfo"><div class="tl">Hausgäste</div><div class="ts">Ab sofort bedienen</div></div><div class="tbadge">ab 8:00</div></div>
+    <div class="trow2"><div class="te">🚶</div><div class="tinfo"><div class="tl">Externe Gäste</div><div class="ts">Modern · Buffet</div></div><div class="tbadge">9:30 – 11:45</div></div>
+  </div>
+
+  <div class="sec">Mittag bis Abend</div>
+  <div class="thero">
+    <div class="therotit">🍽️ Tagesablauf</div>
+    <div class="trow2">
+      <div class="te">🥘</div>
+      <div class="tinfo"><div class="tl">Mittagessen à la carte</div><div class="ts">Nur Stube & Terrasse</div></div>
+      <div class="tbadge">12:30 – 14:30<span class="tb-sub">letzte Best.</span></div>
+    </div>
+    <div class="trow2">
+      <div class="te">🥨</div>
+      <div class="tinfo"><div class="tl">Vesperkarte</div><div class="ts">Stube & Terrasse · inkl. Hauptgang</div></div>
+      <div class="tbadge">14:30 – 16:30</div>
+    </div>
+    <div class="trow2">
+      <div class="te">😴</div>
+      <div class="tinfo"><div class="tl">Küchenpause</div><div class="ts">Nur Getränke!</div></div>
+      <div class="tbadge pause">16:30 – 17:30</div>
+    </div>
+    <div class="trow2">
+      <div class="te">🌆</div>
+      <div class="tinfo"><div class="tl">Abendessen</div><div class="ts">Nur Modern & Stuben</div></div>
+      <div class="tbadge">17:30 – 19:30<span class="tb-sub">letzte Best.</span></div>
+    </div>
+  </div>
+
+  <div class="sec">Kaffee & Kuchen</div>
+  <div class="thero">
+    <div class="therotit">☕ Kaffee & Kuchen</div>
+    <div class="trow2"><div class="te">📍</div><div class="tinfo"><div class="tl">Nur Terrasse & Kaminbar</div></div><div class="tbadge">12:30 – 22:00</div></div>
+  </div>
+
+  <div class="sec">Cocktails & Bar Food</div>
+  <div class="thero">
+    <div class="therotit">🍸 Nur Kaminbar</div>
+    <div class="trow2"><div class="te">🍹</div><div class="tinfo"><div class="tl">Cocktails & Bar Food</div><div class="ts">Nur in der Kaminbar möglich</div></div><div class="tbadge">17:30 – 22:00</div></div>
+  </div>
+
+</div>
+
+<!-- ═══ RÄUME ═══ -->
+
+<div class="page" id="page-raeume">
+
+  <div class="sec">Modern & Panorama</div>
+  <div class="rg rg-modern">
+    <div class="rg-hd"><div class="rgh-icon">🏙️</div><div><div class="rgh-title">Modern & Panorama</div><div class="rgh-sub">Große Fenster · Bergblick · Helles Ambiente</div></div></div>
+    <div class="room-row">
+      <div class="rr-icon">🏔️</div>
+      <div>
+        <div class="rr-name">Feldberg</div>
+        <div class="rr-offer">🌅 Frühstück HG · 🥘 Mittagsbuffet HG · 🍽️ Abendessen HG & à la carte</div>
+      </div>
+    </div>
+    <div class="room-row">
+      <div class="rr-icon">🌄</div>
+      <div>
+        <div class="rr-name">Schauinslandsaal</div>
+        <div class="rr-offer">🌅 Frühstück HG · 🥘 Mittagsbuffet HG · 🍽️ Abendessen HG & à la carte</div>
+      </div>
+    </div>
+    <div class="room-row">
+      <div class="rr-icon">☀️</div>
+      <div>
+        <div class="rr-name">Terrasse</div>
+        <div class="rr-offer">🥘 Mittagessen à la carte · 🥨 Vesperkarte · ☕ Kaffee & Kuchen</div>
+      </div>
+    </div>
+    <div class="room-note">🌧️ <strong>Schlechtes Wetter?</strong> Terrasse zu → Stube oder Kaminbar (nicht Modern — mittags nur HG-Buffet!)</div>
+  </div>
+
+  <div class="sec">Gemütlich & Rustikal</div>
+  <div class="rg rg-rustic">
+    <div class="rg-hd"><div class="rgh-icon">🪵</div><div><div class="rgh-title">Die Stuben</div><div class="rgh-sub">Holz · Warm · Gemütlich · Rustikal</div></div></div>
+    <div class="room-row"><div class="rr-icon">🪵</div><div><div class="rr-name">Haldenstube</div></div></div>
+    <div class="room-row"><div class="rr-icon">🌾</div><div><div class="rr-name">Bauernstube</div></div></div>
+    <div class="room-row"><div class="rr-icon">🦌</div><div><div class="rr-name">Rösslestube</div></div></div>
+    <div class="room-note">🥘 Mittagessen à la carte · 🥨 Vesperkarte · 🍽️ Abendessen<br/>✅ <strong>Schlechtes Wetter?</strong> Gäste von Terrasse hierher oder in Kaminbar</div>
+  </div>
+
+  <div class="sec">Bar</div>
+  <div class="rg rg-bar">
+    <div class="rg-hd"><div class="rgh-icon">🔥</div><div><div class="rgh-title">Kaminbar</div><div class="rgh-sub">Bar & Lounge</div></div></div>
+    <div class="room-row"><div class="rr-icon">☕</div><div><div class="rr-name">Kaffee & Kuchen</div><div class="rr-offer">12:30 – 22:00</div></div></div>
+    <div class="room-row"><div class="rr-icon">🍸</div><div><div class="rr-name">Cocktails & Bar Food</div><div class="rr-offer">Ab 17:30 – 22:00 Uhr</div></div></div>
+  </div>
+
+</div>
+
+<div class="footer">Fragen? → Teamleitung 👨‍🍳</div>
+
+<script>
+function switchTab(tab,el){
+  document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));
+  document.querySelectorAll('.page').forEach(p=>p.classList.remove('active'));
+  document.getElementById('page-'+tab).classList.add('active');
+  el.classList.add('active');
+}
+</script>
+
+</body>
+</html>
