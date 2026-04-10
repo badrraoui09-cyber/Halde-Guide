@@ -20,7 +20,7 @@ html,body{
 /* HEADER */
 .header{background:#111008;padding:20px 24px 0;text-align:center}
 .logo-wrap{display:flex;justify-content:center;margin-bottom:6px}
-.logo-img{height:80px;width:auto;mix-blend-mode:screen;border-radius:0}
+.logo-img{height:120px;width:auto;mix-blend-mode:screen;border-radius:0}
 
 /* TABS */
 .tabs{display:none;background:#111008;padding:0 14px 14px;gap:8px;overflow-x:auto;scrollbar-width:none;border-bottom:1px solid #2a2820}
@@ -32,19 +32,25 @@ html,body{
 .page{display:none;padding:18px 14px 0}.page.active{display:block}
 
 /* HOME */
-.home-screen{padding:30px 18px;text-align:center}
-.home-title{font-family:‘Nunito’,sans-serif;font-size:18px;font-weight:900;color:#fff;line-height:1.5;margin-bottom:24px}
-.home-subtitle{font-family:‘Nunito’,sans-serif;font-size:14px;font-weight:800;color:#c8860a;margin-bottom:18px}
-.home-btn{display:block;width:100%;padding:20px;border-radius:18px;border:2px solid #2e2c1e;background:#1e1c14;font-family:‘Nunito’,sans-serif;font-size:17px;font-weight:900;color:#fff;cursor:pointer;margin-bottom:12px;transition:all .2s;text-align:center}
-.home-btn:active{background:#2a2818;border-color:#c8860a}
-.home-btn .btn-sub{font-size:12px;color:rgba(255,255,255,0.4);font-weight:600;margin-top:4px;display:block}
+.home-screen{padding:20px 18px 40px;text-align:center}
+.home-title{font-family:‘Nunito’,sans-serif;font-size:20px;font-weight:900;color:#fff;line-height:1.5;margin-bottom:6px}
+.home-subtitle{font-family:‘Nunito’,sans-serif;font-size:14px;font-weight:800;color:#c8860a;margin-bottom:22px;letter-spacing:0.5px}
+.home-btn{display:block;width:100%;padding:24px 20px;border-radius:22px;border:none;font-family:‘Nunito’,sans-serif;font-size:18px;font-weight:900;color:#fff;cursor:pointer;margin-bottom:14px;transition:all .25s;text-align:center;position:relative;overflow:hidden}
+.home-btn::before{content:’’;position:absolute;top:0;left:0;right:0;bottom:0;opacity:0.12;pointer-events:none}
+.home-btn:active{transform:scale(0.97);filter:brightness(1.1)}
+.home-btn.service-btn{background:linear-gradient(135deg,#c8860a 0%,#a06800 50%,#d4960e 100%);box-shadow:0 6px 24px rgba(200,134,10,0.35)}
+.home-btn.andere-btn{background:linear-gradient(135deg,#2a2818 0%,#1e1c14 50%,#3a3420 100%);border:2px solid #3a3420;box-shadow:0 4px 16px rgba(0,0,0,0.3)}
+.home-btn .btn-sub{font-size:12px;color:rgba(255,255,255,0.55);font-weight:600;margin-top:6px;display:block}
+.home-btn.service-btn .btn-sub{color:rgba(255,255,255,0.7)}
+.home-divider{font-size:12px;color:rgba(255,255,255,0.2);margin:4px 0;font-weight:700;letter-spacing:2px}
 
 /* SCHNELLZUGRIFF */
 .schnell-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;padding:18px 14px}
-.schnell-btn{display:flex;flex-direction:column;align-items:center;justify-content:center;padding:18px 10px;border-radius:16px;border:1px solid #2e2c1e;background:#1e1c14;font-family:‘Nunito’,sans-serif;font-size:13px;font-weight:800;color:#fff;cursor:pointer;transition:all .2s;gap:6px;text-align:center}
-.schnell-btn:active{background:#2a2818;border-color:#c8860a}
-.schnell-btn .sb-emoji{font-size:26px}
-.schnell-btn:first-child{grid-column:1/-1;background:#2a2010;border-color:#3a3018}
+.schnell-btn{display:flex;flex-direction:column;align-items:center;justify-content:center;padding:20px 10px;border-radius:18px;border:1px solid #2e2c1e;background:#1e1c14;font-family:‘Nunito’,sans-serif;font-size:13px;font-weight:800;color:#e8e0d0;cursor:pointer;transition:all .25s;gap:8px;text-align:center}
+.schnell-btn:active{transform:scale(0.96);border-color:#c8860a;background:#2a2818}
+.schnell-btn .sb-emoji{font-size:30px}
+.schnell-btn:first-child{grid-column:1/-1;background:linear-gradient(135deg,#2a2010 0%,#1e1808 100%);border-color:#4a3818;border-width:2px;padding:22px}
+.schnell-btn:first-child .sb-emoji{font-size:32px}
 
 /* SECTION TITLE */
 .sec{font-family:‘Nunito’,sans-serif;font-size:10px;font-weight:800;letter-spacing:2.5px;text-transform:uppercase;color:#c8c0b0;margin:20px 0 10px 2px}
@@ -374,10 +380,11 @@ html,body{
 <!-- HOME SCREEN -->
 
 <div class="home-screen" id="home-screen">
-  <div class="home-title">👋 Willkommen auf der Halde<br>· 1.147m Hochgenuss · Oberried · Schwarzwald</div>
+  <div class="home-title">👋 Willkommen auf der Halde<br><span style="font-size:15px;color:#c8860a;font-weight:800">· 1.147m Hochgenuss ·</span></div>
   <div class="home-subtitle">Ich arbeite in der Abteilung...</div>
-  <button class="home-btn" onclick="enterDept('service')">🍽️🍸 Service, Restaurant & Bar<span class="btn-sub">Alle Tabs · Schnellzugriff</span></button>
-  <button class="home-btn" onclick="enterDept('andere')">🏠 Andere Abteilung<span class="btn-sub">Küche · 🛏️ Housekeeping · 💆 Spa · Empfang</span></button>
+  <button class="home-btn service-btn" onclick="enterDept('service')">🍽️🍸 Service, Restaurant & Bar<span class="btn-sub">Alle Tabs · Schnellzugriff</span></button>
+  <div class="home-divider">oder</div>
+  <button class="home-btn andere-btn" onclick="enterDept('andere')">🏠 Andere Abteilung<span class="btn-sub">Küche · 🛏️ Housekeeping · 💆 Spa · Empfang</span></button>
 </div>
 
 <!-- TABS (hidden initially) -->
@@ -418,7 +425,7 @@ html,body{
       <span class="ap-tag">Wohnung</span>
     </div>
     <div class="ap-contact">
-      📧 <a href="mailto:verwaltung@halde.com">verwaltung@halde.com</a><br>
+      <span id="katja-email-wrap"></span><br>
       📞 <a href="tel:+4976029447-0">+49 7602 94470</a>
     </div>
   </div>
@@ -469,7 +476,7 @@ html,body{
 
   <div class="ap-info-card">
     <div class="ap-info-title">🤒 Krankmeldung</div>
-    <div class="ap-info-text">Sofort bei Katja melden (verwaltung@halde.com oder +49 7602 94470). Ab dem 1. Tag Attest nötig.</div>
+    <div class="ap-info-text">Sofort bei Katja melden (<span id="krank-email-wrap"></span> oder +49 7602 94470). Ab dem 1. Tag Attest nötig.</div>
   </div>
 </div>
 
@@ -1304,8 +1311,6 @@ html,body{
 
 </div>
 
-<div class="footer">Fragen? → Teamleitung 👨‍🍳</div>
-
 <script>
 
 var currentDept = null;
@@ -1870,6 +1875,35 @@ function shuffle(arr){
   }
   return arr;
 }
+
+
+// Email render (char codes - undetectable)
+(function(){
+  var p=[118,101,114,119,97,108,116,117,110,103];
+  var s=[64];
+  var d=[104,97,108,100,101,46,99,111,109];
+  var m=[109,97,105,108,116,111,58];
+  var e='';for(var i=0;i<p.length;i++)e+=String.fromCharCode(p[i]);
+  e+=String.fromCharCode(s[0]);
+  for(var i=0;i<d.length;i++)e+=String.fromCharCode(d[i]);
+  var ml='';for(var i=0;i<m.length;i++)ml+=String.fromCharCode(m[i]);
+  var w1=document.getElementById('katja-email-wrap');
+  if(w1){
+    var a=document.createElement('a');
+    a.setAttribute('hr'+'ef',ml+e);
+    a.style.color='#c8860a';a.style.textDecoration='none';
+    a.textContent=String.fromCodePoint(0x1F4E7)+' '+e;
+    w1.appendChild(a);
+  }
+  var w2=document.getElementById('krank-email-wrap');
+  if(w2){
+    var a2=document.createElement('a');
+    a2.setAttribute('hr'+'ef',ml+e);
+    a2.style.color='#c8860a';a2.style.textDecoration='none';
+    a2.textContent=e;
+    w2.appendChild(a2);
+  }
+})();
 
 </script>
 
