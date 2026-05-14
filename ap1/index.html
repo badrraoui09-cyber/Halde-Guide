@@ -5,6 +5,7 @@
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>AP Teil 1 — Die Halde</title>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
   <style>
     *{box-sizing:border-box;margin:0;padding:0}
@@ -296,7 +297,8 @@ async function doLogout(){
 window.addEventListener('load', async function(){
   try {
     await initSupabase();
-    const {data:{session}}=await sb.auth.getSession();
+    const sessionRes = await Promise.race([sb.auth.getSession(), new Promise((_,r)=>setTimeout(()=>r(new Error("timeout")),5000))]).catch(()=>({data:{session:null}}));
+    const session=sessionRes?.data?.session;
     if(session&&session.user){
       currentUser=session.user;
       const {data:prof}=await sb.from('profiles').select('name').eq('id',session.user.id).single();
@@ -310,8 +312,6 @@ window.addEventListener('load', async function(){
   }
 });
 </script>
-
-<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 
 </body>
 </html>
