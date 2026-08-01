@@ -7,6 +7,23 @@ media_folder: "images/uploads"
 public_folder: "/images/uploads"
 
 collections:
+  - name: "website_inhalte"
+    label: "Website – alle Texte"
+    files:
+      - file: "content/website.json"
+        label: "Texte bearbeiten"
+        name: "website"
+        fields:
+          - label: "Website-Texte"
+            name: "texts"
+            widget: "list"
+            summary: "{{fields.original}}"
+            collapsed: true
+            fields:
+              - { label: "Interne Nummer", name: "id", widget: "hidden" }
+              - { label: "Bisheriger Text (nicht verändern)", name: "original", widget: "hidden" }
+              - { label: "Text auf der Website", name: "text", widget: "text" }
+
   - name: "ap1_wochenplan"
     label: "AP1 – 12-Wochen-Plan"
     files:

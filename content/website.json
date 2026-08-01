@@ -1,0 +1,4314 @@
+{
+  "texts": [
+    {
+      "id": "0001",
+      "original": "Der Tisch",
+      "text": "Der Tisch"
+    },
+    {
+      "id": "0002",
+      "original": "Mise en place",
+      "text": "Mise en place"
+    },
+    {
+      "id": "0003",
+      "original": "Tischset pro Person",
+      "text": "Tischset pro Person"
+    },
+    {
+      "id": "0004",
+      "original": "Stoffserviette (mittig)",
+      "text": "Stoffserviette (mittig)"
+    },
+    {
+      "id": "0005",
+      "original": "Abends mit Etagere: Mittelteller",
+      "text": "Abends mit Etagere: Mittelteller"
+    },
+    {
+      "id": "0006",
+      "original": "3-Gang-Besteck komplett",
+      "text": "3-Gang-Besteck komplett"
+    },
+    {
+      "id": "0007",
+      "original": "Universalglas + Wasserglas",
+      "text": "Universalglas + Wasserglas"
+    },
+    {
+      "id": "0008",
+      "original": "Brotteller · Salz & Pfeffer",
+      "text": "Brotteller · Salz & Pfeffer"
+    },
+    {
+      "id": "0009",
+      "original": "Kerze brennt · Blumendeko",
+      "text": "Kerze brennt · Blumendeko"
+    },
+    {
+      "id": "0010",
+      "original": "Stühle ausgerichtet + Kissen",
+      "text": "Stühle ausgerichtet + Kissen"
+    },
+    {
+      "id": "0011",
+      "original": "Der Tisch muss fertig sein BEVOR sich der Gast setzt.",
+      "text": "Der Tisch muss fertig sein BEVOR sich der Gast setzt."
+    },
+    {
+      "id": "0012",
+      "original": "Begrüßung & Platzieren",
+      "text": "Begrüßung & Platzieren"
+    },
+    {
+      "id": "0013",
+      "original": "Erster Eindruck",
+      "text": "Erster Eindruck"
+    },
+    {
+      "id": "0014",
+      "original": "Freundlich begrüßen — Augenkontakt bis zur Augenfarbe",
+      "text": "Freundlich begrüßen — Augenkontakt bis zur Augenfarbe"
+    },
+    {
+      "id": "0015",
+      "original": "\"Guten Abend, herzlich willkommen, mein Name ist [Name]...\"",
+      "text": "\"Guten Abend, herzlich willkommen, mein Name ist [Name]...\""
+    },
+    {
+      "id": "0016",
+      "original": "Gast nach Namen → Reservierung prüfen (Allergien, Wünsche)",
+      "text": "Gast nach Namen → Reservierung prüfen (Allergien, Wünsche)"
+    },
+    {
+      "id": "0017",
+      "original": "Neue Gäste: frühe Essenszeit 17:30 Uhr empfehlen",
+      "text": "Neue Gäste: frühe Essenszeit 17:30 Uhr empfehlen"
+    },
+    {
+      "id": "0018",
+      "original": "Stuhl herausziehen · Garderobe-Hinweis",
+      "text": "Stuhl herausziehen · Garderobe-Hinweis"
+    },
+    {
+      "id": "0019",
+      "original": "Überschüssiges Gedeck entfernen",
+      "text": "Überschüssiges Gedeck entfernen"
+    },
+    {
+      "id": "0020",
+      "original": "Auf Stationskellner hinweisen",
+      "text": "Auf Stationskellner hinweisen"
+    },
+    {
+      "id": "0021",
+      "original": "\"Haben Sie reserviert?\"",
+      "text": "\"Haben Sie reserviert?\""
+    },
+    {
+      "id": "0022",
+      "original": "\"Kommen Sie spontan oder haben Sie sich angemeldet?\"",
+      "text": "\"Kommen Sie spontan oder haben Sie sich angemeldet?\""
+    },
+    {
+      "id": "0023",
+      "original": "\"Tut mir leid, ausreserviert\"",
+      "text": "\"Tut mir leid, ausreserviert\""
+    },
+    {
+      "id": "0024",
+      "original": "Immer Alternative anbieten",
+      "text": "Immer Alternative anbieten"
+    },
+    {
+      "id": "0025",
+      "original": "\"Sie waren lange nicht mehr da\"",
+      "text": "\"Sie waren lange nicht mehr da\""
+    },
+    {
+      "id": "0026",
+      "original": "\"Schön, dass Sie wieder da sind!\"",
+      "text": "\"Schön, dass Sie wieder da sind!\""
+    },
+    {
+      "id": "0027",
+      "original": "Auf den Gast zugehen — nie warten bis er kommt!",
+      "text": "Auf den Gast zugehen — nie warten bis er kommt!"
+    },
+    {
+      "id": "0028",
+      "original": "Erster Tischkontakt",
+      "text": "Erster Tischkontakt"
+    },
+    {
+      "id": "0029",
+      "original": "Die ersten 60 Sekunden",
+      "text": "Die ersten 60 Sekunden"
+    },
+    {
+      "id": "0030",
+      "original": "\"Guten Abend Frau/Herr [Name]...\"",
+      "text": "\"Guten Abend Frau/Herr [Name]...\""
+    },
+    {
+      "id": "0031",
+      "original": "Gastnamen 3× nutzen: Begrüßung · zwischendrin · Abschied",
+      "text": "Gastnamen 3× nutzen: Begrüßung · zwischendrin · Abschied"
+    },
+    {
+      "id": "0032",
+      "original": "Brot & Aufstriche servieren und ansagen",
+      "text": "Brot & Aufstriche servieren und ansagen"
+    },
+    {
+      "id": "0033",
+      "original": "Bei à la carte: Brot bonnieren!",
+      "text": "Bei à la carte: Brot bonnieren!"
+    },
+    {
+      "id": "0034",
+      "original": "Tagesempfehlung mit Preis nennen",
+      "text": "Tagesempfehlung mit Preis nennen"
+    },
+    {
+      "id": "0035",
+      "original": "Hausgäste: Aufpreis nennen (z.B. 12 €)",
+      "text": "Hausgäste: Aufpreis nennen (z.B. 12 €)"
+    },
+    {
+      "id": "0036",
+      "original": "Karte erst in die Hand geben NACHDEM du Brot gebracht hast.",
+      "text": "Karte erst in die Hand geben NACHDEM du Brot gebracht hast."
+    },
+    {
+      "id": "0037",
+      "original": "Aperitif servieren",
+      "text": "Aperitif servieren"
+    },
+    {
+      "id": "0038",
+      "original": "Produkt betonen",
+      "text": "Produkt betonen"
+    },
+    {
+      "id": "0039",
+      "original": "Menü und Weinkarte bereithalten",
+      "text": "Menü und Weinkarte bereithalten"
+    },
+    {
+      "id": "0040",
+      "original": "Wasser anbieten: \"Darf ich Ihnen ein Quellwasser einschenken?\"",
+      "text": "Wasser anbieten: \"Darf ich Ihnen ein Quellwasser einschenken?\""
+    },
+    {
+      "id": "0041",
+      "original": "2–3 Start-Getränke aktiv anbieten: Winzer Sekt · Helles · Sprizz",
+      "text": "2–3 Start-Getränke aktiv anbieten: Winzer Sekt · Helles · Sprizz"
+    },
+    {
+      "id": "0042",
+      "original": "Tagesempfehlung zuerst und am Ende wiederholen",
+      "text": "Tagesempfehlung zuerst und am Ende wiederholen"
+    },
+    {
+      "id": "0043",
+      "original": "Beim Servieren: Augenkontakt + Produkt nennen",
+      "text": "Beim Servieren: Augenkontakt + Produkt nennen"
+    },
+    {
+      "id": "0044",
+      "original": "Jeden Artikel laut nennen — das ist Wertschätzung und Verkauf.",
+      "text": "Jeden Artikel laut nennen — das ist Wertschätzung und Verkauf."
+    },
+    {
+      "id": "0045",
+      "original": "Bestellung aufnehmen",
+      "text": "Bestellung aufnehmen"
+    },
+    {
+      "id": "0046",
+      "original": "Aktiv führen",
+      "text": "Aktiv führen"
+    },
+    {
+      "id": "0047",
+      "original": "\"Haben Sie Ihre Auswahl getroffen?\"",
+      "text": "\"Haben Sie Ihre Auswahl getroffen?\""
+    },
+    {
+      "id": "0048",
+      "original": "Bei nur Hauptgang: 2 passende Vorspeisen anbieten",
+      "text": "Bei nur Hauptgang: 2 passende Vorspeisen anbieten"
+    },
+    {
+      "id": "0049",
+      "original": "Wein anfragen: \"Weißwein, Rotwein oder Weinbegleitung?\"",
+      "text": "Wein anfragen: \"Weißwein, Rotwein oder Weinbegleitung?\""
+    },
+    {
+      "id": "0050",
+      "original": "Karte erst nach Speisenbestellung vom Tisch",
+      "text": "Karte erst nach Speisenbestellung vom Tisch"
+    },
+    {
+      "id": "0051",
+      "original": "Ab 6 Personen: Tischplan verwenden",
+      "text": "Ab 6 Personen: Tischplan verwenden"
+    },
+    {
+      "id": "0052",
+      "original": "Karte bleibt bis Hauptbestellung aufgenommen ist.",
+      "text": "Karte bleibt bis Hauptbestellung aufgenommen ist."
+    },
+    {
+      "id": "0053",
+      "original": "Bonnieren & Weinservice",
+      "text": "Bonnieren & Weinservice"
+    },
+    {
+      "id": "0054",
+      "original": "Sofort nach Bestellung",
+      "text": "Sofort nach Bestellung"
+    },
+    {
+      "id": "0055",
+      "original": "Besteck und Gläser komplett eindecken",
+      "text": "Besteck und Gläser komplett eindecken"
+    },
+    {
+      "id": "0056",
+      "original": "Flasche nah am Gast öffnen",
+      "text": "Flasche nah am Gast öffnen"
+    },
+    {
+      "id": "0057",
+      "original": "Rotwein auf den Tisch · Weißwein in den Kühler",
+      "text": "Rotwein auf den Tisch · Weißwein in den Kühler"
+    },
+    {
+      "id": "0058",
+      "original": "Erst bonnieren → eindecken → Weinservice. Keine andere Reihenfolge!",
+      "text": "Erst bonnieren → eindecken → Weinservice. Keine andere Reihenfolge!"
+    },
+    {
+      "id": "0059",
+      "original": "Zwischen den Gängen",
+      "text": "Zwischen den Gängen"
+    },
+    {
+      "id": "0060",
+      "original": "Timing & 2. Getränk",
+      "text": "Timing & 2. Getränk"
+    },
+    {
+      "id": "0061",
+      "original": "Speisen von rechts servieren",
+      "text": "Speisen von rechts servieren"
+    },
+    {
+      "id": "0062",
+      "original": "Beilagen immer links",
+      "text": "Beilagen immer links"
+    },
+    {
+      "id": "0063",
+      "original": "Bei jedem Kontakt: Getränke nachschenken",
+      "text": "Bei jedem Kontakt: Getränke nachschenken"
+    },
+    {
+      "id": "0064",
+      "original": "Vor Hauptgang: Brot & Brotteller ausdecken",
+      "text": "Vor Hauptgang: Brot & Brotteller ausdecken"
+    },
+    {
+      "id": "0065",
+      "original": "Feedback nach 1/3 des Essens einholen",
+      "text": "Feedback nach 1/3 des Essens einholen"
+    },
+    {
+      "id": "0066",
+      "original": "Niemals leer in/aus der Station!",
+      "text": "Niemals leer in/aus der Station!"
+    },
+    {
+      "id": "0067",
+      "original": "\"Noch eins?\"",
+      "text": "\"Noch eins?\""
+    },
+    {
+      "id": "0068",
+      "original": "\"Noch ein Bier — oder lieber einen Wein?\"",
+      "text": "\"Noch ein Bier — oder lieber einen Wein?\""
+    },
+    {
+      "id": "0069",
+      "original": "Lieber zu schnell als zu langsam. Nie fragen ob Pause.",
+      "text": "Lieber zu schnell als zu langsam. Nie fragen ob Pause."
+    },
+    {
+      "id": "0070",
+      "original": "Nach dem Hauptgang",
+      "text": "Nach dem Hauptgang"
+    },
+    {
+      "id": "0071",
+      "original": "Sauber abräumen",
+      "text": "Sauber abräumen"
+    },
+    {
+      "id": "0072",
+      "original": "Teller, Besteck, Menagen abräumen",
+      "text": "Teller, Besteck, Menagen abräumen"
+    },
+    {
+      "id": "0073",
+      "original": "Servietten bleiben am Tisch",
+      "text": "Servietten bleiben am Tisch"
+    },
+    {
+      "id": "0074",
+      "original": "Getränke nachschenken oder anbieten",
+      "text": "Getränke nachschenken oder anbieten"
+    },
+    {
+      "id": "0075",
+      "original": "Sauber abräumen = Platz für Dessert. Tisch soll frisch aussehen.",
+      "text": "Sauber abräumen = Platz für Dessert. Tisch soll frisch aussehen."
+    },
+    {
+      "id": "0076",
+      "original": "Dessert & Kaffee",
+      "text": "Dessert & Kaffee"
+    },
+    {
+      "id": "0077",
+      "original": "2–3 Optionen aktiv",
+      "text": "2–3 Optionen aktiv"
+    },
+    {
+      "id": "0078",
+      "original": "Dessertkarte in der Hand halten",
+      "text": "Dessertkarte in der Hand halten"
+    },
+    {
+      "id": "0079",
+      "original": "2–3 Desserts aktiv nennen — nie nur Karte hinlegen",
+      "text": "2–3 Desserts aktiv nennen — nie nur Karte hinlegen"
+    },
+    {
+      "id": "0080",
+      "original": "2–3 Kaffees nennen — nie nur \"Kaffee?\"",
+      "text": "2–3 Kaffees nennen — nie nur \"Kaffee?\""
+    },
+    {
+      "id": "0081",
+      "original": "Schnäpslekarte einlegen",
+      "text": "Schnäpslekarte einlegen"
+    },
+    {
+      "id": "0082",
+      "original": "Dessert ZUERST, dann Kaffee. Sonst kommt Kaffee zu früh!",
+      "text": "Dessert ZUERST, dann Kaffee. Sonst kommt Kaffee zu früh!"
+    },
+    {
+      "id": "0083",
+      "original": "Den Abschluss setzen",
+      "text": "Den Abschluss setzen"
+    },
+    {
+      "id": "0084",
+      "original": "Besteck, Teller und Servietten abräumen",
+      "text": "Besteck, Teller und Servietten abräumen"
+    },
+    {
+      "id": "0085",
+      "original": "Digestif aktiv anbieten — 2–3 Optionen nennen",
+      "text": "Digestif aktiv anbieten — 2–3 Optionen nennen"
+    },
+    {
+      "id": "0086",
+      "original": "\"Haselnussgeist, Kirschwasser oder Williams?\"",
+      "text": "\"Haselnussgeist, Kirschwasser oder Williams?\""
+    },
+    {
+      "id": "0087",
+      "original": "Regional und selbst gemacht — das ist eine echte Empfehlung!",
+      "text": "Regional und selbst gemacht — das ist eine echte Empfehlung!"
+    },
+    {
+      "id": "0088",
+      "original": "Aufmerksamkeit behalten",
+      "text": "Aufmerksamkeit behalten"
+    },
+    {
+      "id": "0089",
+      "original": "Sofort kassieren wenn gewünscht",
+      "text": "Sofort kassieren wenn gewünscht"
+    },
+    {
+      "id": "0090",
+      "original": "Rechnung ≠ Tischende — weiter aufmerksam bleiben",
+      "text": "Rechnung ≠ Tischende — weiter aufmerksam bleiben"
+    },
+    {
+      "id": "0091",
+      "original": "Weitere Getränke anbieten solange Gast sitzt",
+      "text": "Weitere Getränke anbieten solange Gast sitzt"
+    },
+    {
+      "id": "0092",
+      "original": "Hausgäste: auf Zimmer unterschreiben lassen",
+      "text": "Hausgäste: auf Zimmer unterschreiben lassen"
+    },
+    {
+      "id": "0093",
+      "original": "Letzter Eindruck leitet nächsten Besuch ein!",
+      "text": "Letzter Eindruck leitet nächsten Besuch ein!"
+    },
+    {
+      "id": "0094",
+      "original": "Als Einladung gestalten",
+      "text": "Als Einladung gestalten"
+    },
+    {
+      "id": "0095",
+      "original": "Die Verabschiedung ist zugleich eine Einladung!",
+      "text": "Die Verabschiedung ist zugleich eine Einladung!"
+    },
+    {
+      "id": "0096",
+      "original": "\"Schön, dass Sie bei uns waren — bis zum nächsten Mal!\"",
+      "text": "\"Schön, dass Sie bei uns waren — bis zum nächsten Mal!\""
+    },
+    {
+      "id": "0097",
+      "original": "Auf Garderobe hinweisen",
+      "text": "Auf Garderobe hinweisen"
+    },
+    {
+      "id": "0098",
+      "original": "Small Talk · Hinweis auf Bar oder Events",
+      "text": "Small Talk · Hinweis auf Bar oder Events"
+    },
+    {
+      "id": "0099",
+      "original": "Der Gast nimmt nur den letzten Eindruck mit nach Hause. Mach ihn unvergesslich.",
+      "text": "Der Gast nimmt nur den letzten Eindruck mit nach Hause. Mach ihn unvergesslich."
+    },
+    {
+      "id": "0100",
+      "original": "'DM Sans',sans-serif",
+      "text": "'DM Sans',sans-serif"
+    },
+    {
+      "id": "0101",
+      "original": "🎬 Service Drehbuch",
+      "text": "🎬 Service Drehbuch"
+    },
+    {
+      "id": "0102",
+      "original": "'Cormorant Garamond',serif",
+      "text": "'Cormorant Garamond',serif"
+    },
+    {
+      "id": "0103",
+      "original": "12 Levels zum Profi",
+      "text": "12 Levels zum Profi"
+    },
+    {
+      "id": "0104",
+      "original": "Unser Serviceablauf — Schritt für Schritt. Tippe auf ein Level zum Aufklappen.",
+      "text": "Unser Serviceablauf — Schritt für Schritt. Tippe auf ein Level zum Aufklappen."
+    },
+    {
+      "id": "0105",
+      "original": "⚖️ Reklamation — Das Gesetz",
+      "text": "⚖️ Reklamation — Das Gesetz"
+    },
+    {
+      "id": "0106",
+      "original": "\"Es tut mir leid, dass...\" (Schmerz wiederholen)",
+      "text": "\"Es tut mir leid, dass...\" (Schmerz wiederholen)"
+    },
+    {
+      "id": "0107",
+      "original": "\"Ich spreche sofort mit dem Restaurantleiter...\"",
+      "text": "\"Ich spreche sofort mit dem Restaurantleiter...\""
+    },
+    {
+      "id": "0108",
+      "original": "\"Danke, dass Sie es gesagt haben\"",
+      "text": "\"Danke, dass Sie es gesagt haben\""
+    },
+    {
+      "id": "0109",
+      "original": "\"Was kann ich jetzt für Sie tun?\"",
+      "text": "\"Was kann ich jetzt für Sie tun?\""
+    },
+    {
+      "id": "0110",
+      "original": "M4 6l4 4 4-4",
+      "text": "M4 6l4 4 4-4"
+    },
+    {
+      "id": "0111",
+      "original": "0 16px 16px",
+      "text": "0 16px 16px"
+    },
+    {
+      "id": "0112",
+      "original": "So nicht — Sondern so",
+      "text": "So nicht — Sondern so"
+    },
+    {
+      "id": "0113",
+      "original": "Merke:",
+      "text": "Merke:"
+    },
+    {
+      "id": "0114",
+      "original": "Reihenfolge beim Laufen",
+      "text": "Reihenfolge beim Laufen"
+    },
+    {
+      "id": "0115",
+      "original": "Nunito,sans-serif",
+      "text": "Nunito,sans-serif"
+    },
+    {
+      "id": "0116",
+      "original": "Was zuerst?",
+      "text": "Was zuerst?"
+    },
+    {
+      "id": "0117",
+      "original": "Immer diese Reihenfolge!",
+      "text": "Immer diese Reihenfolge!"
+    },
+    {
+      "id": "0118",
+      "original": "Warmes Essen",
+      "text": "Warmes Essen"
+    },
+    {
+      "id": "0119",
+      "original": "Wird sofort kalt!",
+      "text": "Wird sofort kalt!"
+    },
+    {
+      "id": "0120",
+      "original": "Schmilzt schnell",
+      "text": "Schmilzt schnell"
+    },
+    {
+      "id": "0121",
+      "original": "Getränke",
+      "text": "Getränke"
+    },
+    {
+      "id": "0122",
+      "original": "Von der Theke",
+      "text": "Von der Theke"
+    },
+    {
+      "id": "0123",
+      "original": "Kalte Speisen",
+      "text": "Kalte Speisen"
+    },
+    {
+      "id": "0124",
+      "original": "Salate, Vorspeisen",
+      "text": "Salate, Vorspeisen"
+    },
+    {
+      "id": "0125",
+      "original": "Abräumen",
+      "text": "Abräumen"
+    },
+    {
+      "id": "0126",
+      "original": "Leere Teller & Gläser",
+      "text": "Leere Teller & Gläser"
+    },
+    {
+      "id": "0127",
+      "original": "Sofort!",
+      "text": "Sofort!"
+    },
+    {
+      "id": "0128",
+      "original": "Gläser checken",
+      "text": "Gläser checken"
+    },
+    {
+      "id": "0129",
+      "original": "Was tun mit leeren Gläsern?",
+      "text": "Was tun mit leeren Gläsern?"
+    },
+    {
+      "id": "0130",
+      "original": "Wasserglas:",
+      "text": "Wasserglas:"
+    },
+    {
+      "id": "0131",
+      "original": "immer stehen lassen & nachfüllen",
+      "text": "immer stehen lassen & nachfüllen"
+    },
+    {
+      "id": "0132",
+      "original": "Wein:",
+      "text": "Wein:"
+    },
+    {
+      "id": "0133",
+      "original": "fast leer → nachfragen. Nein → abräumen",
+      "text": "fast leer → nachfragen. Nein → abräumen"
+    },
+    {
+      "id": "0134",
+      "original": "Aperitif-Gläser:",
+      "text": "Aperitif-Gläser:"
+    },
+    {
+      "id": "0135",
+      "original": "leer → sofort abräumen",
+      "text": "leer → sofort abräumen"
+    },
+    {
+      "id": "0136",
+      "original": "Neue Bestellung →",
+      "text": "Neue Bestellung →"
+    },
+    {
+      "id": "0137",
+      "original": "Brot nachfragen",
+      "text": "Brot nachfragen"
+    },
+    {
+      "id": "0138",
+      "original": "Brotkorb leer? →",
+      "text": "Brotkorb leer? →"
+    },
+    {
+      "id": "0139",
+      "original": "„Darf ich Ihnen noch ein, zwei Scheiben bringen?\"",
+      "text": "„Darf ich Ihnen noch ein, zwei Scheiben bringen?\""
+    },
+    {
+      "id": "0140",
+      "original": "Nur bis zur Suppe — danach Brot, Teller & Aufstrich",
+      "text": "Nur bis zur Suppe — danach Brot, Teller & Aufstrich"
+    },
+    {
+      "id": "0141",
+      "original": "abräumen",
+      "text": "abräumen"
+    },
+    {
+      "id": "0142",
+      "original": "Abräumen — Was & Wann",
+      "text": "Abräumen — Was & Wann"
+    },
+    {
+      "id": "0143",
+      "original": "Nach jedem Gang abräumen",
+      "text": "Nach jedem Gang abräumen"
+    },
+    {
+      "id": "0144",
+      "original": "🥗 Vorspeise",
+      "text": "🥗 Vorspeise"
+    },
+    {
+      "id": "0145",
+      "original": "Teller + kleines Besteck",
+      "text": "Teller + kleines Besteck"
+    },
+    {
+      "id": "0146",
+      "original": "🍲 Suppe",
+      "text": "🍲 Suppe"
+    },
+    {
+      "id": "0147",
+      "original": "Suppenteller + Löffel",
+      "text": "Suppenteller + Löffel"
+    },
+    {
+      "id": "0148",
+      "original": "+ Brotteller, Brot & Aufstrich weg",
+      "text": "+ Brotteller, Brot & Aufstrich weg"
+    },
+    {
+      "id": "0149",
+      "original": "+ Olivenöl-Flasche weg (Feldberg & Schauinslandsaal)",
+      "text": "+ Olivenöl-Flasche weg (Feldberg & Schauinslandsaal)"
+    },
+    {
+      "id": "0150",
+      "original": "🍽️ Hauptgang",
+      "text": "🍽️ Hauptgang"
+    },
+    {
+      "id": "0151",
+      "original": "Alles weg —",
+      "text": "Alles weg —"
+    },
+    {
+      "id": "0152",
+      "original": "Servietten & Wasserglas bleiben",
+      "text": "Servietten & Wasserglas bleiben"
+    },
+    {
+      "id": "0153",
+      "original": "✨ Immer",
+      "text": "✨ Immer"
+    },
+    {
+      "id": "0154",
+      "original": "Getränke beim Abräumen anbieten!",
+      "text": "Getränke beim Abräumen anbieten!"
+    },
+    {
+      "id": "0155",
+      "original": "Goldene Regel",
+      "text": "Goldene Regel"
+    },
+    {
+      "id": "0156",
+      "original": "Niemals leer laufen!",
+      "text": "Niemals leer laufen!"
+    },
+    {
+      "id": "0157",
+      "original": "Raus aus dem Restaurant?",
+      "text": "Raus aus dem Restaurant?"
+    },
+    {
+      "id": "0158",
+      "original": "Schau auf den Guéridon & Tische — leere Teller, Gläser oder Flaschen mitnehmen.",
+      "text": "Schau auf den Guéridon & Tische — leere Teller, Gläser oder Flaschen mitnehmen."
+    },
+    {
+      "id": "0159",
+      "original": "Rein ins Restaurant?",
+      "text": "Rein ins Restaurant?"
+    },
+    {
+      "id": "0160",
+      "original": "Check ob Essen in der Küche wartet. Check ob Getränke an der Theke stehen.",
+      "text": "Check ob Essen in der Küche wartet. Check ob Getränke an der Theke stehen."
+    },
+    {
+      "id": "0161",
+      "original": "Bei Beschwerden",
+      "text": "Bei Beschwerden"
+    },
+    {
+      "id": "0162",
+      "original": "Gast beschwert sich?",
+      "text": "Gast beschwert sich?"
+    },
+    {
+      "id": "0163",
+      "original": "Teamleitung rufen",
+      "text": "Teamleitung rufen"
+    },
+    {
+      "id": "0164",
+      "original": "Nie selbst lösen oder diskutieren",
+      "text": "Nie selbst lösen oder diskutieren"
+    },
+    {
+      "id": "0165",
+      "original": "— die Teamleitung übernimmt.",
+      "text": "— die Teamleitung übernimmt."
+    },
+    {
+      "id": "0166",
+      "original": "Frühstück",
+      "text": "Frühstück"
+    },
+    {
+      "id": "0167",
+      "original": "☀️ Frühstück",
+      "text": "☀️ Frühstück"
+    },
+    {
+      "id": "0168",
+      "original": "Hausgäste",
+      "text": "Hausgäste"
+    },
+    {
+      "id": "0169",
+      "original": "Ab sofort bedienen",
+      "text": "Ab sofort bedienen"
+    },
+    {
+      "id": "0170",
+      "original": "ab 8:00",
+      "text": "ab 8:00"
+    },
+    {
+      "id": "0171",
+      "original": "Externe Gäste",
+      "text": "Externe Gäste"
+    },
+    {
+      "id": "0172",
+      "original": "Modern · Büfett · Reservierung!",
+      "text": "Modern · Büfett · Reservierung!"
+    },
+    {
+      "id": "0173",
+      "original": "Mittag bis Abend",
+      "text": "Mittag bis Abend"
+    },
+    {
+      "id": "0174",
+      "original": "🍽️ Tagesablauf",
+      "text": "🍽️ Tagesablauf"
+    },
+    {
+      "id": "0175",
+      "original": "Mittagessen à la carte",
+      "text": "Mittagessen à la carte"
+    },
+    {
+      "id": "0176",
+      "original": "Nur Stube & Terrasse",
+      "text": "Nur Stube & Terrasse"
+    },
+    {
+      "id": "0177",
+      "original": "Stube & Terrasse · inkl. Hauptgang",
+      "text": "Stube & Terrasse · inkl. Hauptgang"
+    },
+    {
+      "id": "0178",
+      "original": "Küchenpause",
+      "text": "Küchenpause"
+    },
+    {
+      "id": "0179",
+      "original": "Nur Getränke & Kuchen!",
+      "text": "Nur Getränke & Kuchen!"
+    },
+    {
+      "id": "0180",
+      "original": "Nur Modern & Stuben",
+      "text": "Nur Modern & Stuben"
+    },
+    {
+      "id": "0181",
+      "original": "Kaffee & Bar",
+      "text": "Kaffee & Bar"
+    },
+    {
+      "id": "0182",
+      "original": "☕ Kaffee & Kuchen",
+      "text": "☕ Kaffee & Kuchen"
+    },
+    {
+      "id": "0183",
+      "original": "Terrasse & Kaminbar",
+      "text": "Terrasse & Kaminbar"
+    },
+    {
+      "id": "0184",
+      "original": "🍸 Nur Kaminbar",
+      "text": "🍸 Nur Kaminbar"
+    },
+    {
+      "id": "0185",
+      "original": "Cocktails & Bar Food",
+      "text": "Cocktails & Bar Food"
+    },
+    {
+      "id": "0186",
+      "original": "Nur in der Kaminbar möglich",
+      "text": "Nur in der Kaminbar möglich"
+    },
+    {
+      "id": "0187",
+      "original": "💡 Wichtig für Tagesgäste",
+      "text": "💡 Wichtig für Tagesgäste"
+    },
+    {
+      "id": "0188",
+      "original": "Tagesgäste brauchen",
+      "text": "Tagesgäste brauchen"
+    },
+    {
+      "id": "0189",
+      "original": "für: Frühstück, Mittag & Abend.",
+      "text": "für: Frühstück, Mittag & Abend."
+    },
+    {
+      "id": "0190",
+      "original": "Nur Kaffee & Kuchen (14:30–16:30) ohne Reservierung möglich.",
+      "text": "Nur Kaffee & Kuchen (14:30–16:30) ohne Reservierung möglich."
+    },
+    {
+      "id": "0191",
+      "original": "Modern & Panorama",
+      "text": "Modern & Panorama"
+    },
+    {
+      "id": "0192",
+      "original": "Große Fenster · Bergblick · Helles Ambiente",
+      "text": "Große Fenster · Bergblick · Helles Ambiente"
+    },
+    {
+      "id": "0193",
+      "original": "🌅 Frühstück HG · 🥘 Mittagsbuffet HG · 🍽️ Abendessen HG & à la carte",
+      "text": "🌅 Frühstück HG · 🥘 Mittagsbuffet HG · 🍽️ Abendessen HG & à la carte"
+    },
+    {
+      "id": "0194",
+      "original": "🥘 à la carte · 🥨 Vesperkarte · ☕ Kaffee & Kuchen · nur Sommer",
+      "text": "🥘 à la carte · 🥨 Vesperkarte · ☕ Kaffee & Kuchen · nur Sommer"
+    },
+    {
+      "id": "0195",
+      "original": "0 14px 14px",
+      "text": "0 14px 14px"
+    },
+    {
+      "id": "0196",
+      "original": "Schlechtes Wetter?",
+      "text": "Schlechtes Wetter?"
+    },
+    {
+      "id": "0197",
+      "original": "Terrasse zu → Stube oder Kaminbar (nicht hierher — mittags nur HG-Buffet!)",
+      "text": "Terrasse zu → Stube oder Kaminbar (nicht hierher — mittags nur HG-Buffet!)"
+    },
+    {
+      "id": "0198",
+      "original": "Gemütlich & Rustikal",
+      "text": "Gemütlich & Rustikal"
+    },
+    {
+      "id": "0199",
+      "original": "Die Stuben",
+      "text": "Die Stuben"
+    },
+    {
+      "id": "0200",
+      "original": "Holz · Warm · Gemütlich · Rustikal",
+      "text": "Holz · Warm · Gemütlich · Rustikal"
+    },
+    {
+      "id": "0201",
+      "original": "🪵 Haldenstube",
+      "text": "🪵 Haldenstube"
+    },
+    {
+      "id": "0202",
+      "original": "🌾 Bauernstube",
+      "text": "🌾 Bauernstube"
+    },
+    {
+      "id": "0203",
+      "original": "🦌 Rösslestube",
+      "text": "🦌 Rösslestube"
+    },
+    {
+      "id": "0204",
+      "original": "🥘 Mittagessen à la carte · 🥨 Vesperkarte · 🍽️ Abendessen",
+      "text": "🥘 Mittagessen à la carte · 🥨 Vesperkarte · 🍽️ Abendessen"
+    },
+    {
+      "id": "0205",
+      "original": "Gäste von Terrasse hierher oder in Kaminbar",
+      "text": "Gäste von Terrasse hierher oder in Kaminbar"
+    },
+    {
+      "id": "0206",
+      "original": "Bar & Lounge",
+      "text": "Bar & Lounge"
+    },
+    {
+      "id": "0207",
+      "original": "Kaffee & Kuchen",
+      "text": "Kaffee & Kuchen"
+    },
+    {
+      "id": "0208",
+      "original": "Ab 17:30 – 22:00 Uhr",
+      "text": "Ab 17:30 – 22:00 Uhr"
+    },
+    {
+      "id": "0209",
+      "original": "🍽️ Speisen & Empfehlungen",
+      "text": "🍽️ Speisen & Empfehlungen"
+    },
+    {
+      "id": "0210",
+      "original": "Woher kommen die Produkte? Und welcher Wein passt dazu?",
+      "text": "Woher kommen die Produkte? Und welcher Wein passt dazu?"
+    },
+    {
+      "id": "0211",
+      "original": "🌿 Regional · Saisonal · Ehrlich",
+      "text": "🌿 Regional · Saisonal · Ehrlich"
+    },
+    {
+      "id": "0212",
+      "original": "— Wild aus eigener Jagd, Forellen von Familie Tress aus dem Wutachtal, Ziegenkäse vom Ringlihof in Horben, Kaffee von Puro Fairtrade. Das ist kein Marketing — das ist echt.",
+      "text": "— Wild aus eigener Jagd, Forellen von Familie Tress aus dem Wutachtal, Ziegenkäse vom Ringlihof in Horben, Kaffee von Puro Fairtrade. Das ist kein Marketing — das ist echt."
+    },
+    {
+      "id": "0213",
+      "original": "Weinempfehlung — Prinzip",
+      "text": "Weinempfehlung — Prinzip"
+    },
+    {
+      "id": "0214",
+      "original": "🦌 Wild & Ragout",
+      "text": "🦌 Wild & Ragout"
+    },
+    {
+      "id": "0215",
+      "original": "Kräftiger Rotwein — z.B. Spätburgunder",
+      "text": "Kräftiger Rotwein — z.B. Spätburgunder"
+    },
+    {
+      "id": "0216",
+      "original": "🐄 Rind & Kalb",
+      "text": "🐄 Rind & Kalb"
+    },
+    {
+      "id": "0217",
+      "original": "Rotwein oder kräftiger Weisswein",
+      "text": "Rotwein oder kräftiger Weisswein"
+    },
+    {
+      "id": "0218",
+      "original": "🐟 Fisch & Meeresfrüchte",
+      "text": "🐟 Fisch & Meeresfrüchte"
+    },
+    {
+      "id": "0219",
+      "original": "Frischer Weisswein — Sauvignon Blanc, Riesling",
+      "text": "Frischer Weisswein — Sauvignon Blanc, Riesling"
+    },
+    {
+      "id": "0220",
+      "original": "🥦 Vegetarisch",
+      "text": "🥦 Vegetarisch"
+    },
+    {
+      "id": "0221",
+      "original": "Leichter Weisswein — Grauburgunder, Riesling",
+      "text": "Leichter Weisswein — Grauburgunder, Riesling"
+    },
+    {
+      "id": "0222",
+      "original": "🧀 Käse",
+      "text": "🧀 Käse"
+    },
+    {
+      "id": "0223",
+      "original": "Süsswein — Auslese oder Dessertwein",
+      "text": "Süsswein — Auslese oder Dessertwein"
+    },
+    {
+      "id": "0224",
+      "original": "🥗 Salate & Vorspeisen",
+      "text": "🥗 Salate & Vorspeisen"
+    },
+    {
+      "id": "0225",
+      "original": "Leichter Weisswein oder Rosé",
+      "text": "Leichter Weisswein oder Rosé"
+    },
+    {
+      "id": "0226",
+      "original": "💡 Immer zuerst fragen:",
+      "text": "💡 Immer zuerst fragen:"
+    },
+    {
+      "id": "0227",
+      "original": "„Trinken Sie lieber etwas Leichtes oder Kräftiges?\"",
+      "text": "„Trinken Sie lieber etwas Leichtes oder Kräftiges?\""
+    },
+    {
+      "id": "0228",
+      "original": "— dann gezielt empfehlen. Bei Unsicherheit: Stationskellner einbinden!",
+      "text": "— dann gezielt empfehlen. Bei Unsicherheit: Stationskellner einbinden!"
+    },
+    {
+      "id": "0229",
+      "original": "Rehragout aus der Halde Jagd",
+      "text": "Rehragout aus der Halde Jagd"
+    },
+    {
+      "id": "0230",
+      "original": "Cremiger Wirsing · Pilze · Preiselbeeren · Spätzle",
+      "text": "Cremiger Wirsing · Pilze · Preiselbeeren · Spätzle"
+    },
+    {
+      "id": "0231",
+      "original": "🌲 Eigene Jagd",
+      "text": "🌲 Eigene Jagd"
+    },
+    {
+      "id": "0232",
+      "original": "Kräftiger Spätburgunder",
+      "text": "Kräftiger Spätburgunder"
+    },
+    {
+      "id": "0233",
+      "original": "Sauerkirsche, Würze — passt perfekt zu Wild",
+      "text": "Sauerkirsche, Würze — passt perfekt zu Wild"
+    },
+    {
+      "id": "0234",
+      "original": "Kräftiger Rotwein-Cuvée",
+      "text": "Kräftiger Rotwein-Cuvée"
+    },
+    {
+      "id": "0235",
+      "original": "Dunkelfruchtig — ideal zu Wildragout",
+      "text": "Dunkelfruchtig — ideal zu Wildragout"
+    },
+    {
+      "id": "0236",
+      "original": "Badischer Rostbraten · rosa gebraten",
+      "text": "Badischer Rostbraten · rosa gebraten"
+    },
+    {
+      "id": "0237",
+      "original": "Geschmälzte Zwiebeln · Speck · Bohnengemüse · Spätzle",
+      "text": "Geschmälzte Zwiebeln · Speck · Bohnengemüse · Spätzle"
+    },
+    {
+      "id": "0238",
+      "original": "🐄 Münstertal / Hofsgrund",
+      "text": "🐄 Münstertal / Hofsgrund"
+    },
+    {
+      "id": "0239",
+      "original": "Spätburgunder vom Kaiserstuhl",
+      "text": "Spätburgunder vom Kaiserstuhl"
+    },
+    {
+      "id": "0240",
+      "original": "Kraft — passt zu Rindfleisch",
+      "text": "Kraft — passt zu Rindfleisch"
+    },
+    {
+      "id": "0241",
+      "original": "Kräftiger Rotwein",
+      "text": "Kräftiger Rotwein"
+    },
+    {
+      "id": "0242",
+      "original": "Tiefdunkel, schwarze Kirschen — elegant und kräftig",
+      "text": "Tiefdunkel, schwarze Kirschen — elegant und kräftig"
+    },
+    {
+      "id": "0243",
+      "original": "Gebratenes Wildlachsfilet",
+      "text": "Gebratenes Wildlachsfilet"
+    },
+    {
+      "id": "0244",
+      "original": "Kohlrabigemüse · konfierte Kirschtomaten · Venere Reis",
+      "text": "Kohlrabigemüse · konfierte Kirschtomaten · Venere Reis"
+    },
+    {
+      "id": "0245",
+      "original": "🐟 Wutachtal",
+      "text": "🐟 Wutachtal"
+    },
+    {
+      "id": "0246",
+      "original": "Sauvignon Blanc (frisch, fruchtig)",
+      "text": "Sauvignon Blanc (frisch, fruchtig)"
+    },
+    {
+      "id": "0247",
+      "original": "Unser Lieblingswein — perfekt zu Fisch",
+      "text": "Unser Lieblingswein — perfekt zu Fisch"
+    },
+    {
+      "id": "0248",
+      "original": "Gutedel / Chasselas",
+      "text": "Gutedel / Chasselas"
+    },
+    {
+      "id": "0249",
+      "original": "Leicht, mineralisch — klassische Fischempfehlung",
+      "text": "Leicht, mineralisch — klassische Fischempfehlung"
+    },
+    {
+      "id": "0250",
+      "original": "Blumenkohl-Auberginen Lasagne",
+      "text": "Blumenkohl-Auberginen Lasagne"
+    },
+    {
+      "id": "0251",
+      "original": "Tomatencoulis · gebratene Pommes Parisiennes",
+      "text": "Tomatencoulis · gebratene Pommes Parisiennes"
+    },
+    {
+      "id": "0252",
+      "original": "🌱 Vegetarisch",
+      "text": "🌱 Vegetarisch"
+    },
+    {
+      "id": "0253",
+      "original": "Grauburgunder (trocken)",
+      "text": "Grauburgunder (trocken)"
+    },
+    {
+      "id": "0254",
+      "original": "Mineralisch — passt zu Gemüsegerichten",
+      "text": "Mineralisch — passt zu Gemüsegerichten"
+    },
+    {
+      "id": "0255",
+      "original": "Riesling (leicht)",
+      "text": "Riesling (leicht)"
+    },
+    {
+      "id": "0256",
+      "original": "Frisch, fruchtig — hebt Tomatensauce perfekt an",
+      "text": "Frisch, fruchtig — hebt Tomatensauce perfekt an"
+    },
+    {
+      "id": "0257",
+      "original": "Paniertes Schnitzel vom Kalb",
+      "text": "Paniertes Schnitzel vom Kalb"
+    },
+    {
+      "id": "0258",
+      "original": "Preiselbeeren · Pommes Frites · Zitrone",
+      "text": "Preiselbeeren · Pommes Frites · Zitrone"
+    },
+    {
+      "id": "0259",
+      "original": "🐄 Münstertal",
+      "text": "🐄 Münstertal"
+    },
+    {
+      "id": "0260",
+      "original": "Weissburgunder & Chardonnay (HausCuvée)",
+      "text": "Weissburgunder & Chardonnay (HausCuvée)"
+    },
+    {
+      "id": "0261",
+      "original": "Frisch, ausgewogen, klassisch zu Kalb",
+      "text": "Frisch, ausgewogen, klassisch zu Kalb"
+    },
+    {
+      "id": "0262",
+      "original": "Riesling (feinherb)",
+      "text": "Riesling (feinherb)"
+    },
+    {
+      "id": "0263",
+      "original": "Elegant zu Kalbfleisch",
+      "text": "Elegant zu Kalbfleisch"
+    },
+    {
+      "id": "0264",
+      "original": "Laktosefrei + Glutenfrei!",
+      "text": "Laktosefrei + Glutenfrei!"
+    },
+    {
+      "id": "0265",
+      "original": "Schokoladennussboden · pochierte Birne · Vanillecrème",
+      "text": "Schokoladennussboden · pochierte Birne · Vanillecrème"
+    },
+    {
+      "id": "0266",
+      "original": "Schwarzwälder Kirschtorte",
+      "text": "Schwarzwälder Kirschtorte"
+    },
+    {
+      "id": "0267",
+      "original": "⚠️ Enthält Kirschwasser!",
+      "text": "⚠️ Enthält Kirschwasser!"
+    },
+    {
+      "id": "0268",
+      "original": "Schokobiskuit · Schattenmorellen · Kirschwasser · Sahne",
+      "text": "Schokobiskuit · Schattenmorellen · Kirschwasser · Sahne"
+    },
+    {
+      "id": "0269",
+      "original": "Apfelstrudel aus dem Ofen",
+      "text": "Apfelstrudel aus dem Ofen"
+    },
+    {
+      "id": "0270",
+      "original": "9,50 € · +1,50 mit Eis",
+      "text": "9,50 € · +1,50 mit Eis"
+    },
+    {
+      "id": "0271",
+      "original": "Warm servieren!",
+      "text": "Warm servieren!"
+    },
+    {
+      "id": "0272",
+      "original": "Mit Vanillesauce · optional mit Vanilleeis",
+      "text": "Mit Vanillesauce · optional mit Vanilleeis"
+    },
+    {
+      "id": "0273",
+      "original": "Kaffee von Puro Fairtrade",
+      "text": "Kaffee von Puro Fairtrade"
+    },
+    {
+      "id": "0274",
+      "original": "Puro Fairtrade Coffee",
+      "text": "Puro Fairtrade Coffee"
+    },
+    {
+      "id": "0275",
+      "original": "— wächst im Schatten von Regenwaldbäumen. Ein Teil des Erlöses schützt den Regenwald. Das ist eine echte Geschichte — erzähl sie den Gästen!",
+      "text": "— wächst im Schatten von Regenwaldbäumen. Ein Teil des Erlöses schützt den Regenwald. Das ist eine echte Geschichte — erzähl sie den Gästen!"
+    },
+    {
+      "id": "0276",
+      "original": "Espresso / Macchiato",
+      "text": "Espresso / Macchiato"
+    },
+    {
+      "id": "0277",
+      "original": "Latte Macchiato / Milchkaffee",
+      "text": "Latte Macchiato / Milchkaffee"
+    },
+    {
+      "id": "0278",
+      "original": "Heiße Schokolade mit Sahne",
+      "text": "Heiße Schokolade mit Sahne"
+    },
+    {
+      "id": "0279",
+      "original": "Hafermilch auf Wunsch",
+      "text": "Hafermilch auf Wunsch"
+    },
+    {
+      "id": "0280",
+      "original": "Pornstar Martini",
+      "text": "Pornstar Martini"
+    },
+    {
+      "id": "0281",
+      "original": "4 cl",
+      "text": "4 cl"
+    },
+    {
+      "id": "0282",
+      "original": "Passionsfruchtpüree",
+      "text": "Passionsfruchtpüree"
+    },
+    {
+      "id": "0283",
+      "original": "3 cl",
+      "text": "3 cl"
+    },
+    {
+      "id": "0284",
+      "original": "1 cl",
+      "text": "1 cl"
+    },
+    {
+      "id": "0285",
+      "original": "Alle Zutaten mit Eis in den Shaker",
+      "text": "Alle Zutaten mit Eis in den Shaker"
+    },
+    {
+      "id": "0286",
+      "original": "Kräftig shaken (10–15 Sek.) bis der Shaker eiskalt ist",
+      "text": "Kräftig shaken (10–15 Sek.) bis der Shaker eiskalt ist"
+    },
+    {
+      "id": "0287",
+      "original": "Durch Doppelsieb in gekühltes Martiniglas abseihen",
+      "text": "Durch Doppelsieb in gekühltes Martiniglas abseihen"
+    },
+    {
+      "id": "0288",
+      "original": "Mit Passionsfrucht-Hälfte garnieren",
+      "text": "Mit Passionsfrucht-Hälfte garnieren"
+    },
+    {
+      "id": "0289",
+      "original": "Shaker gut kalt halten — warmer Shaker = schlechter Schaum!",
+      "text": "Shaker gut kalt halten — warmer Shaker = schlechter Schaum!"
+    },
+    {
+      "id": "0290",
+      "original": "Espresso Martini",
+      "text": "Espresso Martini"
+    },
+    {
+      "id": "0291",
+      "original": "Kaffeelikör (z.B. Kahlúa)",
+      "text": "Kaffeelikör (z.B. Kahlúa)"
+    },
+    {
+      "id": "0292",
+      "original": "2 cl",
+      "text": "2 cl"
+    },
+    {
+      "id": "0293",
+      "original": "Frischer Espresso (kalt)",
+      "text": "Frischer Espresso (kalt)"
+    },
+    {
+      "id": "0294",
+      "original": "Espresso vorher ziehen und abkühlen lassen",
+      "text": "Espresso vorher ziehen und abkühlen lassen"
+    },
+    {
+      "id": "0295",
+      "original": "Alle Zutaten mit viel Eis shaken — sehr kräftig!",
+      "text": "Alle Zutaten mit viel Eis shaken — sehr kräftig!"
+    },
+    {
+      "id": "0296",
+      "original": "Durch Doppelsieb in Martiniglas — der Schaum entsteht beim Abseihen",
+      "text": "Durch Doppelsieb in Martiniglas — der Schaum entsteht beim Abseihen"
+    },
+    {
+      "id": "0297",
+      "original": "3 Kaffeebohnen als Garnitur obenauf",
+      "text": "3 Kaffeebohnen als Garnitur obenauf"
+    },
+    {
+      "id": "0298",
+      "original": "Je kälter der Espresso und je kräftiger das Shaken, desto besser der cremige Schaum!",
+      "text": "Je kälter der Espresso und je kräftiger das Shaken, desto besser der cremige Schaum!"
+    },
+    {
+      "id": "0299",
+      "original": "Whiskey Sour",
+      "text": "Whiskey Sour"
+    },
+    {
+      "id": "0300",
+      "original": "Maker's Mark Bourbon",
+      "text": "Maker's Mark Bourbon"
+    },
+    {
+      "id": "0301",
+      "original": "Zitronensaft (frisch)",
+      "text": "Zitronensaft (frisch)"
+    },
+    {
+      "id": "0302",
+      "original": "1,5 cl",
+      "text": "1,5 cl"
+    },
+    {
+      "id": "0303",
+      "original": "Eiweiß",
+      "text": "Eiweiß"
+    },
+    {
+      "id": "0304",
+      "original": "1 Stück",
+      "text": "1 Stück"
+    },
+    {
+      "id": "0305",
+      "original": "Dry Shake: Alle Zutaten OHNE Eis shaken — für den Schaum",
+      "text": "Dry Shake: Alle Zutaten OHNE Eis shaken — für den Schaum"
+    },
+    {
+      "id": "0306",
+      "original": "Wet Shake: Eis dazu, nochmal kräftig shaken",
+      "text": "Wet Shake: Eis dazu, nochmal kräftig shaken"
+    },
+    {
+      "id": "0307",
+      "original": "In Rocks-Glas mit Eis abseihen",
+      "text": "In Rocks-Glas mit Eis abseihen"
+    },
+    {
+      "id": "0308",
+      "original": "Mit Zitronenscheibe und Kirsche garnieren",
+      "text": "Mit Zitronenscheibe und Kirsche garnieren"
+    },
+    {
+      "id": "0309",
+      "original": "Dry Shake zuerst ist wichtig — gibt den schönen Eiweiß-Schaum obenauf!",
+      "text": "Dry Shake zuerst ist wichtig — gibt den schönen Eiweiß-Schaum obenauf!"
+    },
+    {
+      "id": "0310",
+      "original": "Amaretto Sour",
+      "text": "Amaretto Sour"
+    },
+    {
+      "id": "0311",
+      "original": "Dry Shake ohne Eis für den Schaum",
+      "text": "Dry Shake ohne Eis für den Schaum"
+    },
+    {
+      "id": "0312",
+      "original": "Eis hinzu und nochmal shaken",
+      "text": "Eis hinzu und nochmal shaken"
+    },
+    {
+      "id": "0313",
+      "original": "In Rocks-Glas oder Coupette abseihen",
+      "text": "In Rocks-Glas oder Coupette abseihen"
+    },
+    {
+      "id": "0314",
+      "original": "Gleiche Technik wie Whiskey Sour — Dry Shake nicht vergessen!",
+      "text": "Gleiche Technik wie Whiskey Sour — Dry Shake nicht vergessen!"
+    },
+    {
+      "id": "0315",
+      "original": "Halde Negroni",
+      "text": "Halde Negroni"
+    },
+    {
+      "id": "0316",
+      "original": "Roter Vermouth",
+      "text": "Roter Vermouth"
+    },
+    {
+      "id": "0317",
+      "original": "Alle Zutaten in Rührglas mit Eis rühren (nicht shaken!)",
+      "text": "Alle Zutaten in Rührglas mit Eis rühren (nicht shaken!)"
+    },
+    {
+      "id": "0318",
+      "original": "In Rocks-Glas mit einem großen Eiswürfel abseihen",
+      "text": "In Rocks-Glas mit einem großen Eiswürfel abseihen"
+    },
+    {
+      "id": "0319",
+      "original": "Orangenschale ausdrücken und als Garnitur",
+      "text": "Orangenschale ausdrücken und als Garnitur"
+    },
+    {
+      "id": "0320",
+      "original": "Negroni wird GERÜHRT, nicht geschüttelt — klarer, eleganter Cocktail!",
+      "text": "Negroni wird GERÜHRT, nicht geschüttelt — klarer, eleganter Cocktail!"
+    },
+    {
+      "id": "0321",
+      "original": "Old Fashioned",
+      "text": "Old Fashioned"
+    },
+    {
+      "id": "0322",
+      "original": "Bourbon Whiskey",
+      "text": "Bourbon Whiskey"
+    },
+    {
+      "id": "0323",
+      "original": "5 cl",
+      "text": "5 cl"
+    },
+    {
+      "id": "0324",
+      "original": "Angostura Bitter",
+      "text": "Angostura Bitter"
+    },
+    {
+      "id": "0325",
+      "original": "2 Spritzer",
+      "text": "2 Spritzer"
+    },
+    {
+      "id": "0326",
+      "original": "Zucker und Angostura im Glas kurz verrühren",
+      "text": "Zucker und Angostura im Glas kurz verrühren"
+    },
+    {
+      "id": "0327",
+      "original": "Bourbon hinzu, großen Eiswürfel rein",
+      "text": "Bourbon hinzu, großen Eiswürfel rein"
+    },
+    {
+      "id": "0328",
+      "original": "Sanft rühren bis gut gekühlt",
+      "text": "Sanft rühren bis gut gekühlt"
+    },
+    {
+      "id": "0329",
+      "original": "Orangenzeste ausdrücken, über Rand reiben, als Garnitur",
+      "text": "Orangenzeste ausdrücken, über Rand reiben, als Garnitur"
+    },
+    {
+      "id": "0330",
+      "original": "Der Old Fashioned ist einer der ältesten Cocktails der Welt — Technik macht den Unterschied!",
+      "text": "Der Old Fashioned ist einer der ältesten Cocktails der Welt — Technik macht den Unterschied!"
+    },
+    {
+      "id": "0331",
+      "original": "Moscow Mule",
+      "text": "Moscow Mule"
+    },
+    {
+      "id": "0332",
+      "original": "Limettensaft (frisch)",
+      "text": "Limettensaft (frisch)"
+    },
+    {
+      "id": "0333",
+      "original": "1 Spritzer",
+      "text": "1 Spritzer"
+    },
+    {
+      "id": "0334",
+      "original": "Spicy Ginger Ale",
+      "text": "Spicy Ginger Ale"
+    },
+    {
+      "id": "0335",
+      "original": "auffüllen",
+      "text": "auffüllen"
+    },
+    {
+      "id": "0336",
+      "original": "Kupferbecher (oder Glas) mit Eis füllen",
+      "text": "Kupferbecher (oder Glas) mit Eis füllen"
+    },
+    {
+      "id": "0337",
+      "original": "Wodka, Limette und Angostura hinzu",
+      "text": "Wodka, Limette und Angostura hinzu"
+    },
+    {
+      "id": "0338",
+      "original": "Mit Ginger Ale auffüllen, sanft umrühren",
+      "text": "Mit Ginger Ale auffüllen, sanft umrühren"
+    },
+    {
+      "id": "0339",
+      "original": "Limettenscheibe und Minze als Garnitur",
+      "text": "Limettenscheibe und Minze als Garnitur"
+    },
+    {
+      "id": "0340",
+      "original": "Ginger Ale nicht schütteln — Kohlensäure geht verloren!",
+      "text": "Ginger Ale nicht schütteln — Kohlensäure geht verloren!"
+    },
+    {
+      "id": "0341",
+      "original": "🍸 Unsere Cocktails",
+      "text": "🍸 Unsere Cocktails"
+    },
+    {
+      "id": "0342",
+      "original": "Zutaten, Mengen und Schritt-für-Schritt Zubereitung für die Kaminbar.",
+      "text": "Zutaten, Mengen und Schritt-für-Schritt Zubereitung für die Kaminbar."
+    },
+    {
+      "id": "0343",
+      "original": "0 0 14px",
+      "text": "0 0 14px"
+    },
+    {
+      "id": "0344",
+      "original": "\"Das Essen ist kalt. So kann ich das nicht essen.\"",
+      "text": "\"Das Essen ist kalt. So kann ich das nicht essen.\""
+    },
+    {
+      "id": "0345",
+      "original": "1. Sofort entschuldigen: „Es tut mir sehr leid, das darf nicht passieren.\" 2. Teller mitnehmen — nicht fragen, einfach handeln. 3. Teamleitung informieren — nie alleine lösen. 4. Rückmeldung: „In wenigen Minuten bekommen Sie ein frisches Gericht.\" 🚫 Nie sagen: „Das war warm als ich es brachte\" — kein Diskutieren!",
+      "text": "1. Sofort entschuldigen: „Es tut mir sehr leid, das darf nicht passieren.\" 2. Teller mitnehmen — nicht fragen, einfach handeln. 3. Teamleitung informieren — nie alleine lösen. 4. Rückmeldung: „In wenigen Minuten bekommen Sie ein frisches Gericht.\" 🚫 Nie sagen: „Das war warm als ich es brachte\" — kein Diskutieren!"
+    },
+    {
+      "id": "0346",
+      "original": "\"Wir warten jetzt schon 40 Minuten. Das ist inakzeptabel!\"",
+      "text": "\"Wir warten jetzt schon 40 Minuten. Das ist inakzeptabel!\""
+    },
+    {
+      "id": "0347",
+      "original": "1. Verständnis: „Das tut mir leid, das ist zu lange.\" 2. Sofort Teamleitung informieren — nie selbst in die Küche gehen! 3. Teamleitung entscheidet was angeboten wird. 4. Gast informieren: „Das Essen kommt in ca. X Minuten.\" 🚫 Nie versprechen was du nicht weißt — erst nachfragen, dann antworten!",
+      "text": "1. Verständnis: „Das tut mir leid, das ist zu lange.\" 2. Sofort Teamleitung informieren — nie selbst in die Küche gehen! 3. Teamleitung entscheidet was angeboten wird. 4. Gast informieren: „Das Essen kommt in ca. X Minuten.\" 🚫 Nie versprechen was du nicht weißt — erst nachfragen, dann antworten!"
+    },
+    {
+      "id": "0348",
+      "original": "\"Der Wein schmeckt nach Korken.\"",
+      "text": "\"Der Wein schmeckt nach Korken.\""
+    },
+    {
+      "id": "0349",
+      "original": "1. Ernstnehmen: „Vielen Dank, ich kümmere mich sofort.\" 2. Glas und Flasche mitnehmen — zum Stationsleiter. 3. Teamleitung entscheidet ob Wein korkt und was angeboten wird. 🚫 Nie selbst entscheiden ob der Wein gut oder schlecht ist!",
+      "text": "1. Ernstnehmen: „Vielen Dank, ich kümmere mich sofort.\" 2. Glas und Flasche mitnehmen — zum Stationsleiter. 3. Teamleitung entscheidet ob Wein korkt und was angeboten wird. 🚫 Nie selbst entscheiden ob der Wein gut oder schlecht ist!"
+    },
+    {
+      "id": "0350",
+      "original": "Ein Gast kommt rein. Du stehst an der Tür. Was ist dein erster Satz?",
+      "text": "Ein Gast kommt rein. Du stehst an der Tür. Was ist dein erster Satz?"
+    },
+    {
+      "id": "0351",
+      "original": "„Guten Abend, herzlich willkommen, mein Name ist [Name] — darf ich nach Ihrem Namen fragen?\" → Augenkontakt bis zur Augenfarbe, aufrechte Körperhaltung, auf den Gast zugehen! 🚫 Nie: „Haben Sie reserviert?\"",
+      "text": "„Guten Abend, herzlich willkommen, mein Name ist [Name] — darf ich nach Ihrem Namen fragen?\" → Augenkontakt bis zur Augenfarbe, aufrechte Körperhaltung, auf den Gast zugehen! 🚫 Nie: „Haben Sie reserviert?\""
+    },
+    {
+      "id": "0352",
+      "original": "Gast hat Aperitif bestellt. Du bringst ihn zum Tisch. Was sagst du?",
+      "text": "Gast hat Aperitif bestellt. Du bringst ihn zum Tisch. Was sagst du?"
+    },
+    {
+      "id": "0353",
+      "original": "Produkt betonen! → „Ihr Winzer Sekt, bitte sehr.\" — mit Augenkontakt, deutlich und selbstbewusst aussprechen. Wir sprechen ALLE Produkte aus wenn wir servieren — das ist Wertschätzung und Verkauf zugleich.",
+      "text": "Produkt betonen! → „Ihr Winzer Sekt, bitte sehr.\" — mit Augenkontakt, deutlich und selbstbewusst aussprechen. Wir sprechen ALLE Produkte aus wenn wir servieren — das ist Wertschätzung und Verkauf zugleich."
+    },
+    {
+      "id": "0354",
+      "original": "Du nimmst die Bestellung auf. Gast bestellt nur einen Hauptgang. Was fragst du?",
+      "text": "Du nimmst die Bestellung auf. Gast bestellt nur einen Hauptgang. Was fragst du?"
+    },
+    {
+      "id": "0355",
+      "original": "Aktiv 2 passende Vorspeisen anbieten! → „Darf ich Ihnen noch etwas empfehlen — heute haben wir eine tolle [Vorspeise] oder den [Salat] als Start.\" Dann nach Getränken fragen: „Möchten Sie zum Essen einen Weißwein, Rotwein oder unsere Weinbegleitung?\"",
+      "text": "Aktiv 2 passende Vorspeisen anbieten! → „Darf ich Ihnen noch etwas empfehlen — heute haben wir eine tolle [Vorspeise] oder den [Salat] als Start.\" Dann nach Getränken fragen: „Möchten Sie zum Essen einen Weißwein, Rotwein oder unsere Weinbegleitung?\""
+    },
+    {
+      "id": "0356",
+      "original": "Gast hat Hauptgang fertig. Du räumst ab. Was bietest du aktiv an?",
+      "text": "Gast hat Hauptgang fertig. Du räumst ab. Was bietest du aktiv an?"
+    },
+    {
+      "id": "0357",
+      "original": "1. Abräumen: Teller, Besteck, Menagen — Servietten & Wasserglas bleiben! 2. Getränke nachschenken anbieten. 3. Dessertkarte in die Hand nehmen und 2–3 Desserts aktiv nennen. Erst DANACH Kaffee anbieten!",
+      "text": "1. Abräumen: Teller, Besteck, Menagen — Servietten & Wasserglas bleiben! 2. Getränke nachschenken anbieten. 3. Dessertkarte in die Hand nehmen und 2–3 Desserts aktiv nennen. Erst DANACH Kaffee anbieten!"
+    },
+    {
+      "id": "0358",
+      "original": "\"Ich habe das Rehragout bestellt. Können Sie mir einen passenden Wein empfehlen?\"",
+      "text": "\"Ich habe das Rehragout bestellt. Können Sie mir einen passenden Wein empfehlen?\""
+    },
+    {
+      "id": "0359",
+      "original": "Zu Wild passt ein kräftiger Rotwein — Spätburgunder ist die klassische Wahl. Als Azubi: Ruhig den Stationskellner holen und aktiv mithören — so lernst du! 🚫 Nie „Ich weiß nicht\" — lieber Stationskellner holen als den Gast ohne Empfehlung stehen lassen!",
+      "text": "Zu Wild passt ein kräftiger Rotwein — Spätburgunder ist die klassische Wahl. Als Azubi: Ruhig den Stationskellner holen und aktiv mithören — so lernst du! 🚫 Nie „Ich weiß nicht\" — lieber Stationskellner holen als den Gast ohne Empfehlung stehen lassen!"
+    },
+    {
+      "id": "0360",
+      "original": "\"Ich kenne mich nicht so gut mit Wein aus — was empfehlen Sie zum Fisch?\"",
+      "text": "\"Ich kenne mich nicht so gut mit Wein aus — was empfehlen Sie zum Fisch?\""
+    },
+    {
+      "id": "0361",
+      "original": "Sauvignon Blanc oder Riesling — beide frisch und fruchtig, ideal zu Fisch. Sag: „Beide sehr zugänglich — auch wenn man nicht so viel über Wein weiß.\" 🚫 Nicht zu viel Fachjargon beim Gast der sich nicht auskennt!",
+      "text": "Sauvignon Blanc oder Riesling — beide frisch und fruchtig, ideal zu Fisch. Sag: „Beide sehr zugänglich — auch wenn man nicht so viel über Wein weiß.\" 🚫 Nicht zu viel Fachjargon beim Gast der sich nicht auskennt!"
+    },
+    {
+      "id": "0362",
+      "original": "\"Ich bin laktoseintolerant. Was kann ich hier essen?\"",
+      "text": "\"Ich bin laktoseintolerant. Was kann ich hier essen?\""
+    },
+    {
+      "id": "0363",
+      "original": "1. „Vielen Dank dass Sie das sagen, wir achten sehr darauf.\" 2. Stationskellner informieren — der klärt mit der Küche welche Gerichte geeignet sind. 3. Beim Bonnieren „laktosefrei\" auf dem Bon vermerken. Haldentorte ist laktose- UND glutenfrei — guter Tipp für Dessert!",
+      "text": "1. „Vielen Dank dass Sie das sagen, wir achten sehr darauf.\" 2. Stationskellner informieren — der klärt mit der Küche welche Gerichte geeignet sind. 3. Beim Bonnieren „laktosefrei\" auf dem Bon vermerken. Haldentorte ist laktose- UND glutenfrei — guter Tipp für Dessert!"
+    },
+    {
+      "id": "0364",
+      "original": "\"Mein Kind hat eine Nussallergie.\"",
+      "text": "\"Mein Kind hat eine Nussallergie.\""
+    },
+    {
+      "id": "0365",
+      "original": "Sofort ernst nehmen — Stationskellner SOFORT holen. Bei Kinderallergien keine Eigeninitiative! Auf dem Bon klar vermerken: „NUSSALLERGIE Kind, Tisch X\" — Küche wird explizit informiert. 🚫 Nie selbst entscheiden bei Allergien von Kindern!",
+      "text": "Sofort ernst nehmen — Stationskellner SOFORT holen. Bei Kinderallergien keine Eigeninitiative! Auf dem Bon klar vermerken: „NUSSALLERGIE Kind, Tisch X\" — Küche wird explizit informiert. 🚫 Nie selbst entscheiden bei Allergien von Kindern!"
+    },
+    {
+      "id": "0366",
+      "original": "😟 Beschwerde",
+      "text": "😟 Beschwerde"
+    },
+    {
+      "id": "0367",
+      "original": "🎬 Drehbuch-Praxis",
+      "text": "🎬 Drehbuch-Praxis"
+    },
+    {
+      "id": "0368",
+      "original": "🍷 Weinempfehlung",
+      "text": "🍷 Weinempfehlung"
+    },
+    {
+      "id": "0369",
+      "original": "⚠️ Allergene",
+      "text": "⚠️ Allergene"
+    },
+    {
+      "id": "0370",
+      "original": "Power Briefing Rollenspiel",
+      "text": "Power Briefing Rollenspiel"
+    },
+    {
+      "id": "0371",
+      "original": "Kategorie wählen → Situation → reagieren → Musterlösung aufdecken",
+      "text": "Kategorie wählen → Situation → reagieren → Musterlösung aufdecken"
+    },
+    {
+      "id": "0372",
+      "original": "all .2s",
+      "text": "all .2s"
+    },
+    {
+      "id": "0373",
+      "original": "🎭 Situation",
+      "text": "🎭 Situation"
+    },
+    {
+      "id": "0374",
+      "original": "👤 Gast sagt:",
+      "text": "👤 Gast sagt:"
+    },
+    {
+      "id": "0375",
+      "original": "❓ Wie reagierst du?",
+      "text": "❓ Wie reagierst du?"
+    },
+    {
+      "id": "0376",
+      "original": "calc(100% - 32px)",
+      "text": "calc(100% - 32px)"
+    },
+    {
+      "id": "0377",
+      "original": "Musterlösung sichtbar ✅",
+      "text": "Musterlösung sichtbar ✅"
+    },
+    {
+      "id": "0378",
+      "original": "Musterlösung zeigen 👁️",
+      "text": "Musterlösung zeigen 👁️"
+    },
+    {
+      "id": "0379",
+      "original": "0 20px 20px",
+      "text": "0 20px 20px"
+    },
+    {
+      "id": "0380",
+      "original": "✅ Musterlösung",
+      "text": "✅ Musterlösung"
+    },
+    {
+      "id": "0381",
+      "original": "Nächste Situation 🔀",
+      "text": "Nächste Situation 🔀"
+    },
+    {
+      "id": "0382",
+      "original": "🍺 Bier",
+      "text": "🍺 Bier"
+    },
+    {
+      "id": "0383",
+      "original": "Welche Brauerei liefert das Bier in der Halde?",
+      "text": "Welche Brauerei liefert das Bier in der Halde?"
+    },
+    {
+      "id": "0384",
+      "original": "Paulaner München",
+      "text": "Paulaner München"
+    },
+    {
+      "id": "0385",
+      "original": "Privatbrauerei Ganter Freiburg",
+      "text": "Privatbrauerei Ganter Freiburg"
+    },
+    {
+      "id": "0386",
+      "original": "Ganter ist eine Freiburger Traditionsbrauerei — regional, wie alles in der Halde!",
+      "text": "Ganter ist eine Freiburger Traditionsbrauerei — regional, wie alles in der Halde!"
+    },
+    {
+      "id": "0387",
+      "original": "💧 Wasser",
+      "text": "💧 Wasser"
+    },
+    {
+      "id": "0388",
+      "original": "Woher kommt das Halde-Hauswasser?",
+      "text": "Woher kommt das Halde-Hauswasser?"
+    },
+    {
+      "id": "0389",
+      "original": "Aus dem Supermarkt",
+      "text": "Aus dem Supermarkt"
+    },
+    {
+      "id": "0390",
+      "original": "Aus der Halde-Bergquelle (Grander)",
+      "text": "Aus der Halde-Bergquelle (Grander)"
+    },
+    {
+      "id": "0391",
+      "original": "Aus Bad Dürrheim",
+      "text": "Aus Bad Dürrheim"
+    },
+    {
+      "id": "0392",
+      "original": "Vom Bodensee",
+      "text": "Vom Bodensee"
+    },
+    {
+      "id": "0393",
+      "original": "Grander Bergquellwasser von unserer eigenen Hausbergquelle — einzigartig!",
+      "text": "Grander Bergquellwasser von unserer eigenen Hausbergquelle — einzigartig!"
+    },
+    {
+      "id": "0394",
+      "original": "🕐 Zeiten",
+      "text": "🕐 Zeiten"
+    },
+    {
+      "id": "0395",
+      "original": "Wann gibt es Cocktails in der Kaminbar?",
+      "text": "Wann gibt es Cocktails in der Kaminbar?"
+    },
+    {
+      "id": "0396",
+      "original": "Den ganzen Tag",
+      "text": "Den ganzen Tag"
+    },
+    {
+      "id": "0397",
+      "original": "Ab 12:30 Uhr",
+      "text": "Ab 12:30 Uhr"
+    },
+    {
+      "id": "0398",
+      "original": "Ab 17:30 Uhr",
+      "text": "Ab 17:30 Uhr"
+    },
+    {
+      "id": "0399",
+      "original": "Ab 20:00 Uhr",
+      "text": "Ab 20:00 Uhr"
+    },
+    {
+      "id": "0400",
+      "original": "Cocktails und Bar Food ab 17:30 Uhr — die Kaminbar selbst bis 23:00 Uhr.",
+      "text": "Cocktails und Bar Food ab 17:30 Uhr — die Kaminbar selbst bis 23:00 Uhr."
+    },
+    {
+      "id": "0401",
+      "original": "☕ Kaffee",
+      "text": "☕ Kaffee"
+    },
+    {
+      "id": "0402",
+      "original": "Von welcher Marke kommt unser Kaffee?",
+      "text": "Von welcher Marke kommt unser Kaffee?"
+    },
+    {
+      "id": "0403",
+      "original": "Puro Fairtrade — wächst im Schatten von Regenwaldbäumen. Ein Teil des Erlöses schützt den Regenwald!",
+      "text": "Puro Fairtrade — wächst im Schatten von Regenwaldbäumen. Ein Teil des Erlöses schützt den Regenwald!"
+    },
+    {
+      "id": "0404",
+      "original": "🍸 Basics",
+      "text": "🍸 Basics"
+    },
+    {
+      "id": "0405",
+      "original": "Was ist ein Aperitif?",
+      "text": "Was ist ein Aperitif?"
+    },
+    {
+      "id": "0406",
+      "original": "Getränk nach dem Essen",
+      "text": "Getränk nach dem Essen"
+    },
+    {
+      "id": "0407",
+      "original": "Getränk vor dem Essen",
+      "text": "Getränk vor dem Essen"
+    },
+    {
+      "id": "0408",
+      "original": "Immer alkoholfrei",
+      "text": "Immer alkoholfrei"
+    },
+    {
+      "id": "0409",
+      "original": "Ein Schaumwein",
+      "text": "Ein Schaumwein"
+    },
+    {
+      "id": "0410",
+      "original": "Aperitif = vor dem Essen. Digestif = nach dem Essen. Wichtiger Unterschied!",
+      "text": "Aperitif = vor dem Essen. Digestif = nach dem Essen. Wichtiger Unterschied!"
+    },
+    {
+      "id": "0411",
+      "original": "🎬 Drehbuch",
+      "text": "🎬 Drehbuch"
+    },
+    {
+      "id": "0412",
+      "original": "Welche Aussage über Beschwerden ist richtig?",
+      "text": "Welche Aussage über Beschwerden ist richtig?"
+    },
+    {
+      "id": "0413",
+      "original": "Selbst lösen ist am schnellsten",
+      "text": "Selbst lösen ist am schnellsten"
+    },
+    {
+      "id": "0414",
+      "original": "Erst entschuldigen, dann Teamleitung holen",
+      "text": "Erst entschuldigen, dann Teamleitung holen"
+    },
+    {
+      "id": "0415",
+      "original": "Diskutieren wenn der Gast Unrecht hat",
+      "text": "Diskutieren wenn der Gast Unrecht hat"
+    },
+    {
+      "id": "0416",
+      "original": "Einfach ignorieren",
+      "text": "Einfach ignorieren"
+    },
+    {
+      "id": "0417",
+      "original": "Das Reklamationsgesetz: Entschuldigen → Teamleitung → Danke sagen → Was kann ich tun?",
+      "text": "Das Reklamationsgesetz: Entschuldigen → Teamleitung → Danke sagen → Was kann ich tun?"
+    },
+    {
+      "id": "0418",
+      "original": "Wann soll die Karte vom Tisch genommen werden?",
+      "text": "Wann soll die Karte vom Tisch genommen werden?"
+    },
+    {
+      "id": "0419",
+      "original": "Sofort wenn du am Tisch bist",
+      "text": "Sofort wenn du am Tisch bist"
+    },
+    {
+      "id": "0420",
+      "original": "Erst nachdem die Speisenbestellung aufgenommen ist",
+      "text": "Erst nachdem die Speisenbestellung aufgenommen ist"
+    },
+    {
+      "id": "0421",
+      "original": "Beim Dessert",
+      "text": "Beim Dessert"
+    },
+    {
+      "id": "0422",
+      "original": "Erst am Ende",
+      "text": "Erst am Ende"
+    },
+    {
+      "id": "0423",
+      "original": "Karte bleibt solange am Tisch bis Speisenbestellung aufgenommen ist — Zeichen setzen!",
+      "text": "Karte bleibt solange am Tisch bis Speisenbestellung aufgenommen ist — Zeichen setzen!"
+    },
+    {
+      "id": "0424",
+      "original": "Was ist der richtige Begrüßungssatz beim Empfangen?",
+      "text": "Was ist der richtige Begrüßungssatz beim Empfangen?"
+    },
+    {
+      "id": "0425",
+      "original": "„Haben Sie reserviert?\"",
+      "text": "„Haben Sie reserviert?\""
+    },
+    {
+      "id": "0426",
+      "original": "„Guten Abend, herzlich willkommen, mein Name ist...\"",
+      "text": "„Guten Abend, herzlich willkommen, mein Name ist...\""
+    },
+    {
+      "id": "0427",
+      "original": "„Tisch für wie viele?\"",
+      "text": "„Tisch für wie viele?\""
+    },
+    {
+      "id": "0428",
+      "original": "„Was kann ich für Sie tun?\"",
+      "text": "„Was kann ich für Sie tun?\""
+    },
+    {
+      "id": "0429",
+      "original": "Nie „Haben Sie reserviert?\" — immer herzlich willkommen heißen ZUERST!",
+      "text": "Nie „Haben Sie reserviert?\" — immer herzlich willkommen heißen ZUERST!"
+    },
+    {
+      "id": "0430",
+      "original": "🍸 Cocktails",
+      "text": "🍸 Cocktails"
+    },
+    {
+      "id": "0431",
+      "original": "Was sind die Zutaten eines Espresso Martini?",
+      "text": "Was sind die Zutaten eines Espresso Martini?"
+    },
+    {
+      "id": "0432",
+      "original": "Rum, Kaffee, Sahne",
+      "text": "Rum, Kaffee, Sahne"
+    },
+    {
+      "id": "0433",
+      "original": "Kaffeelikör, Espresso, Wodka",
+      "text": "Kaffeelikör, Espresso, Wodka"
+    },
+    {
+      "id": "0434",
+      "original": "Gin, Espresso, Zitrone",
+      "text": "Gin, Espresso, Zitrone"
+    },
+    {
+      "id": "0435",
+      "original": "Vodka, Milch, Zucker",
+      "text": "Vodka, Milch, Zucker"
+    },
+    {
+      "id": "0436",
+      "original": "Kaffeelikör + Espresso + Wodka — Liebling der Bar! 11,00 Euro.",
+      "text": "Kaffeelikör + Espresso + Wodka — Liebling der Bar! 11,00 Euro."
+    },
+    {
+      "id": "0437",
+      "original": "Was ist ein Moscow Mule?",
+      "text": "Was ist ein Moscow Mule?"
+    },
+    {
+      "id": "0438",
+      "original": "Rum, Cola, Limette",
+      "text": "Rum, Cola, Limette"
+    },
+    {
+      "id": "0439",
+      "original": "Wodka, Limettensaft, Angostura, Spicy Ginger Ale",
+      "text": "Wodka, Limettensaft, Angostura, Spicy Ginger Ale"
+    },
+    {
+      "id": "0440",
+      "original": "Gin, Tonic, Gurke",
+      "text": "Gin, Tonic, Gurke"
+    },
+    {
+      "id": "0441",
+      "original": "Whisky, Zitrone, Honig",
+      "text": "Whisky, Zitrone, Honig"
+    },
+    {
+      "id": "0442",
+      "original": "Wodka, Limette, Angostura, Spicy Ginger Ale — 11 Euro.",
+      "text": "Wodka, Limette, Angostura, Spicy Ginger Ale — 11 Euro."
+    },
+    {
+      "id": "0443",
+      "original": "🍷 Wein",
+      "text": "🍷 Wein"
+    },
+    {
+      "id": "0444",
+      "original": "Was bedeutet \"trocken\" beim Wein?",
+      "text": "Was bedeutet \"trocken\" beim Wein?"
+    },
+    {
+      "id": "0445",
+      "original": "Der Wein hat wenig Alkohol",
+      "text": "Der Wein hat wenig Alkohol"
+    },
+    {
+      "id": "0446",
+      "original": "Der Wein hat wenig Restzucker",
+      "text": "Der Wein hat wenig Restzucker"
+    },
+    {
+      "id": "0447",
+      "original": "Der Wein ist alt",
+      "text": "Der Wein ist alt"
+    },
+    {
+      "id": "0448",
+      "original": "Er kommt aus Südeuropa",
+      "text": "Er kommt aus Südeuropa"
+    },
+    {
+      "id": "0449",
+      "original": "Trocken = wenig Restzucker (unter 4g/l). Halbtrocken etwas süßer, lieblich viel Zucker.",
+      "text": "Trocken = wenig Restzucker (unter 4g/l). Halbtrocken etwas süßer, lieblich viel Zucker."
+    },
+    {
+      "id": "0450",
+      "original": "Was macht man nach dem Hauptgang SOFORT?",
+      "text": "Was macht man nach dem Hauptgang SOFORT?"
+    },
+    {
+      "id": "0451",
+      "original": "Rechnung bringen",
+      "text": "Rechnung bringen"
+    },
+    {
+      "id": "0452",
+      "original": "Teller und Besteck abräumen, Dessertkarte in die Hand nehmen",
+      "text": "Teller und Besteck abräumen, Dessertkarte in die Hand nehmen"
+    },
+    {
+      "id": "0453",
+      "original": "Kaffee anbieten",
+      "text": "Kaffee anbieten"
+    },
+    {
+      "id": "0454",
+      "original": "Gast fragen ob er Pause möchte",
+      "text": "Gast fragen ob er Pause möchte"
+    },
+    {
+      "id": "0455",
+      "original": "Was ist die beste Technik beim 2. Getränk anbieten?",
+      "text": "Was ist die beste Technik beim 2. Getränk anbieten?"
+    },
+    {
+      "id": "0456",
+      "original": "„Noch eins?\"",
+      "text": "„Noch eins?\""
+    },
+    {
+      "id": "0457",
+      "original": "„Noch ein Bier?\" (nicken)",
+      "text": "„Noch ein Bier?\" (nicken)"
+    },
+    {
+      "id": "0458",
+      "original": "„Noch ein Bier — oder lieber jetzt einen Wein?\"",
+      "text": "„Noch ein Bier — oder lieber jetzt einen Wein?\""
+    },
+    {
+      "id": "0459",
+      "original": "Nichts sagen und warten",
+      "text": "Nichts sagen und warten"
+    },
+    {
+      "id": "0460",
+      "original": "Am besten mit Alternative anbieten! So bietest du aktiv ein zweites Getränk an — das ist Umsatz und Service zugleich.",
+      "text": "Am besten mit Alternative anbieten! So bietest du aktiv ein zweites Getränk an — das ist Umsatz und Service zugleich."
+    },
+    {
+      "id": "0461",
+      "original": "Grundsatz beim Kassensystem:",
+      "text": "Grundsatz beim Kassensystem:"
+    },
+    {
+      "id": "0462",
+      "original": "Zuerst servieren, dann bonnieren",
+      "text": "Zuerst servieren, dann bonnieren"
+    },
+    {
+      "id": "0463",
+      "original": "Keine Ware ohne Bon!",
+      "text": "Keine Ware ohne Bon!"
+    },
+    {
+      "id": "0464",
+      "original": "Nur am Ende alles eingeben",
+      "text": "Nur am Ende alles eingeben"
+    },
+    {
+      "id": "0465",
+      "original": "Bon ist optional bei kleinen Bestellungen",
+      "text": "Bon ist optional bei kleinen Bestellungen"
+    },
+    {
+      "id": "0466",
+      "original": "KEINE WARE OHNE BON — das ist ein absoluter Grundsatz!",
+      "text": "KEINE WARE OHNE BON — das ist ein absoluter Grundsatz!"
+    },
+    {
+      "id": "0467",
+      "original": "🧀 Speisen",
+      "text": "🧀 Speisen"
+    },
+    {
+      "id": "0468",
+      "original": "Was ist besonders an der Haldentorte?",
+      "text": "Was ist besonders an der Haldentorte?"
+    },
+    {
+      "id": "0469",
+      "original": "Enthält Kirschwasser",
+      "text": "Enthält Kirschwasser"
+    },
+    {
+      "id": "0470",
+      "original": "Laktosefrei UND glutenfrei",
+      "text": "Laktosefrei UND glutenfrei"
+    },
+    {
+      "id": "0471",
+      "original": "Nur abends erhältlich",
+      "text": "Nur abends erhältlich"
+    },
+    {
+      "id": "0472",
+      "original": "Kommt aus dem Ofen",
+      "text": "Kommt aus dem Ofen"
+    },
+    {
+      "id": "0473",
+      "original": "🦌 Wein zu Speise",
+      "text": "🦌 Wein zu Speise"
+    },
+    {
+      "id": "0474",
+      "original": "Ein Gast bestellt das Rehragout. Was empfiehlst du?",
+      "text": "Ein Gast bestellt das Rehragout. Was empfiehlst du?"
+    },
+    {
+      "id": "0475",
+      "original": "Gutedel weiss",
+      "text": "Gutedel weiss"
+    },
+    {
+      "id": "0476",
+      "original": "Riesling feinherb",
+      "text": "Riesling feinherb"
+    },
+    {
+      "id": "0477",
+      "original": "Aperol Sprizz",
+      "text": "Aperol Sprizz"
+    },
+    {
+      "id": "0478",
+      "original": "Zu Wild passt Rotwein — kräftiger Spätburgunder mit Sauerkirsche, Würze. Die Flaschenweinauswahl täglich prüfen!",
+      "text": "Zu Wild passt Rotwein — kräftiger Spätburgunder mit Sauerkirsche, Würze. Die Flaschenweinauswahl täglich prüfen!"
+    },
+    {
+      "id": "0479",
+      "original": "🐟 Wein zu Speise",
+      "text": "🐟 Wein zu Speise"
+    },
+    {
+      "id": "0480",
+      "original": "Gast bestellt Wildlachsfilet. Welcher Weinstil passt?",
+      "text": "Gast bestellt Wildlachsfilet. Welcher Weinstil passt?"
+    },
+    {
+      "id": "0481",
+      "original": "Frischer, fruchtiger Sauvignon Blanc",
+      "text": "Frischer, fruchtiger Sauvignon Blanc"
+    },
+    {
+      "id": "0482",
+      "original": "Ein Bier",
+      "text": "Ein Bier"
+    },
+    {
+      "id": "0483",
+      "original": "Tokaji Süsswein",
+      "text": "Tokaji Süsswein"
+    },
+    {
+      "id": "0484",
+      "original": "Sauvignon Blanc — frisch, fruchtig, perfekt zu Fisch. Immer die offene Karte kennen!",
+      "text": "Sauvignon Blanc — frisch, fruchtig, perfekt zu Fisch. Immer die offene Karte kennen!"
+    },
+    {
+      "id": "0485",
+      "original": "🐄 Wein zu Speise",
+      "text": "🐄 Wein zu Speise"
+    },
+    {
+      "id": "0486",
+      "original": "Zum Kalbsschnitzel passt am besten...",
+      "text": "Zum Kalbsschnitzel passt am besten..."
+    },
+    {
+      "id": "0487",
+      "original": "Weissburgunder oder Riesling (trocken)",
+      "text": "Weissburgunder oder Riesling (trocken)"
+    },
+    {
+      "id": "0488",
+      "original": "Dunkles Bier",
+      "text": "Dunkles Bier"
+    },
+    {
+      "id": "0489",
+      "original": "Süsswein",
+      "text": "Süsswein"
+    },
+    {
+      "id": "0490",
+      "original": "Weissburgunder oder Riesling — frisch, ausgewogen, klassisch zu Kalb.",
+      "text": "Weissburgunder oder Riesling — frisch, ausgewogen, klassisch zu Kalb."
+    },
+    {
+      "id": "0491",
+      "original": "🧀 Wein",
+      "text": "🧀 Wein"
+    },
+    {
+      "id": "0492",
+      "original": "Ein Gast möchte einen Süsswein zum Aperitif. Was empfiehlst du?",
+      "text": "Ein Gast möchte einen Süsswein zum Aperitif. Was empfiehlst du?"
+    },
+    {
+      "id": "0493",
+      "original": "Spätburgunder Barrique",
+      "text": "Spätburgunder Barrique"
+    },
+    {
+      "id": "0494",
+      "original": "Auslese oder Dessertwein",
+      "text": "Auslese oder Dessertwein"
+    },
+    {
+      "id": "0495",
+      "original": "Chardonnay trocken",
+      "text": "Chardonnay trocken"
+    },
+    {
+      "id": "0496",
+      "original": "Sekt brut",
+      "text": "Sekt brut"
+    },
+    {
+      "id": "0497",
+      "original": "Auslese oder Dessertwein (z.B. Rieslaner Auslese) — auf der Karte als Aperitif- und Dessertwein empfohlen!",
+      "text": "Auslese oder Dessertwein (z.B. Rieslaner Auslese) — auf der Karte als Aperitif- und Dessertwein empfohlen!"
+    },
+    {
+      "id": "0498",
+      "original": "🌿 Regional",
+      "text": "🌿 Regional"
+    },
+    {
+      "id": "0499",
+      "original": "Was ist das Besondere an unserem Kaffee?",
+      "text": "Was ist das Besondere an unserem Kaffee?"
+    },
+    {
+      "id": "0500",
+      "original": "Er ist der billigste",
+      "text": "Er ist der billigste"
+    },
+    {
+      "id": "0501",
+      "original": "Puro Fairtrade — Regenwald-Schutz",
+      "text": "Puro Fairtrade — Regenwald-Schutz"
+    },
+    {
+      "id": "0502",
+      "original": "Er kommt aus Frankreich",
+      "text": "Er kommt aus Frankreich"
+    },
+    {
+      "id": "0503",
+      "original": "Er ist entcoffeiniert",
+      "text": "Er ist entcoffeiniert"
+    },
+    {
+      "id": "0504",
+      "original": "Puro Fairtrade Coffee — wächst im Schatten von Regenwaldbäumen, Erlös schützt den Regenwald!",
+      "text": "Puro Fairtrade Coffee — wächst im Schatten von Regenwaldbäumen, Erlös schützt den Regenwald!"
+    },
+    {
+      "id": "0505",
+      "original": "Wähle dein Level",
+      "text": "Wähle dein Level"
+    },
+    {
+      "id": "0506",
+      "original": "Level 1",
+      "text": "Level 1"
+    },
+    {
+      "id": "0507",
+      "original": "Basics — Zeiten, Getränke, Drehbuch-Grundlagen",
+      "text": "Basics — Zeiten, Getränke, Drehbuch-Grundlagen"
+    },
+    {
+      "id": "0508",
+      "original": "Level 2",
+      "text": "Level 2"
+    },
+    {
+      "id": "0509",
+      "original": "Cocktails, Drehbuch, Speisekunde",
+      "text": "Cocktails, Drehbuch, Speisekunde"
+    },
+    {
+      "id": "0510",
+      "original": "Level 3",
+      "text": "Level 3"
+    },
+    {
+      "id": "0511",
+      "original": "Weinempfehlungen zur Speise",
+      "text": "Weinempfehlungen zur Speise"
+    },
+    {
+      "id": "0512",
+      "original": "Quiz starten →",
+      "text": "Quiz starten →"
+    },
+    {
+      "id": "0513",
+      "original": "% richtig",
+      "text": "% richtig"
+    },
+    {
+      "id": "0514",
+      "original": "Ausgezeichnet!",
+      "text": "Ausgezeichnet!"
+    },
+    {
+      "id": "0515",
+      "original": "Sehr gut!",
+      "text": "Sehr gut!"
+    },
+    {
+      "id": "0516",
+      "original": "Guter Anfang!",
+      "text": "Guter Anfang!"
+    },
+    {
+      "id": "0517",
+      "original": "Weiter üben!",
+      "text": "Weiter üben!"
+    },
+    {
+      "id": "0518",
+      "original": "Nochmal 🔄",
+      "text": "Nochmal 🔄"
+    },
+    {
+      "id": "0519",
+      "original": "Level wechseln",
+      "text": "Level wechseln"
+    },
+    {
+      "id": "0520",
+      "original": "✅ Richtig!",
+      "text": "✅ Richtig!"
+    },
+    {
+      "id": "0521",
+      "original": "❌ Nicht ganz.",
+      "text": "❌ Nicht ganz."
+    },
+    {
+      "id": "0522",
+      "original": "Weiter →",
+      "text": "Weiter →"
+    },
+    {
+      "id": "0523",
+      "original": "Ergebnis sehen 🏆",
+      "text": "Ergebnis sehen 🏆"
+    },
+    {
+      "id": "0524",
+      "original": "🚶 Laufen & Tragen",
+      "text": "🚶 Laufen & Tragen"
+    },
+    {
+      "id": "0525",
+      "original": "Niemals leer laufen",
+      "text": "Niemals leer laufen"
+    },
+    {
+      "id": "0526",
+      "original": "Immer leere Teller, Gläser oder Flaschen mitnehmen — rein und raus.",
+      "text": "Immer leere Teller, Gläser oder Flaschen mitnehmen — rein und raus."
+    },
+    {
+      "id": "0527",
+      "original": "Warmes Essen zuerst",
+      "text": "Warmes Essen zuerst"
+    },
+    {
+      "id": "0528",
+      "original": "Nicht mit leeren Händen gehen",
+      "text": "Nicht mit leeren Händen gehen"
+    },
+    {
+      "id": "0529",
+      "original": "Wenn du rausgehst, schau auf den Guéridon — immer etwas mitnehmen.",
+      "text": "Wenn du rausgehst, schau auf den Guéridon — immer etwas mitnehmen."
+    },
+    {
+      "id": "0530",
+      "original": "💬 Kommunikation",
+      "text": "💬 Kommunikation"
+    },
+    {
+      "id": "0531",
+      "original": "Augenkontakt halten",
+      "text": "Augenkontakt halten"
+    },
+    {
+      "id": "0532",
+      "original": "Beim Sprechen immer den Gast anschauen — zeigt Respekt und Aufmerksamkeit.",
+      "text": "Beim Sprechen immer den Gast anschauen — zeigt Respekt und Aufmerksamkeit."
+    },
+    {
+      "id": "0533",
+      "original": "Getränke beim Abräumen anbieten",
+      "text": "Getränke beim Abräumen anbieten"
+    },
+    {
+      "id": "0534",
+      "original": "Immer fragen: „Darf ich noch etwas nachschenken?\"",
+      "text": "Immer fragen: „Darf ich noch etwas nachschenken?\""
+    },
+    {
+      "id": "0535",
+      "original": "Nicht über Gäste reden",
+      "text": "Nicht über Gäste reden"
+    },
+    {
+      "id": "0536",
+      "original": "Im Restaurant nie über andere Gäste oder Kollegen sprechen — auch nicht leise.",
+      "text": "Im Restaurant nie über andere Gäste oder Kollegen sprechen — auch nicht leise."
+    },
+    {
+      "id": "0537",
+      "original": "Kein Handy sichtbar",
+      "text": "Kein Handy sichtbar"
+    },
+    {
+      "id": "0538",
+      "original": "Handy immer in der Tasche — nie am Tisch oder vor Gästen benutzen.",
+      "text": "Handy immer in der Tasche — nie am Tisch oder vor Gästen benutzen."
+    },
+    {
+      "id": "0539",
+      "original": "🍷 Service & Getränke",
+      "text": "🍷 Service & Getränke"
+    },
+    {
+      "id": "0540",
+      "original": "Wasserglas immer nachfüllen",
+      "text": "Wasserglas immer nachfüllen"
+    },
+    {
+      "id": "0541",
+      "original": "Wasserglas nie leer stehen lassen — das ist unser Standard.",
+      "text": "Wasserglas nie leer stehen lassen — das ist unser Standard."
+    },
+    {
+      "id": "0542",
+      "original": "Wein von rechts einschenken",
+      "text": "Wein von rechts einschenken"
+    },
+    {
+      "id": "0543",
+      "original": "Service von rechts — immer. Dame zuerst, dann Herr, dann Gastgeber zuletzt.",
+      "text": "Service von rechts — immer. Dame zuerst, dann Herr, dann Gastgeber zuletzt."
+    },
+    {
+      "id": "0544",
+      "original": "Nie Gläser am Rand anfassen",
+      "text": "Nie Gläser am Rand anfassen"
+    },
+    {
+      "id": "0545",
+      "original": "Immer am Stiel oder unteren Drittel — Fingerabdrücke auf dem Rand sind unprofessionell.",
+      "text": "Immer am Stiel oder unteren Drittel — Fingerabdrücke auf dem Rand sind unprofessionell."
+    },
+    {
+      "id": "0546",
+      "original": "Brot nicht nach der Suppe",
+      "text": "Brot nicht nach der Suppe"
+    },
+    {
+      "id": "0547",
+      "original": "Brotteller, Brot und Aufstrich nach der Suppe abräumen — nicht erst beim Hauptgang.",
+      "text": "Brotteller, Brot und Aufstrich nach der Suppe abräumen — nicht erst beim Hauptgang."
+    },
+    {
+      "id": "0548",
+      "original": "😟 Beschwerden",
+      "text": "😟 Beschwerden"
+    },
+    {
+      "id": "0549",
+      "original": "Sofort entschuldigen",
+      "text": "Sofort entschuldigen"
+    },
+    {
+      "id": "0550",
+      "original": "Bei jeder Beschwerde: erst entschuldigen, dann Teamleitung rufen.",
+      "text": "Bei jeder Beschwerde: erst entschuldigen, dann Teamleitung rufen."
+    },
+    {
+      "id": "0551",
+      "original": "Teamleitung informieren",
+      "text": "Teamleitung informieren"
+    },
+    {
+      "id": "0552",
+      "original": "Nie alleine eine Beschwerde lösen — immer den Stationsleiter holen.",
+      "text": "Nie alleine eine Beschwerde lösen — immer den Stationsleiter holen."
+    },
+    {
+      "id": "0553",
+      "original": "Nie diskutieren",
+      "text": "Nie diskutieren"
+    },
+    {
+      "id": "0554",
+      "original": "Auch wenn der Gast unrecht hat — nie widersprechen. Teamleitung entscheidet.",
+      "text": "Auch wenn der Gast unrecht hat — nie widersprechen. Teamleitung entscheidet."
+    },
+    {
+      "id": "0555",
+      "original": "Nie \"Das war aber...\"",
+      "text": "Nie \"Das war aber...\""
+    },
+    {
+      "id": "0556",
+      "original": "Nie erklären oder rechtfertigen — einfach entschuldigen und handeln.",
+      "text": "Nie erklären oder rechtfertigen — einfach entschuldigen und handeln."
+    },
+    {
+      "id": "0557",
+      "original": "👔 Auftreten",
+      "text": "👔 Auftreten"
+    },
+    {
+      "id": "0558",
+      "original": "Uniform sauber und gepflegt",
+      "text": "Uniform sauber und gepflegt"
+    },
+    {
+      "id": "0559",
+      "original": "Jeden Tag frische, saubere Uniform — das ist der erste Eindruck.",
+      "text": "Jeden Tag frische, saubere Uniform — das ist der erste Eindruck."
+    },
+    {
+      "id": "0560",
+      "original": "Freundliches Lächeln",
+      "text": "Freundliches Lächeln"
+    },
+    {
+      "id": "0561",
+      "original": "Auch wenn es stressig ist — der Gast sieht nur dich, nicht den Stress dahinter.",
+      "text": "Auch wenn es stressig ist — der Gast sieht nur dich, nicht den Stress dahinter."
+    },
+    {
+      "id": "0562",
+      "original": "Nicht anlehnen oder sitzen",
+      "text": "Nicht anlehnen oder sitzen"
+    },
+    {
+      "id": "0563",
+      "original": "Im Restaurant nie an der Wand lehnen oder lässig wirken.",
+      "text": "Im Restaurant nie an der Wand lehnen oder lässig wirken."
+    },
+    {
+      "id": "0564",
+      "original": "Keine privaten Gespräche",
+      "text": "Keine privaten Gespräche"
+    },
+    {
+      "id": "0565",
+      "original": "Privates unter Kollegen nicht vor Gästen — immer professionell.",
+      "text": "Privates unter Kollegen nicht vor Gästen — immer professionell."
+    },
+    {
+      "id": "0566",
+      "original": "✅ Dos & Don'ts",
+      "text": "✅ Dos & Don'ts"
+    },
+    {
+      "id": "0567",
+      "original": "Die wichtigsten Regeln für den täglichen Service — kurz, klar, direkt.",
+      "text": "Die wichtigsten Regeln für den täglichen Service — kurz, klar, direkt."
+    },
+    {
+      "id": "0568",
+      "original": "Der Dyselmuthof",
+      "text": "Der Dyselmuthof"
+    },
+    {
+      "id": "0569",
+      "original": "Erste urkundliche Erwähnung als einfacher Bauernhof namens „Dyselmuthof\". Damals noch kein Hotel — nur ein Hof auf über 1.000 Meter Höhe im Schwarzwald.",
+      "text": "Erste urkundliche Erwähnung als einfacher Bauernhof namens „Dyselmuthof\". Damals noch kein Hotel — nur ein Hof auf über 1.000 Meter Höhe im Schwarzwald."
+    },
+    {
+      "id": "0570",
+      "original": "Bergbau & neuer Name",
+      "text": "Bergbau & neuer Name"
+    },
+    {
+      "id": "0571",
+      "original": "Schürfrechte an umliegenden Erzgruben. Ab jetzt heißt er „Haldenhof\" — eine Halde ist ein Schutthügel beim Bergbau. Daher der Name!",
+      "text": "Schürfrechte an umliegenden Erzgruben. Ab jetzt heißt er „Haldenhof\" — eine Halde ist ein Schutthügel beim Bergbau. Daher der Name!"
+    },
+    {
+      "id": "0572",
+      "original": "Offiziell Gastwirtschaft",
+      "text": "Offiziell Gastwirtschaft"
+    },
+    {
+      "id": "0573",
+      "original": "Die Halde bekommt offiziell das Recht zur Gästebewirtung. Damit beginnt die eigentliche Geschichte als Gasthaus — fast 700 Jahre bevor du hier angefangen hast! 😄",
+      "text": "Die Halde bekommt offiziell das Recht zur Gästebewirtung. Damit beginnt die eigentliche Geschichte als Gasthaus — fast 700 Jahre bevor du hier angefangen hast! 😄"
+    },
+    {
+      "id": "0574",
+      "original": "Die wichtigste Adresse",
+      "text": "Die wichtigste Adresse"
+    },
+    {
+      "id": "0575",
+      "original": "Nur in der Halde dürfen Hochzeiten gefeiert und Weinkäufe getätigt werden. Die Halde wird zur offiziellen Poststation auf der Berghöhe.",
+      "text": "Nur in der Halde dürfen Hochzeiten gefeiert und Weinkäufe getätigt werden. Die Halde wird zur offiziellen Poststation auf der Berghöhe."
+    },
+    {
+      "id": "0576",
+      "original": "Die ersten Feriengäste",
+      "text": "Die ersten Feriengäste"
+    },
+    {
+      "id": "0577",
+      "original": "Ab jetzt kommen die ersten richtigen Urlaubsgäste. Wirt Emil Wißler baut das erste Gästehaus an und installiert sogar ein Telefon. Revolutionär!",
+      "text": "Ab jetzt kommen die ersten richtigen Urlaubsgäste. Wirt Emil Wißler baut das erste Gästehaus an und installiert sogar ein Telefon. Revolutionär!"
+    },
+    {
+      "id": "0578",
+      "original": "Großer Ausbau",
+      "text": "Großer Ausbau"
+    },
+    {
+      "id": "0579",
+      "original": "Haldenwirt Adolf Wißler erweitert das Hotel erheblich. 1931 entsteht ein „Strandbad\" — die Halde gehört jetzt zu den modernsten Häusern im Schwarzwald.",
+      "text": "Haldenwirt Adolf Wißler erweitert das Hotel erheblich. 1931 entsteht ein „Strandbad\" — die Halde gehört jetzt zu den modernsten Häusern im Schwarzwald."
+    },
+    {
+      "id": "0580",
+      "original": "Ende der Ära Wißler",
+      "text": "Ende der Ära Wißler"
+    },
+    {
+      "id": "0581",
+      "original": "Nach über 400 Jahren verlässt die Familie Wißler die Halde. Das Anwesen wird verkauft — ein historischer Einschnitt.",
+      "text": "Nach über 400 Jahren verlässt die Familie Wißler die Halde. Das Anwesen wird verkauft — ein historischer Einschnitt."
+    },
+    {
+      "id": "0582",
+      "original": "Neueröffnung — Familie Hegar",
+      "text": "Neueröffnung — Familie Hegar"
+    },
+    {
+      "id": "0583",
+      "original": "Lucia und Martin Hegar eröffnen die Halde neu als modernes Wellness-Hotel. Das alte Denkmal wird behutsam renoviert — der Geist des Hauses bleibt erhalten.",
+      "text": "Lucia und Martin Hegar eröffnen die Halde neu als modernes Wellness-Hotel. Das alte Denkmal wird behutsam renoviert — der Geist des Hauses bleibt erhalten."
+    },
+    {
+      "id": "0584",
+      "original": "Das BergSpa entsteht",
+      "text": "Das BergSpa entsteht"
+    },
+    {
+      "id": "0585",
+      "original": "Das neue BergSpa wird eröffnet — mit Sauna, Innen- und Außenpool und Blick auf den Feldberg.",
+      "text": "Das neue BergSpa wird eröffnet — mit Sauna, Innen- und Außenpool und Blick auf den Feldberg."
+    },
+    {
+      "id": "0586",
+      "original": "Die Halde gewinnt den Architekturpreis „Neues Bauen im Schwarzwald\" — Tradition und Moderne perfekt verbunden.",
+      "text": "Die Halde gewinnt den Architekturpreis „Neues Bauen im Schwarzwald\" — Tradition und Moderne perfekt verbunden."
+    },
+    {
+      "id": "0587",
+      "original": "Michelin & Stammgäste",
+      "text": "Michelin & Stammgäste"
+    },
+    {
+      "id": "0588",
+      "original": "Im Michelin Guide gelistet, hunderte Stammgäste, eines der besten Berghotels im Schwarzwald. Wild aus eigener Jagd, Wasser aus der Hausbergquelle — regional durch und durch.",
+      "text": "Im Michelin Guide gelistet, hunderte Stammgäste, eines der besten Berghotels im Schwarzwald. Wild aus eigener Jagd, Wasser aus der Hausbergquelle — regional durch und durch."
+    },
+    {
+      "id": "0589",
+      "original": "Jahre Geschichte",
+      "text": "Jahre Geschichte"
+    },
+    {
+      "id": "0590",
+      "original": "Die Halde ist kein normales Hotel. Hier wurde Gastfreundschaft gelebt, als es das Wort \"Hotel\" noch gar nicht gab. Wer hier arbeitet, ist Teil von etwas Besonderem.",
+      "text": "Die Halde ist kein normales Hotel. Hier wurde Gastfreundschaft gelebt, als es das Wort \"Hotel\" noch gar nicht gab. Wer hier arbeitet, ist Teil von etwas Besonderem."
+    },
+    {
+      "id": "0591",
+      "original": "⛰️ Seit 1142 · Oberried · 1.147m",
+      "text": "⛰️ Seit 1142 · Oberried · 1.147m"
+    },
+    {
+      "id": "0592",
+      "original": "Erste Erwähnung",
+      "text": "Erste Erwähnung"
+    },
+    {
+      "id": "0593",
+      "original": "Recht zur Gastwirtschaft",
+      "text": "Recht zur Gastwirtschaft"
+    },
+    {
+      "id": "0594",
+      "original": "Jahre Fam. Wißler",
+      "text": "Jahre Fam. Wißler"
+    },
+    {
+      "id": "0595",
+      "original": "Zimmer & Apartments",
+      "text": "Zimmer & Apartments"
+    },
+    {
+      "id": "0596",
+      "original": "Die Timeline — Tippen zum Öffnen",
+      "text": "Die Timeline — Tippen zum Öffnen"
+    },
+    {
+      "id": "0597",
+      "original": "0 0 0 3px rgba(200,134,10,0.2)",
+      "text": "0 0 0 3px rgba(200,134,10,0.2)"
+    },
+    {
+      "id": "0598",
+      "original": "12 Levels · IHK-Standard",
+      "text": "12 Levels · IHK-Standard"
+    },
+    {
+      "id": "0599",
+      "original": "Regeln & Ablauf",
+      "text": "Regeln & Ablauf"
+    },
+    {
+      "id": "0600",
+      "original": "Öffnungszeiten",
+      "text": "Öffnungszeiten"
+    },
+    {
+      "id": "0601",
+      "original": "Räume",
+      "text": "Räume"
+    },
+    {
+      "id": "0602",
+      "original": "Restaurant & Bar",
+      "text": "Restaurant & Bar"
+    },
+    {
+      "id": "0603",
+      "original": "Wein & Empfehlung",
+      "text": "Wein & Empfehlung"
+    },
+    {
+      "id": "0604",
+      "original": "7 Rezepte",
+      "text": "7 Rezepte"
+    },
+    {
+      "id": "0605",
+      "original": "3 Levels",
+      "text": "3 Levels"
+    },
+    {
+      "id": "0606",
+      "original": "Dos & Don'ts",
+      "text": "Dos & Don'ts"
+    },
+    {
+      "id": "0607",
+      "original": "Goldene Regeln",
+      "text": "Goldene Regeln"
+    },
+    {
+      "id": "0608",
+      "original": "Seit 1142",
+      "text": "Seit 1142"
+    },
+    {
+      "id": "0609",
+      "original": "'Cormorant Garamond', serif",
+      "text": "'Cormorant Garamond', serif"
+    },
+    {
+      "id": "0610",
+      "original": "Service · Restaurant · Bar",
+      "text": "Service · Restaurant · Bar"
+    },
+    {
+      "id": "0611",
+      "original": "0 4px 20px rgba(200,134,10,0.12)",
+      "text": "0 4px 20px rgba(200,134,10,0.12)"
+    },
+    {
+      "id": "0612",
+      "original": "0 2px 8px rgba(0,0,0,0.3)",
+      "text": "0 2px 8px rgba(0,0,0,0.3)"
+    },
+    {
+      "id": "0613",
+      "original": "scale(0.96)",
+      "text": "scale(0.96)"
+    },
+    {
+      "id": "0614",
+      "original": "'DM Sans', sans-serif",
+      "text": "'DM Sans', sans-serif"
+    },
+    {
+      "id": "0615",
+      "original": "🤝 Empfangsregeln",
+      "text": "🤝 Empfangsregeln"
+    },
+    {
+      "id": "0616",
+      "original": "Der Empfang setzt den Ton für den ganzen Aufenthalt. Jede Interaktion ist eine Chance.",
+      "text": "Der Empfang setzt den Ton für den ganzen Aufenthalt. Jede Interaktion ist eine Chance."
+    },
+    {
+      "id": "0617",
+      "original": "Die 3 Empfangsregeln — Nie vergessen",
+      "text": "Die 3 Empfangsregeln — Nie vergessen"
+    },
+    {
+      "id": "0618",
+      "original": "„Kommen Sie spontan oder haben Sie sich angemeldet?\"",
+      "text": "„Kommen Sie spontan oder haben Sie sich angemeldet?\""
+    },
+    {
+      "id": "0619",
+      "original": "„Tut mir leid, wir sind ausreserviert\"",
+      "text": "„Tut mir leid, wir sind ausreserviert\""
+    },
+    {
+      "id": "0620",
+      "original": "Immer eine Alternative anbieten: Kaminbar, anderen Tag, Warteliste",
+      "text": "Immer eine Alternative anbieten: Kaminbar, anderen Tag, Warteliste"
+    },
+    {
+      "id": "0621",
+      "original": "„Sie waren schon lange nicht mehr da\"",
+      "text": "„Sie waren schon lange nicht mehr da\""
+    },
+    {
+      "id": "0622",
+      "original": "„Schön, dass Sie wieder da sind!\"",
+      "text": "„Schön, dass Sie wieder da sind!\""
+    },
+    {
+      "id": "0623",
+      "original": "Schritt für Schritt",
+      "text": "Schritt für Schritt"
+    },
+    {
+      "id": "0624",
+      "original": "Augenkontakt & Power House",
+      "text": "Augenkontakt & Power House"
+    },
+    {
+      "id": "0625",
+      "original": "Der erste Eindruck",
+      "text": "Der erste Eindruck"
+    },
+    {
+      "id": "0626",
+      "original": "Auf den Gast zugehen — nie warten bis er zu dir kommt. Augenkontakt halten bis zur Augenfarbe. Aufrechte Körperhaltung (Power House). Ein echtes Lächeln.",
+      "text": "Auf den Gast zugehen — nie warten bis er zu dir kommt. Augenkontakt halten bis zur Augenfarbe. Aufrechte Körperhaltung (Power House). Ein echtes Lächeln."
+    },
+    {
+      "id": "0627",
+      "original": "Der Gast entscheidet in den ersten 3 Sekunden wie er sich fühlt. Mach diese 3 Sekunden perfekt.",
+      "text": "Der Gast entscheidet in den ersten 3 Sekunden wie er sich fühlt. Mach diese 3 Sekunden perfekt."
+    },
+    {
+      "id": "0628",
+      "original": "Die perfekte Begrüßung",
+      "text": "Die perfekte Begrüßung"
+    },
+    {
+      "id": "0629",
+      "original": "Was du sagst — und was nie",
+      "text": "Was du sagst — und was nie"
+    },
+    {
+      "id": "0630",
+      "original": "„Guten Abend, herzlich willkommen! Mein Name ist [Name] — darf ich nach Ihrem Namen fragen?\" Neu ankommende Gäste informieren: Empfehlung für frühe Essenszeit 17:30 Uhr — da freie Tischauswahl. Danach nach Verfügbarkeit.",
+      "text": "„Guten Abend, herzlich willkommen! Mein Name ist [Name] — darf ich nach Ihrem Namen fragen?\" Neu ankommende Gäste informieren: Empfehlung für frühe Essenszeit 17:30 Uhr — da freie Tischauswahl. Danach nach Verfügbarkeit."
+    },
+    {
+      "id": "0631",
+      "original": "Den Namen des Gastes während des Aufenthalts mindestens 3× benutzen: 1. Begrüßung · 2. zwischendrin · 3. Abschied",
+      "text": "Den Namen des Gastes während des Aufenthalts mindestens 3× benutzen: 1. Begrüßung · 2. zwischendrin · 3. Abschied"
+    },
+    {
+      "id": "0632",
+      "original": "Wie und wohin",
+      "text": "Wie und wohin"
+    },
+    {
+      "id": "0633",
+      "original": "„Schön, dass Sie bei uns sind, Herr/Frau [Name] — wo würden Sie heute gerne sitzen?\" (wenn noch viel Auswahl) Oder: „Wir haben heute für Sie einen Tisch in der Stube / im modernen Bereich vorgesehen.\" Externe Gäste: Hinweis auf Garderobe geben. Stuhl herausziehen. Kurz verabschieden mit Hinweis auf Serviceperson.",
+      "text": "„Schön, dass Sie bei uns sind, Herr/Frau [Name] — wo würden Sie heute gerne sitzen?\" (wenn noch viel Auswahl) Oder: „Wir haben heute für Sie einen Tisch in der Stube / im modernen Bereich vorgesehen.\" Externe Gäste: Hinweis auf Garderobe geben. Stuhl herausziehen. Kurz verabschieden mit Hinweis auf Serviceperson."
+    },
+    {
+      "id": "0634",
+      "original": "Mustergespräch — Telefon",
+      "text": "Mustergespräch — Telefon"
+    },
+    {
+      "id": "0635",
+      "original": "📞 Eingehender Anruf",
+      "text": "📞 Eingehender Anruf"
+    },
+    {
+      "id": "0636",
+      "original": "„Hotel Die Halde, [Name], guten Tag — was kann ich für Sie tun?\"",
+      "text": "„Hotel Die Halde, [Name], guten Tag — was kann ich für Sie tun?\""
+    },
+    {
+      "id": "0637",
+      "original": "Anlass erfragen: „Was planen Sie denn? Welcher Anlass?\"",
+      "text": "Anlass erfragen: „Was planen Sie denn? Welcher Anlass?\""
+    },
+    {
+      "id": "0638",
+      "original": "Erklären was geht (Öffnungszeiten, Mindestaufenthalt etc.)",
+      "text": "Erklären was geht (Öffnungszeiten, Mindestaufenthalt etc.)"
+    },
+    {
+      "id": "0639",
+      "original": "Kontaktdaten aufnehmen + Rückruf oder Weiterleitung anbieten",
+      "text": "Kontaktdaten aufnehmen + Rückruf oder Weiterleitung anbieten"
+    },
+    {
+      "id": "0640",
+      "original": "DZ Haldenköpfle",
+      "text": "DZ Haldenköpfle"
+    },
+    {
+      "id": "0641",
+      "original": "25–27 m²",
+      "text": "25–27 m²"
+    },
+    {
+      "id": "0642",
+      "original": "ab 382 €",
+      "text": "ab 382 €"
+    },
+    {
+      "id": "0643",
+      "original": "DZ Feldberg (Panorama)",
+      "text": "DZ Feldberg (Panorama)"
+    },
+    {
+      "id": "0644",
+      "original": "ab 408 €",
+      "text": "ab 408 €"
+    },
+    {
+      "id": "0645",
+      "original": "„Für nur 26 € mehr genießen Sie den direkten Panoramablick bis zum Feldberg — sehr empfehlenswert!\"",
+      "text": "„Für nur 26 € mehr genießen Sie den direkten Panoramablick bis zum Feldberg — sehr empfehlenswert!\""
+    },
+    {
+      "id": "0646",
+      "original": "App. Haldenköpfle",
+      "text": "App. Haldenköpfle"
+    },
+    {
+      "id": "0647",
+      "original": "35 m²",
+      "text": "35 m²"
+    },
+    {
+      "id": "0648",
+      "original": "„Das Appartement bietet mit 35 m² deutlich mehr Platz — ein großzügigeres Zimmer für mehr Komfort.\"",
+      "text": "„Das Appartement bietet mit 35 m² deutlich mehr Platz — ein großzügigeres Zimmer für mehr Komfort.\""
+    },
+    {
+      "id": "0649",
+      "original": "App. Haldenköpfle + Balkon",
+      "text": "App. Haldenköpfle + Balkon"
+    },
+    {
+      "id": "0650",
+      "original": "ab 440 €",
+      "text": "ab 440 €"
+    },
+    {
+      "id": "0651",
+      "original": "„Mit Balkon genießen Sie den Schwarzwald-Ausblick auch morgens beim Kaffee draußen — ein echtes Highlight.\"",
+      "text": "„Mit Balkon genießen Sie den Schwarzwald-Ausblick auch morgens beim Kaffee draußen — ein echtes Highlight.\""
+    },
+    {
+      "id": "0652",
+      "original": "App. Feldberg",
+      "text": "App. Feldberg"
+    },
+    {
+      "id": "0653",
+      "original": "43–45 m²",
+      "text": "43–45 m²"
+    },
+    {
+      "id": "0654",
+      "original": "ab 464 €",
+      "text": "ab 464 €"
+    },
+    {
+      "id": "0655",
+      "original": "„Unser größtes Standard-Appartement — ideal für Familien oder längere Aufenthalte.\"",
+      "text": "„Unser größtes Standard-Appartement — ideal für Familien oder längere Aufenthalte.\""
+    },
+    {
+      "id": "0656",
+      "original": "App. Feldberg + Balkon",
+      "text": "App. Feldberg + Balkon"
+    },
+    {
+      "id": "0657",
+      "original": "ab 530 €",
+      "text": "ab 530 €"
+    },
+    {
+      "id": "0658",
+      "original": "„Mit Balkon und Panoramablick — das beste Erlebnis das wir bieten können.\"",
+      "text": "„Mit Balkon und Panoramablick — das beste Erlebnis das wir bieten können.\""
+    },
+    {
+      "id": "0659",
+      "original": "Familien-App. Heustöckle",
+      "text": "Familien-App. Heustöckle"
+    },
+    {
+      "id": "0660",
+      "original": "76 m²",
+      "text": "76 m²"
+    },
+    {
+      "id": "0661",
+      "original": "ab 508 €",
+      "text": "ab 508 €"
+    },
+    {
+      "id": "0662",
+      "original": "„2 Schlafzimmer — die Kinder schlafen getrennt, Sie trotzdem nah beieinander.\"",
+      "text": "„2 Schlafzimmer — die Kinder schlafen getrennt, Sie trotzdem nah beieinander.\""
+    },
+    {
+      "id": "0663",
+      "original": "Familien-App. Kuckucksnest",
+      "text": "Familien-App. Kuckucksnest"
+    },
+    {
+      "id": "0664",
+      "original": "120 m²",
+      "text": "120 m²"
+    },
+    {
+      "id": "0665",
+      "original": "„Unser größtes Appartement — 120 m² unterm Dach, perfekt für Familien die viel Platz möchten.\"",
+      "text": "„Unser größtes Appartement — 120 m² unterm Dach, perfekt für Familien die viel Platz möchten.\""
+    },
+    {
+      "id": "0666",
+      "original": "🛏️ Zimmer & Upselling",
+      "text": "🛏️ Zimmer & Upselling"
+    },
+    {
+      "id": "0667",
+      "original": "39 Zimmer & Appartements. Alle Preise sind Richtwerte inklusive Frühstück, Mittagsvesper, Abendmenü & BergSpa.",
+      "text": "39 Zimmer & Appartements. Alle Preise sind Richtwerte inklusive Frühstück, Mittagsvesper, Abendmenü & BergSpa."
+    },
+    {
+      "id": "0668",
+      "original": "💡 Upselling-Prinzip",
+      "text": "💡 Upselling-Prinzip"
+    },
+    {
+      "id": "0669",
+      "original": "Bedürfnis des Gastes",
+      "text": "Bedürfnis des Gastes"
+    },
+    {
+      "id": "0670",
+      "original": "zuerst verstehen",
+      "text": "zuerst verstehen"
+    },
+    {
+      "id": "0671",
+      "original": ", dann Mehrwert erklären — nie als „teurer\", immer als „mehr Erlebnis\". Kein Druck, nur Empfehlung.",
+      "text": ", dann Mehrwert erklären — nie als „teurer\", immer als „mehr Erlebnis\". Kein Druck, nur Empfehlung."
+    },
+    {
+      "id": "0672",
+      "original": "· bis",
+      "text": "· bis"
+    },
+    {
+      "id": "0673",
+      "original": "Pers.",
+      "text": "Pers."
+    },
+    {
+      "id": "0674",
+      "original": "0 16px 14px",
+      "text": "0 16px 14px"
+    },
+    {
+      "id": "0675",
+      "original": "Wichtige Infos",
+      "text": "Wichtige Infos"
+    },
+    {
+      "id": "0676",
+      "original": "🐕 Hunde",
+      "text": "🐕 Hunde"
+    },
+    {
+      "id": "0677",
+      "original": "KEIN Zutritt zu Restaurant & Bar — Ausnahme: HG-Hunde ab 19 Uhr an der Bar erlaubt",
+      "text": "KEIN Zutritt zu Restaurant & Bar — Ausnahme: HG-Hunde ab 19 Uhr an der Bar erlaubt"
+    },
+    {
+      "id": "0678",
+      "original": "♿ Barrierefreiheit",
+      "text": "♿ Barrierefreiheit"
+    },
+    {
+      "id": "0679",
+      "original": "Restaurant & Hallenbad/Anwendungen ja — Sauna nur über 15 Stufen. Barrierefreies Zimmer: nur in Kategorie Appartement-HB",
+      "text": "Restaurant & Hallenbad/Anwendungen ja — Sauna nur über 15 Stufen. Barrierefreies Zimmer: nur in Kategorie Appartement-HB"
+    },
+    {
+      "id": "0680",
+      "original": "🛗 Aufzug",
+      "text": "🛗 Aufzug"
+    },
+    {
+      "id": "0681",
+      "original": "Vorhanden — außer in Heustöckle & Kuckucksnest",
+      "text": "Vorhanden — außer in Heustöckle & Kuckucksnest"
+    },
+    {
+      "id": "0682",
+      "original": "🕐 Check-out",
+      "text": "🕐 Check-out"
+    },
+    {
+      "id": "0683",
+      "original": "Bis 10:00 Uhr. Danach bis 15:00 Uhr im Haus bleiben & BergSpa weiter nutzen",
+      "text": "Bis 10:00 Uhr. Danach bis 15:00 Uhr im Haus bleiben & BergSpa weiter nutzen"
+    },
+    {
+      "id": "0684",
+      "original": "Hausgäste (HG)",
+      "text": "Hausgäste (HG)"
+    },
+    {
+      "id": "0685",
+      "original": "☀️ Inklusivleistungen HG",
+      "text": "☀️ Inklusivleistungen HG"
+    },
+    {
+      "id": "0686",
+      "original": "Frühstück auf Wunsch (früh)",
+      "text": "Frühstück auf Wunsch (früh)"
+    },
+    {
+      "id": "0687",
+      "original": "Nur HG die früh möchten",
+      "text": "Nur HG die früh möchten"
+    },
+    {
+      "id": "0688",
+      "original": "ab 7:30",
+      "text": "ab 7:30"
+    },
+    {
+      "id": "0689",
+      "original": "Landfrühstücksbüfett",
+      "text": "Landfrühstücksbüfett"
+    },
+    {
+      "id": "0690",
+      "original": "HG ab 8 Uhr",
+      "text": "HG ab 8 Uhr"
+    },
+    {
+      "id": "0691",
+      "original": "Mittagsvesper HG",
+      "text": "Mittagsvesper HG"
+    },
+    {
+      "id": "0692",
+      "original": "Nur HG / bei Abreise für 30 € buchbar",
+      "text": "Nur HG / bei Abreise für 30 € buchbar"
+    },
+    {
+      "id": "0693",
+      "original": "4-Gang-Abendmenü HG",
+      "text": "4-Gang-Abendmenü HG"
+    },
+    {
+      "id": "0694",
+      "original": "Inklusive in HP",
+      "text": "Inklusive in HP"
+    },
+    {
+      "id": "0695",
+      "original": "💡 Kein Abendmenü genutzt →",
+      "text": "💡 Kein Abendmenü genutzt →"
+    },
+    {
+      "id": "0696",
+      "original": "25 € Gutschrift",
+      "text": "25 € Gutschrift"
+    },
+    {
+      "id": "0697",
+      "original": "pro Person auf Zimmerrechnung.",
+      "text": "pro Person auf Zimmerrechnung."
+    },
+    {
+      "id": "0698",
+      "original": "Hausgäste bezahlen Abends auf",
+      "text": "Hausgäste bezahlen Abends auf"
+    },
+    {
+      "id": "0699",
+      "original": "— unterschreiben nur!",
+      "text": "— unterschreiben nur!"
+    },
+    {
+      "id": "0700",
+      "original": "Tagesgäste (extern)",
+      "text": "Tagesgäste (extern)"
+    },
+    {
+      "id": "0701",
+      "original": "🚶 Externe Gäste — Reservierung nötig",
+      "text": "🚶 Externe Gäste — Reservierung nötig"
+    },
+    {
+      "id": "0702",
+      "original": "Frühstück extern",
+      "text": "Frühstück extern"
+    },
+    {
+      "id": "0703",
+      "original": "Reservierung erforderlich!",
+      "text": "Reservierung erforderlich!"
+    },
+    {
+      "id": "0704",
+      "original": "Nur Alte Stube — Reservierung!",
+      "text": "Nur Alte Stube — Reservierung!"
+    },
+    {
+      "id": "0705",
+      "original": "Keine Reservierung nötig",
+      "text": "Keine Reservierung nötig"
+    },
+    {
+      "id": "0706",
+      "original": "Abendessen extern",
+      "text": "Abendessen extern"
+    },
+    {
+      "id": "0707",
+      "original": "Begrenzt — Reservierung!",
+      "text": "Begrenzt — Reservierung!"
+    },
+    {
+      "id": "0708",
+      "original": "Tagesgäste brauchen Reservierung",
+      "text": "Tagesgäste brauchen Reservierung"
+    },
+    {
+      "id": "0709",
+      "original": "für Frühstück, Mittag & Abend!",
+      "text": "für Frühstück, Mittag & Abend!"
+    },
+    {
+      "id": "0710",
+      "original": "Einzige Ausnahme: Kaffee & Kuchen von 14:30–16:30 ohne Reservierung.",
+      "text": "Einzige Ausnahme: Kaffee & Kuchen von 14:30–16:30 ohne Reservierung."
+    },
+    {
+      "id": "0711",
+      "original": "BergSpa & Aktivprogramm",
+      "text": "BergSpa & Aktivprogramm"
+    },
+    {
+      "id": "0712",
+      "original": "🧖 BergSpa für Tagesgäste",
+      "text": "🧖 BergSpa für Tagesgäste"
+    },
+    {
+      "id": "0713",
+      "original": "Nur mit Voranmeldung — begrenzte Plätze!",
+      "text": "Nur mit Voranmeldung — begrenzte Plätze!"
+    },
+    {
+      "id": "0714",
+      "original": "Auf Anfrage",
+      "text": "Auf Anfrage"
+    },
+    {
+      "id": "0715",
+      "original": "Nur mit Voranmeldung",
+      "text": "Nur mit Voranmeldung"
+    },
+    {
+      "id": "0716",
+      "original": "💡 Upselling:",
+      "text": "💡 Upselling:"
+    },
+    {
+      "id": "0717",
+      "original": "„Möchten Sie gleich einen Platz im BergSpa reservieren? Wir haben noch freie Zeiten.\"",
+      "text": "„Möchten Sie gleich einen Platz im BergSpa reservieren? Wir haben noch freie Zeiten.\""
+    },
+    {
+      "id": "0718",
+      "original": "🎉 Feiern & Gruppen",
+      "text": "🎉 Feiern & Gruppen"
+    },
+    {
+      "id": "0719",
+      "original": "Alles zu Veranstaltungen, Rösslestube und Gruppenanfragen.",
+      "text": "Alles zu Veranstaltungen, Rösslestube und Gruppenanfragen."
+    },
+    {
+      "id": "0720",
+      "original": "🎉 Private Feiern",
+      "text": "🎉 Private Feiern"
+    },
+    {
+      "id": "0721",
+      "original": "👥 Gruppen",
+      "text": "👥 Gruppen"
+    },
+    {
+      "id": "0722",
+      "original": "⚠️ Wichtigste Regel",
+      "text": "⚠️ Wichtigste Regel"
+    },
+    {
+      "id": "0723",
+      "original": "Die Halde macht",
+      "text": "Die Halde macht"
+    },
+    {
+      "id": "0724",
+      "original": "KEINE Abendveranstaltungen",
+      "text": "KEINE Abendveranstaltungen"
+    },
+    {
+      "id": "0725",
+      "original": "für externe Gruppen!",
+      "text": "für externe Gruppen!"
+    },
+    {
+      "id": "0726",
+      "original": "Feiern sind nur",
+      "text": "Feiern sind nur"
+    },
+    {
+      "id": "0727",
+      "original": "mittags ab 12:30 Uhr",
+      "text": "mittags ab 12:30 Uhr"
+    },
+    {
+      "id": "0728",
+      "original": "möglich.",
+      "text": "möglich."
+    },
+    {
+      "id": "0729",
+      "original": "ehrlich sagen",
+      "text": "ehrlich sagen"
+    },
+    {
+      "id": "0730",
+      "original": "wenn es nicht passt — das ist unser Konzept!",
+      "text": "wenn es nicht passt — das ist unser Konzept!"
+    },
+    {
+      "id": "0731",
+      "original": "📅 Wann",
+      "text": "📅 Wann"
+    },
+    {
+      "id": "0732",
+      "original": "Nur mittags, täglich ab 12:30 Uhr",
+      "text": "Nur mittags, täglich ab 12:30 Uhr"
+    },
+    {
+      "id": "0733",
+      "original": "👥 Bis 8 Personen",
+      "text": "👥 Bis 8 Personen"
+    },
+    {
+      "id": "0734",
+      "original": "Spontan aus der Tageskarte wählen",
+      "text": "Spontan aus der Tageskarte wählen"
+    },
+    {
+      "id": "0735",
+      "original": "👥 Ab 9 Personen",
+      "text": "👥 Ab 9 Personen"
+    },
+    {
+      "id": "0736",
+      "original": "Menü muss vorher vereinbart werden. Empfehlung: täglich wechselndes Haldemenü → Überraschung + Vorzugspreis",
+      "text": "Menü muss vorher vereinbart werden. Empfehlung: täglich wechselndes Haldemenü → Überraschung + Vorzugspreis"
+    },
+    {
+      "id": "0737",
+      "original": "🏛️ Max. Gäste",
+      "text": "🏛️ Max. Gäste"
+    },
+    {
+      "id": "0738",
+      "original": "Bis 25 Personen (Rösslestube)",
+      "text": "Bis 25 Personen (Rösslestube)"
+    },
+    {
+      "id": "0739",
+      "original": "🏛️ Die Rösslestube",
+      "text": "🏛️ Die Rösslestube"
+    },
+    {
+      "id": "0740",
+      "original": "Kapazität",
+      "text": "Kapazität"
+    },
+    {
+      "id": "0741",
+      "original": "Bis 25 Personen",
+      "text": "Bis 25 Personen"
+    },
+    {
+      "id": "0742",
+      "original": "Ab 20 Personen wird der Raum exklusiv gebucht",
+      "text": "Ab 20 Personen wird der Raum exklusiv gebucht"
+    },
+    {
+      "id": "0743",
+      "original": "Denkmalgeschützt, traditionell-gemütlich, Schwarzwälder Stil",
+      "text": "Denkmalgeschützt, traditionell-gemütlich, Schwarzwälder Stil"
+    },
+    {
+      "id": "0744",
+      "original": "Menükarten, Kerzen & Blumendeko vom Haus",
+      "text": "Menükarten, Kerzen & Blumendeko vom Haus"
+    },
+    {
+      "id": "0745",
+      "original": "Sabine Eckert, Blumenwiese Eckert (auf Wunsch)",
+      "text": "Sabine Eckert, Blumenwiese Eckert (auf Wunsch)"
+    },
+    {
+      "id": "0746",
+      "original": "Mo–Fr 10–12 Uhr & 14–17 Uhr telefonisch",
+      "text": "Mo–Fr 10–12 Uhr & 14–17 Uhr telefonisch"
+    },
+    {
+      "id": "0747",
+      "original": "✅ Passende Anlässe",
+      "text": "✅ Passende Anlässe"
+    },
+    {
+      "id": "0748",
+      "original": "Geburtstag (ab 9 P.)",
+      "text": "Geburtstag (ab 9 P.)"
+    },
+    {
+      "id": "0749",
+      "original": "Jubiläum",
+      "text": "Jubiläum"
+    },
+    {
+      "id": "0750",
+      "original": "Kommunion / Konfirmation",
+      "text": "Kommunion / Konfirmation"
+    },
+    {
+      "id": "0751",
+      "original": "Kleines Firmenjubiläum",
+      "text": "Kleines Firmenjubiläum"
+    },
+    {
+      "id": "0752",
+      "original": "Hochzeiten (Abend)",
+      "text": "Hochzeiten (Abend)"
+    },
+    {
+      "id": "0753",
+      "original": "Große Tagungen",
+      "text": "Große Tagungen"
+    },
+    {
+      "id": "0754",
+      "original": "Firmenevents (groß)",
+      "text": "Firmenevents (groß)"
+    },
+    {
+      "id": "0755",
+      "original": "Passt nicht? → Ehrlich kommunizieren und bei Bedarf weiterempfehlen.",
+      "text": "Passt nicht? → Ehrlich kommunizieren und bei Bedarf weiterempfehlen."
+    },
+    {
+      "id": "0756",
+      "original": "📋 Checkliste Gruppenanfrage",
+      "text": "📋 Checkliste Gruppenanfrage"
+    },
+    {
+      "id": "0757",
+      "original": "Firmenausflug, Familientreffen, Vereinsreise, Incentive?",
+      "text": "Firmenausflug, Familientreffen, Vereinsreise, Incentive?"
+    },
+    {
+      "id": "0758",
+      "original": "Genau oder ca. — Erwachsene / Kinder separat",
+      "text": "Genau oder ca. — Erwachsene / Kinder separat"
+    },
+    {
+      "id": "0759",
+      "original": "An- und Abreisedatum + Alternativtermin",
+      "text": "An- und Abreisedatum + Alternativtermin"
+    },
+    {
+      "id": "0760",
+      "original": "DZ, Einzelnutzung, Appartements?",
+      "text": "DZ, Einzelnutzung, Appartements?"
+    },
+    {
+      "id": "0761",
+      "original": "Nur Frühstück, Halbpension, Vollpension?",
+      "text": "Nur Frühstück, Halbpension, Vollpension?"
+    },
+    {
+      "id": "0762",
+      "original": "BergSpa, Aktivprogramm, Wanderungen?",
+      "text": "BergSpa, Aktivprogramm, Wanderungen?"
+    },
+    {
+      "id": "0763",
+      "original": "Allergien, Barrierefreiheit, Vegan/Vegetarisch",
+      "text": "Allergien, Barrierefreiheit, Vegan/Vegetarisch"
+    },
+    {
+      "id": "0764",
+      "original": "Wenn möglich — hilft bei Angebotserstellung",
+      "text": "Wenn möglich — hilft bei Angebotserstellung"
+    },
+    {
+      "id": "0765",
+      "original": "Name, Telefon, E-Mail für Rückfragen",
+      "text": "Name, Telefon, E-Mail für Rückfragen"
+    },
+    {
+      "id": "0766",
+      "original": "🥇 Goldene Regel",
+      "text": "🥇 Goldene Regel"
+    },
+    {
+      "id": "0767",
+      "original": "Alles schriftlich!",
+      "text": "Alles schriftlich!"
+    },
+    {
+      "id": "0768",
+      "original": "Jede Absprache mit einer Gruppe per E-Mail bestätigen — mündliche Zusagen führen zu Missverständnissen.",
+      "text": "Jede Absprache mit einer Gruppe per E-Mail bestätigen — mündliche Zusagen führen zu Missverständnissen."
+    },
+    {
+      "id": "0769",
+      "original": "Gruppenanfragen immer an die",
+      "text": "Gruppenanfragen immer an die"
+    },
+    {
+      "id": "0770",
+      "original": "weiterleiten. Vorlaufzeit: mind.",
+      "text": "weiterleiten. Vorlaufzeit: mind."
+    },
+    {
+      "id": "0771",
+      "original": "4–6 Wochen",
+      "text": "4–6 Wochen"
+    },
+    {
+      "id": "0772",
+      "original": "💰 Was gilt bei Gruppen",
+      "text": "💰 Was gilt bei Gruppen"
+    },
+    {
+      "id": "0773",
+      "original": "Ab ca. 8–10 Personen = Gruppe → individuelles Angebot",
+      "text": "Ab ca. 8–10 Personen = Gruppe → individuelles Angebot"
+    },
+    {
+      "id": "0774",
+      "original": "Keine Standardpreise — Reservierung entscheidet",
+      "text": "Keine Standardpreise — Reservierung entscheidet"
+    },
+    {
+      "id": "0775",
+      "original": "Stornofristen strenger als bei Einzelgästen — schriftlich festhalten",
+      "text": "Stornofristen strenger als bei Einzelgästen — schriftlich festhalten"
+    },
+    {
+      "id": "0776",
+      "original": "Anzahlung üblich, Rest bei Anreise oder nach Aufenthalt",
+      "text": "Anzahlung üblich, Rest bei Anreise oder nach Aufenthalt"
+    },
+    {
+      "id": "0777",
+      "original": "Genaue Ankunftszeit erfragen — Rezeption & Küche müssen vorbereitet sein",
+      "text": "Genaue Ankunftszeit erfragen — Rezeption & Küche müssen vorbereitet sein"
+    },
+    {
+      "id": "0778",
+      "original": "🧖 BergSpa · 1.100 m²",
+      "text": "🧖 BergSpa · 1.100 m²"
+    },
+    {
+      "id": "0779",
+      "original": "Exklusives Wellness-Erlebnis auf 1.147m Höhe — inklusive für alle Hausgäste.",
+      "text": "Exklusives Wellness-Erlebnis auf 1.147m Höhe — inklusive für alle Hausgäste."
+    },
+    {
+      "id": "0780",
+      "original": "🏊 Panorama-Hallenbad",
+      "text": "🏊 Panorama-Hallenbad"
+    },
+    {
+      "id": "0781",
+      "original": "🧨 Finnische Sauna",
+      "text": "🧨 Finnische Sauna"
+    },
+    {
+      "id": "0782",
+      "original": "🌿 Kräuter-Sanarium",
+      "text": "🌿 Kräuter-Sanarium"
+    },
+    {
+      "id": "0783",
+      "original": "💨 Kräuterdampfbad",
+      "text": "💨 Kräuterdampfbad"
+    },
+    {
+      "id": "0784",
+      "original": "🛋️ Ruheplätze",
+      "text": "🛋️ Ruheplätze"
+    },
+    {
+      "id": "0785",
+      "original": "🌊 Naturbadeteich",
+      "text": "🌊 Naturbadeteich"
+    },
+    {
+      "id": "0786",
+      "original": "🌿 Liegewiese",
+      "text": "🌿 Liegewiese"
+    },
+    {
+      "id": "0787",
+      "original": "💆 Massagen (alle Arten)",
+      "text": "💆 Massagen (alle Arten)"
+    },
+    {
+      "id": "0788",
+      "original": "🌸 Ayurveda",
+      "text": "🌸 Ayurveda"
+    },
+    {
+      "id": "0789",
+      "original": "✨ Kosmetik & Pflege",
+      "text": "✨ Kosmetik & Pflege"
+    },
+    {
+      "id": "0790",
+      "original": "🍯 Salz-Honig-Peeling",
+      "text": "🍯 Salz-Honig-Peeling"
+    },
+    {
+      "id": "0791",
+      "original": "Aktivprogramm (täglich wechselnd)",
+      "text": "Aktivprogramm (täglich wechselnd)"
+    },
+    {
+      "id": "0792",
+      "original": "🧘 Hatha Yoga",
+      "text": "🧘 Hatha Yoga"
+    },
+    {
+      "id": "0793",
+      "original": "🧘 Pilates",
+      "text": "🧘 Pilates"
+    },
+    {
+      "id": "0794",
+      "original": "🧘 Meditation",
+      "text": "🧘 Meditation"
+    },
+    {
+      "id": "0795",
+      "original": "💦 Aqua Fitness",
+      "text": "💦 Aqua Fitness"
+    },
+    {
+      "id": "0796",
+      "original": "💪 Rückentraining",
+      "text": "💪 Rückentraining"
+    },
+    {
+      "id": "0797",
+      "original": "🚶 Nordic Walking",
+      "text": "🚶 Nordic Walking"
+    },
+    {
+      "id": "0798",
+      "original": "🥾 Geführte Wanderungen",
+      "text": "🥾 Geführte Wanderungen"
+    },
+    {
+      "id": "0799",
+      "original": "❄️ Schneeschuhtouren (Winter)",
+      "text": "❄️ Schneeschuhtouren (Winter)"
+    },
+    {
+      "id": "0800",
+      "original": "🚴 E-Bike Verleih",
+      "text": "🚴 E-Bike Verleih"
+    },
+    {
+      "id": "0801",
+      "original": "🚵 Mountainbike Verleih",
+      "text": "🚵 Mountainbike Verleih"
+    },
+    {
+      "id": "0802",
+      "original": "⛷️ Langlauf-Loipe am Hotel",
+      "text": "⛷️ Langlauf-Loipe am Hotel"
+    },
+    {
+      "id": "0803",
+      "original": "TagesSpa & NightSpa",
+      "text": "TagesSpa & NightSpa"
+    },
+    {
+      "id": "0804",
+      "original": "Tagesgäste können das BergSpa als",
+      "text": "Tagesgäste können das BergSpa als"
+    },
+    {
+      "id": "0805",
+      "original": "nutzen.",
+      "text": "nutzen."
+    },
+    {
+      "id": "0806",
+      "original": "💬 Upselling:",
+      "text": "💬 Upselling:"
+    },
+    {
+      "id": "0807",
+      "original": "„Möchten Sie gleich einen Platz im BergSpa reservieren? Ich buche das gerne für Sie ein.\"",
+      "text": "„Möchten Sie gleich einen Platz im BergSpa reservieren? Ich buche das gerne für Sie ein.\""
+    },
+    {
+      "id": "0808",
+      "original": "💡 Upselling-Skripte",
+      "text": "💡 Upselling-Skripte"
+    },
+    {
+      "id": "0809",
+      "original": "„Soll ich Ihnen gleich eine Massage für morgen Vormittag einbuchen?\"",
+      "text": "„Soll ich Ihnen gleich eine Massage für morgen Vormittag einbuchen?\""
+    },
+    {
+      "id": "0810",
+      "original": "BergSpa Tagesgast",
+      "text": "BergSpa Tagesgast"
+    },
+    {
+      "id": "0811",
+      "original": "„Möchten Sie heute Nachmittag noch einen Platz im BergSpa? Ich reserviere das gerne für Sie.\"",
+      "text": "„Möchten Sie heute Nachmittag noch einen Platz im BergSpa? Ich reserviere das gerne für Sie.\""
+    },
+    {
+      "id": "0812",
+      "original": "„Als Geschenk für jemanden? Wir haben Wellness-Gutscheine — auch noch kurzfristig.\"",
+      "text": "„Als Geschenk für jemanden? Wir haben Wellness-Gutscheine — auch noch kurzfristig.\""
+    },
+    {
+      "id": "0813",
+      "original": "📋 Buchungsregeln",
+      "text": "📋 Buchungsregeln"
+    },
+    {
+      "id": "0814",
+      "original": "Mindestaufenthalt, Kommunikation & wichtige Regeln für die Rezeption.",
+      "text": "Mindestaufenthalt, Kommunikation & wichtige Regeln für die Rezeption."
+    },
+    {
+      "id": "0815",
+      "original": "Schnellübersicht",
+      "text": "Schnellübersicht"
+    },
+    {
+      "id": "0816",
+      "original": "So, Mo, Di, Mi",
+      "text": "So, Mo, Di, Mi"
+    },
+    {
+      "id": "0817",
+      "original": "2 Nächte (So–Do)",
+      "text": "2 Nächte (So–Do)"
+    },
+    {
+      "id": "0818",
+      "original": "Do, Fr",
+      "text": "Do, Fr"
+    },
+    {
+      "id": "0819",
+      "original": "3 Nächte (Do–So / Fr–Mo)",
+      "text": "3 Nächte (Do–So / Fr–Mo)"
+    },
+    {
+      "id": "0820",
+      "original": "3 Nächte (Sa–Di)",
+      "text": "3 Nächte (Sa–Di)"
+    },
+    {
+      "id": "0821",
+      "original": "Auf Fr-Anreise hinweisen",
+      "text": "Auf Fr-Anreise hinweisen"
+    },
+    {
+      "id": "0822",
+      "original": "Feiertag / Brücke",
+      "text": "Feiertag / Brücke"
+    },
+    {
+      "id": "0823",
+      "original": "Individuell prüfen",
+      "text": "Individuell prüfen"
+    },
+    {
+      "id": "0824",
+      "original": "Immer im System nachschauen!",
+      "text": "Immer im System nachschauen!"
+    },
+    {
+      "id": "0825",
+      "original": "Warum Mindestaufenthalt?",
+      "text": "Warum Mindestaufenthalt?"
+    },
+    {
+      "id": "0826",
+      "original": "Die Halde ist ein Erholungshotel — kurze 1-Nacht-Aufenthalte passen nicht zum Konzept. Gäste sollen ankommen, abschalten und wirklich erholen.",
+      "text": "Die Halde ist ein Erholungshotel — kurze 1-Nacht-Aufenthalte passen nicht zum Konzept. Gäste sollen ankommen, abschalten und wirklich erholen."
+    },
+    {
+      "id": "0827",
+      "original": "Unter der Woche",
+      "text": "Unter der Woche"
+    },
+    {
+      "id": "0828",
+      "original": "„Für einen Aufenthalt unter der Woche benötigen wir mindestens 2 Nächte.\"",
+      "text": "„Für einen Aufenthalt unter der Woche benötigen wir mindestens 2 Nächte.\""
+    },
+    {
+      "id": "0829",
+      "original": "Am Wochenende",
+      "text": "Am Wochenende"
+    },
+    {
+      "id": "0830",
+      "original": "„Am Wochenende gilt bei uns eine Mindestaufenthaltsdauer von 3 Nächten.\"",
+      "text": "„Am Wochenende gilt bei uns eine Mindestaufenthaltsdauer von 3 Nächten.\""
+    },
+    {
+      "id": "0831",
+      "original": "Begründung",
+      "text": "Begründung"
+    },
+    {
+      "id": "0832",
+      "original": "„Das ermöglicht Ihnen, wirklich in die Ruhe des Schwarzwalds einzutauchen — 1 Nacht reicht dafür kaum.\"",
+      "text": "„Das ermöglicht Ihnen, wirklich in die Ruhe des Schwarzwalds einzutauchen — 1 Nacht reicht dafür kaum.\""
+    },
+    {
+      "id": "0833",
+      "original": "„Wenn Sie flexibel sind, empfehle ich Ihnen gerne einen passenden Zeitraum.\"",
+      "text": "„Wenn Sie flexibel sind, empfehle ich Ihnen gerne einen passenden Zeitraum.\""
+    },
+    {
+      "id": "0834",
+      "original": "Rezeption — Kernaufgaben",
+      "text": "Rezeption — Kernaufgaben"
+    },
+    {
+      "id": "0835",
+      "original": "Telefon, Online, Walk-in annehmen",
+      "text": "Telefon, Online, Walk-in annehmen"
+    },
+    {
+      "id": "0836",
+      "original": "Check-out bis 10:00 Uhr",
+      "text": "Check-out bis 10:00 Uhr"
+    },
+    {
+      "id": "0837",
+      "original": "Danach bis 15:00 Uhr im Haus bleiben & BergSpa nutzen",
+      "text": "Danach bis 15:00 Uhr im Haus bleiben & BergSpa nutzen"
+    },
+    {
+      "id": "0838",
+      "original": "Tagesgäste informieren",
+      "text": "Tagesgäste informieren"
+    },
+    {
+      "id": "0839",
+      "original": "Restaurant, TagesSpa — nur mit Voranmeldung!",
+      "text": "Restaurant, TagesSpa — nur mit Voranmeldung!"
+    },
+    {
+      "id": "0840",
+      "original": "Schauinsland, Steinwasenpark, Todtnau Wasserfall",
+      "text": "Schauinsland, Steinwasenpark, Todtnau Wasserfall"
+    },
+    {
+      "id": "0841",
+      "original": "Gutscheine verkaufen",
+      "text": "Gutscheine verkaufen"
+    },
+    {
+      "id": "0842",
+      "original": "Auch kurzfristig — Wellness-Gutscheine sehr beliebt",
+      "text": "Auch kurzfristig — Wellness-Gutscheine sehr beliebt"
+    },
+    {
+      "id": "0843",
+      "original": "Transfer organisieren",
+      "text": "Transfer organisieren"
+    },
+    {
+      "id": "0844",
+      "original": "Seilbahn, Bahnhof — auf Anfrage gegen Gebühr",
+      "text": "Seilbahn, Bahnhof — auf Anfrage gegen Gebühr"
+    },
+    {
+      "id": "0845",
+      "original": "💡 Upselling bei Check-in",
+      "text": "💡 Upselling bei Check-in"
+    },
+    {
+      "id": "0846",
+      "original": "„Wir haben heute noch ein Feldberg-Appartement mit Balkon — herrlicher Panoramablick, darf ich es für Sie anfragen?\"",
+      "text": "„Wir haben heute noch ein Feldberg-Appartement mit Balkon — herrlicher Panoramablick, darf ich es für Sie anfragen?\""
+    },
+    {
+      "id": "0847",
+      "original": "Begrüßung · Kommunikation",
+      "text": "Begrüßung · Kommunikation"
+    },
+    {
+      "id": "0848",
+      "original": "39 Kategorien + Upselling",
+      "text": "39 Kategorien + Upselling"
+    },
+    {
+      "id": "0849",
+      "original": "HG vs. Tagesgäste",
+      "text": "HG vs. Tagesgäste"
+    },
+    {
+      "id": "0850",
+      "original": "Rösslestube · Gruppen",
+      "text": "Rösslestube · Gruppen"
+    },
+    {
+      "id": "0851",
+      "original": "1.100 m² · Upselling",
+      "text": "1.100 m² · Upselling"
+    },
+    {
+      "id": "0852",
+      "original": "Empfang · Rezeption",
+      "text": "Empfang · Rezeption"
+    },
+    {
+      "id": "0853",
+      "original": "0 4px 20px rgba(91,163,204,0.1)",
+      "text": "0 4px 20px rgba(91,163,204,0.1)"
+    },
+    {
+      "id": "0854",
+      "original": "Die Halde",
+      "text": "Die Halde"
+    },
+    {
+      "id": "0855",
+      "original": "chip chip-inactive",
+      "text": "chip chip-inactive"
+    },
+    {
+      "id": "0856",
+      "original": "🏠 Home",
+      "text": "🏠 Home"
+    },
+    {
+      "id": "0857",
+      "original": "chip chip-active-gold",
+      "text": "chip chip-active-gold"
+    },
+    {
+      "id": "0858",
+      "original": "← Übersicht",
+      "text": "← Übersicht"
+    },
+    {
+      "id": "0859",
+      "original": "chip chip-active-blue",
+      "text": "chip chip-active-blue"
+    },
+    {
+      "id": "0860",
+      "original": "/sw.js",
+      "text": "/sw.js"
+    },
+    {
+      "id": "0861",
+      "original": "Halde Guide: Offline-Modus aktiv ✓",
+      "text": "Halde Guide: Offline-Modus aktiv ✓"
+    },
+    {
+      "id": "0862",
+      "original": "SW Fehler:",
+      "text": "SW Fehler:"
+    }
+  ]
+}
