@@ -2,27 +2,56 @@ backend:
   name: git-gateway
   branch: main
 
-# Wo Bilder landen, falls später mal welche hochgeladen werden
+locale: de
 media_folder: "images/uploads"
 public_folder: "/images/uploads"
 
 collections:
-  - name: "website_inhalte"
-    label: "Website – alle Texte"
+  - name: "website"
+    label: "Website bearbeiten"
     files:
-      - file: "content/website.json"
-        label: "Texte bearbeiten"
-        name: "website"
+      - file: "content/site.json"
+        label: "Alle Bereiche"
+        name: "site"
         fields:
-          - label: "Website-Texte"
-            name: "texts"
-            widget: "list"
-            summary: "{{fields.original}}"
-            collapsed: true
+          - label: "Allgemeine Texte"
+            name: "settings"
+            widget: "object"
             fields:
-              - { label: "Interne Nummer", name: "id", widget: "hidden" }
-              - { label: "Bisheriger Text (nicht verändern)", name: "original", widget: "hidden" }
-              - { label: "Text auf der Website", name: "text", widget: "text" }
+              - { label: "Name", name: "title", widget: "string" }
+              - { label: "Unterzeile", name: "subtitle", widget: "string" }
+              - { label: "Überschrift", name: "headline", widget: "string" }
+              - { label: "Einleitung", name: "intro", widget: "text" }
+          - label: "Bereiche"
+            label_singular: "Bereich"
+            name: "departments"
+            widget: "list"
+            summary: "{{fields.icon}} {{fields.title}}"
+            fields:
+              - { label: "Interne ID", name: "id", widget: "string", hint: "Kleinbuchstaben, keine Leerzeichen" }
+              - { label: "Symbol", name: "icon", widget: "string" }
+              - { label: "Titel", name: "title", widget: "string" }
+              - { label: "Beschreibung", name: "description", widget: "text" }
+              - { label: "Auf Website anzeigen", name: "visible", widget: "boolean", default: true }
+              - label: "Kapitel"
+                label_singular: "Kapitel"
+                name: "sections"
+                widget: "list"
+                summary: "{{fields.title}}"
+                fields:
+                  - { label: "Interne ID", name: "id", widget: "string" }
+                  - { label: "Kapitelüberschrift", name: "title", widget: "string" }
+                  - { label: "Kapitel anzeigen", name: "visible", widget: "boolean", default: true }
+                  - label: "Inhaltsblöcke"
+                    label_singular: "Inhaltsblock"
+                    name: "blocks"
+                    widget: "list"
+                    summary: "{{fields.title}} {{fields.text}}"
+                    fields:
+                      - { label: "Interne ID", name: "id", widget: "string" }
+                      - { label: "Optionale Überschrift", name: "title", widget: "string", required: false }
+                      - { label: "Text", name: "text", widget: "text" }
+                      - { label: "Block anzeigen", name: "visible", widget: "boolean", default: true }
 
   - name: "ap1_wochenplan"
     label: "AP1 – 12-Wochen-Plan"
@@ -46,7 +75,7 @@ collections:
                 name: "s"
                 widget: "list"
                 field: { label: "Punkt", name: "item", widget: "string" }
-              - label: "Checkliste (Ja/Nein-Fragen)"
+              - label: "Checkliste"
                 name: "c"
                 widget: "list"
                 field: { label: "Frage", name: "item", widget: "string" }
