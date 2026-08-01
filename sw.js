@@ -1,4 +1,4 @@
-const CACHE_NAME = 'halde-guide-v1';
+const CACHE_NAME = 'halde-guide-v2';
 
 // Alle Dateien die gecacht werden sollen
 const FILES_TO_CACHE = [
@@ -38,6 +38,20 @@ self.addEventListener('activate', (event) => {
 
 // Fetch: erst Cache, dann Netzwerk (Offline-first)
 self.addEventListener('fetch', (event) => {
+  const url = new URL(event.request.url);
+
+  // CMS-Inhalte immer zuerst aktuell vom Netz laden. Nur offline den Cache nutzen.
+  if (url.pathname.startsWith('/content/') || url.pathname.startsWith('/admin/')) {
+    event.respondWith(
+      fetch(event.request).then((response) => {
+        const copy = response.clone();
+        caches.open(CACHE_NAME).then((cache) => cache.put(event.request, copy));
+        return response;
+      }).catch(() => caches.match(event.request))
+    );
+    return;
+  }
+
   event.respondWith(
     caches.match(event.request).then((cachedResponse) => {
       if (cachedResponse) {
