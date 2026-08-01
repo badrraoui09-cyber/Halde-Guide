@@ -1,0 +1,5462 @@
+{
+  "settings": {
+    "title": "Halde Guide",
+    "subtitle": "Lernen · Wissen · Praxis",
+    "headline": "Wissen, das im Alltag hilft.",
+    "intro": "Der digitale Guide für Service, Restaurant und Empfang. Inhalte sind aktuell, übersichtlich und direkt über das Redaktionssystem pflegbar."
+  },
+  "departments": [
+    {
+      "id": "service",
+      "icon": "🍽️",
+      "title": "Service & Restaurant",
+      "description": "Abläufe, Gästekontakt, Getränke, Räume, Empfehlungen und tägliche Standards.",
+      "visible": true,
+      "sections": [
+        {
+          "id": "service-01-der-tisch",
+          "title": "Der Tisch",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0001",
+              "title": "",
+              "text": "Mise en place",
+              "visible": true
+            },
+            {
+              "id": "service-block-0002",
+              "title": "",
+              "text": "Tischset pro Person",
+              "visible": true
+            },
+            {
+              "id": "service-block-0003",
+              "title": "",
+              "text": "Stoffserviette (mittig)",
+              "visible": true
+            },
+            {
+              "id": "service-block-0004",
+              "title": "",
+              "text": "Abends mit Etagere: Mittelteller",
+              "visible": true
+            },
+            {
+              "id": "service-block-0005",
+              "title": "",
+              "text": "3-Gang-Besteck komplett",
+              "visible": true
+            },
+            {
+              "id": "service-block-0006",
+              "title": "",
+              "text": "Universalglas + Wasserglas",
+              "visible": true
+            },
+            {
+              "id": "service-block-0007",
+              "title": "",
+              "text": "Brotteller · Salz & Pfeffer",
+              "visible": true
+            },
+            {
+              "id": "service-block-0008",
+              "title": "",
+              "text": "Kerze brennt · Blumendeko",
+              "visible": true
+            },
+            {
+              "id": "service-block-0009",
+              "title": "",
+              "text": "Stühle ausgerichtet + Kissen",
+              "visible": true
+            },
+            {
+              "id": "service-block-0010",
+              "title": "",
+              "text": "Der Tisch muss fertig sein BEVOR sich der Gast setzt.",
+              "visible": true
+            },
+            {
+              "id": "service-block-0011",
+              "title": "",
+              "text": "Begrüßung & Platzieren",
+              "visible": true
+            },
+            {
+              "id": "service-block-0012",
+              "title": "",
+              "text": "Erster Eindruck",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-02-wissen-2",
+          "title": "Wissen 2",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0013",
+              "title": "",
+              "text": "Freundlich begrüßen — Augenkontakt bis zur Augenfarbe",
+              "visible": true
+            },
+            {
+              "id": "service-block-0014",
+              "title": "",
+              "text": "\"Guten Abend, herzlich willkommen, mein Name ist [Name]...\"",
+              "visible": true
+            },
+            {
+              "id": "service-block-0015",
+              "title": "",
+              "text": "Gast nach Namen → Reservierung prüfen (Allergien, Wünsche)",
+              "visible": true
+            },
+            {
+              "id": "service-block-0016",
+              "title": "",
+              "text": "Neue Gäste: frühe Essenszeit 17:30 Uhr empfehlen",
+              "visible": true
+            },
+            {
+              "id": "service-block-0017",
+              "title": "",
+              "text": "Stuhl herausziehen · Garderobe-Hinweis",
+              "visible": true
+            },
+            {
+              "id": "service-block-0018",
+              "title": "",
+              "text": "Überschüssiges Gedeck entfernen",
+              "visible": true
+            },
+            {
+              "id": "service-block-0019",
+              "title": "",
+              "text": "Auf Stationskellner hinweisen",
+              "visible": true
+            },
+            {
+              "id": "service-block-0020",
+              "title": "",
+              "text": "\"Haben Sie reserviert?\"",
+              "visible": true
+            },
+            {
+              "id": "service-block-0021",
+              "title": "",
+              "text": "\"Kommen Sie spontan oder haben Sie sich angemeldet?\"",
+              "visible": true
+            },
+            {
+              "id": "service-block-0022",
+              "title": "",
+              "text": "\"Tut mir leid, ausreserviert\"",
+              "visible": true
+            },
+            {
+              "id": "service-block-0023",
+              "title": "",
+              "text": "Immer Alternative anbieten",
+              "visible": true
+            },
+            {
+              "id": "service-block-0024",
+              "title": "",
+              "text": "\"Sie waren lange nicht mehr da\"",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-03-wissen-3",
+          "title": "Wissen 3",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0025",
+              "title": "",
+              "text": "\"Schön, dass Sie wieder da sind!\"",
+              "visible": true
+            },
+            {
+              "id": "service-block-0026",
+              "title": "",
+              "text": "Auf den Gast zugehen — nie warten bis er kommt!",
+              "visible": true
+            },
+            {
+              "id": "service-block-0027",
+              "title": "",
+              "text": "Erster Tischkontakt",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-04-die-ersten-60-sekunden",
+          "title": "Die ersten 60 Sekunden",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0028",
+              "title": "",
+              "text": "\"Guten Abend Frau/Herr [Name]...\"",
+              "visible": true
+            },
+            {
+              "id": "service-block-0029",
+              "title": "",
+              "text": "Gastnamen 3× nutzen: Begrüßung · zwischendrin · Abschied",
+              "visible": true
+            },
+            {
+              "id": "service-block-0030",
+              "title": "",
+              "text": "Brot & Aufstriche servieren und ansagen",
+              "visible": true
+            },
+            {
+              "id": "service-block-0031",
+              "title": "",
+              "text": "Bei à la carte: Brot bonnieren!",
+              "visible": true
+            },
+            {
+              "id": "service-block-0032",
+              "title": "",
+              "text": "Tagesempfehlung mit Preis nennen",
+              "visible": true
+            },
+            {
+              "id": "service-block-0033",
+              "title": "",
+              "text": "Hausgäste: Aufpreis nennen (z.B. 12 €)",
+              "visible": true
+            },
+            {
+              "id": "service-block-0034",
+              "title": "",
+              "text": "Karte erst in die Hand geben NACHDEM du Brot gebracht hast.",
+              "visible": true
+            },
+            {
+              "id": "service-block-0035",
+              "title": "",
+              "text": "Aperitif servieren",
+              "visible": true
+            },
+            {
+              "id": "service-block-0036",
+              "title": "",
+              "text": "Produkt betonen",
+              "visible": true
+            },
+            {
+              "id": "service-block-0037",
+              "title": "",
+              "text": "Menü und Weinkarte bereithalten",
+              "visible": true
+            },
+            {
+              "id": "service-block-0038",
+              "title": "",
+              "text": "Wasser anbieten: \"Darf ich Ihnen ein Quellwasser einschenken?\"",
+              "visible": true
+            },
+            {
+              "id": "service-block-0039",
+              "title": "",
+              "text": "2–3 Start-Getränke aktiv anbieten: Winzer Sekt · Helles · Sprizz",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-05-wissen-5",
+          "title": "Wissen 5",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0040",
+              "title": "",
+              "text": "Tagesempfehlung zuerst und am Ende wiederholen",
+              "visible": true
+            },
+            {
+              "id": "service-block-0041",
+              "title": "",
+              "text": "Beim Servieren: Augenkontakt + Produkt nennen",
+              "visible": true
+            },
+            {
+              "id": "service-block-0042",
+              "title": "",
+              "text": "Jeden Artikel laut nennen — das ist Wertschätzung und Verkauf.",
+              "visible": true
+            },
+            {
+              "id": "service-block-0043",
+              "title": "",
+              "text": "Bestellung aufnehmen",
+              "visible": true
+            },
+            {
+              "id": "service-block-0044",
+              "title": "",
+              "text": "Aktiv führen",
+              "visible": true
+            },
+            {
+              "id": "service-block-0045",
+              "title": "",
+              "text": "\"Haben Sie Ihre Auswahl getroffen?\"",
+              "visible": true
+            },
+            {
+              "id": "service-block-0046",
+              "title": "",
+              "text": "Bei nur Hauptgang: 2 passende Vorspeisen anbieten",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-06-wein-anfragen-wei-wein-rotwein-oder-weinbe",
+          "title": "Wein anfragen: \"Weißwein, Rotwein oder Weinbegleitung?\"",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0047",
+              "title": "",
+              "text": "Karte erst nach Speisenbestellung vom Tisch",
+              "visible": true
+            },
+            {
+              "id": "service-block-0048",
+              "title": "",
+              "text": "Ab 6 Personen: Tischplan verwenden",
+              "visible": true
+            },
+            {
+              "id": "service-block-0049",
+              "title": "",
+              "text": "Karte bleibt bis Hauptbestellung aufgenommen ist.",
+              "visible": true
+            },
+            {
+              "id": "service-block-0050",
+              "title": "",
+              "text": "Bonnieren & Weinservice",
+              "visible": true
+            },
+            {
+              "id": "service-block-0051",
+              "title": "",
+              "text": "Sofort nach Bestellung",
+              "visible": true
+            },
+            {
+              "id": "service-block-0052",
+              "title": "",
+              "text": "Besteck und Gläser komplett eindecken",
+              "visible": true
+            },
+            {
+              "id": "service-block-0053",
+              "title": "",
+              "text": "Flasche nah am Gast öffnen",
+              "visible": true
+            },
+            {
+              "id": "service-block-0054",
+              "title": "",
+              "text": "Rotwein auf den Tisch · Weißwein in den Kühler",
+              "visible": true
+            },
+            {
+              "id": "service-block-0055",
+              "title": "",
+              "text": "Erst bonnieren → eindecken → Weinservice. Keine andere Reihenfolge!",
+              "visible": true
+            },
+            {
+              "id": "service-block-0056",
+              "title": "",
+              "text": "Zwischen den Gängen",
+              "visible": true
+            },
+            {
+              "id": "service-block-0057",
+              "title": "",
+              "text": "Timing & 2. Getränk",
+              "visible": true
+            },
+            {
+              "id": "service-block-0058",
+              "title": "",
+              "text": "Speisen von rechts servieren",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-07-wissen-7",
+          "title": "Wissen 7",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0059",
+              "title": "",
+              "text": "Beilagen immer links",
+              "visible": true
+            },
+            {
+              "id": "service-block-0060",
+              "title": "",
+              "text": "Bei jedem Kontakt: Getränke nachschenken",
+              "visible": true
+            },
+            {
+              "id": "service-block-0061",
+              "title": "",
+              "text": "Vor Hauptgang: Brot & Brotteller ausdecken",
+              "visible": true
+            },
+            {
+              "id": "service-block-0062",
+              "title": "",
+              "text": "Feedback nach 1/3 des Essens einholen",
+              "visible": true
+            },
+            {
+              "id": "service-block-0063",
+              "title": "",
+              "text": "Niemals leer in/aus der Station!",
+              "visible": true
+            },
+            {
+              "id": "service-block-0064",
+              "title": "",
+              "text": "\"Noch eins?\"",
+              "visible": true
+            },
+            {
+              "id": "service-block-0065",
+              "title": "",
+              "text": "\"Noch ein Bier — oder lieber einen Wein?\"",
+              "visible": true
+            },
+            {
+              "id": "service-block-0066",
+              "title": "",
+              "text": "Lieber zu schnell als zu langsam. Nie fragen ob Pause.",
+              "visible": true
+            },
+            {
+              "id": "service-block-0067",
+              "title": "",
+              "text": "Nach dem Hauptgang",
+              "visible": true
+            },
+            {
+              "id": "service-block-0068",
+              "title": "",
+              "text": "Sauber abräumen",
+              "visible": true
+            },
+            {
+              "id": "service-block-0069",
+              "title": "",
+              "text": "Teller, Besteck, Menagen abräumen",
+              "visible": true
+            },
+            {
+              "id": "service-block-0070",
+              "title": "",
+              "text": "Servietten bleiben am Tisch",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-08-wissen-8",
+          "title": "Wissen 8",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0071",
+              "title": "",
+              "text": "Getränke nachschenken oder anbieten",
+              "visible": true
+            },
+            {
+              "id": "service-block-0072",
+              "title": "",
+              "text": "Sauber abräumen = Platz für Dessert. Tisch soll frisch aussehen.",
+              "visible": true
+            },
+            {
+              "id": "service-block-0073",
+              "title": "",
+              "text": "Dessert & Kaffee",
+              "visible": true
+            },
+            {
+              "id": "service-block-0074",
+              "title": "",
+              "text": "2–3 Optionen aktiv",
+              "visible": true
+            },
+            {
+              "id": "service-block-0075",
+              "title": "",
+              "text": "Dessertkarte in der Hand halten",
+              "visible": true
+            },
+            {
+              "id": "service-block-0076",
+              "title": "",
+              "text": "2–3 Desserts aktiv nennen — nie nur Karte hinlegen",
+              "visible": true
+            },
+            {
+              "id": "service-block-0077",
+              "title": "",
+              "text": "2–3 Kaffees nennen — nie nur \"Kaffee?\"",
+              "visible": true
+            },
+            {
+              "id": "service-block-0078",
+              "title": "",
+              "text": "Schnäpslekarte einlegen",
+              "visible": true
+            },
+            {
+              "id": "service-block-0079",
+              "title": "",
+              "text": "Dessert ZUERST, dann Kaffee. Sonst kommt Kaffee zu früh!",
+              "visible": true
+            },
+            {
+              "id": "service-block-0080",
+              "title": "",
+              "text": "Den Abschluss setzen",
+              "visible": true
+            },
+            {
+              "id": "service-block-0081",
+              "title": "",
+              "text": "Besteck, Teller und Servietten abräumen",
+              "visible": true
+            },
+            {
+              "id": "service-block-0082",
+              "title": "",
+              "text": "Digestif aktiv anbieten — 2–3 Optionen nennen",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-09-wissen-9",
+          "title": "Wissen 9",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0083",
+              "title": "",
+              "text": "\"Haselnussgeist, Kirschwasser oder Williams?\"",
+              "visible": true
+            },
+            {
+              "id": "service-block-0084",
+              "title": "",
+              "text": "Regional und selbst gemacht — das ist eine echte Empfehlung!",
+              "visible": true
+            },
+            {
+              "id": "service-block-0085",
+              "title": "",
+              "text": "Aufmerksamkeit behalten",
+              "visible": true
+            },
+            {
+              "id": "service-block-0086",
+              "title": "",
+              "text": "Sofort kassieren wenn gewünscht",
+              "visible": true
+            },
+            {
+              "id": "service-block-0087",
+              "title": "",
+              "text": "Rechnung ≠ Tischende — weiter aufmerksam bleiben",
+              "visible": true
+            },
+            {
+              "id": "service-block-0088",
+              "title": "",
+              "text": "Weitere Getränke anbieten solange Gast sitzt",
+              "visible": true
+            },
+            {
+              "id": "service-block-0089",
+              "title": "",
+              "text": "Hausgäste: auf Zimmer unterschreiben lassen",
+              "visible": true
+            },
+            {
+              "id": "service-block-0090",
+              "title": "",
+              "text": "Letzter Eindruck leitet nächsten Besuch ein!",
+              "visible": true
+            },
+            {
+              "id": "service-block-0091",
+              "title": "",
+              "text": "Als Einladung gestalten",
+              "visible": true
+            },
+            {
+              "id": "service-block-0092",
+              "title": "",
+              "text": "Die Verabschiedung ist zugleich eine Einladung!",
+              "visible": true
+            },
+            {
+              "id": "service-block-0093",
+              "title": "",
+              "text": "\"Schön, dass Sie bei uns waren — bis zum nächsten Mal!\"",
+              "visible": true
+            },
+            {
+              "id": "service-block-0094",
+              "title": "",
+              "text": "Auf Garderobe hinweisen",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-10-wissen-10",
+          "title": "Wissen 10",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0095",
+              "title": "",
+              "text": "Small Talk · Hinweis auf Bar oder Events",
+              "visible": true
+            },
+            {
+              "id": "service-block-0096",
+              "title": "",
+              "text": "Der Gast nimmt nur den letzten Eindruck mit nach Hause. Mach ihn unvergesslich.",
+              "visible": true
+            },
+            {
+              "id": "service-block-0097",
+              "title": "",
+              "text": "'DM Sans',sans-serif",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-11-service-drehbuch",
+          "title": "🎬 Service Drehbuch",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0098",
+              "title": "",
+              "text": "'Cormorant Garamond',serif",
+              "visible": true
+            },
+            {
+              "id": "service-block-0099",
+              "title": "",
+              "text": "12 Levels zum Profi",
+              "visible": true
+            },
+            {
+              "id": "service-block-0100",
+              "title": "",
+              "text": "Unser Serviceablauf — Schritt für Schritt. Tippe auf ein Level zum Aufklappen.",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-12-reklamation-das-gesetz",
+          "title": "⚖️ Reklamation — Das Gesetz",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0101",
+              "title": "",
+              "text": "\"Es tut mir leid, dass...\" (Schmerz wiederholen)",
+              "visible": true
+            },
+            {
+              "id": "service-block-0102",
+              "title": "",
+              "text": "\"Ich spreche sofort mit dem Restaurantleiter...\"",
+              "visible": true
+            },
+            {
+              "id": "service-block-0103",
+              "title": "",
+              "text": "\"Danke, dass Sie es gesagt haben\"",
+              "visible": true
+            },
+            {
+              "id": "service-block-0104",
+              "title": "",
+              "text": "\"Was kann ich jetzt für Sie tun?\"",
+              "visible": true
+            },
+            {
+              "id": "service-block-0105",
+              "title": "",
+              "text": "M4 6l4 4 4-4",
+              "visible": true
+            },
+            {
+              "id": "service-block-0106",
+              "title": "",
+              "text": "0 16px 16px",
+              "visible": true
+            },
+            {
+              "id": "service-block-0107",
+              "title": "",
+              "text": "So nicht — Sondern so",
+              "visible": true
+            },
+            {
+              "id": "service-block-0108",
+              "title": "",
+              "text": "Merke:",
+              "visible": true
+            },
+            {
+              "id": "service-block-0109",
+              "title": "",
+              "text": "Reihenfolge beim Laufen",
+              "visible": true
+            },
+            {
+              "id": "service-block-0110",
+              "title": "",
+              "text": "Nunito,sans-serif",
+              "visible": true
+            },
+            {
+              "id": "service-block-0111",
+              "title": "",
+              "text": "Was zuerst?",
+              "visible": true
+            },
+            {
+              "id": "service-block-0112",
+              "title": "",
+              "text": "Immer diese Reihenfolge!",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-13-wissen-13",
+          "title": "Wissen 13",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0113",
+              "title": "",
+              "text": "Warmes Essen",
+              "visible": true
+            },
+            {
+              "id": "service-block-0114",
+              "title": "",
+              "text": "Wird sofort kalt!",
+              "visible": true
+            },
+            {
+              "id": "service-block-0115",
+              "title": "",
+              "text": "Schmilzt schnell",
+              "visible": true
+            },
+            {
+              "id": "service-block-0116",
+              "title": "",
+              "text": "Getränke",
+              "visible": true
+            },
+            {
+              "id": "service-block-0117",
+              "title": "",
+              "text": "Von der Theke",
+              "visible": true
+            },
+            {
+              "id": "service-block-0118",
+              "title": "",
+              "text": "Kalte Speisen",
+              "visible": true
+            },
+            {
+              "id": "service-block-0119",
+              "title": "",
+              "text": "Salate, Vorspeisen",
+              "visible": true
+            },
+            {
+              "id": "service-block-0120",
+              "title": "",
+              "text": "Abräumen",
+              "visible": true
+            },
+            {
+              "id": "service-block-0121",
+              "title": "",
+              "text": "Leere Teller & Gläser",
+              "visible": true
+            },
+            {
+              "id": "service-block-0122",
+              "title": "",
+              "text": "Sofort!",
+              "visible": true
+            },
+            {
+              "id": "service-block-0123",
+              "title": "",
+              "text": "Gläser checken",
+              "visible": true
+            },
+            {
+              "id": "service-block-0124",
+              "title": "",
+              "text": "Was tun mit leeren Gläsern?",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-14-wissen-14",
+          "title": "Wissen 14",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0125",
+              "title": "",
+              "text": "Wasserglas:",
+              "visible": true
+            },
+            {
+              "id": "service-block-0126",
+              "title": "",
+              "text": "immer stehen lassen & nachfüllen",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-15-wein",
+          "title": "Wein:",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0127",
+              "title": "",
+              "text": "fast leer → nachfragen. Nein → abräumen",
+              "visible": true
+            },
+            {
+              "id": "service-block-0128",
+              "title": "",
+              "text": "Aperitif-Gläser:",
+              "visible": true
+            },
+            {
+              "id": "service-block-0129",
+              "title": "",
+              "text": "leer → sofort abräumen",
+              "visible": true
+            },
+            {
+              "id": "service-block-0130",
+              "title": "",
+              "text": "Neue Bestellung →",
+              "visible": true
+            },
+            {
+              "id": "service-block-0131",
+              "title": "",
+              "text": "Brot nachfragen",
+              "visible": true
+            },
+            {
+              "id": "service-block-0132",
+              "title": "",
+              "text": "Brotkorb leer? →",
+              "visible": true
+            },
+            {
+              "id": "service-block-0133",
+              "title": "",
+              "text": "„Darf ich Ihnen noch ein, zwei Scheiben bringen?\"",
+              "visible": true
+            },
+            {
+              "id": "service-block-0134",
+              "title": "",
+              "text": "Nur bis zur Suppe — danach Brot, Teller & Aufstrich",
+              "visible": true
+            },
+            {
+              "id": "service-block-0135",
+              "title": "",
+              "text": "abräumen",
+              "visible": true
+            },
+            {
+              "id": "service-block-0136",
+              "title": "",
+              "text": "Abräumen — Was & Wann",
+              "visible": true
+            },
+            {
+              "id": "service-block-0137",
+              "title": "",
+              "text": "Nach jedem Gang abräumen",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-16-vorspeise",
+          "title": "🥗 Vorspeise",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0138",
+              "title": "",
+              "text": "Teller + kleines Besteck",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-17-suppe",
+          "title": "🍲 Suppe",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0139",
+              "title": "",
+              "text": "Suppenteller + Löffel",
+              "visible": true
+            },
+            {
+              "id": "service-block-0140",
+              "title": "",
+              "text": "+ Brotteller, Brot & Aufstrich weg",
+              "visible": true
+            },
+            {
+              "id": "service-block-0141",
+              "title": "",
+              "text": "+ Olivenöl-Flasche weg (Feldberg & Schauinslandsaal)",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-18-hauptgang",
+          "title": "🍽️ Hauptgang",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0142",
+              "title": "",
+              "text": "Alles weg —",
+              "visible": true
+            },
+            {
+              "id": "service-block-0143",
+              "title": "",
+              "text": "Servietten & Wasserglas bleiben",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-19-immer",
+          "title": "✨ Immer",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0144",
+              "title": "",
+              "text": "Getränke beim Abräumen anbieten!",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-20-goldene-regel",
+          "title": "Goldene Regel",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0145",
+              "title": "",
+              "text": "Niemals leer laufen!",
+              "visible": true
+            },
+            {
+              "id": "service-block-0146",
+              "title": "",
+              "text": "Raus aus dem Restaurant?",
+              "visible": true
+            },
+            {
+              "id": "service-block-0147",
+              "title": "",
+              "text": "Schau auf den Guéridon & Tische — leere Teller, Gläser oder Flaschen mitnehmen.",
+              "visible": true
+            },
+            {
+              "id": "service-block-0148",
+              "title": "",
+              "text": "Rein ins Restaurant?",
+              "visible": true
+            },
+            {
+              "id": "service-block-0149",
+              "title": "",
+              "text": "Check ob Essen in der Küche wartet. Check ob Getränke an der Theke stehen.",
+              "visible": true
+            },
+            {
+              "id": "service-block-0150",
+              "title": "",
+              "text": "Bei Beschwerden",
+              "visible": true
+            },
+            {
+              "id": "service-block-0151",
+              "title": "",
+              "text": "Gast beschwert sich?",
+              "visible": true
+            },
+            {
+              "id": "service-block-0152",
+              "title": "",
+              "text": "Teamleitung rufen",
+              "visible": true
+            },
+            {
+              "id": "service-block-0153",
+              "title": "",
+              "text": "Nie selbst lösen oder diskutieren",
+              "visible": true
+            },
+            {
+              "id": "service-block-0154",
+              "title": "",
+              "text": "— die Teamleitung übernimmt.",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-21-fruhstuck",
+          "title": "Frühstück",
+          "visible": true,
+          "blocks": []
+        },
+        {
+          "id": "service-22-fruhstuck",
+          "title": "☀️ Frühstück",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0155",
+              "title": "",
+              "text": "Hausgäste",
+              "visible": true
+            },
+            {
+              "id": "service-block-0156",
+              "title": "",
+              "text": "Ab sofort bedienen",
+              "visible": true
+            },
+            {
+              "id": "service-block-0157",
+              "title": "",
+              "text": "ab 8:00",
+              "visible": true
+            },
+            {
+              "id": "service-block-0158",
+              "title": "",
+              "text": "Externe Gäste",
+              "visible": true
+            },
+            {
+              "id": "service-block-0159",
+              "title": "",
+              "text": "Modern · Büfett · Reservierung!",
+              "visible": true
+            },
+            {
+              "id": "service-block-0160",
+              "title": "",
+              "text": "Mittag bis Abend",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-23-tagesablauf",
+          "title": "🍽️ Tagesablauf",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0161",
+              "title": "",
+              "text": "Mittagessen à la carte",
+              "visible": true
+            },
+            {
+              "id": "service-block-0162",
+              "title": "",
+              "text": "Nur Stube & Terrasse",
+              "visible": true
+            },
+            {
+              "id": "service-block-0163",
+              "title": "",
+              "text": "Stube & Terrasse · inkl. Hauptgang",
+              "visible": true
+            },
+            {
+              "id": "service-block-0164",
+              "title": "",
+              "text": "Küchenpause",
+              "visible": true
+            },
+            {
+              "id": "service-block-0165",
+              "title": "",
+              "text": "Nur Getränke & Kuchen!",
+              "visible": true
+            },
+            {
+              "id": "service-block-0166",
+              "title": "",
+              "text": "Nur Modern & Stuben",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-24-kaffee-bar",
+          "title": "Kaffee & Bar",
+          "visible": true,
+          "blocks": []
+        },
+        {
+          "id": "service-25-kaffee-kuchen",
+          "title": "☕ Kaffee & Kuchen",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0167",
+              "title": "",
+              "text": "Terrasse & Kaminbar",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-26-nur-kaminbar",
+          "title": "🍸 Nur Kaminbar",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0168",
+              "title": "",
+              "text": "Cocktails & Bar Food",
+              "visible": true
+            },
+            {
+              "id": "service-block-0169",
+              "title": "",
+              "text": "Nur in der Kaminbar möglich",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-27-wichtig-fur-tagesgaste",
+          "title": "💡 Wichtig für Tagesgäste",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0170",
+              "title": "",
+              "text": "Tagesgäste brauchen",
+              "visible": true
+            },
+            {
+              "id": "service-block-0171",
+              "title": "",
+              "text": "für: Frühstück, Mittag & Abend.",
+              "visible": true
+            },
+            {
+              "id": "service-block-0172",
+              "title": "",
+              "text": "Nur Kaffee & Kuchen (14:30–16:30) ohne Reservierung möglich.",
+              "visible": true
+            },
+            {
+              "id": "service-block-0173",
+              "title": "",
+              "text": "Modern & Panorama",
+              "visible": true
+            },
+            {
+              "id": "service-block-0174",
+              "title": "",
+              "text": "Große Fenster · Bergblick · Helles Ambiente",
+              "visible": true
+            },
+            {
+              "id": "service-block-0175",
+              "title": "",
+              "text": "🌅 Frühstück HG · 🥘 Mittagsbuffet HG · 🍽️ Abendessen HG & à la carte",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-28-a-la-carte-vesperkarte-kaffee-kuchen-nur-s",
+          "title": "🥘 à la carte · 🥨 Vesperkarte · ☕ Kaffee & Kuchen · nur Sommer",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0176",
+              "title": "",
+              "text": "0 14px 14px",
+              "visible": true
+            },
+            {
+              "id": "service-block-0177",
+              "title": "",
+              "text": "Schlechtes Wetter?",
+              "visible": true
+            },
+            {
+              "id": "service-block-0178",
+              "title": "",
+              "text": "Terrasse zu → Stube oder Kaminbar (nicht hierher — mittags nur HG-Buffet!)",
+              "visible": true
+            },
+            {
+              "id": "service-block-0179",
+              "title": "",
+              "text": "Gemütlich & Rustikal",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-29-die-stuben",
+          "title": "Die Stuben",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0180",
+              "title": "",
+              "text": "Holz · Warm · Gemütlich · Rustikal",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-30-haldenstube",
+          "title": "🪵 Haldenstube",
+          "visible": true,
+          "blocks": []
+        },
+        {
+          "id": "service-31-bauernstube",
+          "title": "🌾 Bauernstube",
+          "visible": true,
+          "blocks": []
+        },
+        {
+          "id": "service-32-rosslestube",
+          "title": "🦌 Rösslestube",
+          "visible": true,
+          "blocks": []
+        },
+        {
+          "id": "service-33-mittagessen-a-la-carte-vesperkarte-abendes",
+          "title": "🥘 Mittagessen à la carte · 🥨 Vesperkarte · 🍽️ Abendessen",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0181",
+              "title": "",
+              "text": "Gäste von Terrasse hierher oder in Kaminbar",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-34-bar-lounge",
+          "title": "Bar & Lounge",
+          "visible": true,
+          "blocks": []
+        },
+        {
+          "id": "service-35-kaffee-kuchen",
+          "title": "Kaffee & Kuchen",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0182",
+              "title": "",
+              "text": "Ab 17:30 – 22:00 Uhr",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-36-speisen-empfehlungen",
+          "title": "🍽️ Speisen & Empfehlungen",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0183",
+              "title": "",
+              "text": "Woher kommen die Produkte? Und welcher Wein passt dazu?",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-37-regional-saisonal-ehrlich",
+          "title": "🌿 Regional · Saisonal · Ehrlich",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0184",
+              "title": "",
+              "text": "— Wild aus eigener Jagd, Forellen von Familie Tress aus dem Wutachtal, Ziegenkäse vom Ringlihof in Horben, Kaffee von Puro Fairtrade. Das ist kein Marketing — das ist echt.",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-38-weinempfehlung-prinzip",
+          "title": "Weinempfehlung — Prinzip",
+          "visible": true,
+          "blocks": []
+        },
+        {
+          "id": "service-39-wild-ragout",
+          "title": "🦌 Wild & Ragout",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0185",
+              "title": "",
+              "text": "Kräftiger Rotwein — z.B. Spätburgunder",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-40-rind-kalb",
+          "title": "🐄 Rind & Kalb",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0186",
+              "title": "",
+              "text": "Rotwein oder kräftiger Weisswein",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-41-fisch-meeresfruchte",
+          "title": "🐟 Fisch & Meeresfrüchte",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0187",
+              "title": "",
+              "text": "Frischer Weisswein — Sauvignon Blanc, Riesling",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-42-vegetarisch",
+          "title": "🥦 Vegetarisch",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0188",
+              "title": "",
+              "text": "Leichter Weisswein — Grauburgunder, Riesling",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-43-kase",
+          "title": "🧀 Käse",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0189",
+              "title": "",
+              "text": "Süsswein — Auslese oder Dessertwein",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-44-salate-vorspeisen",
+          "title": "🥗 Salate & Vorspeisen",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0190",
+              "title": "",
+              "text": "Leichter Weisswein oder Rosé",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-45-immer-zuerst-fragen",
+          "title": "💡 Immer zuerst fragen:",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0191",
+              "title": "",
+              "text": "„Trinken Sie lieber etwas Leichtes oder Kräftiges?\"",
+              "visible": true
+            },
+            {
+              "id": "service-block-0192",
+              "title": "",
+              "text": "— dann gezielt empfehlen. Bei Unsicherheit: Stationskellner einbinden!",
+              "visible": true
+            },
+            {
+              "id": "service-block-0193",
+              "title": "",
+              "text": "Rehragout aus der Halde Jagd",
+              "visible": true
+            },
+            {
+              "id": "service-block-0194",
+              "title": "",
+              "text": "Cremiger Wirsing · Pilze · Preiselbeeren · Spätzle",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-46-eigene-jagd",
+          "title": "🌲 Eigene Jagd",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0195",
+              "title": "",
+              "text": "Kräftiger Spätburgunder",
+              "visible": true
+            },
+            {
+              "id": "service-block-0196",
+              "title": "",
+              "text": "Sauerkirsche, Würze — passt perfekt zu Wild",
+              "visible": true
+            },
+            {
+              "id": "service-block-0197",
+              "title": "",
+              "text": "Kräftiger Rotwein-Cuvée",
+              "visible": true
+            },
+            {
+              "id": "service-block-0198",
+              "title": "",
+              "text": "Dunkelfruchtig — ideal zu Wildragout",
+              "visible": true
+            },
+            {
+              "id": "service-block-0199",
+              "title": "",
+              "text": "Badischer Rostbraten · rosa gebraten",
+              "visible": true
+            },
+            {
+              "id": "service-block-0200",
+              "title": "",
+              "text": "Geschmälzte Zwiebeln · Speck · Bohnengemüse · Spätzle",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-47-munstertal-hofsgrund",
+          "title": "🐄 Münstertal / Hofsgrund",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0201",
+              "title": "",
+              "text": "Spätburgunder vom Kaiserstuhl",
+              "visible": true
+            },
+            {
+              "id": "service-block-0202",
+              "title": "",
+              "text": "Kraft — passt zu Rindfleisch",
+              "visible": true
+            },
+            {
+              "id": "service-block-0203",
+              "title": "",
+              "text": "Kräftiger Rotwein",
+              "visible": true
+            },
+            {
+              "id": "service-block-0204",
+              "title": "",
+              "text": "Tiefdunkel, schwarze Kirschen — elegant und kräftig",
+              "visible": true
+            },
+            {
+              "id": "service-block-0205",
+              "title": "",
+              "text": "Gebratenes Wildlachsfilet",
+              "visible": true
+            },
+            {
+              "id": "service-block-0206",
+              "title": "",
+              "text": "Kohlrabigemüse · konfierte Kirschtomaten · Venere Reis",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-48-wutachtal",
+          "title": "🐟 Wutachtal",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0207",
+              "title": "",
+              "text": "Sauvignon Blanc (frisch, fruchtig)",
+              "visible": true
+            },
+            {
+              "id": "service-block-0208",
+              "title": "",
+              "text": "Unser Lieblingswein — perfekt zu Fisch",
+              "visible": true
+            },
+            {
+              "id": "service-block-0209",
+              "title": "",
+              "text": "Gutedel / Chasselas",
+              "visible": true
+            },
+            {
+              "id": "service-block-0210",
+              "title": "",
+              "text": "Leicht, mineralisch — klassische Fischempfehlung",
+              "visible": true
+            },
+            {
+              "id": "service-block-0211",
+              "title": "",
+              "text": "Blumenkohl-Auberginen Lasagne",
+              "visible": true
+            },
+            {
+              "id": "service-block-0212",
+              "title": "",
+              "text": "Tomatencoulis · gebratene Pommes Parisiennes",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-49-vegetarisch",
+          "title": "🌱 Vegetarisch",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0213",
+              "title": "",
+              "text": "Grauburgunder (trocken)",
+              "visible": true
+            },
+            {
+              "id": "service-block-0214",
+              "title": "",
+              "text": "Mineralisch — passt zu Gemüsegerichten",
+              "visible": true
+            },
+            {
+              "id": "service-block-0215",
+              "title": "",
+              "text": "Riesling (leicht)",
+              "visible": true
+            },
+            {
+              "id": "service-block-0216",
+              "title": "",
+              "text": "Frisch, fruchtig — hebt Tomatensauce perfekt an",
+              "visible": true
+            },
+            {
+              "id": "service-block-0217",
+              "title": "",
+              "text": "Paniertes Schnitzel vom Kalb",
+              "visible": true
+            },
+            {
+              "id": "service-block-0218",
+              "title": "",
+              "text": "Preiselbeeren · Pommes Frites · Zitrone",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-50-munstertal",
+          "title": "🐄 Münstertal",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0219",
+              "title": "",
+              "text": "Weissburgunder & Chardonnay (HausCuvée)",
+              "visible": true
+            },
+            {
+              "id": "service-block-0220",
+              "title": "",
+              "text": "Frisch, ausgewogen, klassisch zu Kalb",
+              "visible": true
+            },
+            {
+              "id": "service-block-0221",
+              "title": "",
+              "text": "Riesling (feinherb)",
+              "visible": true
+            },
+            {
+              "id": "service-block-0222",
+              "title": "",
+              "text": "Elegant zu Kalbfleisch",
+              "visible": true
+            },
+            {
+              "id": "service-block-0223",
+              "title": "",
+              "text": "Laktosefrei + Glutenfrei!",
+              "visible": true
+            },
+            {
+              "id": "service-block-0224",
+              "title": "",
+              "text": "Schokoladennussboden · pochierte Birne · Vanillecrème",
+              "visible": true
+            },
+            {
+              "id": "service-block-0225",
+              "title": "",
+              "text": "Schwarzwälder Kirschtorte",
+              "visible": true
+            },
+            {
+              "id": "service-block-0226",
+              "title": "",
+              "text": "⚠️ Enthält Kirschwasser!",
+              "visible": true
+            },
+            {
+              "id": "service-block-0227",
+              "title": "",
+              "text": "Schokobiskuit · Schattenmorellen · Kirschwasser · Sahne",
+              "visible": true
+            },
+            {
+              "id": "service-block-0228",
+              "title": "",
+              "text": "Apfelstrudel aus dem Ofen",
+              "visible": true
+            },
+            {
+              "id": "service-block-0229",
+              "title": "",
+              "text": "9,50 € · +1,50 mit Eis",
+              "visible": true
+            },
+            {
+              "id": "service-block-0230",
+              "title": "",
+              "text": "Warm servieren!",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-51-wissen-51",
+          "title": "Wissen 51",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0231",
+              "title": "",
+              "text": "Mit Vanillesauce · optional mit Vanilleeis",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-52-kaffee-von-puro-fairtrade",
+          "title": "Kaffee von Puro Fairtrade",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0232",
+              "title": "",
+              "text": "Puro Fairtrade Coffee",
+              "visible": true
+            },
+            {
+              "id": "service-block-0233",
+              "title": "",
+              "text": "— wächst im Schatten von Regenwaldbäumen. Ein Teil des Erlöses schützt den Regenwald. Das ist eine echte Geschichte — erzähl sie den Gästen!",
+              "visible": true
+            },
+            {
+              "id": "service-block-0234",
+              "title": "",
+              "text": "Espresso / Macchiato",
+              "visible": true
+            },
+            {
+              "id": "service-block-0235",
+              "title": "",
+              "text": "Latte Macchiato / Milchkaffee",
+              "visible": true
+            },
+            {
+              "id": "service-block-0236",
+              "title": "",
+              "text": "Heiße Schokolade mit Sahne",
+              "visible": true
+            },
+            {
+              "id": "service-block-0237",
+              "title": "",
+              "text": "Hafermilch auf Wunsch",
+              "visible": true
+            },
+            {
+              "id": "service-block-0238",
+              "title": "",
+              "text": "Pornstar Martini",
+              "visible": true
+            },
+            {
+              "id": "service-block-0239",
+              "title": "",
+              "text": "4 cl",
+              "visible": true
+            },
+            {
+              "id": "service-block-0240",
+              "title": "",
+              "text": "Passionsfruchtpüree",
+              "visible": true
+            },
+            {
+              "id": "service-block-0241",
+              "title": "",
+              "text": "3 cl",
+              "visible": true
+            },
+            {
+              "id": "service-block-0242",
+              "title": "",
+              "text": "1 cl",
+              "visible": true
+            },
+            {
+              "id": "service-block-0243",
+              "title": "",
+              "text": "Alle Zutaten mit Eis in den Shaker",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-53-wissen-53",
+          "title": "Wissen 53",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0244",
+              "title": "",
+              "text": "Kräftig shaken (10–15 Sek.) bis der Shaker eiskalt ist",
+              "visible": true
+            },
+            {
+              "id": "service-block-0245",
+              "title": "",
+              "text": "Durch Doppelsieb in gekühltes Martiniglas abseihen",
+              "visible": true
+            },
+            {
+              "id": "service-block-0246",
+              "title": "",
+              "text": "Mit Passionsfrucht-Hälfte garnieren",
+              "visible": true
+            },
+            {
+              "id": "service-block-0247",
+              "title": "",
+              "text": "Shaker gut kalt halten — warmer Shaker = schlechter Schaum!",
+              "visible": true
+            },
+            {
+              "id": "service-block-0248",
+              "title": "",
+              "text": "Espresso Martini",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-54-kaffeelikor-z-b-kahlua",
+          "title": "Kaffeelikör (z.B. Kahlúa)",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0249",
+              "title": "",
+              "text": "2 cl",
+              "visible": true
+            },
+            {
+              "id": "service-block-0250",
+              "title": "",
+              "text": "Frischer Espresso (kalt)",
+              "visible": true
+            },
+            {
+              "id": "service-block-0251",
+              "title": "",
+              "text": "Espresso vorher ziehen und abkühlen lassen",
+              "visible": true
+            },
+            {
+              "id": "service-block-0252",
+              "title": "",
+              "text": "Alle Zutaten mit viel Eis shaken — sehr kräftig!",
+              "visible": true
+            },
+            {
+              "id": "service-block-0253",
+              "title": "",
+              "text": "Durch Doppelsieb in Martiniglas — der Schaum entsteht beim Abseihen",
+              "visible": true
+            },
+            {
+              "id": "service-block-0254",
+              "title": "",
+              "text": "3 Kaffeebohnen als Garnitur obenauf",
+              "visible": true
+            },
+            {
+              "id": "service-block-0255",
+              "title": "",
+              "text": "Je kälter der Espresso und je kräftiger das Shaken, desto besser der cremige Schaum!",
+              "visible": true
+            },
+            {
+              "id": "service-block-0256",
+              "title": "",
+              "text": "Whiskey Sour",
+              "visible": true
+            },
+            {
+              "id": "service-block-0257",
+              "title": "",
+              "text": "Maker's Mark Bourbon",
+              "visible": true
+            },
+            {
+              "id": "service-block-0258",
+              "title": "",
+              "text": "Zitronensaft (frisch)",
+              "visible": true
+            },
+            {
+              "id": "service-block-0259",
+              "title": "",
+              "text": "1,5 cl",
+              "visible": true
+            },
+            {
+              "id": "service-block-0260",
+              "title": "",
+              "text": "Eiweiß",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-55-wissen-55",
+          "title": "Wissen 55",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0261",
+              "title": "",
+              "text": "1 Stück",
+              "visible": true
+            },
+            {
+              "id": "service-block-0262",
+              "title": "",
+              "text": "Dry Shake: Alle Zutaten OHNE Eis shaken — für den Schaum",
+              "visible": true
+            },
+            {
+              "id": "service-block-0263",
+              "title": "",
+              "text": "Wet Shake: Eis dazu, nochmal kräftig shaken",
+              "visible": true
+            },
+            {
+              "id": "service-block-0264",
+              "title": "",
+              "text": "In Rocks-Glas mit Eis abseihen",
+              "visible": true
+            },
+            {
+              "id": "service-block-0265",
+              "title": "",
+              "text": "Mit Zitronenscheibe und Kirsche garnieren",
+              "visible": true
+            },
+            {
+              "id": "service-block-0266",
+              "title": "",
+              "text": "Dry Shake zuerst ist wichtig — gibt den schönen Eiweiß-Schaum obenauf!",
+              "visible": true
+            },
+            {
+              "id": "service-block-0267",
+              "title": "",
+              "text": "Amaretto Sour",
+              "visible": true
+            },
+            {
+              "id": "service-block-0268",
+              "title": "",
+              "text": "Dry Shake ohne Eis für den Schaum",
+              "visible": true
+            },
+            {
+              "id": "service-block-0269",
+              "title": "",
+              "text": "Eis hinzu und nochmal shaken",
+              "visible": true
+            },
+            {
+              "id": "service-block-0270",
+              "title": "",
+              "text": "In Rocks-Glas oder Coupette abseihen",
+              "visible": true
+            },
+            {
+              "id": "service-block-0271",
+              "title": "",
+              "text": "Gleiche Technik wie Whiskey Sour — Dry Shake nicht vergessen!",
+              "visible": true
+            },
+            {
+              "id": "service-block-0272",
+              "title": "",
+              "text": "Halde Negroni",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-56-wissen-56",
+          "title": "Wissen 56",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0273",
+              "title": "",
+              "text": "Roter Vermouth",
+              "visible": true
+            },
+            {
+              "id": "service-block-0274",
+              "title": "",
+              "text": "Alle Zutaten in Rührglas mit Eis rühren (nicht shaken!)",
+              "visible": true
+            },
+            {
+              "id": "service-block-0275",
+              "title": "",
+              "text": "In Rocks-Glas mit einem großen Eiswürfel abseihen",
+              "visible": true
+            },
+            {
+              "id": "service-block-0276",
+              "title": "",
+              "text": "Orangenschale ausdrücken und als Garnitur",
+              "visible": true
+            },
+            {
+              "id": "service-block-0277",
+              "title": "",
+              "text": "Negroni wird GERÜHRT, nicht geschüttelt — klarer, eleganter Cocktail!",
+              "visible": true
+            },
+            {
+              "id": "service-block-0278",
+              "title": "",
+              "text": "Old Fashioned",
+              "visible": true
+            },
+            {
+              "id": "service-block-0279",
+              "title": "",
+              "text": "Bourbon Whiskey",
+              "visible": true
+            },
+            {
+              "id": "service-block-0280",
+              "title": "",
+              "text": "5 cl",
+              "visible": true
+            },
+            {
+              "id": "service-block-0281",
+              "title": "",
+              "text": "Angostura Bitter",
+              "visible": true
+            },
+            {
+              "id": "service-block-0282",
+              "title": "",
+              "text": "2 Spritzer",
+              "visible": true
+            },
+            {
+              "id": "service-block-0283",
+              "title": "",
+              "text": "Zucker und Angostura im Glas kurz verrühren",
+              "visible": true
+            },
+            {
+              "id": "service-block-0284",
+              "title": "",
+              "text": "Bourbon hinzu, großen Eiswürfel rein",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-57-wissen-57",
+          "title": "Wissen 57",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0285",
+              "title": "",
+              "text": "Sanft rühren bis gut gekühlt",
+              "visible": true
+            },
+            {
+              "id": "service-block-0286",
+              "title": "",
+              "text": "Orangenzeste ausdrücken, über Rand reiben, als Garnitur",
+              "visible": true
+            },
+            {
+              "id": "service-block-0287",
+              "title": "",
+              "text": "Der Old Fashioned ist einer der ältesten Cocktails der Welt — Technik macht den Unterschied!",
+              "visible": true
+            },
+            {
+              "id": "service-block-0288",
+              "title": "",
+              "text": "Moscow Mule",
+              "visible": true
+            },
+            {
+              "id": "service-block-0289",
+              "title": "",
+              "text": "Limettensaft (frisch)",
+              "visible": true
+            },
+            {
+              "id": "service-block-0290",
+              "title": "",
+              "text": "1 Spritzer",
+              "visible": true
+            },
+            {
+              "id": "service-block-0291",
+              "title": "",
+              "text": "Spicy Ginger Ale",
+              "visible": true
+            },
+            {
+              "id": "service-block-0292",
+              "title": "",
+              "text": "auffüllen",
+              "visible": true
+            },
+            {
+              "id": "service-block-0293",
+              "title": "",
+              "text": "Kupferbecher (oder Glas) mit Eis füllen",
+              "visible": true
+            },
+            {
+              "id": "service-block-0294",
+              "title": "",
+              "text": "Wodka, Limette und Angostura hinzu",
+              "visible": true
+            },
+            {
+              "id": "service-block-0295",
+              "title": "",
+              "text": "Mit Ginger Ale auffüllen, sanft umrühren",
+              "visible": true
+            },
+            {
+              "id": "service-block-0296",
+              "title": "",
+              "text": "Limettenscheibe und Minze als Garnitur",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-58-wissen-58",
+          "title": "Wissen 58",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0297",
+              "title": "",
+              "text": "Ginger Ale nicht schütteln — Kohlensäure geht verloren!",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-59-unsere-cocktails",
+          "title": "🍸 Unsere Cocktails",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0298",
+              "title": "",
+              "text": "Zutaten, Mengen und Schritt-für-Schritt Zubereitung für die Kaminbar.",
+              "visible": true
+            },
+            {
+              "id": "service-block-0299",
+              "title": "",
+              "text": "0 0 14px",
+              "visible": true
+            },
+            {
+              "id": "service-block-0300",
+              "title": "",
+              "text": "\"Das Essen ist kalt. So kann ich das nicht essen.\"",
+              "visible": true
+            },
+            {
+              "id": "service-block-0301",
+              "title": "",
+              "text": "1. Sofort entschuldigen: „Es tut mir sehr leid, das darf nicht passieren.\" 2. Teller mitnehmen — nicht fragen, einfach handeln. 3. Teamleitung informieren — nie alleine lösen. 4. Rückmeldung: „In wenigen Minuten bekommen Sie ein frisches Gericht.\" 🚫 Nie sagen: „Das war warm als ich es brachte\" — kein Diskutieren!",
+              "visible": true
+            },
+            {
+              "id": "service-block-0302",
+              "title": "",
+              "text": "\"Wir warten jetzt schon 40 Minuten. Das ist inakzeptabel!\"",
+              "visible": true
+            },
+            {
+              "id": "service-block-0303",
+              "title": "",
+              "text": "1. Verständnis: „Das tut mir leid, das ist zu lange.\" 2. Sofort Teamleitung informieren — nie selbst in die Küche gehen! 3. Teamleitung entscheidet was angeboten wird. 4. Gast informieren: „Das Essen kommt in ca. X Minuten.\" 🚫 Nie versprechen was du nicht weißt — erst nachfragen, dann antworten!",
+              "visible": true
+            },
+            {
+              "id": "service-block-0304",
+              "title": "",
+              "text": "\"Der Wein schmeckt nach Korken.\"",
+              "visible": true
+            },
+            {
+              "id": "service-block-0305",
+              "title": "",
+              "text": "1. Ernstnehmen: „Vielen Dank, ich kümmere mich sofort.\" 2. Glas und Flasche mitnehmen — zum Stationsleiter. 3. Teamleitung entscheidet ob Wein korkt und was angeboten wird. 🚫 Nie selbst entscheiden ob der Wein gut oder schlecht ist!",
+              "visible": true
+            },
+            {
+              "id": "service-block-0306",
+              "title": "",
+              "text": "Ein Gast kommt rein. Du stehst an der Tür. Was ist dein erster Satz?",
+              "visible": true
+            },
+            {
+              "id": "service-block-0307",
+              "title": "",
+              "text": "„Guten Abend, herzlich willkommen, mein Name ist [Name] — darf ich nach Ihrem Namen fragen?\" → Augenkontakt bis zur Augenfarbe, aufrechte Körperhaltung, auf den Gast zugehen! 🚫 Nie: „Haben Sie reserviert?\"",
+              "visible": true
+            },
+            {
+              "id": "service-block-0308",
+              "title": "",
+              "text": "Gast hat Aperitif bestellt. Du bringst ihn zum Tisch. Was sagst du?",
+              "visible": true
+            },
+            {
+              "id": "service-block-0309",
+              "title": "",
+              "text": "Produkt betonen! → „Ihr Winzer Sekt, bitte sehr.\" — mit Augenkontakt, deutlich und selbstbewusst aussprechen. Wir sprechen ALLE Produkte aus wenn wir servieren — das ist Wertschätzung und Verkauf zugleich.",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-60-wissen-60",
+          "title": "Wissen 60",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0310",
+              "title": "",
+              "text": "Du nimmst die Bestellung auf. Gast bestellt nur einen Hauptgang. Was fragst du?",
+              "visible": true
+            },
+            {
+              "id": "service-block-0311",
+              "title": "",
+              "text": "Aktiv 2 passende Vorspeisen anbieten! → „Darf ich Ihnen noch etwas empfehlen — heute haben wir eine tolle [Vorspeise] oder den [Salat] als Start.\" Dann nach Getränken fragen: „Möchten Sie zum Essen einen Weißwein, Rotwein oder unsere Weinbegleitung?\"",
+              "visible": true
+            },
+            {
+              "id": "service-block-0312",
+              "title": "",
+              "text": "Gast hat Hauptgang fertig. Du räumst ab. Was bietest du aktiv an?",
+              "visible": true
+            },
+            {
+              "id": "service-block-0313",
+              "title": "",
+              "text": "1. Abräumen: Teller, Besteck, Menagen — Servietten & Wasserglas bleiben! 2. Getränke nachschenken anbieten. 3. Dessertkarte in die Hand nehmen und 2–3 Desserts aktiv nennen. Erst DANACH Kaffee anbieten!",
+              "visible": true
+            },
+            {
+              "id": "service-block-0314",
+              "title": "",
+              "text": "\"Ich habe das Rehragout bestellt. Können Sie mir einen passenden Wein empfehlen?\"",
+              "visible": true
+            },
+            {
+              "id": "service-block-0315",
+              "title": "",
+              "text": "Zu Wild passt ein kräftiger Rotwein — Spätburgunder ist die klassische Wahl. Als Azubi: Ruhig den Stationskellner holen und aktiv mithören — so lernst du! 🚫 Nie „Ich weiß nicht\" — lieber Stationskellner holen als den Gast ohne Empfehlung stehen lassen!",
+              "visible": true
+            },
+            {
+              "id": "service-block-0316",
+              "title": "",
+              "text": "\"Ich kenne mich nicht so gut mit Wein aus — was empfehlen Sie zum Fisch?\"",
+              "visible": true
+            },
+            {
+              "id": "service-block-0317",
+              "title": "",
+              "text": "Sauvignon Blanc oder Riesling — beide frisch und fruchtig, ideal zu Fisch. Sag: „Beide sehr zugänglich — auch wenn man nicht so viel über Wein weiß.\" 🚫 Nicht zu viel Fachjargon beim Gast der sich nicht auskennt!",
+              "visible": true
+            },
+            {
+              "id": "service-block-0318",
+              "title": "",
+              "text": "\"Ich bin laktoseintolerant. Was kann ich hier essen?\"",
+              "visible": true
+            },
+            {
+              "id": "service-block-0319",
+              "title": "",
+              "text": "1. „Vielen Dank dass Sie das sagen, wir achten sehr darauf.\" 2. Stationskellner informieren — der klärt mit der Küche welche Gerichte geeignet sind. 3. Beim Bonnieren „laktosefrei\" auf dem Bon vermerken. Haldentorte ist laktose- UND glutenfrei — guter Tipp für Dessert!",
+              "visible": true
+            },
+            {
+              "id": "service-block-0320",
+              "title": "",
+              "text": "\"Mein Kind hat eine Nussallergie.\"",
+              "visible": true
+            },
+            {
+              "id": "service-block-0321",
+              "title": "",
+              "text": "Sofort ernst nehmen — Stationskellner SOFORT holen. Bei Kinderallergien keine Eigeninitiative! Auf dem Bon klar vermerken: „NUSSALLERGIE Kind, Tisch X\" — Küche wird explizit informiert. 🚫 Nie selbst entscheiden bei Allergien von Kindern!",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-61-beschwerde",
+          "title": "😟 Beschwerde",
+          "visible": true,
+          "blocks": []
+        },
+        {
+          "id": "service-62-drehbuch-praxis",
+          "title": "🎬 Drehbuch-Praxis",
+          "visible": true,
+          "blocks": []
+        },
+        {
+          "id": "service-63-weinempfehlung",
+          "title": "🍷 Weinempfehlung",
+          "visible": true,
+          "blocks": []
+        },
+        {
+          "id": "service-64-allergene",
+          "title": "⚠️ Allergene",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0322",
+              "title": "",
+              "text": "Power Briefing Rollenspiel",
+              "visible": true
+            },
+            {
+              "id": "service-block-0323",
+              "title": "",
+              "text": "Kategorie wählen → Situation → reagieren → Musterlösung aufdecken",
+              "visible": true
+            },
+            {
+              "id": "service-block-0324",
+              "title": "",
+              "text": "all .2s",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-65-situation",
+          "title": "🎭 Situation",
+          "visible": true,
+          "blocks": []
+        },
+        {
+          "id": "service-66-gast-sagt",
+          "title": "👤 Gast sagt:",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0325",
+              "title": "",
+              "text": "❓ Wie reagierst du?",
+              "visible": true
+            },
+            {
+              "id": "service-block-0326",
+              "title": "",
+              "text": "calc(100% - 32px)",
+              "visible": true
+            },
+            {
+              "id": "service-block-0327",
+              "title": "",
+              "text": "Musterlösung sichtbar ✅",
+              "visible": true
+            },
+            {
+              "id": "service-block-0328",
+              "title": "",
+              "text": "Musterlösung zeigen 👁️",
+              "visible": true
+            },
+            {
+              "id": "service-block-0329",
+              "title": "",
+              "text": "0 20px 20px",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-67-musterlosung",
+          "title": "✅ Musterlösung",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0330",
+              "title": "",
+              "text": "Nächste Situation 🔀",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-68-bier",
+          "title": "🍺 Bier",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0331",
+              "title": "",
+              "text": "Welche Brauerei liefert das Bier in der Halde?",
+              "visible": true
+            },
+            {
+              "id": "service-block-0332",
+              "title": "",
+              "text": "Paulaner München",
+              "visible": true
+            },
+            {
+              "id": "service-block-0333",
+              "title": "",
+              "text": "Privatbrauerei Ganter Freiburg",
+              "visible": true
+            },
+            {
+              "id": "service-block-0334",
+              "title": "",
+              "text": "Ganter ist eine Freiburger Traditionsbrauerei — regional, wie alles in der Halde!",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-69-wasser",
+          "title": "💧 Wasser",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0335",
+              "title": "",
+              "text": "Woher kommt das Halde-Hauswasser?",
+              "visible": true
+            },
+            {
+              "id": "service-block-0336",
+              "title": "",
+              "text": "Aus dem Supermarkt",
+              "visible": true
+            },
+            {
+              "id": "service-block-0337",
+              "title": "",
+              "text": "Aus der Halde-Bergquelle (Grander)",
+              "visible": true
+            },
+            {
+              "id": "service-block-0338",
+              "title": "",
+              "text": "Aus Bad Dürrheim",
+              "visible": true
+            },
+            {
+              "id": "service-block-0339",
+              "title": "",
+              "text": "Vom Bodensee",
+              "visible": true
+            },
+            {
+              "id": "service-block-0340",
+              "title": "",
+              "text": "Grander Bergquellwasser von unserer eigenen Hausbergquelle — einzigartig!",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-70-zeiten",
+          "title": "🕐 Zeiten",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0341",
+              "title": "",
+              "text": "Wann gibt es Cocktails in der Kaminbar?",
+              "visible": true
+            },
+            {
+              "id": "service-block-0342",
+              "title": "",
+              "text": "Den ganzen Tag",
+              "visible": true
+            },
+            {
+              "id": "service-block-0343",
+              "title": "",
+              "text": "Ab 12:30 Uhr",
+              "visible": true
+            },
+            {
+              "id": "service-block-0344",
+              "title": "",
+              "text": "Ab 17:30 Uhr",
+              "visible": true
+            },
+            {
+              "id": "service-block-0345",
+              "title": "",
+              "text": "Ab 20:00 Uhr",
+              "visible": true
+            },
+            {
+              "id": "service-block-0346",
+              "title": "",
+              "text": "Cocktails und Bar Food ab 17:30 Uhr — die Kaminbar selbst bis 23:00 Uhr.",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-71-kaffee",
+          "title": "☕ Kaffee",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0347",
+              "title": "",
+              "text": "Von welcher Marke kommt unser Kaffee?",
+              "visible": true
+            },
+            {
+              "id": "service-block-0348",
+              "title": "",
+              "text": "Puro Fairtrade — wächst im Schatten von Regenwaldbäumen. Ein Teil des Erlöses schützt den Regenwald!",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-72-basics",
+          "title": "🍸 Basics",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0349",
+              "title": "",
+              "text": "Was ist ein Aperitif?",
+              "visible": true
+            },
+            {
+              "id": "service-block-0350",
+              "title": "",
+              "text": "Getränk nach dem Essen",
+              "visible": true
+            },
+            {
+              "id": "service-block-0351",
+              "title": "",
+              "text": "Getränk vor dem Essen",
+              "visible": true
+            },
+            {
+              "id": "service-block-0352",
+              "title": "",
+              "text": "Immer alkoholfrei",
+              "visible": true
+            },
+            {
+              "id": "service-block-0353",
+              "title": "",
+              "text": "Ein Schaumwein",
+              "visible": true
+            },
+            {
+              "id": "service-block-0354",
+              "title": "",
+              "text": "Aperitif = vor dem Essen. Digestif = nach dem Essen. Wichtiger Unterschied!",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-73-drehbuch",
+          "title": "🎬 Drehbuch",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0355",
+              "title": "",
+              "text": "Welche Aussage über Beschwerden ist richtig?",
+              "visible": true
+            },
+            {
+              "id": "service-block-0356",
+              "title": "",
+              "text": "Selbst lösen ist am schnellsten",
+              "visible": true
+            },
+            {
+              "id": "service-block-0357",
+              "title": "",
+              "text": "Erst entschuldigen, dann Teamleitung holen",
+              "visible": true
+            },
+            {
+              "id": "service-block-0358",
+              "title": "",
+              "text": "Diskutieren wenn der Gast Unrecht hat",
+              "visible": true
+            },
+            {
+              "id": "service-block-0359",
+              "title": "",
+              "text": "Einfach ignorieren",
+              "visible": true
+            },
+            {
+              "id": "service-block-0360",
+              "title": "",
+              "text": "Das Reklamationsgesetz: Entschuldigen → Teamleitung → Danke sagen → Was kann ich tun?",
+              "visible": true
+            },
+            {
+              "id": "service-block-0361",
+              "title": "",
+              "text": "Wann soll die Karte vom Tisch genommen werden?",
+              "visible": true
+            },
+            {
+              "id": "service-block-0362",
+              "title": "",
+              "text": "Sofort wenn du am Tisch bist",
+              "visible": true
+            },
+            {
+              "id": "service-block-0363",
+              "title": "",
+              "text": "Erst nachdem die Speisenbestellung aufgenommen ist",
+              "visible": true
+            },
+            {
+              "id": "service-block-0364",
+              "title": "",
+              "text": "Beim Dessert",
+              "visible": true
+            },
+            {
+              "id": "service-block-0365",
+              "title": "",
+              "text": "Erst am Ende",
+              "visible": true
+            },
+            {
+              "id": "service-block-0366",
+              "title": "",
+              "text": "Karte bleibt solange am Tisch bis Speisenbestellung aufgenommen ist — Zeichen setzen!",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-74-wissen-74",
+          "title": "Wissen 74",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0367",
+              "title": "",
+              "text": "Was ist der richtige Begrüßungssatz beim Empfangen?",
+              "visible": true
+            },
+            {
+              "id": "service-block-0368",
+              "title": "",
+              "text": "„Haben Sie reserviert?\"",
+              "visible": true
+            },
+            {
+              "id": "service-block-0369",
+              "title": "",
+              "text": "„Guten Abend, herzlich willkommen, mein Name ist...\"",
+              "visible": true
+            },
+            {
+              "id": "service-block-0370",
+              "title": "",
+              "text": "„Tisch für wie viele?\"",
+              "visible": true
+            },
+            {
+              "id": "service-block-0371",
+              "title": "",
+              "text": "„Was kann ich für Sie tun?\"",
+              "visible": true
+            },
+            {
+              "id": "service-block-0372",
+              "title": "",
+              "text": "Nie „Haben Sie reserviert?\" — immer herzlich willkommen heißen ZUERST!",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-75-cocktails",
+          "title": "🍸 Cocktails",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0373",
+              "title": "",
+              "text": "Was sind die Zutaten eines Espresso Martini?",
+              "visible": true
+            },
+            {
+              "id": "service-block-0374",
+              "title": "",
+              "text": "Rum, Kaffee, Sahne",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-76-kaffeelikor-espresso-wodka",
+          "title": "Kaffeelikör, Espresso, Wodka",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0375",
+              "title": "",
+              "text": "Gin, Espresso, Zitrone",
+              "visible": true
+            },
+            {
+              "id": "service-block-0376",
+              "title": "",
+              "text": "Vodka, Milch, Zucker",
+              "visible": true
+            },
+            {
+              "id": "service-block-0377",
+              "title": "",
+              "text": "Kaffeelikör + Espresso + Wodka — Liebling der Bar! 11,00 Euro.",
+              "visible": true
+            },
+            {
+              "id": "service-block-0378",
+              "title": "",
+              "text": "Was ist ein Moscow Mule?",
+              "visible": true
+            },
+            {
+              "id": "service-block-0379",
+              "title": "",
+              "text": "Rum, Cola, Limette",
+              "visible": true
+            },
+            {
+              "id": "service-block-0380",
+              "title": "",
+              "text": "Wodka, Limettensaft, Angostura, Spicy Ginger Ale",
+              "visible": true
+            },
+            {
+              "id": "service-block-0381",
+              "title": "",
+              "text": "Gin, Tonic, Gurke",
+              "visible": true
+            },
+            {
+              "id": "service-block-0382",
+              "title": "",
+              "text": "Whisky, Zitrone, Honig",
+              "visible": true
+            },
+            {
+              "id": "service-block-0383",
+              "title": "",
+              "text": "Wodka, Limette, Angostura, Spicy Ginger Ale — 11 Euro.",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-77-wein",
+          "title": "🍷 Wein",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0384",
+              "title": "",
+              "text": "Was bedeutet \"trocken\" beim Wein?",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-78-der-wein-hat-wenig-alkohol",
+          "title": "Der Wein hat wenig Alkohol",
+          "visible": true,
+          "blocks": []
+        },
+        {
+          "id": "service-79-der-wein-hat-wenig-restzucker",
+          "title": "Der Wein hat wenig Restzucker",
+          "visible": true,
+          "blocks": []
+        },
+        {
+          "id": "service-80-der-wein-ist-alt",
+          "title": "Der Wein ist alt",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0385",
+              "title": "",
+              "text": "Er kommt aus Südeuropa",
+              "visible": true
+            },
+            {
+              "id": "service-block-0386",
+              "title": "",
+              "text": "Trocken = wenig Restzucker (unter 4g/l). Halbtrocken etwas süßer, lieblich viel Zucker.",
+              "visible": true
+            },
+            {
+              "id": "service-block-0387",
+              "title": "",
+              "text": "Was macht man nach dem Hauptgang SOFORT?",
+              "visible": true
+            },
+            {
+              "id": "service-block-0388",
+              "title": "",
+              "text": "Rechnung bringen",
+              "visible": true
+            },
+            {
+              "id": "service-block-0389",
+              "title": "",
+              "text": "Teller und Besteck abräumen, Dessertkarte in die Hand nehmen",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-81-kaffee-anbieten",
+          "title": "Kaffee anbieten",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0390",
+              "title": "",
+              "text": "Gast fragen ob er Pause möchte",
+              "visible": true
+            },
+            {
+              "id": "service-block-0391",
+              "title": "",
+              "text": "Was ist die beste Technik beim 2. Getränk anbieten?",
+              "visible": true
+            },
+            {
+              "id": "service-block-0392",
+              "title": "",
+              "text": "„Noch eins?\"",
+              "visible": true
+            },
+            {
+              "id": "service-block-0393",
+              "title": "",
+              "text": "„Noch ein Bier?\" (nicken)",
+              "visible": true
+            },
+            {
+              "id": "service-block-0394",
+              "title": "",
+              "text": "„Noch ein Bier — oder lieber jetzt einen Wein?\"",
+              "visible": true
+            },
+            {
+              "id": "service-block-0395",
+              "title": "",
+              "text": "Nichts sagen und warten",
+              "visible": true
+            },
+            {
+              "id": "service-block-0396",
+              "title": "",
+              "text": "Am besten mit Alternative anbieten! So bietest du aktiv ein zweites Getränk an — das ist Umsatz und Service zugleich.",
+              "visible": true
+            },
+            {
+              "id": "service-block-0397",
+              "title": "",
+              "text": "Grundsatz beim Kassensystem:",
+              "visible": true
+            },
+            {
+              "id": "service-block-0398",
+              "title": "",
+              "text": "Zuerst servieren, dann bonnieren",
+              "visible": true
+            },
+            {
+              "id": "service-block-0399",
+              "title": "",
+              "text": "Keine Ware ohne Bon!",
+              "visible": true
+            },
+            {
+              "id": "service-block-0400",
+              "title": "",
+              "text": "Nur am Ende alles eingeben",
+              "visible": true
+            },
+            {
+              "id": "service-block-0401",
+              "title": "",
+              "text": "Bon ist optional bei kleinen Bestellungen",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-82-wissen-82",
+          "title": "Wissen 82",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0402",
+              "title": "",
+              "text": "KEINE WARE OHNE BON — das ist ein absoluter Grundsatz!",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-83-speisen",
+          "title": "🧀 Speisen",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0403",
+              "title": "",
+              "text": "Was ist besonders an der Haldentorte?",
+              "visible": true
+            },
+            {
+              "id": "service-block-0404",
+              "title": "",
+              "text": "Enthält Kirschwasser",
+              "visible": true
+            },
+            {
+              "id": "service-block-0405",
+              "title": "",
+              "text": "Laktosefrei UND glutenfrei",
+              "visible": true
+            },
+            {
+              "id": "service-block-0406",
+              "title": "",
+              "text": "Nur abends erhältlich",
+              "visible": true
+            },
+            {
+              "id": "service-block-0407",
+              "title": "",
+              "text": "Kommt aus dem Ofen",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-84-wein-zu-speise",
+          "title": "🦌 Wein zu Speise",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0408",
+              "title": "",
+              "text": "Ein Gast bestellt das Rehragout. Was empfiehlst du?",
+              "visible": true
+            },
+            {
+              "id": "service-block-0409",
+              "title": "",
+              "text": "Gutedel weiss",
+              "visible": true
+            },
+            {
+              "id": "service-block-0410",
+              "title": "",
+              "text": "Riesling feinherb",
+              "visible": true
+            },
+            {
+              "id": "service-block-0411",
+              "title": "",
+              "text": "Aperol Sprizz",
+              "visible": true
+            },
+            {
+              "id": "service-block-0412",
+              "title": "",
+              "text": "Zu Wild passt Rotwein — kräftiger Spätburgunder mit Sauerkirsche, Würze. Die Flaschenweinauswahl täglich prüfen!",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-85-wein-zu-speise",
+          "title": "🐟 Wein zu Speise",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0413",
+              "title": "",
+              "text": "Gast bestellt Wildlachsfilet. Welcher Weinstil passt?",
+              "visible": true
+            },
+            {
+              "id": "service-block-0414",
+              "title": "",
+              "text": "Frischer, fruchtiger Sauvignon Blanc",
+              "visible": true
+            },
+            {
+              "id": "service-block-0415",
+              "title": "",
+              "text": "Ein Bier",
+              "visible": true
+            },
+            {
+              "id": "service-block-0416",
+              "title": "",
+              "text": "Tokaji Süsswein",
+              "visible": true
+            },
+            {
+              "id": "service-block-0417",
+              "title": "",
+              "text": "Sauvignon Blanc — frisch, fruchtig, perfekt zu Fisch. Immer die offene Karte kennen!",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-86-wein-zu-speise",
+          "title": "🐄 Wein zu Speise",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0418",
+              "title": "",
+              "text": "Zum Kalbsschnitzel passt am besten...",
+              "visible": true
+            },
+            {
+              "id": "service-block-0419",
+              "title": "",
+              "text": "Weissburgunder oder Riesling (trocken)",
+              "visible": true
+            },
+            {
+              "id": "service-block-0420",
+              "title": "",
+              "text": "Dunkles Bier",
+              "visible": true
+            },
+            {
+              "id": "service-block-0421",
+              "title": "",
+              "text": "Süsswein",
+              "visible": true
+            },
+            {
+              "id": "service-block-0422",
+              "title": "",
+              "text": "Weissburgunder oder Riesling — frisch, ausgewogen, klassisch zu Kalb.",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-87-wein",
+          "title": "🧀 Wein",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0423",
+              "title": "",
+              "text": "Ein Gast möchte einen Süsswein zum Aperitif. Was empfiehlst du?",
+              "visible": true
+            },
+            {
+              "id": "service-block-0424",
+              "title": "",
+              "text": "Spätburgunder Barrique",
+              "visible": true
+            },
+            {
+              "id": "service-block-0425",
+              "title": "",
+              "text": "Auslese oder Dessertwein",
+              "visible": true
+            },
+            {
+              "id": "service-block-0426",
+              "title": "",
+              "text": "Chardonnay trocken",
+              "visible": true
+            },
+            {
+              "id": "service-block-0427",
+              "title": "",
+              "text": "Sekt brut",
+              "visible": true
+            },
+            {
+              "id": "service-block-0428",
+              "title": "",
+              "text": "Auslese oder Dessertwein (z.B. Rieslaner Auslese) — auf der Karte als Aperitif- und Dessertwein empfohlen!",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-88-regional",
+          "title": "🌿 Regional",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0429",
+              "title": "",
+              "text": "Was ist das Besondere an unserem Kaffee?",
+              "visible": true
+            },
+            {
+              "id": "service-block-0430",
+              "title": "",
+              "text": "Er ist der billigste",
+              "visible": true
+            },
+            {
+              "id": "service-block-0431",
+              "title": "",
+              "text": "Puro Fairtrade — Regenwald-Schutz",
+              "visible": true
+            },
+            {
+              "id": "service-block-0432",
+              "title": "",
+              "text": "Er kommt aus Frankreich",
+              "visible": true
+            },
+            {
+              "id": "service-block-0433",
+              "title": "",
+              "text": "Er ist entcoffeiniert",
+              "visible": true
+            },
+            {
+              "id": "service-block-0434",
+              "title": "",
+              "text": "Puro Fairtrade Coffee — wächst im Schatten von Regenwaldbäumen, Erlös schützt den Regenwald!",
+              "visible": true
+            },
+            {
+              "id": "service-block-0435",
+              "title": "",
+              "text": "Wähle dein Level",
+              "visible": true
+            },
+            {
+              "id": "service-block-0436",
+              "title": "",
+              "text": "Level 1",
+              "visible": true
+            },
+            {
+              "id": "service-block-0437",
+              "title": "",
+              "text": "Basics — Zeiten, Getränke, Drehbuch-Grundlagen",
+              "visible": true
+            },
+            {
+              "id": "service-block-0438",
+              "title": "",
+              "text": "Level 2",
+              "visible": true
+            },
+            {
+              "id": "service-block-0439",
+              "title": "",
+              "text": "Cocktails, Drehbuch, Speisekunde",
+              "visible": true
+            },
+            {
+              "id": "service-block-0440",
+              "title": "",
+              "text": "Level 3",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-89-weinempfehlungen-zur-speise",
+          "title": "Weinempfehlungen zur Speise",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0441",
+              "title": "",
+              "text": "Quiz starten →",
+              "visible": true
+            },
+            {
+              "id": "service-block-0442",
+              "title": "",
+              "text": "% richtig",
+              "visible": true
+            },
+            {
+              "id": "service-block-0443",
+              "title": "",
+              "text": "Ausgezeichnet!",
+              "visible": true
+            },
+            {
+              "id": "service-block-0444",
+              "title": "",
+              "text": "Sehr gut!",
+              "visible": true
+            },
+            {
+              "id": "service-block-0445",
+              "title": "",
+              "text": "Guter Anfang!",
+              "visible": true
+            },
+            {
+              "id": "service-block-0446",
+              "title": "",
+              "text": "Weiter üben!",
+              "visible": true
+            },
+            {
+              "id": "service-block-0447",
+              "title": "",
+              "text": "Nochmal 🔄",
+              "visible": true
+            },
+            {
+              "id": "service-block-0448",
+              "title": "",
+              "text": "Level wechseln",
+              "visible": true
+            },
+            {
+              "id": "service-block-0449",
+              "title": "",
+              "text": "✅ Richtig!",
+              "visible": true
+            },
+            {
+              "id": "service-block-0450",
+              "title": "",
+              "text": "❌ Nicht ganz.",
+              "visible": true
+            },
+            {
+              "id": "service-block-0451",
+              "title": "",
+              "text": "Weiter →",
+              "visible": true
+            },
+            {
+              "id": "service-block-0452",
+              "title": "",
+              "text": "Ergebnis sehen 🏆",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-90-laufen-tragen",
+          "title": "🚶 Laufen & Tragen",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0453",
+              "title": "",
+              "text": "Niemals leer laufen",
+              "visible": true
+            },
+            {
+              "id": "service-block-0454",
+              "title": "",
+              "text": "Immer leere Teller, Gläser oder Flaschen mitnehmen — rein und raus.",
+              "visible": true
+            },
+            {
+              "id": "service-block-0455",
+              "title": "",
+              "text": "Warmes Essen zuerst",
+              "visible": true
+            },
+            {
+              "id": "service-block-0456",
+              "title": "",
+              "text": "Nicht mit leeren Händen gehen",
+              "visible": true
+            },
+            {
+              "id": "service-block-0457",
+              "title": "",
+              "text": "Wenn du rausgehst, schau auf den Guéridon — immer etwas mitnehmen.",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-91-kommunikation",
+          "title": "💬 Kommunikation",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0458",
+              "title": "",
+              "text": "Augenkontakt halten",
+              "visible": true
+            },
+            {
+              "id": "service-block-0459",
+              "title": "",
+              "text": "Beim Sprechen immer den Gast anschauen — zeigt Respekt und Aufmerksamkeit.",
+              "visible": true
+            },
+            {
+              "id": "service-block-0460",
+              "title": "",
+              "text": "Getränke beim Abräumen anbieten",
+              "visible": true
+            },
+            {
+              "id": "service-block-0461",
+              "title": "",
+              "text": "Immer fragen: „Darf ich noch etwas nachschenken?\"",
+              "visible": true
+            },
+            {
+              "id": "service-block-0462",
+              "title": "",
+              "text": "Nicht über Gäste reden",
+              "visible": true
+            },
+            {
+              "id": "service-block-0463",
+              "title": "",
+              "text": "Im Restaurant nie über andere Gäste oder Kollegen sprechen — auch nicht leise.",
+              "visible": true
+            },
+            {
+              "id": "service-block-0464",
+              "title": "",
+              "text": "Kein Handy sichtbar",
+              "visible": true
+            },
+            {
+              "id": "service-block-0465",
+              "title": "",
+              "text": "Handy immer in der Tasche — nie am Tisch oder vor Gästen benutzen.",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-92-service-getranke",
+          "title": "🍷 Service & Getränke",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0466",
+              "title": "",
+              "text": "Wasserglas immer nachfüllen",
+              "visible": true
+            },
+            {
+              "id": "service-block-0467",
+              "title": "",
+              "text": "Wasserglas nie leer stehen lassen — das ist unser Standard.",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-93-wein-von-rechts-einschenken",
+          "title": "Wein von rechts einschenken",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0468",
+              "title": "",
+              "text": "Service von rechts — immer. Dame zuerst, dann Herr, dann Gastgeber zuletzt.",
+              "visible": true
+            },
+            {
+              "id": "service-block-0469",
+              "title": "",
+              "text": "Nie Gläser am Rand anfassen",
+              "visible": true
+            },
+            {
+              "id": "service-block-0470",
+              "title": "",
+              "text": "Immer am Stiel oder unteren Drittel — Fingerabdrücke auf dem Rand sind unprofessionell.",
+              "visible": true
+            },
+            {
+              "id": "service-block-0471",
+              "title": "",
+              "text": "Brot nicht nach der Suppe",
+              "visible": true
+            },
+            {
+              "id": "service-block-0472",
+              "title": "",
+              "text": "Brotteller, Brot und Aufstrich nach der Suppe abräumen — nicht erst beim Hauptgang.",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-94-beschwerden",
+          "title": "😟 Beschwerden",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0473",
+              "title": "",
+              "text": "Sofort entschuldigen",
+              "visible": true
+            },
+            {
+              "id": "service-block-0474",
+              "title": "",
+              "text": "Bei jeder Beschwerde: erst entschuldigen, dann Teamleitung rufen.",
+              "visible": true
+            },
+            {
+              "id": "service-block-0475",
+              "title": "",
+              "text": "Teamleitung informieren",
+              "visible": true
+            },
+            {
+              "id": "service-block-0476",
+              "title": "",
+              "text": "Nie alleine eine Beschwerde lösen — immer den Stationsleiter holen.",
+              "visible": true
+            },
+            {
+              "id": "service-block-0477",
+              "title": "",
+              "text": "Nie diskutieren",
+              "visible": true
+            },
+            {
+              "id": "service-block-0478",
+              "title": "",
+              "text": "Auch wenn der Gast unrecht hat — nie widersprechen. Teamleitung entscheidet.",
+              "visible": true
+            },
+            {
+              "id": "service-block-0479",
+              "title": "",
+              "text": "Nie \"Das war aber...\"",
+              "visible": true
+            },
+            {
+              "id": "service-block-0480",
+              "title": "",
+              "text": "Nie erklären oder rechtfertigen — einfach entschuldigen und handeln.",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-95-auftreten",
+          "title": "👔 Auftreten",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0481",
+              "title": "",
+              "text": "Uniform sauber und gepflegt",
+              "visible": true
+            },
+            {
+              "id": "service-block-0482",
+              "title": "",
+              "text": "Jeden Tag frische, saubere Uniform — das ist der erste Eindruck.",
+              "visible": true
+            },
+            {
+              "id": "service-block-0483",
+              "title": "",
+              "text": "Freundliches Lächeln",
+              "visible": true
+            },
+            {
+              "id": "service-block-0484",
+              "title": "",
+              "text": "Auch wenn es stressig ist — der Gast sieht nur dich, nicht den Stress dahinter.",
+              "visible": true
+            },
+            {
+              "id": "service-block-0485",
+              "title": "",
+              "text": "Nicht anlehnen oder sitzen",
+              "visible": true
+            },
+            {
+              "id": "service-block-0486",
+              "title": "",
+              "text": "Im Restaurant nie an der Wand lehnen oder lässig wirken.",
+              "visible": true
+            },
+            {
+              "id": "service-block-0487",
+              "title": "",
+              "text": "Keine privaten Gespräche",
+              "visible": true
+            },
+            {
+              "id": "service-block-0488",
+              "title": "",
+              "text": "Privates unter Kollegen nicht vor Gästen — immer professionell.",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-96-dos-don-ts",
+          "title": "✅ Dos & Don'ts",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0489",
+              "title": "",
+              "text": "Die wichtigsten Regeln für den täglichen Service — kurz, klar, direkt.",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-97-der-dyselmuthof",
+          "title": "Der Dyselmuthof",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0490",
+              "title": "",
+              "text": "Erste urkundliche Erwähnung als einfacher Bauernhof namens „Dyselmuthof\". Damals noch kein Hotel — nur ein Hof auf über 1.000 Meter Höhe im Schwarzwald.",
+              "visible": true
+            },
+            {
+              "id": "service-block-0491",
+              "title": "",
+              "text": "Bergbau & neuer Name",
+              "visible": true
+            },
+            {
+              "id": "service-block-0492",
+              "title": "",
+              "text": "Schürfrechte an umliegenden Erzgruben. Ab jetzt heißt er „Haldenhof\" — eine Halde ist ein Schutthügel beim Bergbau. Daher der Name!",
+              "visible": true
+            },
+            {
+              "id": "service-block-0493",
+              "title": "",
+              "text": "Offiziell Gastwirtschaft",
+              "visible": true
+            },
+            {
+              "id": "service-block-0494",
+              "title": "",
+              "text": "Die Halde bekommt offiziell das Recht zur Gästebewirtung. Damit beginnt die eigentliche Geschichte als Gasthaus — fast 700 Jahre bevor du hier angefangen hast! 😄",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-98-die-wichtigste-adresse",
+          "title": "Die wichtigste Adresse",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0495",
+              "title": "",
+              "text": "Nur in der Halde dürfen Hochzeiten gefeiert und Weinkäufe getätigt werden. Die Halde wird zur offiziellen Poststation auf der Berghöhe.",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-99-die-ersten-feriengaste",
+          "title": "Die ersten Feriengäste",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0496",
+              "title": "",
+              "text": "Ab jetzt kommen die ersten richtigen Urlaubsgäste. Wirt Emil Wißler baut das erste Gästehaus an und installiert sogar ein Telefon. Revolutionär!",
+              "visible": true
+            },
+            {
+              "id": "service-block-0497",
+              "title": "",
+              "text": "Großer Ausbau",
+              "visible": true
+            },
+            {
+              "id": "service-block-0498",
+              "title": "",
+              "text": "Haldenwirt Adolf Wißler erweitert das Hotel erheblich. 1931 entsteht ein „Strandbad\" — die Halde gehört jetzt zu den modernsten Häusern im Schwarzwald.",
+              "visible": true
+            },
+            {
+              "id": "service-block-0499",
+              "title": "",
+              "text": "Ende der Ära Wißler",
+              "visible": true
+            },
+            {
+              "id": "service-block-0500",
+              "title": "",
+              "text": "Nach über 400 Jahren verlässt die Familie Wißler die Halde. Das Anwesen wird verkauft — ein historischer Einschnitt.",
+              "visible": true
+            },
+            {
+              "id": "service-block-0501",
+              "title": "",
+              "text": "Neueröffnung — Familie Hegar",
+              "visible": true
+            },
+            {
+              "id": "service-block-0502",
+              "title": "",
+              "text": "Lucia und Martin Hegar eröffnen die Halde neu als modernes Wellness-Hotel. Das alte Denkmal wird behutsam renoviert — der Geist des Hauses bleibt erhalten.",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-100-das-bergspa-entsteht",
+          "title": "Das BergSpa entsteht",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0503",
+              "title": "",
+              "text": "Das neue BergSpa wird eröffnet — mit Sauna, Innen- und Außenpool und Blick auf den Feldberg.",
+              "visible": true
+            },
+            {
+              "id": "service-block-0504",
+              "title": "",
+              "text": "Die Halde gewinnt den Architekturpreis „Neues Bauen im Schwarzwald\" — Tradition und Moderne perfekt verbunden.",
+              "visible": true
+            },
+            {
+              "id": "service-block-0505",
+              "title": "",
+              "text": "Michelin & Stammgäste",
+              "visible": true
+            },
+            {
+              "id": "service-block-0506",
+              "title": "",
+              "text": "Im Michelin Guide gelistet, hunderte Stammgäste, eines der besten Berghotels im Schwarzwald. Wild aus eigener Jagd, Wasser aus der Hausbergquelle — regional durch und durch.",
+              "visible": true
+            },
+            {
+              "id": "service-block-0507",
+              "title": "",
+              "text": "Jahre Geschichte",
+              "visible": true
+            },
+            {
+              "id": "service-block-0508",
+              "title": "",
+              "text": "Die Halde ist kein normales Hotel. Hier wurde Gastfreundschaft gelebt, als es das Wort \"Hotel\" noch gar nicht gab. Wer hier arbeitet, ist Teil von etwas Besonderem.",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-101-seit-1142-oberried-1-147m",
+          "title": "⛰️ Seit 1142 · Oberried · 1.147m",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0509",
+              "title": "",
+              "text": "Erste Erwähnung",
+              "visible": true
+            },
+            {
+              "id": "service-block-0510",
+              "title": "",
+              "text": "Recht zur Gastwirtschaft",
+              "visible": true
+            },
+            {
+              "id": "service-block-0511",
+              "title": "",
+              "text": "Jahre Fam. Wißler",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-102-zimmer-apartments",
+          "title": "Zimmer & Apartments",
+          "visible": true,
+          "blocks": []
+        },
+        {
+          "id": "service-103-die-timeline-tippen-zum-offnen",
+          "title": "Die Timeline — Tippen zum Öffnen",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0512",
+              "title": "",
+              "text": "0 0 0 3px rgba(200,134,10,0.2)",
+              "visible": true
+            },
+            {
+              "id": "service-block-0513",
+              "title": "",
+              "text": "12 Levels · IHK-Standard",
+              "visible": true
+            },
+            {
+              "id": "service-block-0514",
+              "title": "",
+              "text": "Regeln & Ablauf",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-104-offnungszeiten",
+          "title": "Öffnungszeiten",
+          "visible": true,
+          "blocks": []
+        },
+        {
+          "id": "service-105-raume",
+          "title": "Räume",
+          "visible": true,
+          "blocks": []
+        },
+        {
+          "id": "service-106-restaurant-bar",
+          "title": "Restaurant & Bar",
+          "visible": true,
+          "blocks": []
+        },
+        {
+          "id": "service-107-wein-empfehlung",
+          "title": "Wein & Empfehlung",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0515",
+              "title": "",
+              "text": "7 Rezepte",
+              "visible": true
+            },
+            {
+              "id": "service-block-0516",
+              "title": "",
+              "text": "3 Levels",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-108-dos-don-ts",
+          "title": "Dos & Don'ts",
+          "visible": true,
+          "blocks": []
+        },
+        {
+          "id": "service-109-goldene-regeln",
+          "title": "Goldene Regeln",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0517",
+              "title": "",
+              "text": "Seit 1142",
+              "visible": true
+            },
+            {
+              "id": "service-block-0518",
+              "title": "",
+              "text": "'Cormorant Garamond', serif",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "service-110-service-restaurant-bar",
+          "title": "Service · Restaurant · Bar",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "service-block-0519",
+              "title": "",
+              "text": "0 4px 20px rgba(200,134,10,0.12)",
+              "visible": true
+            },
+            {
+              "id": "service-block-0520",
+              "title": "",
+              "text": "0 2px 8px rgba(0,0,0,0.3)",
+              "visible": true
+            },
+            {
+              "id": "service-block-0521",
+              "title": "",
+              "text": "scale(0.96)",
+              "visible": true
+            },
+            {
+              "id": "service-block-0522",
+              "title": "",
+              "text": "'DM Sans', sans-serif",
+              "visible": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "empfang",
+      "icon": "🔑",
+      "title": "Empfang & Hotel",
+      "description": "Anreise, Telefon, Zimmer, Reservierungen, Gruppen, BergSpa und Gästebetreuung.",
+      "visible": true,
+      "sections": [
+        {
+          "id": "empfang-01-empfangsregeln",
+          "title": "🤝 Empfangsregeln",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "empfang-block-0001",
+              "title": "",
+              "text": "Der Empfang setzt den Ton für den ganzen Aufenthalt. Jede Interaktion ist eine Chance.",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "empfang-02-die-3-empfangsregeln-nie-vergessen",
+          "title": "Die 3 Empfangsregeln — Nie vergessen",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "empfang-block-0002",
+              "title": "",
+              "text": "„Kommen Sie spontan oder haben Sie sich angemeldet?\"",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0003",
+              "title": "",
+              "text": "„Tut mir leid, wir sind ausreserviert\"",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0004",
+              "title": "",
+              "text": "Immer eine Alternative anbieten: Kaminbar, anderen Tag, Warteliste",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0005",
+              "title": "",
+              "text": "„Sie waren schon lange nicht mehr da\"",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0006",
+              "title": "",
+              "text": "„Schön, dass Sie wieder da sind!\"",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0007",
+              "title": "",
+              "text": "Schritt für Schritt",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0008",
+              "title": "",
+              "text": "Augenkontakt & Power House",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "empfang-03-der-erste-eindruck",
+          "title": "Der erste Eindruck",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "empfang-block-0009",
+              "title": "",
+              "text": "Auf den Gast zugehen — nie warten bis er zu dir kommt. Augenkontakt halten bis zur Augenfarbe. Aufrechte Körperhaltung (Power House). Ein echtes Lächeln.",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0010",
+              "title": "",
+              "text": "Der Gast entscheidet in den ersten 3 Sekunden wie er sich fühlt. Mach diese 3 Sekunden perfekt.",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "empfang-04-die-perfekte-begru-ung",
+          "title": "Die perfekte Begrüßung",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "empfang-block-0011",
+              "title": "",
+              "text": "Was du sagst — und was nie",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0012",
+              "title": "",
+              "text": "„Guten Abend, herzlich willkommen! Mein Name ist [Name] — darf ich nach Ihrem Namen fragen?\" Neu ankommende Gäste informieren: Empfehlung für frühe Essenszeit 17:30 Uhr — da freie Tischauswahl. Danach nach Verfügbarkeit.",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0013",
+              "title": "",
+              "text": "Den Namen des Gastes während des Aufenthalts mindestens 3× benutzen: 1. Begrüßung · 2. zwischendrin · 3. Abschied",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0014",
+              "title": "",
+              "text": "Wie und wohin",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0015",
+              "title": "",
+              "text": "„Schön, dass Sie bei uns sind, Herr/Frau [Name] — wo würden Sie heute gerne sitzen?\" (wenn noch viel Auswahl) Oder: „Wir haben heute für Sie einen Tisch in der Stube / im modernen Bereich vorgesehen.\" Externe Gäste: Hinweis auf Garderobe geben. Stuhl herausziehen. Kurz verabschieden mit Hinweis auf Serviceperson.",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0016",
+              "title": "",
+              "text": "Mustergespräch — Telefon",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "empfang-05-eingehender-anruf",
+          "title": "📞 Eingehender Anruf",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "empfang-block-0017",
+              "title": "",
+              "text": "„Hotel Die Halde, [Name], guten Tag — was kann ich für Sie tun?\"",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0018",
+              "title": "",
+              "text": "Anlass erfragen: „Was planen Sie denn? Welcher Anlass?\"",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0019",
+              "title": "",
+              "text": "Erklären was geht (Öffnungszeiten, Mindestaufenthalt etc.)",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0020",
+              "title": "",
+              "text": "Kontaktdaten aufnehmen + Rückruf oder Weiterleitung anbieten",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0021",
+              "title": "",
+              "text": "DZ Haldenköpfle",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0022",
+              "title": "",
+              "text": "25–27 m²",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0023",
+              "title": "",
+              "text": "ab 382 €",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0024",
+              "title": "",
+              "text": "DZ Feldberg (Panorama)",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0025",
+              "title": "",
+              "text": "ab 408 €",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0026",
+              "title": "",
+              "text": "„Für nur 26 € mehr genießen Sie den direkten Panoramablick bis zum Feldberg — sehr empfehlenswert!\"",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0027",
+              "title": "",
+              "text": "App. Haldenköpfle",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0028",
+              "title": "",
+              "text": "35 m²",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "empfang-06-wissen-6",
+          "title": "Wissen 6",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "empfang-block-0029",
+              "title": "",
+              "text": "„Das Appartement bietet mit 35 m² deutlich mehr Platz — ein großzügigeres Zimmer für mehr Komfort.\"",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0030",
+              "title": "",
+              "text": "App. Haldenköpfle + Balkon",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0031",
+              "title": "",
+              "text": "ab 440 €",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0032",
+              "title": "",
+              "text": "„Mit Balkon genießen Sie den Schwarzwald-Ausblick auch morgens beim Kaffee draußen — ein echtes Highlight.\"",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0033",
+              "title": "",
+              "text": "App. Feldberg",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0034",
+              "title": "",
+              "text": "43–45 m²",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0035",
+              "title": "",
+              "text": "ab 464 €",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0036",
+              "title": "",
+              "text": "„Unser größtes Standard-Appartement — ideal für Familien oder längere Aufenthalte.\"",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0037",
+              "title": "",
+              "text": "App. Feldberg + Balkon",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0038",
+              "title": "",
+              "text": "ab 530 €",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0039",
+              "title": "",
+              "text": "„Mit Balkon und Panoramablick — das beste Erlebnis das wir bieten können.\"",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0040",
+              "title": "",
+              "text": "Familien-App. Heustöckle",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "empfang-07-wissen-7",
+          "title": "Wissen 7",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "empfang-block-0041",
+              "title": "",
+              "text": "76 m²",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0042",
+              "title": "",
+              "text": "ab 508 €",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0043",
+              "title": "",
+              "text": "„2 Schlafzimmer — die Kinder schlafen getrennt, Sie trotzdem nah beieinander.\"",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0044",
+              "title": "",
+              "text": "Familien-App. Kuckucksnest",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0045",
+              "title": "",
+              "text": "120 m²",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0046",
+              "title": "",
+              "text": "„Unser größtes Appartement — 120 m² unterm Dach, perfekt für Familien die viel Platz möchten.\"",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "empfang-08-zimmer-upselling",
+          "title": "🛏️ Zimmer & Upselling",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "empfang-block-0047",
+              "title": "",
+              "text": "39 Zimmer & Appartements. Alle Preise sind Richtwerte inklusive Frühstück, Mittagsvesper, Abendmenü & BergSpa.",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "empfang-09-upselling-prinzip",
+          "title": "💡 Upselling-Prinzip",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "empfang-block-0048",
+              "title": "",
+              "text": "Bedürfnis des Gastes",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0049",
+              "title": "",
+              "text": "zuerst verstehen",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0050",
+              "title": "",
+              "text": ", dann Mehrwert erklären — nie als „teurer\", immer als „mehr Erlebnis\". Kein Druck, nur Empfehlung.",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0051",
+              "title": "",
+              "text": "· bis",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0052",
+              "title": "",
+              "text": "Pers.",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0053",
+              "title": "",
+              "text": "0 16px 14px",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0054",
+              "title": "",
+              "text": "Wichtige Infos",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "empfang-10-hunde",
+          "title": "🐕 Hunde",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "empfang-block-0055",
+              "title": "",
+              "text": "KEIN Zutritt zu Restaurant & Bar — Ausnahme: HG-Hunde ab 19 Uhr an der Bar erlaubt",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "empfang-11-barrierefreiheit",
+          "title": "♿ Barrierefreiheit",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "empfang-block-0056",
+              "title": "",
+              "text": "Restaurant & Hallenbad/Anwendungen ja — Sauna nur über 15 Stufen. Barrierefreies Zimmer: nur in Kategorie Appartement-HB",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "empfang-12-aufzug",
+          "title": "🛗 Aufzug",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "empfang-block-0057",
+              "title": "",
+              "text": "Vorhanden — außer in Heustöckle & Kuckucksnest",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "empfang-13-check-out",
+          "title": "🕐 Check-out",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "empfang-block-0058",
+              "title": "",
+              "text": "Bis 10:00 Uhr. Danach bis 15:00 Uhr im Haus bleiben & BergSpa weiter nutzen",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0059",
+              "title": "",
+              "text": "Hausgäste (HG)",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "empfang-14-inklusivleistungen-hg",
+          "title": "☀️ Inklusivleistungen HG",
+          "visible": true,
+          "blocks": []
+        },
+        {
+          "id": "empfang-15-fruhstuck-auf-wunsch-fruh",
+          "title": "Frühstück auf Wunsch (früh)",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "empfang-block-0060",
+              "title": "",
+              "text": "Nur HG die früh möchten",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0061",
+              "title": "",
+              "text": "ab 7:30",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0062",
+              "title": "",
+              "text": "Landfrühstücksbüfett",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0063",
+              "title": "",
+              "text": "HG ab 8 Uhr",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0064",
+              "title": "",
+              "text": "Mittagsvesper HG",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0065",
+              "title": "",
+              "text": "Nur HG / bei Abreise für 30 € buchbar",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0066",
+              "title": "",
+              "text": "4-Gang-Abendmenü HG",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0067",
+              "title": "",
+              "text": "Inklusive in HP",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "empfang-16-kein-abendmenu-genutzt",
+          "title": "💡 Kein Abendmenü genutzt →",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "empfang-block-0068",
+              "title": "",
+              "text": "25 € Gutschrift",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0069",
+              "title": "",
+              "text": "pro Person auf Zimmerrechnung.",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0070",
+              "title": "",
+              "text": "Hausgäste bezahlen Abends auf",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0071",
+              "title": "",
+              "text": "— unterschreiben nur!",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0072",
+              "title": "",
+              "text": "Tagesgäste (extern)",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "empfang-17-externe-gaste-reservierung-notig",
+          "title": "🚶 Externe Gäste — Reservierung nötig",
+          "visible": true,
+          "blocks": []
+        },
+        {
+          "id": "empfang-18-fruhstuck-extern",
+          "title": "Frühstück extern",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "empfang-block-0073",
+              "title": "",
+              "text": "Reservierung erforderlich!",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0074",
+              "title": "",
+              "text": "Nur Alte Stube — Reservierung!",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0075",
+              "title": "",
+              "text": "Keine Reservierung nötig",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0076",
+              "title": "",
+              "text": "Abendessen extern",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0077",
+              "title": "",
+              "text": "Begrenzt — Reservierung!",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0078",
+              "title": "",
+              "text": "Tagesgäste brauchen Reservierung",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0079",
+              "title": "",
+              "text": "für Frühstück, Mittag & Abend!",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0080",
+              "title": "",
+              "text": "Einzige Ausnahme: Kaffee & Kuchen von 14:30–16:30 ohne Reservierung.",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "empfang-19-bergspa-aktivprogramm",
+          "title": "BergSpa & Aktivprogramm",
+          "visible": true,
+          "blocks": []
+        },
+        {
+          "id": "empfang-20-bergspa-fur-tagesgaste",
+          "title": "🧖 BergSpa für Tagesgäste",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "empfang-block-0081",
+              "title": "",
+              "text": "Nur mit Voranmeldung — begrenzte Plätze!",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0082",
+              "title": "",
+              "text": "Auf Anfrage",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0083",
+              "title": "",
+              "text": "Nur mit Voranmeldung",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "empfang-21-upselling",
+          "title": "💡 Upselling:",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "empfang-block-0084",
+              "title": "",
+              "text": "„Möchten Sie gleich einen Platz im BergSpa reservieren? Wir haben noch freie Zeiten.\"",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "empfang-22-feiern-gruppen",
+          "title": "🎉 Feiern & Gruppen",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "empfang-block-0085",
+              "title": "",
+              "text": "Alles zu Veranstaltungen, Rösslestube und Gruppenanfragen.",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "empfang-23-private-feiern",
+          "title": "🎉 Private Feiern",
+          "visible": true,
+          "blocks": []
+        },
+        {
+          "id": "empfang-24-gruppen",
+          "title": "👥 Gruppen",
+          "visible": true,
+          "blocks": []
+        },
+        {
+          "id": "empfang-25-wichtigste-regel",
+          "title": "⚠️ Wichtigste Regel",
+          "visible": true,
+          "blocks": []
+        },
+        {
+          "id": "empfang-26-die-halde-macht",
+          "title": "Die Halde macht",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "empfang-block-0086",
+              "title": "",
+              "text": "KEINE Abendveranstaltungen",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0087",
+              "title": "",
+              "text": "für externe Gruppen!",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "empfang-27-feiern-sind-nur",
+          "title": "Feiern sind nur",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "empfang-block-0088",
+              "title": "",
+              "text": "mittags ab 12:30 Uhr",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0089",
+              "title": "",
+              "text": "möglich.",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0090",
+              "title": "",
+              "text": "ehrlich sagen",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0091",
+              "title": "",
+              "text": "wenn es nicht passt — das ist unser Konzept!",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "empfang-28-wann",
+          "title": "📅 Wann",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "empfang-block-0092",
+              "title": "",
+              "text": "Nur mittags, täglich ab 12:30 Uhr",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "empfang-29-bis-8-personen",
+          "title": "👥 Bis 8 Personen",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "empfang-block-0093",
+              "title": "",
+              "text": "Spontan aus der Tageskarte wählen",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "empfang-30-ab-9-personen",
+          "title": "👥 Ab 9 Personen",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "empfang-block-0094",
+              "title": "",
+              "text": "Menü muss vorher vereinbart werden. Empfehlung: täglich wechselndes Haldemenü → Überraschung + Vorzugspreis",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "empfang-31-max-gaste",
+          "title": "🏛️ Max. Gäste",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "empfang-block-0095",
+              "title": "",
+              "text": "Bis 25 Personen (Rösslestube)",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "empfang-32-die-rosslestube",
+          "title": "🏛️ Die Rösslestube",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "empfang-block-0096",
+              "title": "",
+              "text": "Kapazität",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0097",
+              "title": "",
+              "text": "Bis 25 Personen",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0098",
+              "title": "",
+              "text": "Ab 20 Personen wird der Raum exklusiv gebucht",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0099",
+              "title": "",
+              "text": "Denkmalgeschützt, traditionell-gemütlich, Schwarzwälder Stil",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0100",
+              "title": "",
+              "text": "Menükarten, Kerzen & Blumendeko vom Haus",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0101",
+              "title": "",
+              "text": "Sabine Eckert, Blumenwiese Eckert (auf Wunsch)",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0102",
+              "title": "",
+              "text": "Mo–Fr 10–12 Uhr & 14–17 Uhr telefonisch",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "empfang-33-passende-anlasse",
+          "title": "✅ Passende Anlässe",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "empfang-block-0103",
+              "title": "",
+              "text": "Geburtstag (ab 9 P.)",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0104",
+              "title": "",
+              "text": "Jubiläum",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0105",
+              "title": "",
+              "text": "Kommunion / Konfirmation",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0106",
+              "title": "",
+              "text": "Kleines Firmenjubiläum",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0107",
+              "title": "",
+              "text": "Hochzeiten (Abend)",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0108",
+              "title": "",
+              "text": "Große Tagungen",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0109",
+              "title": "",
+              "text": "Firmenevents (groß)",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0110",
+              "title": "",
+              "text": "Passt nicht? → Ehrlich kommunizieren und bei Bedarf weiterempfehlen.",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "empfang-34-checkliste-gruppenanfrage",
+          "title": "📋 Checkliste Gruppenanfrage",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "empfang-block-0111",
+              "title": "",
+              "text": "Firmenausflug, Familientreffen, Vereinsreise, Incentive?",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0112",
+              "title": "",
+              "text": "Genau oder ca. — Erwachsene / Kinder separat",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0113",
+              "title": "",
+              "text": "An- und Abreisedatum + Alternativtermin",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0114",
+              "title": "",
+              "text": "DZ, Einzelnutzung, Appartements?",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0115",
+              "title": "",
+              "text": "Nur Frühstück, Halbpension, Vollpension?",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0116",
+              "title": "",
+              "text": "BergSpa, Aktivprogramm, Wanderungen?",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0117",
+              "title": "",
+              "text": "Allergien, Barrierefreiheit, Vegan/Vegetarisch",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0118",
+              "title": "",
+              "text": "Wenn möglich — hilft bei Angebotserstellung",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0119",
+              "title": "",
+              "text": "Name, Telefon, E-Mail für Rückfragen",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "empfang-35-goldene-regel",
+          "title": "🥇 Goldene Regel",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "empfang-block-0120",
+              "title": "",
+              "text": "Alles schriftlich!",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0121",
+              "title": "",
+              "text": "Jede Absprache mit einer Gruppe per E-Mail bestätigen — mündliche Zusagen führen zu Missverständnissen.",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "empfang-36-gruppenanfragen-immer-an-die",
+          "title": "Gruppenanfragen immer an die",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "empfang-block-0122",
+              "title": "",
+              "text": "weiterleiten. Vorlaufzeit: mind.",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0123",
+              "title": "",
+              "text": "4–6 Wochen",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "empfang-37-was-gilt-bei-gruppen",
+          "title": "💰 Was gilt bei Gruppen",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "empfang-block-0124",
+              "title": "",
+              "text": "Ab ca. 8–10 Personen = Gruppe → individuelles Angebot",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0125",
+              "title": "",
+              "text": "Keine Standardpreise — Reservierung entscheidet",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0126",
+              "title": "",
+              "text": "Stornofristen strenger als bei Einzelgästen — schriftlich festhalten",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0127",
+              "title": "",
+              "text": "Anzahlung üblich, Rest bei Anreise oder nach Aufenthalt",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0128",
+              "title": "",
+              "text": "Genaue Ankunftszeit erfragen — Rezeption & Küche müssen vorbereitet sein",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "empfang-38-bergspa-1-100-m",
+          "title": "🧖 BergSpa · 1.100 m²",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "empfang-block-0129",
+              "title": "",
+              "text": "Exklusives Wellness-Erlebnis auf 1.147m Höhe — inklusive für alle Hausgäste.",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "empfang-39-panorama-hallenbad",
+          "title": "🏊 Panorama-Hallenbad",
+          "visible": true,
+          "blocks": []
+        },
+        {
+          "id": "empfang-40-finnische-sauna",
+          "title": "🧨 Finnische Sauna",
+          "visible": true,
+          "blocks": []
+        },
+        {
+          "id": "empfang-41-krauter-sanarium",
+          "title": "🌿 Kräuter-Sanarium",
+          "visible": true,
+          "blocks": []
+        },
+        {
+          "id": "empfang-42-krauterdampfbad",
+          "title": "💨 Kräuterdampfbad",
+          "visible": true,
+          "blocks": []
+        },
+        {
+          "id": "empfang-43-ruheplatze",
+          "title": "🛋️ Ruheplätze",
+          "visible": true,
+          "blocks": []
+        },
+        {
+          "id": "empfang-44-naturbadeteich",
+          "title": "🌊 Naturbadeteich",
+          "visible": true,
+          "blocks": []
+        },
+        {
+          "id": "empfang-45-liegewiese",
+          "title": "🌿 Liegewiese",
+          "visible": true,
+          "blocks": []
+        },
+        {
+          "id": "empfang-46-massagen-alle-arten",
+          "title": "💆 Massagen (alle Arten)",
+          "visible": true,
+          "blocks": []
+        },
+        {
+          "id": "empfang-47-ayurveda",
+          "title": "🌸 Ayurveda",
+          "visible": true,
+          "blocks": []
+        },
+        {
+          "id": "empfang-48-kosmetik-pflege",
+          "title": "✨ Kosmetik & Pflege",
+          "visible": true,
+          "blocks": []
+        },
+        {
+          "id": "empfang-49-salz-honig-peeling",
+          "title": "🍯 Salz-Honig-Peeling",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "empfang-block-0130",
+              "title": "",
+              "text": "Aktivprogramm (täglich wechselnd)",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "empfang-50-hatha-yoga",
+          "title": "🧘 Hatha Yoga",
+          "visible": true,
+          "blocks": []
+        },
+        {
+          "id": "empfang-51-pilates",
+          "title": "🧘 Pilates",
+          "visible": true,
+          "blocks": []
+        },
+        {
+          "id": "empfang-52-meditation",
+          "title": "🧘 Meditation",
+          "visible": true,
+          "blocks": []
+        },
+        {
+          "id": "empfang-53-aqua-fitness",
+          "title": "💦 Aqua Fitness",
+          "visible": true,
+          "blocks": []
+        },
+        {
+          "id": "empfang-54-ruckentraining",
+          "title": "💪 Rückentraining",
+          "visible": true,
+          "blocks": []
+        },
+        {
+          "id": "empfang-55-nordic-walking",
+          "title": "🚶 Nordic Walking",
+          "visible": true,
+          "blocks": []
+        },
+        {
+          "id": "empfang-56-gefuhrte-wanderungen",
+          "title": "🥾 Geführte Wanderungen",
+          "visible": true,
+          "blocks": []
+        },
+        {
+          "id": "empfang-57-schneeschuhtouren-winter",
+          "title": "❄️ Schneeschuhtouren (Winter)",
+          "visible": true,
+          "blocks": []
+        },
+        {
+          "id": "empfang-58-e-bike-verleih",
+          "title": "🚴 E-Bike Verleih",
+          "visible": true,
+          "blocks": []
+        },
+        {
+          "id": "empfang-59-mountainbike-verleih",
+          "title": "🚵 Mountainbike Verleih",
+          "visible": true,
+          "blocks": []
+        },
+        {
+          "id": "empfang-60-langlauf-loipe-am-hotel",
+          "title": "⛷️ Langlauf-Loipe am Hotel",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "empfang-block-0131",
+              "title": "",
+              "text": "TagesSpa & NightSpa",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0132",
+              "title": "",
+              "text": "Tagesgäste können das BergSpa als",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0133",
+              "title": "",
+              "text": "nutzen.",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "empfang-61-upselling",
+          "title": "💬 Upselling:",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "empfang-block-0134",
+              "title": "",
+              "text": "„Möchten Sie gleich einen Platz im BergSpa reservieren? Ich buche das gerne für Sie ein.\"",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "empfang-62-upselling-skripte",
+          "title": "💡 Upselling-Skripte",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "empfang-block-0135",
+              "title": "",
+              "text": "„Soll ich Ihnen gleich eine Massage für morgen Vormittag einbuchen?\"",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "empfang-63-bergspa-tagesgast",
+          "title": "BergSpa Tagesgast",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "empfang-block-0136",
+              "title": "",
+              "text": "„Möchten Sie heute Nachmittag noch einen Platz im BergSpa? Ich reserviere das gerne für Sie.\"",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0137",
+              "title": "",
+              "text": "„Als Geschenk für jemanden? Wir haben Wellness-Gutscheine — auch noch kurzfristig.\"",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "empfang-64-buchungsregeln",
+          "title": "📋 Buchungsregeln",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "empfang-block-0138",
+              "title": "",
+              "text": "Mindestaufenthalt, Kommunikation & wichtige Regeln für die Rezeption.",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0139",
+              "title": "",
+              "text": "Schnellübersicht",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0140",
+              "title": "",
+              "text": "So, Mo, Di, Mi",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0141",
+              "title": "",
+              "text": "2 Nächte (So–Do)",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0142",
+              "title": "",
+              "text": "Do, Fr",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0143",
+              "title": "",
+              "text": "3 Nächte (Do–So / Fr–Mo)",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0144",
+              "title": "",
+              "text": "3 Nächte (Sa–Di)",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0145",
+              "title": "",
+              "text": "Auf Fr-Anreise hinweisen",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0146",
+              "title": "",
+              "text": "Feiertag / Brücke",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0147",
+              "title": "",
+              "text": "Individuell prüfen",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0148",
+              "title": "",
+              "text": "Immer im System nachschauen!",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0149",
+              "title": "",
+              "text": "Warum Mindestaufenthalt?",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "empfang-65-wissen-65",
+          "title": "Wissen 65",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "empfang-block-0150",
+              "title": "",
+              "text": "Die Halde ist ein Erholungshotel — kurze 1-Nacht-Aufenthalte passen nicht zum Konzept. Gäste sollen ankommen, abschalten und wirklich erholen.",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0151",
+              "title": "",
+              "text": "Unter der Woche",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0152",
+              "title": "",
+              "text": "„Für einen Aufenthalt unter der Woche benötigen wir mindestens 2 Nächte.\"",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0153",
+              "title": "",
+              "text": "Am Wochenende",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0154",
+              "title": "",
+              "text": "„Am Wochenende gilt bei uns eine Mindestaufenthaltsdauer von 3 Nächten.\"",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0155",
+              "title": "",
+              "text": "Begründung",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0156",
+              "title": "",
+              "text": "„Das ermöglicht Ihnen, wirklich in die Ruhe des Schwarzwalds einzutauchen — 1 Nacht reicht dafür kaum.\"",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0157",
+              "title": "",
+              "text": "„Wenn Sie flexibel sind, empfehle ich Ihnen gerne einen passenden Zeitraum.\"",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "empfang-66-rezeption-kernaufgaben",
+          "title": "Rezeption — Kernaufgaben",
+          "visible": true,
+          "blocks": []
+        },
+        {
+          "id": "empfang-67-telefon-online-walk-in-annehmen",
+          "title": "Telefon, Online, Walk-in annehmen",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "empfang-block-0158",
+              "title": "",
+              "text": "Check-out bis 10:00 Uhr",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0159",
+              "title": "",
+              "text": "Danach bis 15:00 Uhr im Haus bleiben & BergSpa nutzen",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0160",
+              "title": "",
+              "text": "Tagesgäste informieren",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0161",
+              "title": "",
+              "text": "Restaurant, TagesSpa — nur mit Voranmeldung!",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0162",
+              "title": "",
+              "text": "Schauinsland, Steinwasenpark, Todtnau Wasserfall",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0163",
+              "title": "",
+              "text": "Gutscheine verkaufen",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0164",
+              "title": "",
+              "text": "Auch kurzfristig — Wellness-Gutscheine sehr beliebt",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0165",
+              "title": "",
+              "text": "Transfer organisieren",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0166",
+              "title": "",
+              "text": "Seilbahn, Bahnhof — auf Anfrage gegen Gebühr",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "empfang-68-upselling-bei-check-in",
+          "title": "💡 Upselling bei Check-in",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "empfang-block-0167",
+              "title": "",
+              "text": "„Wir haben heute noch ein Feldberg-Appartement mit Balkon — herrlicher Panoramablick, darf ich es für Sie anfragen?\"",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0168",
+              "title": "",
+              "text": "Begrüßung · Kommunikation",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0169",
+              "title": "",
+              "text": "39 Kategorien + Upselling",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0170",
+              "title": "",
+              "text": "HG vs. Tagesgäste",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0171",
+              "title": "",
+              "text": "Rösslestube · Gruppen",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0172",
+              "title": "",
+              "text": "1.100 m² · Upselling",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "empfang-69-empfang-rezeption",
+          "title": "Empfang · Rezeption",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "empfang-block-0173",
+              "title": "",
+              "text": "0 4px 20px rgba(91,163,204,0.1)",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "empfang-70-die-halde",
+          "title": "Die Halde",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "empfang-block-0174",
+              "title": "",
+              "text": "chip chip-inactive",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "empfang-71-home",
+          "title": "🏠 Home",
+          "visible": true,
+          "blocks": [
+            {
+              "id": "empfang-block-0175",
+              "title": "",
+              "text": "chip chip-active-gold",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0176",
+              "title": "",
+              "text": "← Übersicht",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0177",
+              "title": "",
+              "text": "chip chip-active-blue",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0178",
+              "title": "",
+              "text": "/sw.js",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0179",
+              "title": "",
+              "text": "Halde Guide: Offline-Modus aktiv ✓",
+              "visible": true
+            },
+            {
+              "id": "empfang-block-0180",
+              "title": "",
+              "text": "SW Fehler:",
+              "visible": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
