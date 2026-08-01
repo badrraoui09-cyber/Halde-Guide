@@ -1,0 +1,35 @@
+backend:
+  name: git-gateway
+  branch: main
+
+# Wo Bilder landen, falls später mal welche hochgeladen werden
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "ap1_wochenplan"
+    label: "AP1 – 12-Wochen-Plan"
+    files:
+      - file: "content/weeks.json"
+        label: "Wochenplan"
+        name: "wochenplan"
+        fields:
+          - label: "Wochen"
+            name: "weeks"
+            widget: "list"
+            summary: "Woche {{fields.w}} – {{fields.t}}"
+            fields:
+              - { label: "Wochennummer", name: "w", widget: "number", value_type: "int" }
+              - { label: "Titel", name: "t", widget: "string" }
+              - label: "Praxis-Aufgaben"
+                name: "p"
+                widget: "list"
+                field: { label: "Punkt", name: "item", widget: "string" }
+              - label: "Theorie-Themen"
+                name: "s"
+                widget: "list"
+                field: { label: "Punkt", name: "item", widget: "string" }
+              - label: "Checkliste (Ja/Nein-Fragen)"
+                name: "c"
+                widget: "list"
+                field: { label: "Frage", name: "item", widget: "string" }
