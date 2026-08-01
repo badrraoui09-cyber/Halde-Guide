@@ -50,7 +50,7 @@ const PHASES=[
   {id:2,label:"Prüfungsrelevante Tiefe",sub:"W 5-8",weeks:[5,6,7,8],color:"#7B4A00",light:"#fdf3e7",dot:"#c47d1a"},
   {id:3,label:"Mock-Prüfung & Feinschliff",sub:"W 9-12",weeks:[9,10,11,12],color:"#6B2020",light:"#fdf0f0",dot:"#c45050"},
 ];
-const WEEKS=[
+let WEEKS=[
   {w:1,t:"Mise en place & Grundservice",p:["Tisch komplett eindecken (3-Gang)","Glasarten zuordnen und polieren","Besteck und Geschirr benennen"],s:["Tischkultur und Etikette","Servierregeln links/rechts","HACCP-Grundlagen"],c:["10 Glasarten benennen?","Servierregeln auswendig?","Tisch in 5 Min. eingedeckt?"]},
   {w:2,t:"Gästekommunikation & Beratung",p:["Rollenspiel: Bestellung annehmen","Gast zu Speisen beraten","Allergene abfragen"],s:["14 Hauptallergene auflisten","Ernährungsformen: vegan, vegetarisch","Gesprächsaufbau Begrüssung-Abschluss"],c:["14 Allergene spontan?","Menü ohne Karte erklären?","Rollenspiel ohne Stocken?"]},
   {w:3,t:"Getränkekunde & Theke",p:["Kaffee-Spezialitäten zubereiten","Tee korrekt aufgiessen","Gläser spülen, polieren, einräumen"],s:["Kaffeearten und Temperaturen","Still/Medium/Sprudelnd Unterschied","Softdrinks: Glaswahl, Garnish"],c:["Cappuccino in 3 Min.?","5 Tee-Sorten auswendig?","Gläser ohne Fingerabdrücke?"]},
@@ -296,6 +296,13 @@ async function doLogout(){
 // ── Boot ─────────────────────────────────────────────────
 window.addEventListener('load', async function(){
   try {
+    try {
+      const res = await fetch('/content/weeks.json', {cache:'no-store'});
+      if (res.ok) {
+        const data = await res.json();
+        if (Array.isArray(data) && data.length) WEEKS = data;
+      }
+    } catch(_) { /* kein content/weeks.json gefunden -> Standard-Plan wird verwendet */ }
     await initSupabase();
     const sessionRes = await Promise.race([sb.auth.getSession(), new Promise((_,r)=>setTimeout(()=>r(new Error("timeout")),5000))]).catch(()=>({data:{session:null}}));
     const session=sessionRes?.data?.session;
