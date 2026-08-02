@@ -6,17 +6,17 @@ Die Redaktion erfolgt unter `https://DEINE-DOMAIN.de/admin/`.
 
 1. **Website bearbeiten** öffnen.
 2. **Alle Bereiche** auswählen.
-3. Unter **Bereiche** den gewünschten Bereich öffnen.
-4. Das gewünschte Kapitel und anschließend den Inhaltsblock öffnen.
+3. Unter **Bereiche** den gewünschten Lernpfad öffnen.
+4. Die gewünschte Lektion und anschließend die Lernkarte öffnen.
 5. Text ändern und oben auf **Veröffentlichen** klicken.
 
 ## Inhalte verschieben
 
-Bereiche, Kapitel und Inhaltsblöcke besitzen einen Griff zum Ziehen. Den Griff gedrückt halten und den Eintrag an die gewünschte Stelle ziehen. Nach dem Veröffentlichen erscheint die neue Reihenfolge auf der Website.
+Bereiche, Lektionen und Lernkarten besitzen einen Griff zum Ziehen. Den Griff gedrückt halten und den Eintrag an die gewünschte Stelle ziehen. Nach dem Veröffentlichen erscheint die neue Reihenfolge auf der Website.
 
 ## Inhalte ausblenden
 
-Den Schalter **Auf Website anzeigen**, **Kapitel anzeigen** oder **Block anzeigen** deaktivieren. So bleibt der Inhalt im CMS erhalten, ist aber nicht öffentlich sichtbar.
+Den Schalter **Auf Website anzeigen**, **Lektion anzeigen** oder **Lernkarte anzeigen** deaktivieren. So bleibt der Inhalt im CMS erhalten, ist aber nicht öffentlich sichtbar.
 
 ## Inhalte löschen
 
@@ -24,7 +24,7 @@ Den betreffenden Eintrag öffnen und auf das `×` klicken. Löschen ist dauerhaf
 
 ## Neue Inhalte anlegen
 
-Mit **Bereich hinzufügen**, **Kapitel hinzufügen** oder **Inhaltsblock hinzufügen** können neue Inhalte erstellt werden. Jede interne ID muss innerhalb ihrer Ebene eindeutig sein und sollte nur Kleinbuchstaben, Zahlen und Bindestriche enthalten.
+Mit **Bereich hinzufügen**, **Lektion hinzufügen** oder **Lernkarte hinzufügen** können neue Inhalte erstellt werden. Jede interne ID muss innerhalb ihrer Ebene eindeutig sein und sollte nur Kleinbuchstaben, Zahlen und Bindestriche enthalten.
 
 ## AP1-Wochenplan
 
