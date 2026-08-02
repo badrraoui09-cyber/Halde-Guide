@@ -1,5 +1,5 @@
-const CACHE='halde-guide-genuss-v3';
-const CORE=['/','/index.html','/styles.css','/app.js','/manifest.json','/content/site.json'];
+const CACHE='halde-guide-quiz-v4';
+const CORE=['/','/index.html','/styles.css','/app.js','/manifest.json','/content/site.json','/content/quiz.json'];
 self.addEventListener('install',event=>{event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(CORE)));self.skipWaiting()});
 self.addEventListener('activate',event=>{event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(key=>key!==CACHE).map(key=>caches.delete(key)))));self.clients.claim()});
 self.addEventListener('fetch',event=>{

@@ -1,0 +1,174 @@
+{
+  "title": "Übungen & Quiz",
+  "intro": "Kurze Praxissituationen für mehr Sicherheit im Service.",
+  "questions": [
+    {
+      "id": "quiz-01",
+      "category": "Gastkontakt",
+      "question": "Ein Gast kommt an, während du noch etwas wegräumst. Was ist der beste erste Schritt?",
+      "options": [
+        "Erst die Arbeit fertig machen",
+        "Blickkontakt aufnehmen, begrüßen und kurz Orientierung geben",
+        "Auf eine Kollegin oder einen Kollegen warten",
+        "Dem Gast wortlos einen Platz zeigen"
+      ],
+      "correct": 2,
+      "explanation": "Der Gast soll sofort merken, dass er gesehen wurde. Eine kurze, herzliche Begrüßung schafft Sicherheit – auch wenn du die Aufgabe erst gleich vollständig übernehmen kannst.",
+      "visible": true
+    },
+    {
+      "id": "quiz-02",
+      "category": "Service",
+      "question": "Was gehört vor Servicebeginn unbedingt zur Mise en place?",
+      "options": [
+        "Nur die Tische kontrollieren",
+        "Gläser, Eis, Garnituren, Servietten und Arbeitsstation vollständig prüfen",
+        "Erst nach der ersten Bestellung auffüllen",
+        "Nur Produkte mit Alkohol bereitstellen"
+      ],
+      "correct": 2,
+      "explanation": "Eine vollständige Station verhindert unnötige Wege und Wartezeiten. Entscheidend ist die Kontrolle, bevor die ersten Gäste bestellen.",
+      "visible": true
+    },
+    {
+      "id": "quiz-03",
+      "category": "Reklamation",
+      "question": "Ein Gast sagt: „Das habe ich anders bestellt.“ Wie reagierst du professionell?",
+      "options": [
+        "Beweisen, dass die Bestellung richtig aufgenommen wurde",
+        "Sofort die Rechnung bringen",
+        "Zuhören, entschuldigen, Lösung nennen und intern klären",
+        "Die Verantwortung an die Küche weitergeben"
+      ],
+      "correct": 3,
+      "explanation": "Nicht diskutieren. Erst Verständnis zeigen, dann eine konkrete Lösung anbieten. Die interne Ursache wird anschließend geklärt – nicht vor dem Gast.",
+      "visible": true
+    },
+    {
+      "id": "quiz-04",
+      "category": "Weinservice",
+      "question": "Was prüfst du, bevor du eine Weinflasche am Tisch öffnest?",
+      "options": [
+        "Nur den Jahrgang",
+        "Etikett, Bestellung, Temperatur und sauberes Servicematerial",
+        "Nur den Preis",
+        "Ob der Gast ein Foto machen möchte"
+      ],
+      "correct": 2,
+      "explanation": "Die Flasche muss zur Bestellung passen und korrekt temperiert sein. Sauberes Material und das Zeigen des Etiketts gehören zum sicheren Ablauf.",
+      "visible": true
+    },
+    {
+      "id": "quiz-05",
+      "category": "Bar",
+      "question": "Welche Getränke werden typischerweise gerührt statt geschüttelt?",
+      "options": [
+        "Klare, spirituosenbetonte Drinks ohne Saft oder Ei",
+        "Alle Getränke mit Zitrussaft",
+        "Alle alkoholfreien Getränke",
+        "Nur Heißgetränke"
+      ],
+      "correct": 1,
+      "explanation": "Klare, spirituosenbetonte Drinks werden gerührt, damit sie kalt und verdünnt werden, aber klar bleiben. Saft, Ei oder cremige Zutaten werden meist geschüttelt.",
+      "visible": true
+    },
+    {
+      "id": "quiz-06",
+      "category": "Bar",
+      "question": "Warum wird ein Cocktail mit frischem Zitrussaft kräftig geschüttelt?",
+      "options": [
+        "Damit das Glas wärmer wird",
+        "Für Kühlung, Verdünnung und eine gleichmäßige Verbindung der Zutaten",
+        "Nur für die Optik",
+        "Damit weniger Eis benötigt wird"
+      ],
+      "correct": 2,
+      "explanation": "Shaken verbindet unterschiedliche Zutaten, kühlt schnell und erzeugt die notwendige Verdünnung. Danach wird sauber und zügig abgeseiht.",
+      "visible": true
+    },
+    {
+      "id": "quiz-07",
+      "category": "Allergene",
+      "question": "Ein Gast fragt nach Allergenen und du bist nicht vollkommen sicher. Was tust du?",
+      "options": [
+        "Eine wahrscheinlich richtige Antwort geben",
+        "Sagen, dass bestimmt nichts enthalten ist",
+        "Nicht raten: Rezeptur oder verantwortliche Person verbindlich prüfen",
+        "Das Produkt trotzdem servieren"
+      ],
+      "correct": 3,
+      "explanation": "Bei Allergenen wird niemals geraten. Die verbindliche Rezeptur oder eine verantwortliche Person muss geprüft werden, bevor eine Zusage erfolgt.",
+      "visible": true
+    },
+    {
+      "id": "quiz-08",
+      "category": "Alkoholfrei",
+      "question": "Was ist bei alkoholfreien Drinks besonders wichtig?",
+      "options": [
+        "Sie dürfen mit denselben benutzten Werkzeugen zubereitet werden",
+        "Saubere Werkzeuge verwenden und alkoholhaltige Zutaten sicher ausschließen",
+        "Sie benötigen keine Garnitur",
+        "Sie müssen immer süßer sein"
+      ],
+      "correct": 2,
+      "explanation": "Alkoholfrei muss zuverlässig alkoholfrei bleiben. Saubere Werkzeuge, eindeutige Zutaten und eine klare Trennung verhindern Verwechslungen.",
+      "visible": true
+    },
+    {
+      "id": "quiz-09",
+      "category": "Empfang",
+      "question": "Was hilft bei einer Wartezeit am meisten?",
+      "options": [
+        "Keine Zeit nennen und den Gast warten lassen",
+        "Ehrliche Orientierung geben und aktiv auf dem Laufenden halten",
+        "Den Gast an einen anderen Bereich verweisen",
+        "Die Wartezeit kleiner darstellen als sie ist"
+      ],
+      "correct": 2,
+      "explanation": "Gäste akzeptieren Wartezeit besser, wenn sie ehrlich informiert werden und merken, dass jemand Verantwortung übernimmt.",
+      "visible": true
+    },
+    {
+      "id": "quiz-10",
+      "category": "Qualität",
+      "question": "Ein Preis ist in zwei internen Dokumenten unterschiedlich. Welcher Preis wird genannt?",
+      "options": [
+        "Immer der niedrigere Preis",
+        "Der Preis aus dem älteren Dokument",
+        "Keinen schätzen: mit freigegebener Karte oder Kassensystem bestätigen",
+        "Der Preis, an den man sich erinnert"
+      ],
+      "correct": 3,
+      "explanation": "Bei widersprüchlichen Angaben entscheidet die freigegebene aktuelle Quelle beziehungsweise das Kassensystem. Unsichere Preise werden vor dem Service geklärt.",
+      "visible": true
+    },
+    {
+      "id": "quiz-11",
+      "category": "Teamarbeit",
+      "question": "Du bemerkst, dass eine Station während des Service leerläuft. Was ist professionell?",
+      "options": [
+        "Warten, bis sich jemand beschwert",
+        "Kurz Bescheid geben, auffüllen oder eine klare Übergabe organisieren",
+        "Die Station ignorieren, weil sie nicht deine ist",
+        "Produkte ohne Rücksprache ersetzen"
+      ],
+      "correct": 2,
+      "explanation": "Guter Service ist Teamarbeit. Ein Problem wird früh benannt und konkret gelöst, ohne Zuständigkeiten vor dem Gast auszutragen.",
+      "visible": true
+    },
+    {
+      "id": "quiz-12",
+      "category": "Abschluss",
+      "question": "Was gehört zu einem guten Abschied?",
+      "options": [
+        "Nur die Rechnung ablegen",
+        "Persönlich danken, Blickkontakt halten und freundlich verabschieden",
+        "Sofort den Tisch abräumen, während der Gast noch sitzt",
+        "Nur Stammgäste verabschieden"
+      ],
+      "correct": 2,
+      "explanation": "Der letzte Eindruck bleibt. Ein ehrlicher Dank und eine persönliche Verabschiedung schließen den Besuch genauso aufmerksam ab, wie er begonnen hat.",
+      "visible": true
+    }
+  ]
+}

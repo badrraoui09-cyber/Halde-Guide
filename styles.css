@@ -43,7 +43,7 @@ main{width:min(1040px,100%);margin:auto;padding:0 18px calc(100px + var(--safe-b
 .progress-track{height:5px;flex:1;border-radius:99px;background:#3c3d34;overflow:hidden}
 .progress-track i{display:block;height:100%;border-radius:inherit;background:var(--accent);width:var(--progress)}
 .area-meta small{color:var(--muted)}
-.quick-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+.quick-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
 .quick-card{padding:17px;border:1px solid var(--line);border-radius:17px;background:var(--ink-2);color:var(--cream);text-decoration:none}
 .quick-card span{font-size:22px}
 .quick-card strong{display:block;margin-top:12px;font-size:13px}
@@ -95,6 +95,25 @@ dialog::backdrop{background:#050604c9;backdrop-filter:blur(5px)}
 .search-result{display:block;width:100%;padding:13px 4px;border:0;border-bottom:1px solid var(--line);background:0;color:var(--cream);text-align:left;cursor:pointer}
 .search-result small{display:block;color:var(--muted);margin-top:4px}
 .empty{padding:50px 10px;text-align:center;color:var(--muted)}
+.quiz-shell{max-width:760px;margin:auto;padding-top:28px}
+.quiz-head{padding-bottom:22px}
+.quiz-head .progress-track{margin:10px 0 28px}
+.quiz-question{font:600 clamp(34px,6vw,54px)/1.08 'Cormorant Garamond';margin:14px 0 0}
+.quiz-options{display:grid;gap:11px}
+.quiz-option{display:grid;grid-template-columns:42px 1fr;align-items:center;gap:14px;width:100%;padding:15px;border:1px solid var(--line);border-radius:17px;background:var(--ink-2);color:var(--cream);text-align:left;cursor:pointer}
+.quiz-option span{display:grid;place-items:center;width:40px;height:40px;border-radius:13px;background:#2a2b24;color:var(--gold);font-weight:700}
+.quiz-option.correct{border-color:#6f9a64;background:#1d2a1a}
+.quiz-option.correct span{background:#6f9a64;color:white}
+.quiz-option.wrong{border-color:#a96255;background:#2c1c19}
+.quiz-option.wrong span{background:#a96255;color:white}
+.quiz-option:disabled{cursor:default;opacity:1}
+.quiz-feedback{margin-top:18px;padding:20px;border:1px solid var(--line);border-radius:17px;background:#191a16}
+.quiz-feedback.correct{border-color:#6f9a64}
+.quiz-feedback.wrong{border-color:#a96255}
+.quiz-feedback strong{font:600 26px 'Cormorant Garamond'}
+.quiz-feedback p{margin:7px 0 0;color:#d1cec4;line-height:1.6}
+.quiz-next{float:right;margin-bottom:30px}
+.quiz-finish{margin-top:35px;padding:42px 24px;text-align:center;border:1px solid rgba(208,170,82,.5);border-radius:28px;background:linear-gradient(145deg,#272317,#171914)}
 
 @media(max-width:680px){.hero{min-height:500px}
 .hero-image{background:linear-gradient(0deg,rgba(10,11,9,.98) 0%,rgba(10,11,9,.7) 65%,rgba(10,11,9,.18)),url('/images/halde-guide-social.png') center/cover}
