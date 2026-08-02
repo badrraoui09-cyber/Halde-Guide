@@ -30,6 +30,26 @@ Mit **Bereich hinzufügen**, **Lektion hinzufügen** oder **Lernkarte hinzufüge
 
 Der Wochenplan wird separat unter **AP1 – 12-Wochen-Plan** bearbeitet.
 
+## Karten, Rezepte und Preise
+
+Der neue Lernpfad **Karten & Rezepte** trennt bewusst vier Arten von Information:
+
+- **Aktuelles Angebot:** Produkte, Preise und Zeiten für den Service.
+- **Interne Rezepturen:** Glas, Menge, Zubereitung und Garnitur.
+- **Praxiswissen:** Mise en place, Bartechnik und Qualitätsstandards.
+- **Vor Servicebeginn bestätigen:** Widersprüche aus den gelieferten Dokumenten.
+
+Jede Lernkarte kann eine **Quelle** und einen **Prüfstatus** besitzen. Der Status **Vor Einsatz bestätigen** erzeugt auf der Website einen gut sichtbaren Warnhinweis. Erst wenn Betriebsleitung oder Küchen-/Barverantwortung Preis und Rezept bestätigt haben, den Status auf **Aktuell / freigegeben** setzen.
+
+Die unveränderten Word-Dateien sind auf der Website unter **Originalkarten** hinterlegt. Sie dienen als Referenz; die klar strukturierten Lernkarten sind die Arbeitsansicht für das Team.
+
+## Empfohlener Freigabeablauf
+
+1. Verantwortliche Person prüft die Lektion **Vor Servicebeginn bestätigen**.
+2. Preis, Rezeptur und Verfügbarkeit werden gegen das aktuelle Kassensystem abgeglichen.
+3. Betroffene Lernkarten werden korrigiert und auf **Aktuell / freigegeben** gesetzt.
+4. Änderung veröffentlichen und die Website einmal neu laden.
+
 ## Geschützte Funktionen
 
 Farben, Layout, Navigation und technische Funktionen sind nicht Teil der Redaktion. Dadurch können normale Inhaltsänderungen die Website nicht beschädigen.
