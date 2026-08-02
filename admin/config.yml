@@ -22,6 +22,8 @@ collections:
               - { label: "Unterzeile", name: "subtitle", widget: "string" }
               - { label: "Überschrift", name: "headline", widget: "string" }
               - { label: "Einleitung", name: "intro", widget: "text" }
+              - { label: "Begrüßung", name: "welcome", widget: "string" }
+              - { label: "Titel der empfohlenen Lektion", name: "featuredTitle", widget: "string" }
           - label: "Bereiche"
             label_singular: "Bereich"
             name: "departments"
@@ -32,26 +34,40 @@ collections:
               - { label: "Symbol", name: "icon", widget: "string" }
               - { label: "Titel", name: "title", widget: "string" }
               - { label: "Beschreibung", name: "description", widget: "text" }
+              - { label: "Kleine Überschrift", name: "kicker", widget: "string" }
+              - { label: "Akzentfarbe", name: "accent", widget: "color" }
               - { label: "Auf Website anzeigen", name: "visible", widget: "boolean", default: true }
-              - label: "Kapitel"
-                label_singular: "Kapitel"
-                name: "sections"
+              - label: "Lektionen"
+                label_singular: "Lektion"
+                name: "modules"
                 widget: "list"
                 summary: "{{fields.title}}"
                 fields:
                   - { label: "Interne ID", name: "id", widget: "string" }
-                  - { label: "Kapitelüberschrift", name: "title", widget: "string" }
-                  - { label: "Kapitel anzeigen", name: "visible", widget: "boolean", default: true }
-                  - label: "Inhaltsblöcke"
-                    label_singular: "Inhaltsblock"
+                  - { label: "Nummer", name: "number", widget: "number", value_type: "int" }
+                  - { label: "Titel", name: "title", widget: "string" }
+                  - { label: "Kurzbeschreibung", name: "description", widget: "string" }
+                  - { label: "Dauer in Minuten", name: "duration", widget: "number", value_type: "int" }
+                  - { label: "Lektion anzeigen", name: "visible", widget: "boolean", default: true }
+                  - label: "Lernkarten"
+                    label_singular: "Lernkarte"
                     name: "blocks"
                     widget: "list"
                     summary: "{{fields.title}} {{fields.text}}"
                     fields:
                       - { label: "Interne ID", name: "id", widget: "string" }
+                      - label: "Darstellung"
+                        name: "type"
+                        widget: "select"
+                        options:
+                          - { label: "Praxiswissen", value: "text" }
+                          - { label: "Wichtiger Hinweis", value: "tip" }
+                          - { label: "Frage zum Nachdenken", value: "question" }
+                          - { label: "Formulierung / Zitat", value: "quote" }
+                          - { label: "Checkliste", value: "check" }
                       - { label: "Optionale Überschrift", name: "title", widget: "string", required: false }
                       - { label: "Text", name: "text", widget: "text" }
-                      - { label: "Block anzeigen", name: "visible", widget: "boolean", default: true }
+                      - { label: "Lernkarte anzeigen", name: "visible", widget: "boolean", default: true }
 
   - name: "ap1_wochenplan"
     label: "AP1 – 12-Wochen-Plan"

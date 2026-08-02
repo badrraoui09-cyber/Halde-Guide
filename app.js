@@ -1,79 +1,36 @@
 (function(){
-  'use strict';
-  const app=document.querySelector('#app');
-  let model;
-  let currentDepartment=null;
-
-  const escapeHtml=(value)=>String(value??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-  const visible=(item)=>item && item.visible!==false;
-
-  async function load(){
-    const response=await fetch('/content/site.json',{cache:'no-store'});
-    if(!response.ok) throw new Error('Inhalte nicht verfügbar');
-    model=await response.json();
-    document.querySelector('#site-title').textContent=model.settings.title;
-    document.querySelector('#site-subtitle').textContent=model.settings.subtitle;
-    route();
-  }
-
-  function route(){
-    const id=new URLSearchParams(location.search).get('bereich');
-    currentDepartment=(model.departments||[]).find(d=>d.id===id&&visible(d))||null;
-    currentDepartment?renderDepartment(currentDepartment):renderHome();
-  }
-
-  function renderHome(){
-    history.replaceState({},'',location.pathname);
-    const template=document.querySelector('#home-template').content.cloneNode(true);
-    template.querySelector('h1').textContent=model.settings.headline;
-    template.querySelector('.hero-copy').textContent=model.settings.intro;
-    const grid=template.querySelector('.department-grid');
-    model.departments.filter(visible).forEach(department=>{
-      const button=document.createElement('button');
-      button.className='department-card';
-      button.dataset.department=department.id;
-      button.innerHTML=`<span class="icon">${escapeHtml(department.icon)}</span><h2>${escapeHtml(department.title)}</h2><p>${escapeHtml(department.description)}</p>`;
-      grid.append(button);
-    });
-    const tools=document.createElement('article');
-    tools.className='department-card utility-card';
-    tools.innerHTML='<span class="icon">✦</span><h2>Training</h2><p>Wochenplan und bisherige interaktive Übungen.</p><div class="utility-links"><a href="/ap1/">AP1-Plan</a><a href="/legacy/">Interaktive Version</a></div>';
-    grid.append(tools);
-    app.replaceChildren(template);
-  }
-
-  function renderDepartment(department,query=''){
-    history.replaceState({},'',`?bereich=${encodeURIComponent(department.id)}`);
-    const normalized=query.trim().toLocaleLowerCase('de');
-    const sections=department.sections.filter(visible).map(section=>({...section,blocks:section.blocks.filter(block=>visible(block)&&(!normalized||`${block.title||''} ${block.text||''}`.toLocaleLowerCase('de').includes(normalized)))})).filter(section=>!normalized||section.blocks.length);
-    app.innerHTML=`<header class="page-head"><button class="back" data-action="home">← Alle Bereiche</button><p class="eyebrow">${escapeHtml(department.icon)} ${escapeHtml(department.title)}</p><h1 class="page-title">${escapeHtml(department.title)}</h1><p class="hero-copy">${escapeHtml(department.description)}</p></header><div class="search-panel"><input type="search" value="${escapeHtml(query)}" placeholder="In diesem Bereich suchen …" aria-label="In diesem Bereich suchen"><div class="result-summary">${sections.reduce((n,s)=>n+s.blocks.length,0)} Inhalte</div></div><nav class="section-nav">${sections.map((s,i)=>`<button data-scroll="${escapeHtml(s.id)}" class="${i===0?'active':''}">${escapeHtml(s.title)}</button>`).join('')}</nav><div class="section-list">${sections.map(sectionCard).join('')||'<p class="empty">Keine passenden Inhalte gefunden.</p>'}</div>`;
-    app.querySelector('input').addEventListener('input',event=>{
-      const value=event.target.value;
-      renderDepartment(department,value);
-      requestAnimationFrame(()=>{const input=app.querySelector('input');input.focus();input.setSelectionRange(value.length,value.length)});
-    });
-  }
-
-  function sectionCard(section){
-    return `<article class="section-card" id="${escapeHtml(section.id)}"><button data-toggle="${escapeHtml(section.id)}"><h2>${escapeHtml(section.title)}</h2><span class="count">${section.blocks.length} Inhalte</span></button><div class="blocks">${section.blocks.map(block=>`<div class="content-block">${block.title?`<h3>${escapeHtml(block.title)}</h3>`:''}<p>${escapeHtml(block.text)}</p></div>`).join('')}</div></article>`;
-  }
-
-  document.addEventListener('click',event=>{
-    const department=event.target.closest('[data-department]');
-    if(department){currentDepartment=model.departments.find(d=>d.id===department.dataset.department);renderDepartment(currentDepartment);return;}
-    if(event.target.closest('[data-action="home"]')){currentDepartment=null;renderHome();return;}
-    if(event.target.closest('[data-action="search"]')){
-      if(!currentDepartment) currentDepartment=model.departments.find(visible);
-      renderDepartment(currentDepartment);
-      requestAnimationFrame(()=>app.querySelector('input')?.focus());
-      return;
-    }
-    const scroll=event.target.closest('[data-scroll]');
-    if(scroll) document.getElementById(scroll.dataset.scroll)?.scrollIntoView({behavior:'smooth',block:'start'});
-    const toggle=event.target.closest('[data-toggle]');
-    if(toggle){const blocks=toggle.nextElementSibling;blocks.hidden=!blocks.hidden;}
-  });
-  addEventListener('popstate',route);
-  load().catch(error=>app.innerHTML=`<section class="empty"><h1>Inhalte konnten nicht geladen werden</h1><p>${escapeHtml(error.message)}</p></section>`);
-  if('serviceWorker' in navigator) addEventListener('load',()=>navigator.serviceWorker.register('/sw.js'));
+'use strict';
+const app=document.querySelector('#app'),dialog=document.querySelector('#search-dialog'),search=document.querySelector('#global-search'),results=document.querySelector('#search-results');
+let data,view={name:'home'},cardIndex=0;
+const completed=new Set(JSON.parse(localStorage.getItem('halde-progress')||'[]'));
+const esc=v=>String(v??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const visible=x=>x&&x.visible!==false;
+const modules=()=>data.departments.filter(visible).flatMap(d=>d.modules.filter(visible).map(m=>({...m,department:d})));
+const percent=d=>{const list=d.modules.filter(visible);return list.length?Math.round(list.filter(m=>completed.has(m.id)).length/list.length*100):0};
+const nextModule=()=>modules().find(m=>!completed.has(m.id))||modules()[0];
+function save(){localStorage.setItem('halde-progress',JSON.stringify([...completed]))}
+function setNav(name){document.querySelectorAll('.bottom-nav button').forEach(b=>b.classList.toggle('active',b.dataset.go===name||(name==='learn'&&view.name==='course')))}
+function go(next){view=next;cardIndex=0;render();scrollTo({top:0,behavior:'smooth'})}
+function render(){setNav(view.name);if(view.name==='home')home();else if(view.name==='learn')learn();else if(view.name==='progress')progress();else if(view.name==='course')course();else if(view.name==='lesson')lesson()}
+function home(){const next=nextModule();app.innerHTML=`
+ <section class="hero"><div class="hero-image"></div><div class="hero-content"><p class="eyebrow">${esc(data.settings.welcome)} · HALDE GUIDE</p><h1>${esc(data.settings.headline)}</h1><p class="hero-copy">${esc(data.settings.intro)}</p><button class="primary-button" data-open-module="${next.id}" data-dept="${next.department.id}">Weiterlernen <span>→</span></button></div></section>
+ <div class="section-heading"><div><p class="eyebrow">HEUTE</p><h2>${esc(data.settings.featuredTitle)}</h2></div></div>
+ ${continueCard(next)}
+ <div class="section-heading"><div><p class="eyebrow">LERNPFADE</p><h2>Was möchtest du sicher beherrschen?</h2></div><p>${modules().length} Lektionen</p></div>
+ <section class="area-grid">${data.departments.filter(visible).map(areaCard).join('')}</section>
+ <div class="section-heading"><div><p class="eyebrow">SCHNELLZUGRIFF</p><h2>Direkt zur Praxis</h2></div></div>
+ <section class="quick-grid"><a class="quick-card" href="/ap1/"><span>🎯</span><strong>AP1-Wochenplan</strong></a><button class="quick-card" data-action="search"><span>⌕</span><strong>Guide durchsuchen</strong></button><a class="quick-card" href="/legacy/"><span>✦</span><strong>Übungen & Quiz</strong></a></section>`}
+function continueCard(m){return `<button class="continue-card" data-open-module="${m.id}" data-dept="${m.department.id}"><span class="continue-number">${String(m.number).padStart(2,'0')}</span><span><small>${esc(m.department.kicker)} · ${m.duration} MIN</small><strong>${esc(m.title)}</strong></span><span class="arrow">→</span></button>`}
+function areaCard(d){return `<button class="area-card" style="--accent:${d.accent};--progress:${percent(d)}%" data-open-course="${d.id}"><span class="area-icon">${esc(d.icon)}</span><h3>${esc(d.title)}</h3><p>${esc(d.description)}</p><span class="area-meta"><span class="progress-track"><i></i></span><small>${percent(d)}%</small></span></button>`}
+function learn(){app.innerHTML=`<header class="page-head"><p class="eyebrow">ALLE LERNPFADE</p><h1 class="display-title">Lernen in deinem Tempo.</h1><p class="hero-copy">Wähle einen Bereich. Jede Lektion führt dich Karte für Karte durch eine konkrete Situation.</p></header><section class="area-grid">${data.departments.filter(visible).map(areaCard).join('')}</section>`}
+function course(){const d=data.departments.find(x=>x.id===view.department);const list=d.modules.filter(visible);app.innerHTML=`<header class="page-head"><button class="back-button" data-go="learn">← Lernpfade</button><p class="eyebrow">${esc(d.kicker)}</p><h1 class="display-title">${esc(d.title)}</h1><p class="hero-copy">${esc(d.description)}</p><div class="course-summary"><span class="progress-track" style="--accent:${d.accent}"><i style="width:${percent(d)}%;background:${d.accent}"></i></span><small>${percent(d)}% abgeschlossen</small></div></header><section class="module-list">${list.map(m=>`<button class="module-card ${completed.has(m.id)?'done':''}" data-open-module="${m.id}" data-dept="${d.id}"><span class="module-index">${completed.has(m.id)?'✓':String(m.number).padStart(2,'0')}</span><span><strong>${esc(m.title)}</strong><small>${m.duration} Min · ${m.blocks.filter(visible).length} Lernkarten</small></span><span class="arrow">→</span></button>`).join('')}</section>`}
+function lesson(){const d=data.departments.find(x=>x.id===view.department),m=d.modules.find(x=>x.id===view.module),cards=m.blocks.filter(visible);if(cardIndex>=cards.length){complete(d,m);return}const card=cards[cardIndex],labels={tip:'MERKEN',question:'ÜBERLEGE',quote:'SO KANNST DU ES SAGEN',check:'CHECKLISTE',text:'PRAXISWISSEN'};app.innerHTML=`<section class="lesson-shell"><header class="lesson-top"><button class="back-button" data-open-course="${d.id}">← ${esc(d.title)}</button><div class="lesson-topline"><span>LEKTION ${m.number} · ${esc(m.title)}</span><span>${cardIndex+1}/${cards.length}</span></div><div class="progress-track"><i style="width:${(cardIndex+1)/cards.length*100}%;background:${d.accent}"></i></div><h1 class="lesson-title">${esc(m.title)}</h1><p class="lesson-sub">${esc(m.description)}</p></header><article class="learning-card" data-type="${esc(card.type)}"><span class="card-label">${labels[card.type]||labels.text}</span>${card.title?`<h2>${esc(card.title)}</h2>`:''}<p>${esc(card.text)}</p></article><div class="lesson-actions"><button data-card="prev" ${cardIndex===0?'disabled':''}>← Zurück</button><button data-card="next">${cardIndex===cards.length-1?'Lektion abschließen':'Weiter →'}</button></div></section>`}
+function complete(d,m){completed.add(m.id);save();app.innerHTML=`<section class="lesson-shell"><header class="lesson-top"><button class="back-button" data-open-course="${d.id}">← Lernpfad</button></header><article class="complete-card"><div class="complete-icon">✓</div><p class="eyebrow">LEKTION ABGESCHLOSSEN</p><h1 class="lesson-title">${esc(m.title)}</h1><p class="hero-copy">Stark. Das Wissen ist jetzt in deinem persönlichen Fortschritt gespeichert.</p><button class="primary-button" data-next-after="${m.id}" data-dept="${d.id}">Nächste Lektion →</button></article></section>`}
+function progress(){const all=modules(),done=all.filter(m=>completed.has(m.id)).length,pct=all.length?Math.round(done/all.length*100):0;app.innerHTML=`<header class="page-head"><p class="eyebrow">DEIN FORTSCHRITT</p><h1 class="display-title">Schritt für Schritt sicherer.</h1><p class="hero-copy">Der Fortschritt wird auf diesem Gerät gespeichert.</p></header><section class="stats-grid"><article class="stat-card"><strong>${pct}%</strong><small>Gesamt</small></article><article class="stat-card"><strong>${done}</strong><small>Lektionen fertig</small></article><article class="stat-card"><strong>${all.length-done}</strong><small>Noch offen</small></article></section><div class="section-heading"><div><p class="eyebrow">BEREICHE</p><h2>Deine Lernpfade</h2></div></div><section class="area-grid">${data.departments.filter(visible).map(areaCard).join('')}</section>`}
+function openSearch(){dialog.showModal();search.value='';results.innerHTML='<p class="empty">Tippe einen Begriff ein.</p>';setTimeout(()=>search.focus(),50)}
+function doSearch(q){q=q.trim().toLocaleLowerCase('de');if(q.length<2){results.innerHTML='<p class="empty">Mindestens zwei Zeichen eingeben.</p>';return}const found=[];data.departments.filter(visible).forEach(d=>d.modules.filter(visible).forEach(m=>m.blocks.filter(visible).forEach(b=>{if(`${m.title} ${b.title} ${b.text}`.toLocaleLowerCase('de').includes(q)&&found.length<30)found.push({d,m,b})})));results.innerHTML=found.length?found.map(x=>`<button class="search-result" data-search-module="${x.m.id}" data-dept="${x.d.id}"><strong>${esc(x.b.title||x.b.text.split('\n')[0].slice(0,80))}</strong><small>${esc(x.d.title)} · ${esc(x.m.title)}</small></button>`).join(''):'<p class="empty">Nichts gefunden.</p>'}
+document.addEventListener('click',e=>{const t=e.target.closest('button,[data-go]');if(!t)return;if(t.dataset.action==='search'){openSearch();return}if(t.dataset.go){go({name:t.dataset.go});return}if(t.dataset.openCourse){go({name:'course',department:t.dataset.openCourse});return}if(t.dataset.openModule){go({name:'lesson',department:t.dataset.dept,module:t.dataset.openModule});return}if(t.dataset.card==='prev'){cardIndex=Math.max(0,cardIndex-1);render();return}if(t.dataset.card==='next'){cardIndex++;render();return}if(t.dataset.nextAfter){const d=data.departments.find(x=>x.id===t.dataset.dept),list=d.modules.filter(visible),i=list.findIndex(x=>x.id===t.dataset.nextAfter),next=list[i+1];next?go({name:'lesson',department:d.id,module:next.id}):go({name:'course',department:d.id});return}if(t.dataset.searchModule){dialog.close();go({name:'lesson',department:t.dataset.dept,module:t.dataset.searchModule})}});
+search.addEventListener('input',e=>doSearch(e.target.value));
+fetch('/content/site.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('Inhalte konnten nicht geladen werden');return r.json()}).then(x=>{data=x;document.querySelector('#site-title').textContent=data.settings.title;document.querySelector('#site-subtitle').textContent=data.settings.subtitle;render()}).catch(err=>app.innerHTML=`<p class="empty">${esc(err.message)}</p>`);
+if('serviceWorker'in navigator)addEventListener('load',()=>navigator.serviceWorker.register('/sw.js'));
 })();
