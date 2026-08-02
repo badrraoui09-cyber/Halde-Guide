@@ -77,29 +77,30 @@ collections:
                           - { label: "Muss bestätigt werden", value: "check" }
                       - { label: "Lernkarte anzeigen", name: "visible", widget: "boolean", default: true }
 
-  - name: "ap1_wochenplan"
-    label: "AP1 – 12-Wochen-Plan"
+  - name: "quiz"
+    label: "Übungen & Quiz"
     files:
-      - file: "content/weeks.json"
-        label: "Wochenplan"
-        name: "wochenplan"
+      - file: "content/quiz.json"
+        label: "Quiz bearbeiten"
+        name: "quiz"
         fields:
-          - label: "Wochen"
-            name: "weeks"
+          - { label: "Titel", name: "title", widget: "string" }
+          - { label: "Einleitung", name: "intro", widget: "text" }
+          - label: "Quizfragen"
+            label_singular: "Quizfrage"
+            name: "questions"
             widget: "list"
-            summary: "Woche {{fields.w}} – {{fields.t}}"
+            summary: "{{fields.category}} – {{fields.question}}"
             fields:
-              - { label: "Wochennummer", name: "w", widget: "number", value_type: "int" }
-              - { label: "Titel", name: "t", widget: "string" }
-              - label: "Praxis-Aufgaben"
-                name: "p"
+              - { label: "Interne ID", name: "id", widget: "string" }
+              - { label: "Bereich", name: "category", widget: "string" }
+              - { label: "Frage", name: "question", widget: "text" }
+              - label: "Antwortmöglichkeiten"
+                name: "options"
                 widget: "list"
-                field: { label: "Punkt", name: "item", widget: "string" }
-              - label: "Theorie-Themen"
-                name: "s"
-                widget: "list"
-                field: { label: "Punkt", name: "item", widget: "string" }
-              - label: "Checkliste"
-                name: "c"
-                widget: "list"
-                field: { label: "Frage", name: "item", widget: "string" }
+                min: 2
+                max: 4
+                field: { label: "Antwort", name: "answer", widget: "string" }
+              - { label: "Nummer der richtigen Antwort", name: "correct", widget: "number", value_type: "int", min: 1, max: 4, hint: "1 = erste Antwort, 2 = zweite Antwort usw." }
+              - { label: "Erklärung nach der Antwort", name: "explanation", widget: "text" }
+              - { label: "Frage anzeigen", name: "visible", widget: "boolean", default: true }

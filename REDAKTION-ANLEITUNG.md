@@ -26,9 +26,17 @@ Den betreffenden Eintrag öffnen und auf das `×` klicken. Löschen ist dauerhaf
 
 Mit **Bereich hinzufügen**, **Lektion hinzufügen** oder **Lernkarte hinzufügen** können neue Inhalte erstellt werden. Jede interne ID muss innerhalb ihrer Ebene eindeutig sein und sollte nur Kleinbuchstaben, Zahlen und Bindestriche enthalten.
 
-## AP1-Wochenplan
+## Übungen & Quiz
 
-Der Wochenplan wird separat unter **AP1 – 12-Wochen-Plan** bearbeitet.
+Das Quiz wird im Admin unter **Übungen & Quiz** bearbeitet. Jede Frage enthält:
+
+- einen Bereich,
+- die Frage,
+- zwei bis vier Antwortmöglichkeiten,
+- die Nummer der richtigen Antwort,
+- eine kurze Erklärung nach der Auswahl.
+
+Bei **Nummer der richtigen Antwort** bedeutet `1` die erste Antwort, `2` die zweite Antwort und so weiter. Eine Frage kann über **Frage anzeigen** ausgeblendet werden, ohne sie zu löschen.
 
 ## Karten, Rezepte und Preise
 
