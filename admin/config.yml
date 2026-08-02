@@ -67,6 +67,14 @@ collections:
                           - { label: "Checkliste", value: "check" }
                       - { label: "Optionale Überschrift", name: "title", widget: "string", required: false }
                       - { label: "Text", name: "text", widget: "text" }
+                      - { label: "Quelle", name: "source", widget: "string", required: false }
+                      - label: "Prüfstatus"
+                        name: "status"
+                        widget: "select"
+                        default: "current"
+                        options:
+                          - { label: "Aktuell", value: "current" }
+                          - { label: "Muss bestätigt werden", value: "check" }
                       - { label: "Lernkarte anzeigen", name: "visible", widget: "boolean", default: true }
 
   - name: "ap1_wochenplan"
