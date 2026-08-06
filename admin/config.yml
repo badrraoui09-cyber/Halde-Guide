@@ -36,7 +36,7 @@ collections:
               - { label: "Beschreibung", name: "description", widget: "text" }
               - { label: "Kleine Überschrift", name: "kicker", widget: "string" }
               - { label: "Akzentfarbe", name: "accent", widget: "color" }
-              - { label: "Auf Website anzeigen", name: "visible", widget: "boolean", default: true }
+              - { label: "Auf Website anzeigen", name: "visible", widget: "boolean", default: true, required: false }
               - label: "Lektionen"
                 label_singular: "Lektion"
                 name: "modules"
@@ -48,7 +48,7 @@ collections:
                   - { label: "Titel", name: "title", widget: "string" }
                   - { label: "Kurzbeschreibung", name: "description", widget: "string" }
                   - { label: "Dauer in Minuten", name: "duration", widget: "number", value_type: "int" }
-                  - { label: "Lektion anzeigen", name: "visible", widget: "boolean", default: true }
+                  - { label: "Lektion anzeigen", name: "visible", widget: "boolean", default: true, required: false }
                   - label: "Lernkarten"
                     label_singular: "Lernkarte"
                     name: "blocks"
@@ -72,10 +72,11 @@ collections:
                         name: "status"
                         widget: "select"
                         default: "current"
+                        required: false
                         options:
                           - { label: "Aktuell", value: "current" }
                           - { label: "Muss bestätigt werden", value: "check" }
-                      - { label: "Lernkarte anzeigen", name: "visible", widget: "boolean", default: true }
+                      - { label: "Lernkarte anzeigen", name: "visible", widget: "boolean", default: true, required: false }
 
   - name: "quiz"
     label: "Übungen & Quiz"
@@ -103,4 +104,4 @@ collections:
                 field: { label: "Antwort", name: "answer", widget: "string" }
               - { label: "Nummer der richtigen Antwort", name: "correct", widget: "number", value_type: "int", min: 1, max: 4, hint: "1 = erste Antwort, 2 = zweite Antwort usw." }
               - { label: "Erklärung nach der Antwort", name: "explanation", widget: "text" }
-              - { label: "Frage anzeigen", name: "visible", widget: "boolean", default: true }
+              - { label: "Frage anzeigen", name: "visible", widget: "boolean", default: true, required: false }
