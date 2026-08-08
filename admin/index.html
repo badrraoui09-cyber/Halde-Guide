@@ -17,6 +17,37 @@
       });
     }
   </script>
-  <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+  <script src="https://unpkg.com/decap-cms@3.15.1/dist/decap-cms.js"></script>
+  <script>
+    CMS.registerEventListener({
+      name: "postPublish",
+      handler: () => {
+        const notice = document.createElement("div");
+        notice.setAttribute("role", "status");
+        notice.innerHTML = "<strong>Gespeichert ✓</strong><span>Die Inhalte werden synchronisiert. Der Editor lädt gleich automatisch neu.</span>";
+        Object.assign(notice.style, {
+          position: "fixed",
+          inset: "0",
+          zIndex: "999999",
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: "12px",
+          padding: "24px",
+          textAlign: "center",
+          color: "#f5f1e8",
+          background: "rgba(15, 16, 13, 0.96)",
+          font: "18px/1.5 system-ui, sans-serif"
+        });
+        document.body.appendChild(notice);
+
+        window.setTimeout(() => {
+          const freshUrl = `${window.location.pathname}?sync=${Date.now()}${window.location.hash}`;
+          window.location.replace(freshUrl);
+        }, 15000);
+      }
+    });
+  </script>
 </body>
 </html>
