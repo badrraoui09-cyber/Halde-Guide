@@ -17,11 +17,54 @@
       });
     }
   </script>
+  <script>
+    // Git Gateway can briefly return an old branch reference after a write.
+    // Force every gateway read to bypass browser and intermediary caches.
+    (() => {
+      const isGatewayRead = (method, url) =>
+        method.toUpperCase() === "GET" && String(url).includes("/.netlify/git/github");
+
+      const freshUrl = url => {
+        const value = new URL(String(url), window.location.origin);
+        value.searchParams.set("_halde_cms", `${Date.now()}-${Math.random()}`);
+        return value.toString();
+      };
+
+      const originalFetch = window.fetch.bind(window);
+      window.fetch = (resource, options = {}) => {
+        const method = options.method || (resource instanceof Request ? resource.method : "GET");
+        const url = resource instanceof Request ? resource.url : resource;
+
+        if (!isGatewayRead(method, url)) {
+          return originalFetch(resource, options);
+        }
+
+        const headers = new Headers(options.headers || (resource instanceof Request ? resource.headers : undefined));
+        headers.set("Cache-Control", "no-cache, no-store");
+        headers.set("Pragma", "no-cache");
+        const requestOptions = { ...options, headers, cache: "no-store" };
+        const target = resource instanceof Request
+          ? new Request(freshUrl(resource.url), resource)
+          : freshUrl(resource);
+
+        return originalFetch(target, requestOptions);
+      };
+
+      const originalOpen = XMLHttpRequest.prototype.open;
+      XMLHttpRequest.prototype.open = function(method, url, ...rest) {
+        const target = isGatewayRead(method, url) ? freshUrl(url) : url;
+        return originalOpen.call(this, method, target, ...rest);
+      };
+    })();
+  </script>
   <script src="https://unpkg.com/decap-cms@3.15.1/dist/decap-cms.js"></script>
   <script>
-    CMS.registerEventListener({
-      name: "postPublish",
-      handler: () => {
+    let syncScheduled = false;
+
+    const refreshAfterSave = () => {
+      if (syncScheduled) return;
+      syncScheduled = true;
+
         const notice = document.createElement("div");
         notice.setAttribute("role", "status");
         notice.innerHTML = "<strong>Gespeichert ✓</strong><span>Die Inhalte werden synchronisiert. Der Editor lädt gleich automatisch neu.</span>";
@@ -46,7 +89,10 @@
           const freshUrl = `${window.location.pathname}?sync=${Date.now()}${window.location.hash}`;
           window.location.replace(freshUrl);
         }, 15000);
-      }
+    };
+
+    ["postSave", "postPublish"].forEach(name => {
+      CMS.registerEventListener({ name, handler: refreshAfterSave });
     });
   </script>
 </body>
