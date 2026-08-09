@@ -1,7 +1,7 @@
 {
   "name": "Halde Guide",
   "short_name": "Halde",
-  "description": "Internes Springer-Guide für Hotel Die Halde",
+  "description": "Interaktiver Lernbegleiter für echte Situationen auf der Halde",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#1a1a1a",
