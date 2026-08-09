@@ -1,49 +1,294 @@
-(function(){
-'use strict';
-const app=document.querySelector('#app'),dialog=document.querySelector('#search-dialog'),search=document.querySelector('#global-search'),results=document.querySelector('#search-results');
-let data,quizData,view={name:'home'},cardIndex=0,quizState={index:0,score:0,answered:false,selected:0};
-const completed=new Set(JSON.parse(localStorage.getItem('halde-progress')||'[]'));
-const esc=v=>String(v??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-const visible=x=>x&&x.visible!==false;
-const modules=()=>data.departments.filter(visible).flatMap(d=>d.modules.filter(visible).map(m=>({...m,department:d})));
-const percent=d=>{const list=d.modules.filter(visible);return list.length?Math.round(list.filter(m=>completed.has(m.id)).length/list.length*100):0};
-const nextModule=()=>modules().find(m=>!completed.has(m.id))||modules()[0];
-function save(){localStorage.setItem('halde-progress',JSON.stringify([...completed]))}
-function setNav(name){document.querySelectorAll('.bottom-nav button').forEach(b=>b.classList.toggle('active',b.dataset.go===name||(name==='learn'&&view.name==='course')))}
-function go(next){view=next;cardIndex=0;render();scrollTo({top:0,behavior:'smooth'})}
-function render(){setNav(view.name);if(view.name==='home')home();else if(view.name==='learn')learn();else if(view.name==='progress')progress();else if(view.name==='course')course();else if(view.name==='lesson')lesson();else if(view.name==='quiz')quiz()}
-function home(){const next=nextModule();app.innerHTML=`
- <section class="hero"><div class="hero-image"></div><div class="hero-content"><p class="eyebrow">${esc(data.settings.welcome)} · HALDE GUIDE</p><h1>${esc(data.settings.headline)}</h1><p class="hero-copy">${esc(data.settings.intro)}</p><button class="primary-button" data-open-module="${next.id}" data-dept="${next.department.id}">Weiterlernen <span>→</span></button></div></section>
- <div class="section-heading"><div><p class="eyebrow">HEUTE</p><h2>${esc(data.settings.featuredTitle)}</h2></div></div>
- ${continueCard(next)}
- <div class="section-heading"><div><p class="eyebrow">LERNPFADE</p><h2>Was möchtest du sicher beherrschen?</h2></div><p>${modules().length} Lektionen</p></div>
- <section class="area-grid">${data.departments.filter(visible).map(areaCard).join('')}</section>
- <div class="section-heading"><div><p class="eyebrow">SCHNELLZUGRIFF</p><h2>Direkt zur Praxis</h2></div></div>
- <section class="quick-grid"><button class="quick-card" data-action="search"><span>⌕</span><strong>Guide durchsuchen</strong></button><button class="quick-card" data-go="quiz"><span>✦</span><strong>Übungen & Quiz</strong></button><a class="quick-card" href="/documents/"><span>▤</span><strong>Originalkarten</strong></a></section>`}
-function continueCard(m){return `<button class="continue-card" data-open-module="${m.id}" data-dept="${m.department.id}"><span class="continue-number">${String(m.number).padStart(2,'0')}</span><span><small>${esc(m.department.kicker)} · ${m.duration} MIN</small><strong>${esc(m.title)}</strong></span><span class="arrow">→</span></button>`}
-function areaCard(d){return `<button class="area-card" style="--accent:${d.accent};--progress:${percent(d)}%" data-open-course="${d.id}"><span class="area-icon">${esc(d.icon)}</span><h3>${esc(d.title)}</h3><p>${esc(d.description)}</p><span class="area-meta"><span class="progress-track"><i></i></span><small>${percent(d)}%</small></span></button>`}
-function learn(){app.innerHTML=`<header class="page-head"><p class="eyebrow">ALLE LERNPFADE</p><h1 class="display-title">Lernen in deinem Tempo.</h1><p class="hero-copy">Wähle einen Bereich. Jede Lektion führt dich Karte für Karte durch eine konkrete Situation.</p></header><section class="area-grid">${data.departments.filter(visible).map(areaCard).join('')}</section>`}
-function course(){const d=data.departments.find(x=>x.id===view.department);const list=d.modules.filter(visible);app.innerHTML=`<header class="page-head"><button class="back-button" data-go="learn">← Lernpfade</button><p class="eyebrow">${esc(d.kicker)}</p><h1 class="display-title">${esc(d.title)}</h1><p class="hero-copy">${esc(d.description)}</p><div class="course-summary"><span class="progress-track" style="--accent:${d.accent}"><i style="width:${percent(d)}%;background:${d.accent}"></i></span><small>${percent(d)}% abgeschlossen</small></div></header><section class="module-list">${list.map(m=>`<button class="module-card ${completed.has(m.id)?'done':''}" data-open-module="${m.id}" data-dept="${d.id}"><span class="module-index">${completed.has(m.id)?'✓':String(m.number).padStart(2,'0')}</span><span><strong>${esc(m.title)}</strong><small>${m.duration} Min · ${m.blocks.filter(visible).length} Lernkarten</small></span><span class="arrow">→</span></button>`).join('')}</section>`}
-function lesson(){
- const d=data.departments.find(x=>x.id===view.department),m=d.modules.find(x=>x.id===view.module),cards=m.blocks.filter(visible);
- if(cardIndex>=cards.length){complete(d,m);return}
- const card=cards[cardIndex],labels={tip:'MERKEN',question:'ÜBERLEGE',quote:'SO KANNST DU ES SAGEN',check:'CHECKLISTE',text:'PRAXISWISSEN'};
- const label=card.status==='check'?'VOR EINSATZ BESTÄTIGEN':labels[card.type]||labels.text;
- app.innerHTML=`<section class="lesson-shell"><header class="lesson-top"><button class="back-button" data-open-course="${d.id}">← ${esc(d.title)}</button><div class="lesson-topline"><span>LEKTION ${m.number} · ${esc(m.title)}</span><span>${cardIndex+1}/${cards.length}</span></div><div class="progress-track"><i style="width:${(cardIndex+1)/cards.length*100}%;background:${d.accent}"></i></div><h1 class="lesson-title">${esc(m.title)}</h1><p class="lesson-sub">${esc(m.description)}</p></header><article class="learning-card" data-type="${esc(card.type)}"><span class="card-label">${label}</span>${card.title?`<h2>${esc(card.title)}</h2>`:''}<p>${esc(card.text)}</p>${card.source?`<small class="source-note">Quelle: ${esc(card.source)}</small>`:''}</article><div class="lesson-actions"><button data-card="prev" ${cardIndex===0?'disabled':''}>← Zurück</button><button data-card="next">${cardIndex===cards.length-1?'Lektion abschließen':'Weiter →'}</button></div></section>`
-}
-function complete(d,m){completed.add(m.id);save();app.innerHTML=`<section class="lesson-shell"><header class="lesson-top"><button class="back-button" data-open-course="${d.id}">← Lernpfad</button></header><article class="complete-card"><div class="complete-icon">✓</div><p class="eyebrow">LEKTION ABGESCHLOSSEN</p><h1 class="lesson-title">${esc(m.title)}</h1><p class="hero-copy">Stark. Das Wissen ist jetzt in deinem persönlichen Fortschritt gespeichert.</p><button class="primary-button" data-next-after="${m.id}" data-dept="${d.id}">Nächste Lektion →</button></article></section>`}
-function progress(){const all=modules(),done=all.filter(m=>completed.has(m.id)).length,pct=all.length?Math.round(done/all.length*100):0;app.innerHTML=`<header class="page-head"><p class="eyebrow">DEIN FORTSCHRITT</p><h1 class="display-title">Schritt für Schritt sicherer.</h1><p class="hero-copy">Der Fortschritt wird auf diesem Gerät gespeichert.</p></header><section class="stats-grid"><article class="stat-card"><strong>${pct}%</strong><small>Gesamt</small></article><article class="stat-card"><strong>${done}</strong><small>Lektionen fertig</small></article><article class="stat-card"><strong>${all.length-done}</strong><small>Noch offen</small></article></section><div class="section-heading"><div><p class="eyebrow">BEREICHE</p><h2>Deine Lernpfade</h2></div></div><section class="area-grid">${data.departments.filter(visible).map(areaCard).join('')}</section>`}
-function quiz(){
- const questions=(quizData?.questions||[]).filter(visible),q=questions[quizState.index];
- if(!questions.length){app.innerHTML='<p class="empty">Noch keine Quizfragen vorhanden.</p>';return}
- if(!q){const pct=Math.round(quizState.score/questions.length*100),message=pct>=80?'Sehr sicher – stark für den Service.':pct>=60?'Gute Basis – die Erklärungen noch einmal ansehen.':'Noch einmal üben und danach erneut versuchen.';app.innerHTML=`<section class="quiz-shell"><button class="back-button" data-go="home">← Start</button><article class="quiz-finish"><div class="complete-icon">${pct>=80?'✓':'↻'}</div><p class="eyebrow">QUIZ ABGESCHLOSSEN</p><h1 class="lesson-title">${quizState.score} von ${questions.length} richtig</h1><p class="hero-copy">${message}</p><button class="primary-button" data-quiz-restart>Quiz wiederholen</button></article></section>`;return}
- const options=q.options||[],selected=quizState.selected,correct=Number(q.correct);
- app.innerHTML=`<section class="quiz-shell"><header class="quiz-head"><button class="back-button" data-go="home">← Start</button><div class="lesson-topline"><span>${esc(q.category||'PRAXISQUIZ')}</span><span>${quizState.index+1}/${questions.length}</span></div><div class="progress-track"><i style="width:${(quizState.index+1)/questions.length*100}%;background:var(--gold)"></i></div><p class="eyebrow">${esc(quizData.title||'ÜBUNGEN & QUIZ')}</p><h1 class="quiz-question">${esc(q.question)}</h1></header><div class="quiz-options">${options.map((option,i)=>{const n=i+1,chosen=selected===n,isCorrect=n===correct,cls=quizState.answered?(isCorrect?'correct':chosen?'wrong':''):'';return `<button class="quiz-option ${cls}" data-quiz-answer="${n}" ${quizState.answered?'disabled':''}><span>${String.fromCharCode(64+n)}</span>${esc(option)}</button>`}).join('')}</div>${quizState.answered?`<article class="quiz-feedback ${selected===correct?'correct':'wrong'}"><strong>${selected===correct?'Richtig.':'Noch nicht.'}</strong><p>${esc(q.explanation)}</p></article><button class="primary-button quiz-next" data-quiz-next>${quizState.index===questions.length-1?'Ergebnis ansehen':'Nächste Frage →'}</button>`:''}</section>`
-}
-function openSearch(){if(!dialog||!search||!results)return;dialog.showModal();search.value='';results.innerHTML='<p class="empty">Tippe einen Begriff ein.</p>';setTimeout(()=>search.focus(),50)}
-function doSearch(q){q=q.trim().toLocaleLowerCase('de');if(q.length<2){results.innerHTML='<p class="empty">Mindestens zwei Zeichen eingeben.</p>';return}const found=[];data.departments.filter(visible).forEach(d=>d.modules.filter(visible).forEach(m=>m.blocks.filter(visible).forEach(b=>{if(`${m.title} ${b.title} ${b.text}`.toLocaleLowerCase('de').includes(q)&&found.length<30)found.push({d,m,b})})));results.innerHTML=found.length?found.map(x=>`<button class="search-result" data-search-module="${x.m.id}" data-dept="${x.d.id}"><strong>${esc(x.b.title||x.b.text.split('\n')[0].slice(0,80))}</strong><small>${esc(x.d.title)} · ${esc(x.m.title)}</small></button>`).join(''):'<p class="empty">Nichts gefunden.</p>'}
-document.addEventListener('click',e=>{const t=e.target.closest('button,[data-go]');if(!t)return;if(t.dataset.action==='search'){openSearch();return}if(t.dataset.go){go({name:t.dataset.go});return}if(t.dataset.openCourse){go({name:'course',department:t.dataset.openCourse});return}if(t.dataset.openModule){go({name:'lesson',department:t.dataset.dept,module:t.dataset.openModule});return}if(t.dataset.card==='prev'){cardIndex=Math.max(0,cardIndex-1);render();return}if(t.dataset.card==='next'){cardIndex++;render();return}if(t.dataset.nextAfter){const d=data.departments.find(x=>x.id===t.dataset.dept),list=d.modules.filter(visible),i=list.findIndex(x=>x.id===t.dataset.nextAfter),next=list[i+1];next?go({name:'lesson',department:d.id,module:next.id}):go({name:'course',department:d.id});return}if(t.dataset.searchModule){dialog?.close();go({name:'lesson',department:t.dataset.dept,module:t.dataset.searchModule});return}if(t.dataset.quizAnswer&&!quizState.answered){quizState.selected=Number(t.dataset.quizAnswer);quizState.answered=true;const q=(quizData.questions||[]).filter(visible)[quizState.index];if(quizState.selected===Number(q.correct))quizState.score++;render();return}if(t.hasAttribute('data-quiz-next')){quizState.index++;quizState.answered=false;quizState.selected=0;render();scrollTo({top:0,behavior:'smooth'});return}if(t.hasAttribute('data-quiz-restart')){quizState={index:0,score:0,answered:false,selected:0};render()}});
-search?.addEventListener('input',e=>doSearch(e.target.value));
-Promise.all([fetch('/content/site.json',{cache:'no-store'}),fetch('/content/quiz.json',{cache:'no-store'})]).then(async responses=>{if(!responses[0].ok)throw Error('Inhalte konnten nicht geladen werden');data=await responses[0].json();quizData=responses[1].ok?await responses[1].json():{title:'Übungen & Quiz',questions:[]};document.querySelector('#site-title').textContent=data.settings.title;document.querySelector('#site-subtitle').textContent=data.settings.subtitle;render()}).catch(err=>app.innerHTML=`<p class="empty">${esc(err.message)}</p>`);
-if('serviceWorker'in navigator)addEventListener('load',()=>navigator.serviceWorker.register('/sw.js'));
+(function () {
+  'use strict';
+
+  const app = document.querySelector('#app');
+  const dialog = document.querySelector('#search-dialog');
+  const search = document.querySelector('#global-search');
+  const results = document.querySelector('#search-results');
+
+  let data;
+  let quizData;
+  let view = { name: 'home' };
+  let cardIndex = 0;
+  let checkedItems = new Set();
+  let quizState = { index: 0, score: 0, answered: false, selected: 0 };
+
+  const completed = new Set(JSON.parse(localStorage.getItem('halde-progress') || '[]'));
+  const esc = value => String(value ?? '').replace(/[&<>"]/g, char => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[char]));
+  const visible = item => item && item.visible !== false;
+  const save = () => localStorage.setItem('halde-progress', JSON.stringify([...completed]));
+  const departments = () => data.departments.filter(visible);
+  const modules = () => departments().flatMap(department => department.modules.filter(visible).map(module => ({ ...module, department })));
+  const moduleBy = (departmentId, words) => {
+    const department = data.departments.find(item => item.id === departmentId) || departments()[0];
+    const module = department.modules.filter(visible).find(item => words.some(word => item.title.toLocaleLowerCase('de').includes(word))) || department.modules.filter(visible)[0];
+    return { ...module, department };
+  };
+  const progressFor = department => {
+    const list = department.modules.filter(visible);
+    return list.length ? Math.round((list.filter(module => completed.has(module.id)).length / list.length) * 100) : 0;
+  };
+  const nextModule = () => modules().find(module => !completed.has(module.id)) || modules()[0];
+  const compact = text => String(text || '').replace(/\s+/g, ' ').trim();
+  const headline = text => {
+    const parts = String(text || '').split('.').map(part => part.trim()).filter(Boolean);
+    return parts.length > 1 ? `${esc(parts[0])}. <em>${esc(parts.slice(1).join('. '))}.</em>` : esc(text);
+  };
+
+  function setNav(name) {
+    document.body.classList.toggle('focus-view', ['lesson', 'quiz'].includes(name));
+    document.querySelectorAll('.bottom-nav button').forEach(button => {
+      const target = button.dataset.go;
+      button.classList.toggle('active', target === name || (target === 'learn' && name === 'course'));
+    });
+  }
+
+  function go(next) {
+    view = next;
+    cardIndex = 0;
+    checkedItems = new Set();
+    render();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  function render() {
+    setNav(view.name);
+    if (view.name === 'home') home();
+    if (view.name === 'learn') learn();
+    if (view.name === 'progress') progress();
+    if (view.name === 'course') course();
+    if (view.name === 'lesson') lesson();
+    if (view.name === 'quiz') quiz();
+  }
+
+  function missionCard(title, subtitle, icon, accent, module) {
+    return `<button class="mission-card" style="--mission:${accent}" data-open-module="${esc(module.id)}" data-dept="${esc(module.department.id)}">
+      <span class="mission-icon" aria-hidden="true">${icon}</span>
+      <span class="mission-copy"><small>JETZT BRAUCHE ICH</small><strong>${esc(title)}</strong><span>${esc(subtitle)}</span></span>
+      <span class="mission-arrow">↗</span>
+    </button>`;
+  }
+
+  function home() {
+    const next = nextModule();
+    const arrival = moduleBy('empfang', ['empfangsregeln', 'begrüßung']);
+    const table = moduleBy('service', ['der tisch', 'erster tischkontakt']);
+    const recommend = moduleBy('genuss', ['offene weine', 'aperitivo']);
+    const solve = moduleBy('empfang', ['empfangsregeln', 'beschwerden']);
+    const done = modules().filter(module => completed.has(module.id)).length;
+    const hour = new Date().getHours();
+    const shift = hour < 11 ? 'Morgenvorbereitung' : hour < 17 ? 'Tagesservice' : 'Abendservice';
+
+    app.innerHTML = `
+      <section class="command-hero">
+        <div class="shift-line"><span class="live-dot"></span><strong>${shift}</strong><span>${done}/${modules().length} Lektionen abgeschlossen</span></div>
+        <div class="hero-orbit" aria-hidden="true"><span>EMPFANG</span><span>SERVICE</span><span>GENUSS</span><b>H</b></div>
+        <div class="command-copy">
+          <p class="eyebrow">${esc(data.settings.welcome)} · DEIN HALDE BEGLEITER</p>
+          <h1>${headline(data.settings.headline)}</h1>
+          <p>${esc(data.settings.intro)}</p>
+        </div>
+      </section>
+
+      <section class="mission-zone">
+        <header class="zone-head"><div><p class="eyebrow">SCHNELL IN DIE SITUATION</p><h2>Was passiert gerade?</h2></div><button class="text-action" data-action="search">⌕ Alles durchsuchen</button></header>
+        <div class="mission-grid">
+          ${missionCard('Gast kommt an', 'Begrüßen, orientieren, sicher starten', '👋', '#d9a84e', arrival)}
+          ${missionCard('Tisch startet', 'Vorbereiten und den ersten Kontakt führen', '✦', '#7aa071', table)}
+          ${missionCard('Empfehlung gesucht', 'Getränke, Wein und Genuss schnell finden', '◒', '#b77657', recommend)}
+          ${missionCard('Problem lösen', 'Ruhig reagieren und Verantwortung zeigen', '!', '#6d91ad', solve)}
+        </div>
+      </section>
+
+      <section class="next-panel">
+        <div class="next-visual"><span>${String(next.number).padStart(2, '0')}</span><i style="--ring:${next.department.accent}"></i></div>
+        <div class="next-copy"><p class="eyebrow">DEINE NÄCHSTE 5-MINUTEN-LEKTION</p><h2>${esc(next.title)}</h2><p>${esc(next.description)}</p><div class="next-meta"><span>${esc(next.department.title)}</span><span>${next.blocks.filter(visible).length} Karten</span><span>${next.duration} Min</span></div></div>
+        <button class="round-action" data-open-module="${esc(next.id)}" data-dept="${esc(next.department.id)}" aria-label="Lektion starten">→</button>
+      </section>
+
+      <section class="path-preview">
+        <header class="zone-head"><div><p class="eyebrow">DEINE HALDE WELT</p><h2>Drei Bereiche. Ein Gastgeber-Gefühl.</h2></div><button class="text-action" data-go="learn">Alle Lernbereiche →</button></header>
+        <div class="path-strip">${departments().map(pathCard).join('')}</div>
+      </section>
+
+      <section class="challenge-card" data-go="quiz">
+        <div><span class="challenge-mark">?</span><p class="eyebrow">SCHICHT-CHECK</p><h2>Bereit für eine echte Situation?</h2><p>Kurze Entscheidungen statt Auswendiglernen.</p></div>
+        <button data-go="quiz">Quiz starten →</button>
+      </section>`;
+  }
+
+  function pathCard(department) {
+    const list = department.modules.filter(visible);
+    return `<button class="path-card" style="--path:${department.accent}" data-open-course="${esc(department.id)}">
+      <span class="path-top"><b>${esc(department.icon)}</b><small>${list.length} LEKTIONEN</small></span>
+      <strong>${esc(department.title)}</strong>
+      <span class="path-progress"><i style="width:${progressFor(department)}%"></i></span>
+      <small>${progressFor(department)}% geschafft</small>
+    </button>`;
+  }
+
+  function learn() {
+    app.innerHTML = `<header class="page-intro"><p class="eyebrow">LERNEN</p><h1>Vom Wissen<br><em>zum sicheren Handgriff.</em></h1><p>Wähle einen Bereich und gehe die Lektionen in deinem Tempo durch.</p></header><section class="path-stage">${departments().map(department => {
+      const first = department.modules.filter(visible)[0];
+      return `<article class="path-feature" style="--path:${department.accent}"><div class="path-symbol">${esc(department.icon)}</div><div><p class="eyebrow">${esc(department.kicker)}</p><h2>${esc(department.title)}</h2><p>${esc(department.description)}</p><div class="feature-meta"><span>${department.modules.filter(visible).length} Lektionen</span><span>${progressFor(department)}% geschafft</span></div></div><button data-open-course="${esc(department.id)}">Öffnen →</button><button class="feature-start" data-open-module="${esc(first.id)}" data-dept="${esc(department.id)}">Direkt starten</button></article>`;
+    }).join('')}</section>`;
+  }
+
+  function course() {
+    const department = data.departments.find(item => item.id === view.department);
+    const list = department.modules.filter(visible);
+    app.innerHTML = `<header class="course-hero" style="--course:${department.accent}">
+      <button class="back-button" data-go="learn">← Alle Lernbereiche</button><div class="course-icon">${esc(department.icon)}</div><p class="eyebrow">${esc(department.kicker)}</p><h1>${esc(department.title)}</h1><p>${esc(department.description)}</p>
+      <div class="course-meter"><span><i style="width:${progressFor(department)}%"></i></span><small>${progressFor(department)}% geschafft</small></div>
+    </header><section class="mission-list">${list.map((module, index) => `<button class="mission-row ${completed.has(module.id) ? 'done' : ''}" data-open-module="${esc(module.id)}" data-dept="${esc(department.id)}"><span class="row-index">${completed.has(module.id) ? '✓' : esc(module.icon || String(index + 1).padStart(2, '0'))}</span><span><small>LEVEL ${String(module.number || index + 1).padStart(2, '0')} · ${module.duration} MIN · ${module.blocks.filter(visible).length} KARTEN</small><strong>${esc(module.title)}</strong><em>${esc(module.description)}</em></span><b>→</b></button>`).join('')}</section>`;
+  }
+
+  function contentLines(text) {
+    return String(text || '').split('\n').map(line => line.trim()).filter(Boolean);
+  }
+
+  function cardContent(card) {
+    const lines = contentLines(card.text);
+    if (card.type === 'check' || lines.length > 2) {
+      return `<div class="step-list">${lines.map((line, index) => `<button class="step-item ${checkedItems.has(index) ? 'checked' : ''}" data-check-item="${index}"><span>${checkedItems.has(index) ? '✓' : index + 1}</span><p>${esc(line)}</p></button>`).join('')}</div>`;
+    }
+    return `<p class="card-text">${esc(card.text)}</p>`;
+  }
+
+  function lesson() {
+    const department = data.departments.find(item => item.id === view.department);
+    const module = department.modules.find(item => item.id === view.module);
+    const cards = module.blocks.filter(visible);
+    if (cardIndex >= cards.length) return complete(department, module);
+    const card = cards[cardIndex];
+    const types = {
+      text: { label: 'PRAXIS', icon: '✦', prompt: 'Das brauchst du im Alltag' },
+      tip: { label: 'MERKEN', icon: '!', prompt: 'Ein Detail, das den Unterschied macht' },
+      question: { label: 'SITUATION', icon: '?', prompt: 'Denk kurz wie ein Gastgeber' },
+      quote: { label: 'SAG ES SO', icon: '“', prompt: 'Eine Formulierung, die sicher wirkt' },
+      check: { label: 'CHECK', icon: '✓', prompt: 'Tippe jeden Schritt an' }
+    };
+    const type = types[card.type] || types.text;
+    const percent = Math.round(((cardIndex + 1) / cards.length) * 100);
+
+    app.innerHTML = `<section class="lesson-view" style="--lesson:${department.accent}">
+      <header class="lesson-bar"><button class="back-button" data-open-course="${esc(department.id)}">← ${esc(department.title)}</button><span>${cardIndex + 1} / ${cards.length}</span></header>
+      <div class="lesson-progress"><i style="width:${percent}%"></i></div>
+      <div class="lesson-context"><div><p class="eyebrow">LEVEL ${String(module.number).padStart(2, '0')} · ${esc(module.description)}</p><h1><span aria-hidden="true">${esc(module.icon || department.icon)}</span>${esc(module.title)}</h1></div><span>${percent}%</span></div>
+      <article class="experience-card" data-type="${esc(card.type)}">
+        <div class="experience-symbol">${type.icon}</div><div class="experience-head"><p class="eyebrow">${type.label}</p><small>${type.prompt}</small></div>
+        ${card.title ? `<h2>${esc(card.title)}</h2>` : ''}
+        ${cardContent(card)}
+        ${card.source ? `<small class="source-note">Quelle · ${esc(card.source)}</small>` : ''}
+      </article>
+      <footer class="lesson-controls"><button data-card="prev" ${cardIndex === 0 ? 'disabled' : ''}>←</button><span><b>${cardIndex + 1}</b> von ${cards.length}</span><button data-card="next">${cardIndex === cards.length - 1 ? 'Fertig ✓' : 'Weiter →'}</button></footer>
+    </section>`;
+  }
+
+  function complete(department, module) {
+    completed.add(module.id);
+    save();
+    app.innerHTML = `<section class="finish-scene" style="--finish:${department.accent}"><div class="finish-rings"><span>✓</span></div><p class="eyebrow">LEKTION ABGESCHLOSSEN</p><h1>${esc(module.title)}</h1><p>Du hast einen weiteren Ablauf für den Halde-Alltag trainiert.</p><div class="finish-actions"><button data-open-course="${esc(department.id)}">Zu den Lektionen</button><button class="primary-button" data-next-after="${esc(module.id)}" data-dept="${esc(department.id)}">Nächste Lektion →</button></div></section>`;
+  }
+
+  function progress() {
+    const all = modules();
+    const done = all.filter(module => completed.has(module.id)).length;
+    const percent = all.length ? Math.round((done / all.length) * 100) : 0;
+    app.innerHTML = `<header class="page-intro"><p class="eyebrow">DEIN FORTSCHRITT</p><h1>Jede sichere Situation<br><em>macht den Unterschied.</em></h1><p>Dein Fortschritt bleibt auf diesem Gerät gespeichert.</p></header>
+      <section class="progress-stage"><div class="progress-orbit" style="--total:${percent * 3.6}deg"><span><strong>${percent}%</strong><small>GESAMT</small></span></div><div class="progress-numbers"><article><strong>${done}</strong><span>Lektionen geschafft</span></article><article><strong>${all.length - done}</strong><span>Lektionen offen</span></article><article><strong>${departments().filter(item => progressFor(item) === 100).length}</strong><span>Bereiche komplett</span></article></div></section>
+      <section class="progress-paths">${departments().map(pathCard).join('')}</section>`;
+  }
+
+  function quiz() {
+    const questions = (quizData?.questions || []).filter(visible);
+    const question = questions[quizState.index];
+    if (!questions.length) {
+      app.innerHTML = '<p class="empty">Noch keine Quizfragen vorhanden.</p>';
+      return;
+    }
+    if (!question) {
+      const percent = Math.round((quizState.score / questions.length) * 100);
+      const message = percent >= 80 ? 'Sehr sicher – du denkst bereits wie ein Gastgeber.' : percent >= 60 ? 'Gute Basis – noch eine Runde macht dich sicherer.' : 'Kein Problem. Schau dir die Situationen noch einmal an.';
+      app.innerHTML = `<section class="finish-scene"><div class="finish-rings"><span>${percent >= 80 ? '✓' : '↻'}</span></div><p class="eyebrow">SCHICHT-CHECK BEENDET</p><h1>${quizState.score} von ${questions.length}</h1><p>${message}</p><div class="finish-actions"><button data-go="home">Zur Startseite</button><button class="primary-button" data-quiz-restart>Noch einmal →</button></div></section>`;
+      return;
+    }
+    const selected = quizState.selected;
+    const correct = Number(question.correct);
+    app.innerHTML = `<section class="quiz-scene"><header><button class="back-button" data-go="home">← Beenden</button><span>${quizState.index + 1}/${questions.length}</span></header><div class="lesson-progress"><i style="width:${((quizState.index + 1) / questions.length) * 100}%"></i></div><p class="eyebrow">${esc(question.category || 'ECHTE SITUATION')}</p><h1>${esc(question.question)}</h1><div class="quiz-options">${(question.options || []).map((option, index) => {
+      const number = index + 1;
+      const className = quizState.answered ? (number === correct ? 'correct' : selected === number ? 'wrong' : '') : '';
+      return `<button class="quiz-choice ${className}" data-quiz-answer="${number}" ${quizState.answered ? 'disabled' : ''}><span>${String.fromCharCode(64 + number)}</span><strong>${esc(option)}</strong></button>`;
+    }).join('')}</div>${quizState.answered ? `<article class="quiz-answer ${selected === correct ? 'correct' : 'wrong'}"><strong>${selected === correct ? 'Genau so.' : 'Fast – schau noch einmal.'}</strong><p>${esc(question.explanation)}</p></article><button class="primary-button quiz-next" data-quiz-next>${quizState.index === questions.length - 1 ? 'Ergebnis →' : 'Nächste Situation →'}</button>` : ''}</section>`;
+  }
+
+  function openSearch() {
+    if (!dialog || !search || !results) return;
+    dialog.showModal();
+    search.value = '';
+    results.innerHTML = '<p class="empty">Was brauchst du gerade?</p>';
+    window.setTimeout(() => search.focus(), 50);
+  }
+
+  function doSearch(query) {
+    const value = query.trim().toLocaleLowerCase('de');
+    if (value.length < 2) {
+      results.innerHTML = '<p class="empty">Mindestens zwei Zeichen eingeben.</p>';
+      return;
+    }
+    const found = [];
+    departments().forEach(department => department.modules.filter(visible).forEach(module => module.blocks.filter(visible).forEach(block => {
+      if (`${module.title} ${block.title} ${block.text}`.toLocaleLowerCase('de').includes(value) && found.length < 24) found.push({ department, module, block });
+    })));
+    results.innerHTML = found.length ? found.map(item => `<button class="search-result" data-search-module="${esc(item.module.id)}" data-dept="${esc(item.department.id)}"><span>${esc(item.department.icon)}</span><strong>${esc(item.block.title || compact(item.block.text).slice(0, 90))}</strong><small>${esc(item.department.title)} · ${esc(item.module.title)}</small></button>`).join('') : '<p class="empty">Dazu wurde noch nichts gefunden.</p>';
+  }
+
+  document.addEventListener('click', event => {
+    const target = event.target.closest('button,[data-go],.challenge-card');
+    if (!target) return;
+    if (target.dataset.action === 'search') return openSearch();
+    if (target.dataset.go) return go({ name: target.dataset.go });
+    if (target.dataset.openCourse) return go({ name: 'course', department: target.dataset.openCourse });
+    if (target.dataset.openModule) return go({ name: 'lesson', department: target.dataset.dept, module: target.dataset.openModule });
+    if (target.dataset.card === 'prev') { cardIndex = Math.max(0, cardIndex - 1); checkedItems = new Set(); return render(); }
+    if (target.dataset.card === 'next') { cardIndex += 1; checkedItems = new Set(); return render(); }
+    if (target.dataset.checkItem !== undefined) {
+      const index = Number(target.dataset.checkItem);
+      checkedItems.has(index) ? checkedItems.delete(index) : checkedItems.add(index);
+      return render();
+    }
+    if (target.dataset.nextAfter) {
+      const department = data.departments.find(item => item.id === target.dataset.dept);
+      const list = department.modules.filter(visible);
+      const index = list.findIndex(module => module.id === target.dataset.nextAfter);
+      const next = list[index + 1];
+      return next ? go({ name: 'lesson', department: department.id, module: next.id }) : go({ name: 'course', department: department.id });
+    }
+    if (target.dataset.searchModule) { dialog?.close(); return go({ name: 'lesson', department: target.dataset.dept, module: target.dataset.searchModule }); }
+    if (target.dataset.quizAnswer && !quizState.answered) {
+      quizState.selected = Number(target.dataset.quizAnswer);
+      quizState.answered = true;
+      const question = (quizData.questions || []).filter(visible)[quizState.index];
+      if (quizState.selected === Number(question.correct)) quizState.score += 1;
+      return render();
+    }
+    if (target.hasAttribute('data-quiz-next')) { quizState.index += 1; quizState.answered = false; quizState.selected = 0; render(); return window.scrollTo({ top: 0, behavior: 'smooth' }); }
+    if (target.hasAttribute('data-quiz-restart')) { quizState = { index: 0, score: 0, answered: false, selected: 0 }; return render(); }
+  });
+
+  search?.addEventListener('input', event => doSearch(event.target.value));
+
+  Promise.all([
+    fetch('/content/site.json', { cache: 'no-store' }),
+    fetch('/content/quiz.json', { cache: 'no-store' })
+  ]).then(async responses => {
+    if (!responses[0].ok) throw Error('Inhalte konnten nicht geladen werden');
+    data = await responses[0].json();
+    quizData = responses[1].ok ? await responses[1].json() : { title: 'Übungen & Quiz', questions: [] };
+    document.querySelector('#site-title').textContent = data.settings.title;
+    document.querySelector('#site-subtitle').textContent = data.settings.subtitle;
+    render();
+  }).catch(error => { app.innerHTML = `<p class="empty">${esc(error.message)}</p>`; });
+
+  if ('serviceWorker' in navigator) window.addEventListener('load', () => navigator.serviceWorker.register('/sw.js'));
 })();
