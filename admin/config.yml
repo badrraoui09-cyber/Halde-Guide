@@ -45,6 +45,7 @@ collections:
                 fields:
                   - { label: "Interne ID", name: "id", widget: "string" }
                   - { label: "Nummer", name: "number", widget: "number", value_type: "int" }
+                  - { label: "Symbol", name: "icon", widget: "string", required: false }
                   - { label: "Titel", name: "title", widget: "string" }
                   - { label: "Kurzbeschreibung", name: "description", widget: "string" }
                   - { label: "Dauer in Minuten", name: "duration", widget: "number", value_type: "int" }
