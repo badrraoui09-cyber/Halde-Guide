@@ -7,11 +7,11 @@ media_folder: "images/uploads"
 public_folder: "/images/uploads"
 
 collections:
-  - name: "website"
-    label: "Website bearbeiten"
+  - name: "halde_guide"
+    label: "Halde Guide bearbeiten"
     files:
       - file: "content/site.json"
-        label: "Alle Bereiche"
+        label: "Halde Guide Inhalte"
         name: "site"
         fields:
           - label: "Allgemeine Texte"
