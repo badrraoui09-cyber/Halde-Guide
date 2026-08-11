@@ -1,0 +1,374 @@
+{
+  "id": "genuss",
+  "icon": "🍷",
+  "kicker": "GETRÄNKE & BARWISSEN",
+  "title": "Getränke & Barwissen",
+  "description": "Produkte sicher erklären, passende Empfehlungen geben und die Halde-Standards kennen.",
+  "accent": "#b8794a",
+  "visible": true,
+  "modules": [
+    {
+      "id": "genuss-06",
+      "number": 6,
+      "title": "Sprizz & Vermouth – Rezepte",
+      "description": "Interne Herstellungsrezepte, Glas, Reihenfolge und Garnitur.",
+      "duration": 13,
+      "visible": true,
+      "blocks": [
+        {
+          "id": "block-1001",
+          "type": "check",
+          "title": "№ 01 · Halde Apéro-Sprizz",
+          "text": "🍸 COCKTAILGLAS\n4 ×\nEiswürfel\n6 cl\nApero 36\n12 cl\nWinzersekt\nSchuss\nSoda\n→ Eis → Apero → Sekt → Soda\nGARNISH Limettenscheibe + Rosmarinzweig\n8 €",
+          "source": "Halde_Kaminbar_Karten_FINAL.docx",
+          "status": "current",
+          "visible": true
+        },
+        {
+          "id": "block-1002",
+          "type": "check",
+          "title": "№ 02 · Amalfi Sprizz",
+          "text": "🍸 COPA-GLAS\n4 ×\nEiswürfel\n4 cl\nAmalfi Sirup\n12 cl\nMuskatteller Sekt\nSchuss\nSoda\n→ Eis → Sirup → Sekt → Soda\nGARNISH Zitronenscheibe + Rosmarinzweig\n9 €",
+          "source": "Halde_Kaminbar_Karten_FINAL.docx",
+          "status": "current",
+          "visible": true
+        },
+        {
+          "id": "block-1003",
+          "type": "check",
+          "title": "№ 03 🌿 ALK.FREI · Zitronen-Basilikum Sprizz",
+          "text": "🍸 COCKTAILGLAS\n4 ×\nEiswürfel\n6 cl\nZitronen-Basilikum Sirup\n12 cl\nSekt (alk.fr. möglich)\nSchuss\nSoda\n→ Eis → Sirup → Sekt → Soda\nGARNISH Zitronenscheibe + Rosmarinzweig\n9 €",
+          "source": "Halde_Kaminbar_Karten_FINAL.docx",
+          "status": "current",
+          "visible": true
+        },
+        {
+          "id": "block-1004",
+          "type": "check",
+          "title": "№ 04 🌿 ALK.FREI · Mango-Rosmarin Sprizz",
+          "text": "🍸 COCKTAILGLAS\n4 ×\nEiswürfel\n6 cl\nMango-Rosmarin Sirup\n12 cl\nSekt (alk.fr. möglich)\nSchuss\nSoda\n→ Eis → Sirup → Sekt → Soda\nGARNISH Rosmarinzweig + Orangenscheibe\n9 €",
+          "source": "Halde_Kaminbar_Karten_FINAL.docx",
+          "status": "current",
+          "visible": true
+        },
+        {
+          "id": "block-1005",
+          "type": "check",
+          "title": "№ 05 · Pink Passion Sprizz",
+          "text": "🍸 COCKTAILGLAS\n4 ×\nEiswürfel\n6 cl\nH'NT Pink Grapefruit\n12 cl\nSekt\nSchuss\nSoda\n→ Eis → H'NT → Sekt → Soda\nGARNISH Grapefruitscheibe + Minzzweig\n9 €",
+          "source": "Halde_Kaminbar_Karten_FINAL.docx",
+          "status": "current",
+          "visible": true
+        },
+        {
+          "id": "block-1006",
+          "type": "check",
+          "title": "№ 06 · Forbidden Berry",
+          "text": "🍸 COCKTAILGLAS\n4 ×\nEiswürfel\n6 cl\nH'NT Schwarze Johannisbeere/Blaubeere\n12 cl\nSekt\nSchuss\nSoda\n→ Eis → H'NT → Sekt → Soda\nGARNISH Erdbeere + Minzzweig\n9 €",
+          "source": "Halde_Kaminbar_Karten_FINAL.docx",
+          "status": "current",
+          "visible": true
+        },
+        {
+          "id": "block-1007",
+          "type": "check",
+          "title": "№ 07 · Campari Sprizz",
+          "text": "🍸 COCKTAILGLAS\n4 ×\nEiswürfel\n3 cl\nCampari\n5 cl\nSekt\n2 cl\nSoda\n→ Eis → Campari → Sekt → Soda → kurz rühren\nGARNISH Orangenscheibe + Minzblatt\n8 €",
+          "source": "Halde_Kaminbar_Karten_FINAL.docx",
+          "status": "current",
+          "visible": true
+        },
+        {
+          "id": "block-1008",
+          "type": "check",
+          "title": "№ 08 · White & Tonic",
+          "text": "🥃 TUMBLER\n4 ×\nEiswürfel\n5 cl\nWeißer Vermouth\n12 cl\nTonic\nSchuss\nSoda\n→ Eis → Vermouth → Tonic → Soda\nGARNISH Zitronenzeste + Rosmarinzweig\n8 €",
+          "source": "Halde_Kaminbar_Karten_FINAL.docx",
+          "status": "current",
+          "visible": true
+        },
+        {
+          "id": "block-1009",
+          "type": "check",
+          "title": "№ 09 · Rosé Royal",
+          "text": "🥃 TUMBLER\n4 ×\nEiswürfel\n4 cl\nRosé Vermouth\n3 cl\nTonic\n6 cl\nSekt\n→ Glas kühlen → Vermouth → Tonic → Sekt\nGARNISH Erdbeere + Minzblatt\n9 €",
+          "source": "Halde_Kaminbar_Karten_FINAL.docx",
+          "status": "current",
+          "visible": true
+        },
+        {
+          "id": "block-1010",
+          "type": "check",
+          "title": "№ 10 · Americano",
+          "text": "🥃 LONGDRINKGLAS\n4 ×\nEiswürfel\n4 cl\nCampari\n4 cl\nRoter Vermouth\n10 cl\nTonic Water\n→ Eis → Campari → Vermouth → Tonic → kurz rühren\nGARNISH Orangenscheibe + Zitronenzeste\n8 €",
+          "source": "Halde_Kaminbar_Karten_FINAL.docx",
+          "status": "current",
+          "visible": true
+        },
+        {
+          "id": "block-1011",
+          "type": "check",
+          "title": "№ 11 🌿 ALK.FREI · ✦ NEU · Alk.frei Apéro Sprizz",
+          "text": "🍸 COCKTAILGLAS\n4 ×\nEiswürfel\n6 cl\nAlk.frei Mischung\n8 cl\nAlk.fr. Sekt\nSchuss\nSoda\n→ Eis → Mischung → Sekt → Soda\nGARNISH Orangenscheibe + Minzblatt\n9 €",
+          "source": "Halde_Kaminbar_Karten_FINAL.docx",
+          "status": "current",
+          "visible": true
+        },
+        {
+          "id": "block-1012",
+          "type": "check",
+          "title": "№ 12 🌿 ALK.FREI · Apero Zero X",
+          "text": "🍸 COCKTAILGLAS\n4 ×\nEiswürfel\n6 cl\nApero Zero X (<0,5%)\n3 cl\nOrangensaft\n7 cl\nAlk.fr. Sekt\n2 cl\nTonic\n→ Eis → Zero X → Saft → Sekt → Tonic\nGARNISH Orangenscheibe + Minzblatt\n9 €",
+          "source": "Halde_Kaminbar_Karten_FINAL.docx",
+          "status": "current",
+          "visible": true
+        },
+        {
+          "id": "block-1013",
+          "type": "check",
+          "title": "№ 13 🌿 ALK.FREI · Zitrone-Ingwer Sprizz",
+          "text": "🍸 COCKTAILGLAS\n4 ×\nEiswürfel\n2 cl\nZitrone-Ingwer Sirup\n12 cl\nApfel-Secco\nSchuss\nSoda\n→ Eis → Sirup → Secco → Soda\nGARNISH Zitronenscheibe + Minzblatt\n8 €",
+          "source": "Halde_Kaminbar_Karten_FINAL.docx",
+          "status": "current",
+          "visible": true
+        },
+        {
+          "id": "block-1014",
+          "type": "check",
+          "title": "№ 14 🌿 ALK.FREI · Himbeer & Tonic",
+          "text": "🍸 MARTINI-GLAS\n4 ×\nEiswürfel\n4 cl\nHimbeersaft\n12 cl\nTonic Water\n→ Eis → Saft → Tonic\nGARNISH Limettenscheibe + Minzblatt\n5 €",
+          "source": "Halde_Kaminbar_Karten_FINAL.docx",
+          "status": "current",
+          "visible": true
+        },
+        {
+          "id": "block-1015",
+          "type": "check",
+          "title": "№ 15 🌿 ALK.FREI · Mango-Rosmarinspritz",
+          "text": "🍸 COCKTAILGLAS\n4 ×\nEiswürfel\n6 cl\nMango-Rosmarin Sirup\n10 cl\nAlk.fr. Sekt\n2 cl\nTonic\n→ Eis → Sirup → Sekt → Tonic\nGARNISH Rosmarinzweig + Orangenscheibe\n8 €",
+          "source": "Halde_Kaminbar_Karten_FINAL.docx",
+          "status": "current",
+          "visible": true
+        },
+        {
+          "id": "block-1016",
+          "type": "check",
+          "title": "№ 16 🌿 ALK.FREI · Verde Holunderblüte",
+          "text": "🥂 CHAMPAGNERGLAS\n2–3 ×\nEiswürfel\n0,2 l\nVerde Holunderblüte (Weingut Klenert)\n→ Eis → 0,2l direkt einschenken → pur\nGARNISH Zitronenzeste + Minzblatt\n6,5 €",
+          "source": "Halde_Kaminbar_Karten_FINAL.docx",
+          "status": "current",
+          "visible": true
+        },
+        {
+          "id": "block-1017",
+          "type": "check",
+          "title": "№ 17 🌿 ALK.FREI · Verde Stachelbeere",
+          "text": "🥂 CHAMPAGNERGLAS\n2–3 ×\nEiswürfel\n0,2 l\nVerde Stachelbeere (Weingut Klenert)\n→ Eis → 0,2l direkt einschenken → pur\nGARNISH Zitronenzeste + Minzblatt\n6,5 €",
+          "source": "Halde_Kaminbar_Karten_FINAL.docx",
+          "status": "current",
+          "visible": true
+        },
+        {
+          "id": "block-1018",
+          "type": "check",
+          "title": "№ 18 ✦ NEU · Limoncello Sprizz",
+          "text": "🍸 COPA-GLAS\n4 ×\nEiswürfel\n4 cl\nLimoncello\n1 cl\nZitronensirup\n8 cl\nMuskatteller Sekt\n2 cl\nTonic\nSchuss\nSoda\n→ Eis → Limoncello + Sirup → Sekt → Tonic → Soda\nGARNISH ½ Limette ausdrücken + Minzzweig\n9 €\n🍸 COPA-GLAS · Viel Eis · 4 cl Gin · 12 cl Tonic → Tonic am Rand",
+          "source": "Halde_Kaminbar_Karten_FINAL.docx",
+          "status": "current",
+          "visible": true
+        }
+      ]
+    },
+    {
+      "id": "genuss-07",
+      "number": 7,
+      "title": "Gin, Klassiker & Hausdrinks – Rezepte",
+      "description": "Interne Herstellungsrezepte für den Abendservice.",
+      "duration": 8,
+      "visible": true,
+      "blocks": [
+        {
+          "id": "block-1019",
+          "type": "check",
+          "title": "№ 20 · Wildstück Gin",
+          "text": "Thomas Henry\n11 €\nZitronenzeste",
+          "source": "Halde_Kaminbar_Karten_FINAL.docx",
+          "status": "current",
+          "visible": true
+        },
+        {
+          "id": "block-1020",
+          "type": "check",
+          "title": "№ 21 · Boar Gin",
+          "text": "Thomas Henry\n11 €\nRosmarinzweig",
+          "source": "Halde_Kaminbar_Karten_FINAL.docx",
+          "status": "current",
+          "visible": true
+        },
+        {
+          "id": "block-1021",
+          "type": "check",
+          "title": "№ 22 · Citris Gin",
+          "text": "Schweppes\n9 €\nLimettenspalte + Zitrone",
+          "source": "Halde_Kaminbar_Karten_FINAL.docx",
+          "status": "current",
+          "visible": true
+        },
+        {
+          "id": "block-1022",
+          "type": "check",
+          "title": "№ 23 · Werner Grafschafter",
+          "text": "Thomas Henry\n9,5 €\nOrangenzeste",
+          "source": "Halde_Kaminbar_Karten_FINAL.docx",
+          "status": "current",
+          "visible": true
+        },
+        {
+          "id": "block-1023",
+          "type": "check",
+          "title": "№ 24 · Siegfried Rheinland Dry",
+          "text": "Schweppes\n9,5 €\nRosmarin + Orangenzeste",
+          "source": "Halde_Kaminbar_Karten_FINAL.docx",
+          "status": "current",
+          "visible": true
+        },
+        {
+          "id": "block-1024",
+          "type": "check",
+          "title": "№ 25 · Wonderleaf (0%)",
+          "text": "Thomas Henry\n8 €\nZitronenzeste + Minze",
+          "source": "Halde_Kaminbar_Karten_FINAL.docx",
+          "status": "current",
+          "visible": true
+        },
+        {
+          "id": "block-1025",
+          "type": "check",
+          "title": "№ 26 · Whiskey Sour",
+          "text": "🥃 TUMBLER / COUPETTE\n5 cl\nMaker's Mark Bourbon\n2,5 cl\nZitronensaft (frisch!)\n1,5 cl\nZuckersirup 2:1\n1 St.\nEiweiß\n→ DRY SHAKE 12s → Eis → 10s shaken → Doppelsieb\nGARNISH Zitronenzeste + Minzblatt\n12 €",
+          "source": "Halde_Kaminbar_Karten_FINAL.docx",
+          "status": "current",
+          "visible": true
+        },
+        {
+          "id": "block-1026",
+          "type": "check",
+          "title": "№ 27 · Espresso Martini",
+          "text": "🍸 COUPETTE (kalt!)\n4 cl\nWodka\n3 cl\nKahlúa\n4 cl\nEspresso (frisch, kurz abkühlen)\n1 cl\nZuckersirup (opt.)\n→ Coupette kühlen → 15s KRÄFTIG shaken → Doppelsieb\nGARNISH 3 Kaffeebohnen dreieckig auf Schaum\n11 €",
+          "source": "Halde_Kaminbar_Karten_FINAL.docx",
+          "status": "current",
+          "visible": true
+        },
+        {
+          "id": "block-1027",
+          "type": "check",
+          "title": "№ 28 · Moscow Mule",
+          "text": "🍺 KUPFERBECHER\nviel\nCrushed Ice\n5 cl\nWodka\n2 cl\nIngwersirup\n2 cl\nLimettensaft\n12 cl\nGinger Beer\n→ Crushed Ice → Wodka + Sirup + Limette → Ginger Beer\nGARNISH Limettenrad + Minzzweig\n11 €",
+          "source": "Halde_Kaminbar_Karten_FINAL.docx",
+          "status": "current",
+          "visible": true
+        },
+        {
+          "id": "block-1028",
+          "type": "check",
+          "title": "№ 29 · Negroni",
+          "text": "🥃 TUMBLER + GROSSER EISWÜRFEL\n3 cl\nSiegfried Gin\n3 cl\nCampari\n3 cl\nMartini Rosso\n→ Rührglas: 30× RÜHREN — nie shaken! → abseihen\nGARNISH Orangenzeste ausdrücken + einlegen\n10 €",
+          "source": "Halde_Kaminbar_Karten_FINAL.docx",
+          "status": "current",
+          "visible": true
+        },
+        {
+          "id": "block-1029",
+          "type": "check",
+          "title": "№ 30 ★ HAUSCOCKTAIL · Quitty Sprizz",
+          "text": "🍸 COCKTAILGLAS\n4 cl\nQuittenpüree\n2 cl\nWeißer Vermouth\n1 cl\nQuittenlikör\n2 cl\nWonderleaf\n6 cl\nSekt\nSchuss\nSoda\n→ Püree + Vermouth + Likör 6s shaken → Eis → Wonderleaf + Sekt + Soda\nGARNISH Zitronenzeste + Minzblatt\n9 €",
+          "source": "Halde_Kaminbar_Karten_FINAL.docx",
+          "status": "current",
+          "visible": true
+        },
+        {
+          "id": "block-1030",
+          "type": "check",
+          "title": "№ 31 · Roselinde",
+          "text": "🥃 LONGDRINKGLAS\n4 cl\nSiegfried Gin (od. Wonderleaf)\n3 cl\nTraubensaft rot\n2 cl\nLimettensaft\n10 cl\nGinger Ale\n→ Gin + Saft + Limette 6s shaken → Eis → Ginger Ale\nGARNISH Limettenscheibe + Rosmarinzweig\n9 €\nM A S T E R V O R L A G E — Foto ersetzen · Text ändern · Ausdrucken\n№ __\nNAME DES DRINKS\nGLASTYP\n_ cl\nZutat 1\n_ cl\nZutat 2\n_ cl\nZutat 3\n_\nGarnitur\n→ Schritt 1 → Schritt 2 → Schritt 3\nGARNISH Garnitur\n_ €\n№ __\nNAME DES DRINKS\nGLASTYP\n_ cl\nZutat 1\n_ cl\nZutat 2\n_ cl\nZutat 3\n_\nGarnitur\n→ Schritt 1 → Schritt 2 → Schritt 3\nGARNISH Garnitur\n_ €\n№ __\nNAME DES DRINKS\nGLASTYP\n_ cl\nZutat 1\n_ cl\nZutat 2\n_ cl\nZutat 3\n_\nGarnitur\n→ Schritt 1 → Schritt 2 → Schritt 3\nGARNISH Garnitur\n_ €",
+          "source": "Halde_Kaminbar_Karten_FINAL.docx",
+          "status": "current",
+          "visible": true
+        }
+      ]
+    },
+    {
+      "id": "genuss-08",
+      "number": 8,
+      "title": "Bartechnik & Qualitätsstandard",
+      "description": "Konstante Qualität, Tempo und sauberes Arbeiten.",
+      "duration": 7,
+      "visible": true,
+      "blocks": [
+        {
+          "id": "block-1094",
+          "type": "tip",
+          "title": "Vorbereitung vor 17:30 Uhr",
+          "text": "Gläser vorkühlen, Eis auffüllen, Garnituren frisch vorbereiten, Sirupe beschriften und Rezeptkarten griffbereit halten.",
+          "source": "Fachliche Strukturierung aus Rezeptkarten",
+          "status": "current",
+          "visible": true
+        },
+        {
+          "id": "block-1095",
+          "type": "tip",
+          "title": "Build im Glas",
+          "text": "Sprizz und Highballs in der angegebenen Reihenfolge direkt auf Eis bauen. Kohlensäurehaltige Zutaten zuletzt und nur kurz bewegen.",
+          "source": "Fachliche Strukturierung aus Rezeptkarten",
+          "status": "current",
+          "visible": true
+        },
+        {
+          "id": "block-1096",
+          "type": "tip",
+          "title": "Shaken",
+          "text": "Citrus, Sirup, Saft oder Eiweiß nach Rezept shaken. Bei Eiweiß zuerst Dry Shake; anschließend mit Eis kräftig shaken und doppelt abseihen.",
+          "source": "Halde_Kaminbar_Karten_FINAL.docx",
+          "status": "current",
+          "visible": true
+        },
+        {
+          "id": "block-1097",
+          "type": "tip",
+          "title": "Rühren statt shaken",
+          "text": "Spirit-forward Drinks wie Negroni im Rührglas kalt und klar rühren; niemals schaumig shaken.",
+          "source": "Halde_Kaminbar_Karten_FINAL.docx",
+          "status": "current",
+          "visible": true
+        },
+        {
+          "id": "block-1098",
+          "type": "tip",
+          "title": "Garnitur ist Teil des Rezepts",
+          "text": "Nur frische, einwandfreie Garnitur verwenden. Glasrand sauber halten und jedes Getränk vor dem Servieren visuell prüfen.",
+          "source": "Fachliche Strukturierung aus Rezeptkarten",
+          "status": "current",
+          "visible": true
+        },
+        {
+          "id": "block-1099",
+          "type": "question",
+          "title": "Allergien & Eiweiß",
+          "text": "Whiskey Sour enthält Eiweiß. Bei Allergien niemals raten: Rezept prüfen, saubere Werkzeuge verwenden und Rücksprache halten.",
+          "source": "Halde_Kaminbar_Karten_FINAL.docx",
+          "status": "current",
+          "visible": true
+        },
+        {
+          "id": "block-1100",
+          "type": "tip",
+          "title": "Alkoholfrei sauber trennen",
+          "text": "Für alkoholfreie Drinks saubere Jigger, Shaker und Garnitur verwenden. „<0,5 %“ nicht als 0,0 % ausgeben.",
+          "source": "Fachliche Qualitätssicherung",
+          "status": "current",
+          "visible": true
+        }
+      ]
+    }
+  ]
+}

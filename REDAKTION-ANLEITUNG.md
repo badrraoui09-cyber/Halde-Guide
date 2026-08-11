@@ -1,63 +1,33 @@
-# Halde Guide – Anleitung für die Redaktion
+# Halde Guide – Inhalte einfach bearbeiten
 
-Die Redaktion erfolgt unter `https://DEINE-DOMAIN.de/admin/`.
+Den Editor öffnest du unter `https://halde.netlify.app/admin/`.
 
-## Website-Inhalte bearbeiten
+## Welchen Bereich brauche ich?
 
-1. **Website bearbeiten** öffnen.
-2. **Alle Bereiche** auswählen.
-3. Unter **Bereiche** den gewünschten Lernpfad öffnen.
-4. Die gewünschte Lektion und anschließend die Lernkarte öffnen.
-5. Text ändern und oben auf **Veröffentlichen** klicken.
+- **Startseite bearbeiten:** Name, große Überschrift und Begrüßung.
+- **Guide-Inhalte bearbeiten → Service am Tisch:** alles vom vorbereiteten Tisch bis zur Verabschiedung.
+- **Guide-Inhalte bearbeiten → Gastgeber sein:** Empfang, Telefon, Reservierungen und Aufenthalt.
+- **Guide-Inhalte bearbeiten → Getränke & Genusswissen:** Produktwissen und Empfehlungen.
+- **Guide-Inhalte bearbeiten → Bar & Rezepte:** Glas, Zutaten, Reihenfolge und Garnitur.
+- **Übungen & Quiz:** Fragen und Antworten für das Team.
 
-## Inhalte verschieben
+So muss niemand mehr durch alle Inhalte der Website klicken.
 
-Bereiche, Lektionen und Lernkarten besitzen einen Griff zum Ziehen. Den Griff gedrückt halten und den Eintrag an die gewünschte Stelle ziehen. Nach dem Veröffentlichen erscheint die neue Reihenfolge auf der Website.
+## Eine Lektion ändern
 
-## Inhalte ausblenden
+1. Den passenden Bereich öffnen.
+2. Die Lektion anklicken.
+3. Eine Lernkarte öffnen und den Inhalt anpassen.
+4. Oben auf **Veröffentlichen** klicken.
 
-Den Schalter **Auf Website anzeigen**, **Lektion anzeigen** oder **Lernkarte anzeigen** deaktivieren. So bleibt der Inhalt im CMS erhalten, ist aber nicht öffentlich sichtbar.
+## Reihenfolge, ausblenden und löschen
 
-## Inhalte löschen
+Der Griff an einer Lektion oder Lernkarte verschiebt sie. Mit **Lernkarte anzeigen** wird ein Inhalt vorübergehend ausgeblendet, ohne ihn zu löschen. Das `×` löscht dauerhaft nach dem Veröffentlichen.
 
-Den betreffenden Eintrag öffnen und auf das `×` klicken. Löschen ist dauerhaft, sobald die Änderung veröffentlicht wurde. Wenn ein Inhalt eventuell später wieder gebraucht wird, besser nur ausblenden.
+## Rezeptkarten
 
-## Neue Inhalte anlegen
+Jede Zeile bleibt klar getrennt: zuerst Glas, dann Menge und Zutat, anschließend die Reihenfolge und die Garnitur. Preise gehören nicht in den Halde Guide.
 
-Mit **Bereich hinzufügen**, **Lektion hinzufügen** oder **Lernkarte hinzufügen** können neue Inhalte erstellt werden. Jede interne ID muss innerhalb ihrer Ebene eindeutig sein und sollte nur Kleinbuchstaben, Zahlen und Bindestriche enthalten.
+## Sicher veröffentlichen
 
-## Übungen & Quiz
-
-Das Quiz wird im Admin unter **Übungen & Quiz** bearbeitet. Jede Frage enthält:
-
-- einen Bereich,
-- die Frage,
-- zwei bis vier Antwortmöglichkeiten,
-- die Nummer der richtigen Antwort,
-- eine kurze Erklärung nach der Auswahl.
-
-Bei **Nummer der richtigen Antwort** bedeutet `1` die erste Antwort, `2` die zweite Antwort und so weiter. Eine Frage kann über **Frage anzeigen** ausgeblendet werden, ohne sie zu löschen.
-
-## Karten, Rezepte und Preise
-
-Der neue Lernpfad **Karten & Rezepte** trennt bewusst vier Arten von Information:
-
-- **Aktuelles Angebot:** Produkte, Preise und Zeiten für den Service.
-- **Interne Rezepturen:** Glas, Menge, Zubereitung und Garnitur.
-- **Praxiswissen:** Mise en place, Bartechnik und Qualitätsstandards.
-- **Vor Servicebeginn bestätigen:** Widersprüche aus den gelieferten Dokumenten.
-
-Jede Lernkarte kann eine **Quelle** und einen **Prüfstatus** besitzen. Der Status **Vor Einsatz bestätigen** erzeugt auf der Website einen gut sichtbaren Warnhinweis. Erst wenn Betriebsleitung oder Küchen-/Barverantwortung Preis und Rezept bestätigt haben, den Status auf **Aktuell / freigegeben** setzen.
-
-Die unveränderten Word-Dateien sind auf der Website unter **Originalkarten** hinterlegt. Sie dienen als Referenz; die klar strukturierten Lernkarten sind die Arbeitsansicht für das Team.
-
-## Empfohlener Freigabeablauf
-
-1. Verantwortliche Person prüft die Lektion **Vor Servicebeginn bestätigen**.
-2. Preis, Rezeptur und Verfügbarkeit werden gegen das aktuelle Kassensystem abgeglichen.
-3. Betroffene Lernkarten werden korrigiert und auf **Aktuell / freigegeben** gesetzt.
-4. Änderung veröffentlichen und die Website einmal neu laden.
-
-## Geschützte Funktionen
-
-Farben, Layout, Navigation und technische Funktionen sind nicht Teil der Redaktion. Dadurch können normale Inhaltsänderungen die Website nicht beschädigen.
+Nur eine Person sollte zur selben Zeit dieselbe Lektion bearbeiten. Nach **Veröffentlichen** kurz warten, bis die Bestätigung erscheint, dann die Website neu laden. So entstehen keine Überschneidungen beim Speichern.
