@@ -1,9 +1,9 @@
 {
   "id": "service",
   "icon": "🍽️",
-  "kicker": "RESTAURANT & BAR",
-  "title": "Service-Drehbuch",
-  "description": "Die bewährten 12 Level aus dem ursprünglichen Halde Guide – vom fertigen Tisch bis zur herzlichen Verabschiedung.",
+  "kicker": "SERVICE & GASTGEBER",
+  "title": "Service & Gastgeber sein",
+  "description": "Vom ersten Willkommen bis zum herzlichen Abschied: klare Abläufe für guten Service.",
   "accent": "#d0aa52",
   "titles": [
     "Der Tisch",

@@ -5,7 +5,7 @@
   "title": "Gastgeber sein",
   "description": "Ankommen lassen, Orientierung geben und aus jeder Anfrage einen guten Aufenthalt machen.",
   "accent": "#758fa0",
-  "visible": true,
+  "visible": false,
   "modules": [
     {
       "id": "empfang-01",

@@ -72,10 +72,10 @@
 
   function home() {
     const hours = moduleBy('genuss', ['wann gibt es was']);
-    const arrival = moduleBy('empfang', ['empfangsregeln', 'begrüßung']);
+    const arrival = moduleBy('service', ['begrüßung']);
     const table = moduleBy('service', ['der tisch', 'erster tischkontakt']);
-    const recommend = moduleBy('genuss', ['offene weine', 'aperitivo']);
-    const solve = moduleBy('empfang', ['empfangsregeln', 'beschwerden']);
+    const recommend = moduleBy('genuss', ['wein sicher', 'aperitivo']);
+    const solve = moduleBy('service', ['rechnung']);
 
     app.innerHTML = `
       <section class="guide-hero">
@@ -84,7 +84,7 @@
           <p class="eyebrow">DIE HALDE · 1.147 M HOCHGENUSS</p>
           <h1>${headline(data.settings.headline)}</h1>
           <p>${esc(data.settings.intro)}</p>
-          <span class="guide-hero-note">Dein Handbuch für Service, Empfang, Genuss und Bar.</span>
+          <span class="guide-hero-note">Dein Handbuch für Service, Genuss und Bar.</span>
         </div>
       </section>
 
@@ -97,7 +97,7 @@
             <em>${esc(department.description)}</em><small>${department.modules.filter(visible).length} Lernkarten <b>→</b></small>
           </button>`).join('')}
           ${hours ? `<button class="guide-area-card reference-area-card" style="--area:var(--gold)" data-open-module="${esc(hours.id)}" data-dept="genuss">
-            <span class="area-number">04</span><span class="area-icon">◷</span>
+            <span class="area-number">0${departments().length + 1}</span><span class="area-icon">◷</span>
             <p class="eyebrow">FESTE INFORMATIONEN</p><strong>Öffnungszeiten<br>&amp; Angebote</strong>
             <em>Küche, Kaffee, Bar und alles, was Gäste zuverlässig wissen müssen.</em><small>Nachschlagen <b>→</b></small>
           </button>` : ''}
@@ -107,16 +107,11 @@
       <section class="scenario-zone">
         <header class="zone-head"><div><p class="eyebrow">SCHRITT FÜR SCHRITT</p><h2>Die wichtigsten Abläufe.</h2></div><button class="text-action" data-go="learn">Alle Themen →</button></header>
         <div class="mission-grid">
-          ${missionCard('Gast begrüßen', 'Empfang, Name und erster guter Eindruck', '👋', '#d9a84e', arrival)}
+          ${missionCard('Gast begrüßen', 'Herzlich starten und den ersten Eindruck gestalten', '👋', '#d9a84e', arrival)}
           ${missionCard('Tisch vorbereiten', 'Mise en place und erster Kontakt', '✦', '#7aa071', table)}
           ${missionCard('Gut empfehlen', 'Getränke, Wein und Genuss verständlich erklären', '◒', '#b77657', recommend)}
-          ${missionCard('Sicher reagieren', 'Beschwerden ruhig und verbindlich lösen', '!', '#6d91ad', solve)}
+          ${missionCard('Rechnung & Abschluss', 'Sicher abrechnen und herzlich verabschieden', '!', '#6d91ad', solve)}
         </div>
-      </section>
-
-      <section class="guide-promise">
-        <span aria-hidden="true">✦</span><div><p class="eyebrow">KEIN LERNBUCH</p><h2>Klare Standards.<br><em>Herzliche Gastgeber.</em></h2></div>
-        <p>Jede Karte hilft dir in einer konkreten Situation: Was ist wichtig, was sagst du und was machst du als Nächstes?</p>
       </section>
 
       <section class="challenge-card" data-go="quiz">
