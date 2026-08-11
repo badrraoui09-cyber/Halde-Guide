@@ -179,8 +179,8 @@
     </header><section class="mission-list">${groupedLessons}</section>`;
   }
 
-  function isRecipe(module, card) {
-    return /rezept|sprizz|cocktail|vermouth|gin, klassiker/i.test(`${module.title} ${card.source || ''}`);
+  function isRecipe(module) {
+    return /rezeptkarten/i.test(module.title);
   }
 
   function recipeContent(card) {
