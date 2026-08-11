@@ -1,0 +1,380 @@
+{
+  "id": "service",
+  "icon": "🍽️",
+  "kicker": "RESTAURANT & BAR",
+  "title": "Service-Drehbuch",
+  "description": "Die bewährten 12 Level aus dem ursprünglichen Halde Guide – vom fertigen Tisch bis zur herzlichen Verabschiedung.",
+  "accent": "#d0aa52",
+  "titles": [
+    "Der Tisch",
+    "Begrüßung & Platzieren",
+    "Erster Tischkontakt",
+    "Aperitif servieren",
+    "Bestellung aufnehmen",
+    "Bonnieren & Weinservice",
+    "Zwischen den Gängen",
+    "Nach dem Hauptgang",
+    "Dessert & Kaffee",
+    "Digestif",
+    "Rechnung",
+    "Verabschiedung"
+  ],
+  "modules": [
+    {
+      "id": "service-01",
+      "number": 1,
+      "icon": "🍽️",
+      "title": "Der Tisch",
+      "description": "Mise en place",
+      "duration": 5,
+      "visible": true,
+      "blocks": [
+        {
+          "id": "service-01-steps",
+          "type": "check",
+          "title": "So gehst du vor",
+          "text": "Tischset pro Person\nStoffserviette (mittig)\nAbends mit Etagere: Mittelteller\n3-Gang-Besteck komplett\nUniversalglas + Wasserglas\nBrotteller · Salz & Pfeffer\nKerze brennt · Blumendeko\nStühle ausgerichtet + Kissen",
+          "status": "current",
+          "visible": true
+        },
+        {
+          "id": "service-01-tip",
+          "type": "tip",
+          "title": "Merksatz",
+          "text": "Der Tisch muss fertig sein BEVOR sich der Gast setzt.",
+          "status": "current",
+          "visible": true
+        }
+      ]
+    },
+    {
+      "id": "service-02",
+      "number": 2,
+      "icon": "🤝",
+      "title": "Begrüßung & Platzieren",
+      "description": "Erster Eindruck",
+      "duration": 5,
+      "visible": true,
+      "blocks": [
+        {
+          "id": "service-02-steps",
+          "type": "check",
+          "title": "So gehst du vor",
+          "text": "Freundlich begrüßen — Augenkontakt bis zur Augenfarbe\n\"Guten Abend, herzlich willkommen, mein Name ist [Name]...\"\nGast nach Namen → Reservierung prüfen (Allergien, Wünsche)\nNeue Gäste: frühe Essenszeit 17:30 Uhr empfehlen\nStuhl herausziehen · Garderobe-Hinweis\nÜberschüssiges Gedeck entfernen\nAuf Stationskellner hinweisen",
+          "status": "current",
+          "visible": true
+        },
+        {
+          "id": "service-02-rule-1",
+          "type": "quote",
+          "title": "Nicht so – besser so",
+          "text": "🚫 \"Haben Sie reserviert?\"\n✅ \"Kommen Sie spontan oder haben Sie sich angemeldet?\"",
+          "status": "current",
+          "visible": true
+        },
+        {
+          "id": "service-02-rule-2",
+          "type": "quote",
+          "title": "Nicht so – besser so",
+          "text": "🚫 \"Tut mir leid, ausreserviert\"\n✅ Immer Alternative anbieten",
+          "status": "current",
+          "visible": true
+        },
+        {
+          "id": "service-02-rule-3",
+          "type": "quote",
+          "title": "Nicht so – besser so",
+          "text": "🚫 \"Sie waren lange nicht mehr da\"\n✅ \"Schön, dass Sie wieder da sind!\"",
+          "status": "current",
+          "visible": true
+        },
+        {
+          "id": "service-02-tip",
+          "type": "tip",
+          "title": "Merksatz",
+          "text": "Auf den Gast zugehen — nie warten bis er kommt!",
+          "status": "current",
+          "visible": true
+        }
+      ]
+    },
+    {
+      "id": "service-03",
+      "number": 3,
+      "icon": "👋",
+      "title": "Erster Tischkontakt",
+      "description": "Die ersten 60 Sekunden",
+      "duration": 5,
+      "visible": true,
+      "blocks": [
+        {
+          "id": "service-03-steps",
+          "type": "check",
+          "title": "So gehst du vor",
+          "text": "\"Guten Abend Frau/Herr [Name]...\"\nGastnamen 3× nutzen: Begrüßung · zwischendrin · Abschied\nBrot & Aufstriche servieren und ansagen\nBei à la carte: Brot bonnieren!\nTagesempfehlung mit Preis nennen\nHausgäste: Aufpreis nennen (z.B. 12 €)",
+          "status": "current",
+          "visible": true
+        },
+        {
+          "id": "service-03-tip",
+          "type": "tip",
+          "title": "Merksatz",
+          "text": "Karte erst in die Hand geben NACHDEM du Brot gebracht hast.",
+          "status": "current",
+          "visible": true
+        }
+      ]
+    },
+    {
+      "id": "service-04",
+      "number": 4,
+      "icon": "🥂",
+      "title": "Aperitif servieren",
+      "description": "Produkt betonen",
+      "duration": 5,
+      "visible": true,
+      "blocks": [
+        {
+          "id": "service-04-steps",
+          "type": "check",
+          "title": "So gehst du vor",
+          "text": "Menü und Weinkarte bereithalten\nWasser anbieten: \"Darf ich Ihnen ein Quellwasser einschenken?\"\n2–3 Start-Getränke aktiv anbieten: Winzer Sekt · Helles · Sprizz\nTagesempfehlung zuerst und am Ende wiederholen\nBeim Servieren: Augenkontakt + Produkt nennen",
+          "status": "current",
+          "visible": true
+        },
+        {
+          "id": "service-04-tip",
+          "type": "tip",
+          "title": "Merksatz",
+          "text": "Jeden Artikel laut nennen — das ist Wertschätzung und Verkauf.",
+          "status": "current",
+          "visible": true
+        }
+      ]
+    },
+    {
+      "id": "service-05",
+      "number": 5,
+      "icon": "📝",
+      "title": "Bestellung aufnehmen",
+      "description": "Aktiv führen",
+      "duration": 5,
+      "visible": true,
+      "blocks": [
+        {
+          "id": "service-05-steps",
+          "type": "check",
+          "title": "So gehst du vor",
+          "text": "\"Haben Sie Ihre Auswahl getroffen?\"\nBei nur Hauptgang: 2 passende Vorspeisen anbieten\nWein anfragen: \"Weißwein, Rotwein oder Weinbegleitung?\"\nKarte erst nach Speisenbestellung vom Tisch\nAb 6 Personen: Tischplan verwenden",
+          "status": "current",
+          "visible": true
+        },
+        {
+          "id": "service-05-tip",
+          "type": "tip",
+          "title": "Merksatz",
+          "text": "Karte bleibt bis Hauptbestellung aufgenommen ist.",
+          "status": "current",
+          "visible": true
+        }
+      ]
+    },
+    {
+      "id": "service-06",
+      "number": 6,
+      "icon": "💻",
+      "title": "Bonnieren & Weinservice",
+      "description": "Sofort nach Bestellung",
+      "duration": 5,
+      "visible": true,
+      "blocks": [
+        {
+          "id": "service-06-steps",
+          "type": "check",
+          "title": "So gehst du vor",
+          "text": "Sofort: Speisen & Getränke in die Kasse eingeben\nGRUNDSATZ: Keine Ware ohne Bon!\nBesteck und Gläser komplett eindecken\nFlasche nah am Gast öffnen\nRotwein auf den Tisch · Weißwein in den Kühler",
+          "status": "current",
+          "visible": true
+        },
+        {
+          "id": "service-06-tip",
+          "type": "tip",
+          "title": "Merksatz",
+          "text": "Erst bonnieren → eindecken → Weinservice. Keine andere Reihenfolge!",
+          "status": "current",
+          "visible": true
+        }
+      ]
+    },
+    {
+      "id": "service-07",
+      "number": 7,
+      "icon": "⚡",
+      "title": "Zwischen den Gängen",
+      "description": "Timing & 2. Getränk",
+      "duration": 5,
+      "visible": true,
+      "blocks": [
+        {
+          "id": "service-07-steps",
+          "type": "check",
+          "title": "So gehst du vor",
+          "text": "Speisen von rechts servieren\nBeilagen immer links\nBei jedem Kontakt: Getränke nachschenken\nVor Hauptgang: Brot & Brotteller ausdecken\nFeedback nach 1/3 des Essens einholen\nNiemals leer in/aus der Station!",
+          "status": "current",
+          "visible": true
+        },
+        {
+          "id": "service-07-rule-1",
+          "type": "quote",
+          "title": "Nicht so – besser so",
+          "text": "🚫 \"Noch eins?\"\n✅ \"Noch ein Bier — oder lieber einen Wein?\"",
+          "status": "current",
+          "visible": true
+        },
+        {
+          "id": "service-07-tip",
+          "type": "tip",
+          "title": "Merksatz",
+          "text": "Lieber zu schnell als zu langsam. Nie fragen ob Pause.",
+          "status": "current",
+          "visible": true
+        }
+      ]
+    },
+    {
+      "id": "service-08",
+      "number": 8,
+      "icon": "🫙",
+      "title": "Nach dem Hauptgang",
+      "description": "Sauber abräumen",
+      "duration": 5,
+      "visible": true,
+      "blocks": [
+        {
+          "id": "service-08-steps",
+          "type": "check",
+          "title": "So gehst du vor",
+          "text": "Teller, Besteck, Menagen abräumen\nServietten bleiben am Tisch\nGetränke nachschenken oder anbieten",
+          "status": "current",
+          "visible": true
+        },
+        {
+          "id": "service-08-tip",
+          "type": "tip",
+          "title": "Merksatz",
+          "text": "Sauber abräumen = Platz für Dessert. Tisch soll frisch aussehen.",
+          "status": "current",
+          "visible": true
+        }
+      ]
+    },
+    {
+      "id": "service-09",
+      "number": 9,
+      "icon": "🍰",
+      "title": "Dessert & Kaffee",
+      "description": "2–3 Optionen aktiv",
+      "duration": 5,
+      "visible": true,
+      "blocks": [
+        {
+          "id": "service-09-steps",
+          "type": "check",
+          "title": "So gehst du vor",
+          "text": "Dessertkarte in der Hand halten\n2–3 Desserts aktiv nennen — nie nur Karte hinlegen\nWICHTIG: Erst nach Dessert-Aufnahme den Kaffee anbieten!\n2–3 Kaffees nennen — nie nur \"Kaffee?\"\nSchnäpslekarte einlegen",
+          "status": "current",
+          "visible": true
+        },
+        {
+          "id": "service-09-tip",
+          "type": "tip",
+          "title": "Merksatz",
+          "text": "Dessert ZUERST, dann Kaffee. Sonst kommt Kaffee zu früh!",
+          "status": "current",
+          "visible": true
+        }
+      ]
+    },
+    {
+      "id": "service-10",
+      "number": 10,
+      "icon": "🥃",
+      "title": "Digestif",
+      "description": "Den Abschluss setzen",
+      "duration": 5,
+      "visible": true,
+      "blocks": [
+        {
+          "id": "service-10-steps",
+          "type": "check",
+          "title": "So gehst du vor",
+          "text": "Besteck, Teller und Servietten abräumen\nDigestif aktiv anbieten — 2–3 Optionen nennen\n\"Haselnussgeist, Kirschwasser oder Williams?\"",
+          "status": "current",
+          "visible": true
+        },
+        {
+          "id": "service-10-tip",
+          "type": "tip",
+          "title": "Merksatz",
+          "text": "Regional und selbst gemacht — das ist eine echte Empfehlung!",
+          "status": "current",
+          "visible": true
+        }
+      ]
+    },
+    {
+      "id": "service-11",
+      "number": 11,
+      "icon": "💳",
+      "title": "Rechnung",
+      "description": "Aufmerksamkeit behalten",
+      "duration": 5,
+      "visible": true,
+      "blocks": [
+        {
+          "id": "service-11-steps",
+          "type": "check",
+          "title": "So gehst du vor",
+          "text": "Sofort kassieren wenn gewünscht\nRechnung ≠ Tischende — weiter aufmerksam bleiben\nWeitere Getränke anbieten solange Gast sitzt\nHausgäste: auf Zimmer unterschreiben lassen\nFirmenkasse: Name erfragen",
+          "status": "current",
+          "visible": true
+        },
+        {
+          "id": "service-11-tip",
+          "type": "tip",
+          "title": "Merksatz",
+          "text": "Letzter Eindruck leitet nächsten Besuch ein!",
+          "status": "current",
+          "visible": true
+        }
+      ]
+    },
+    {
+      "id": "service-12",
+      "number": 12,
+      "icon": "🙏",
+      "title": "Verabschiedung",
+      "description": "Als Einladung gestalten",
+      "duration": 5,
+      "visible": true,
+      "blocks": [
+        {
+          "id": "service-12-steps",
+          "type": "check",
+          "title": "So gehst du vor",
+          "text": "Die Verabschiedung ist zugleich eine Einladung!\n\"Schön, dass Sie bei uns waren — bis zum nächsten Mal!\"\nAuf Garderobe hinweisen\nSmall Talk · Hinweis auf Bar oder Events",
+          "status": "current",
+          "visible": true
+        },
+        {
+          "id": "service-12-tip",
+          "type": "tip",
+          "title": "Merksatz",
+          "text": "Der Gast nimmt nur den letzten Eindruck mit nach Hause. Mach ihn unvergesslich.",
+          "status": "current",
+          "visible": true
+        }
+      ]
+    }
+  ]
+}
