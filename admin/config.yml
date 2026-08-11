@@ -6,78 +6,82 @@ locale: de
 media_folder: "images/uploads"
 public_folder: "/images/uploads"
 
-collections:
-  - name: "halde_guide"
-    label: "Halde Guide bearbeiten"
-    files:
-      - file: "content/site.json"
-        label: "Halde Guide Inhalte"
-        name: "site"
+department_fields: &department_fields
+  - { label: "Interne ID", name: "id", widget: "string", hint: "Nicht ändern" }
+  - { label: "Symbol", name: "icon", widget: "string" }
+  - { label: "Titel", name: "title", widget: "string" }
+  - { label: "Beschreibung", name: "description", widget: "text" }
+  - { label: "Kleine Überschrift", name: "kicker", widget: "string" }
+  - { label: "Akzentfarbe", name: "accent", widget: "color" }
+  - { label: "Bereich anzeigen", name: "visible", widget: "boolean", default: true, required: false }
+  - label: "Lektionen"
+    label_singular: "Lektion"
+    name: "modules"
+    widget: "list"
+    summary: "{{fields.title}}"
+    fields:
+      - { label: "Interne ID", name: "id", widget: "string", hint: "Nicht ändern" }
+      - { label: "Nummer", name: "number", widget: "number", value_type: "int" }
+      - { label: "Symbol", name: "icon", widget: "string", required: false }
+      - { label: "Titel", name: "title", widget: "string" }
+      - { label: "Kurzbeschreibung", name: "description", widget: "string" }
+      - { label: "Dauer in Minuten", name: "duration", widget: "number", value_type: "int" }
+      - { label: "Lektion anzeigen", name: "visible", widget: "boolean", default: true, required: false }
+      - label: "Lernkarten"
+        label_singular: "Lernkarte"
+        name: "blocks"
+        widget: "list"
+        summary: "{{fields.title}}"
         fields:
-          - label: "Allgemeine Texte"
-            name: "settings"
-            widget: "object"
-            fields:
-              - { label: "Name", name: "title", widget: "string" }
-              - { label: "Unterzeile", name: "subtitle", widget: "string" }
-              - { label: "Überschrift", name: "headline", widget: "string" }
-              - { label: "Einleitung", name: "intro", widget: "text" }
-              - { label: "Begrüßung", name: "welcome", widget: "string" }
-              - { label: "Titel der empfohlenen Lektion", name: "featuredTitle", widget: "string" }
-          - label: "Bereiche"
-            label_singular: "Bereich"
-            name: "departments"
-            widget: "list"
-            summary: "{{fields.icon}} {{fields.title}}"
-            fields:
-              - { label: "Interne ID", name: "id", widget: "string", hint: "Kleinbuchstaben, keine Leerzeichen" }
-              - { label: "Symbol", name: "icon", widget: "string" }
-              - { label: "Titel", name: "title", widget: "string" }
-              - { label: "Beschreibung", name: "description", widget: "text" }
-              - { label: "Kleine Überschrift", name: "kicker", widget: "string" }
-              - { label: "Akzentfarbe", name: "accent", widget: "color" }
-              - { label: "Auf Website anzeigen", name: "visible", widget: "boolean", default: true, required: false }
-              - label: "Lektionen"
-                label_singular: "Lektion"
-                name: "modules"
-                widget: "list"
-                summary: "{{fields.title}}"
-                fields:
-                  - { label: "Interne ID", name: "id", widget: "string" }
-                  - { label: "Nummer", name: "number", widget: "number", value_type: "int" }
-                  - { label: "Symbol", name: "icon", widget: "string", required: false }
-                  - { label: "Titel", name: "title", widget: "string" }
-                  - { label: "Kurzbeschreibung", name: "description", widget: "string" }
-                  - { label: "Dauer in Minuten", name: "duration", widget: "number", value_type: "int" }
-                  - { label: "Lektion anzeigen", name: "visible", widget: "boolean", default: true, required: false }
-                  - label: "Lernkarten"
-                    label_singular: "Lernkarte"
-                    name: "blocks"
-                    widget: "list"
-                    summary: "{{fields.title}} {{fields.text}}"
-                    fields:
-                      - { label: "Interne ID", name: "id", widget: "string" }
-                      - label: "Darstellung"
-                        name: "type"
-                        widget: "select"
-                        options:
-                          - { label: "Praxiswissen", value: "text" }
-                          - { label: "Wichtiger Hinweis", value: "tip" }
-                          - { label: "Frage zum Nachdenken", value: "question" }
-                          - { label: "Formulierung / Zitat", value: "quote" }
-                          - { label: "Checkliste", value: "check" }
-                      - { label: "Optionale Überschrift", name: "title", widget: "string", required: false }
-                      - { label: "Text", name: "text", widget: "text" }
-                      - { label: "Quelle", name: "source", widget: "string", required: false }
-                      - label: "Prüfstatus"
-                        name: "status"
-                        widget: "select"
-                        default: "current"
-                        required: false
-                        options:
-                          - { label: "Aktuell", value: "current" }
-                          - { label: "Muss bestätigt werden", value: "check" }
-                      - { label: "Lernkarte anzeigen", name: "visible", widget: "boolean", default: true, required: false }
+          - { label: "Interne ID", name: "id", widget: "string", hint: "Nicht ändern" }
+          - label: "Art der Karte"
+            name: "type"
+            widget: "select"
+            options:
+              - { label: "Praxiswissen", value: "text" }
+              - { label: "Wichtiger Hinweis", value: "tip" }
+              - { label: "Situation", value: "question" }
+              - { label: "Formulierung", value: "quote" }
+              - { label: "Checkliste", value: "check" }
+          - { label: "Überschrift", name: "title", widget: "string", required: false }
+          - { label: "Inhalt", name: "text", widget: "text" }
+          - { label: "Interne Quelle", name: "source", widget: "string", required: false }
+          - { label: "Lernkarte anzeigen", name: "visible", widget: "boolean", default: true, required: false }
+
+collections:
+  - name: "start"
+    label: "Startseite bearbeiten"
+    files:
+      - file: "content/settings.json"
+        label: "Texte auf der Startseite"
+        name: "settings"
+        fields:
+          - { label: "Name", name: "title", widget: "string" }
+          - { label: "Unterzeile", name: "subtitle", widget: "string" }
+          - { label: "Überschrift", name: "headline", widget: "string" }
+          - { label: "Einleitung", name: "intro", widget: "text" }
+          - { label: "Begrüßung", name: "welcome", widget: "string" }
+          - { label: "Titel der empfohlenen Lektion", name: "featuredTitle", widget: "string", required: false }
+
+  - name: "lernen"
+    label: "Guide-Inhalte bearbeiten"
+    files:
+      - file: "content/service.json"
+        label: "1. Service am Tisch"
+        name: "service"
+        fields: *department_fields
+      - file: "content/empfang.json"
+        label: "2. Gastgeber sein"
+        name: "empfang"
+        fields: *department_fields
+      - file: "content/genuss-wissen.json"
+        label: "3. Getränke & Genusswissen"
+        name: "genuss_wissen"
+        fields: *department_fields
+      - file: "content/bar-rezepte.json"
+        label: "4. Bar & Rezepte"
+        name: "bar_rezepte"
+        fields: *department_fields
 
   - name: "quiz"
     label: "Übungen & Quiz"
@@ -94,7 +98,7 @@ collections:
             widget: "list"
             summary: "{{fields.category}} – {{fields.question}}"
             fields:
-              - { label: "Interne ID", name: "id", widget: "string" }
+              - { label: "Interne ID", name: "id", widget: "string", hint: "Nicht ändern" }
               - { label: "Bereich", name: "category", widget: "string" }
               - { label: "Frage", name: "question", widget: "text" }
               - label: "Antwortmöglichkeiten"
@@ -103,6 +107,6 @@ collections:
                 min: 2
                 max: 4
                 field: { label: "Antwort", name: "answer", widget: "string" }
-              - { label: "Nummer der richtigen Antwort", name: "correct", widget: "number", value_type: "int", min: 1, max: 4, hint: "1 = erste Antwort, 2 = zweite Antwort usw." }
+              - { label: "Nummer der richtigen Antwort", name: "correct", widget: "number", value_type: "int", min: 1, max: 4 }
               - { label: "Erklärung nach der Antwort", name: "explanation", widget: "text" }
               - { label: "Frage anzeigen", name: "visible", widget: "boolean", default: true, required: false }
