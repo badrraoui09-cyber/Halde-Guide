@@ -1,0 +1,745 @@
+{
+  "id": "empfang",
+  "icon": "🔑",
+  "kicker": "EMPFANG & HOTEL",
+  "title": "Gastgeber sein",
+  "description": "Ankommen lassen, Orientierung geben und aus jeder Anfrage einen guten Aufenthalt machen.",
+  "accent": "#72aed1",
+  "titles": [
+    "Die drei Empfangsregeln",
+    "Begrüßung mit Namen",
+    "Telefon professionell führen",
+    "Reservierungen aufnehmen",
+    "Zimmer & Kategorien",
+    "Upgrades passend empfehlen",
+    "Feiern & Gruppen",
+    "BergSpa & Aktivitäten",
+    "Aufenthalt & Mindestnächte",
+    "Check-in, Check-out & Service"
+  ],
+  "modules": [
+    {
+      "id": "empfang-01",
+      "number": 1,
+      "title": "Die drei Empfangsregeln",
+      "description": "9 kompakte Lernkarten",
+      "duration": 6,
+      "visible": true,
+      "blocks": [
+        {
+          "id": "block-0210",
+          "type": "tip",
+          "title": "",
+          "text": "🤝 Empfangsregeln\nDer Empfang setzt den Ton für den ganzen Aufenthalt. Jede Interaktion ist eine Chance.\nDie 3 Empfangsregeln — Nie vergessen",
+          "visible": true
+        },
+        {
+          "id": "block-0211",
+          "type": "tip",
+          "title": "",
+          "text": "„Kommen Sie spontan oder haben Sie sich angemeldet?\"\n„Tut mir leid, wir sind ausreserviert\"\nImmer eine Alternative anbieten: Kaminbar, anderen Tag, Warteliste",
+          "visible": true
+        },
+        {
+          "id": "block-0212",
+          "type": "quote",
+          "title": "",
+          "text": "„Sie waren schon lange nicht mehr da\"\n„Schön, dass Sie wieder da sind!\"\nSchritt für Schritt",
+          "visible": true
+        },
+        {
+          "id": "block-0213",
+          "type": "tip",
+          "title": "",
+          "text": "Augenkontakt & Power House\nDer erste Eindruck\nAuf den Gast zugehen — nie warten bis er zu dir kommt. Augenkontakt halten bis zur Augenfarbe. Aufrechte Körperhaltung (Power House). Ein echtes Lächeln.",
+          "visible": true
+        },
+        {
+          "id": "block-0214",
+          "type": "tip",
+          "title": "",
+          "text": "Der Gast entscheidet in den ersten 3 Sekunden wie er sich fühlt. Mach diese 3 Sekunden perfekt.\nDie perfekte Begrüßung\nWas du sagst — und was nie",
+          "visible": true
+        },
+        {
+          "id": "block-0215",
+          "type": "quote",
+          "title": "",
+          "text": "„Guten Abend, herzlich willkommen! Mein Name ist [Name] — darf ich nach Ihrem Namen fragen?\" Neu ankommende Gäste informieren: Empfehlung für frühe Essenszeit 17:30 Uhr — da freie Tischauswahl. Danach nach Verfügbarkeit.\nDen Namen des Gastes während des Aufenthalts mindestens 3× benutzen: 1. Begrüßung · 2. zwischendrin · 3. Abschied\nWie und wohin",
+          "visible": true
+        },
+        {
+          "id": "block-0216",
+          "type": "quote",
+          "title": "",
+          "text": "„Schön, dass Sie bei uns sind, Herr/Frau [Name] — wo würden Sie heute gerne sitzen?\" (wenn noch viel Auswahl) Oder: „Wir haben heute für Sie einen Tisch in der Stube / im modernen Bereich vorgesehen.\" Externe Gäste: Hinweis auf Garderobe geben. Stuhl herausziehen. Kurz verabschieden mit Hinweis auf Serviceperson.\nMustergespräch — Telefon\n📞 Eingehender Anruf",
+          "visible": true
+        },
+        {
+          "id": "block-0217",
+          "type": "quote",
+          "title": "",
+          "text": "„Hotel Die Halde, [Name], guten Tag — was kann ich für Sie tun?\"\nAnlass erfragen: „Was planen Sie denn? Welcher Anlass?\"\nErklären was geht (Öffnungszeiten, Mindestaufenthalt etc.)",
+          "visible": true
+        },
+        {
+          "id": "block-0218",
+          "type": "text",
+          "title": "",
+          "text": "Kontaktdaten aufnehmen + Rückruf oder Weiterleitung anbieten",
+          "visible": true
+        }
+      ]
+    },
+    {
+      "id": "empfang-02",
+      "number": 2,
+      "title": "Begrüßung mit Namen",
+      "description": "9 kompakte Lernkarten",
+      "duration": 6,
+      "visible": true,
+      "blocks": [
+        {
+          "id": "block-0219",
+          "type": "text",
+          "title": "",
+          "text": "DZ Haldenköpfle\n25–27 m²\nab 382 €",
+          "visible": true
+        },
+        {
+          "id": "block-0220",
+          "type": "tip",
+          "title": "",
+          "text": "DZ Feldberg (Panorama)\nab 408 €\n„Für nur 26 € mehr genießen Sie den direkten Panoramablick bis zum Feldberg — sehr empfehlenswert!\"",
+          "visible": true
+        },
+        {
+          "id": "block-0221",
+          "type": "tip",
+          "title": "",
+          "text": "App. Haldenköpfle\n35 m²\n„Das Appartement bietet mit 35 m² deutlich mehr Platz — ein großzügigeres Zimmer für mehr Komfort.\"",
+          "visible": true
+        },
+        {
+          "id": "block-0222",
+          "type": "tip",
+          "title": "",
+          "text": "App. Haldenköpfle + Balkon\nab 440 €\n„Mit Balkon genießen Sie den Schwarzwald-Ausblick auch morgens beim Kaffee draußen — ein echtes Highlight.\"",
+          "visible": true
+        },
+        {
+          "id": "block-0223",
+          "type": "text",
+          "title": "",
+          "text": "App. Feldberg\n43–45 m²\nab 464 €",
+          "visible": true
+        },
+        {
+          "id": "block-0224",
+          "type": "quote",
+          "title": "",
+          "text": "„Unser größtes Standard-Appartement — ideal für Familien oder längere Aufenthalte.\"\nApp. Feldberg + Balkon\nab 530 €",
+          "visible": true
+        },
+        {
+          "id": "block-0225",
+          "type": "quote",
+          "title": "",
+          "text": "„Mit Balkon und Panoramablick — das beste Erlebnis das wir bieten können.\"\nFamilien-App. Heustöckle\n76 m²",
+          "visible": true
+        },
+        {
+          "id": "block-0226",
+          "type": "tip",
+          "title": "",
+          "text": "ab 508 €\n„2 Schlafzimmer — die Kinder schlafen getrennt, Sie trotzdem nah beieinander.\"\nFamilien-App. Kuckucksnest",
+          "visible": true
+        },
+        {
+          "id": "block-0227",
+          "type": "text",
+          "title": "",
+          "text": "120 m²",
+          "visible": true
+        }
+      ]
+    },
+    {
+      "id": "empfang-03",
+      "number": 3,
+      "title": "Telefon professionell führen",
+      "description": "9 kompakte Lernkarten",
+      "duration": 6,
+      "visible": true,
+      "blocks": [
+        {
+          "id": "block-0228",
+          "type": "tip",
+          "title": "",
+          "text": "„Unser größtes Appartement — 120 m² unterm Dach, perfekt für Familien die viel Platz möchten.\"\n🛏️ Zimmer & Upselling\n39 Zimmer & Appartements. Alle Preise sind Richtwerte inklusive Frühstück, Mittagsvesper, Abendmenü & BergSpa.",
+          "visible": true
+        },
+        {
+          "id": "block-0229",
+          "type": "text",
+          "title": "",
+          "text": "💡 Upselling-Prinzip\nBedürfnis des Gastes\nzuerst verstehen",
+          "visible": true
+        },
+        {
+          "id": "block-0230",
+          "type": "tip",
+          "title": "",
+          "text": ", dann Mehrwert erklären — nie als „teurer\", immer als „mehr Erlebnis\". Kein Druck, nur Empfehlung.\n· bis\nPers.",
+          "visible": true
+        },
+        {
+          "id": "block-0231",
+          "type": "tip",
+          "title": "",
+          "text": "0 16px 14px\nWichtige Infos\n🐕 Hunde",
+          "visible": true
+        },
+        {
+          "id": "block-0232",
+          "type": "tip",
+          "title": "",
+          "text": "KEIN Zutritt zu Restaurant & Bar — Ausnahme: HG-Hunde ab 19 Uhr an der Bar erlaubt\n♿ Barrierefreiheit\nRestaurant & Hallenbad/Anwendungen ja — Sauna nur über 15 Stufen. Barrierefreies Zimmer: nur in Kategorie Appartement-HB",
+          "visible": true
+        },
+        {
+          "id": "block-0233",
+          "type": "text",
+          "title": "",
+          "text": "🛗 Aufzug\nVorhanden — außer in Heustöckle & Kuckucksnest\n🕐 Check-out",
+          "visible": true
+        },
+        {
+          "id": "block-0234",
+          "type": "text",
+          "title": "",
+          "text": "Bis 10:00 Uhr. Danach bis 15:00 Uhr im Haus bleiben & BergSpa weiter nutzen\nHausgäste (HG)\n☀️ Inklusivleistungen HG",
+          "visible": true
+        },
+        {
+          "id": "block-0235",
+          "type": "text",
+          "title": "",
+          "text": "Frühstück auf Wunsch (früh)\nNur HG die früh möchten\nab 7:30",
+          "visible": true
+        },
+        {
+          "id": "block-0236",
+          "type": "text",
+          "title": "",
+          "text": "Landfrühstücksbüfett",
+          "visible": true
+        }
+      ]
+    },
+    {
+      "id": "empfang-04",
+      "number": 4,
+      "title": "Reservierungen aufnehmen",
+      "description": "9 kompakte Lernkarten",
+      "duration": 6,
+      "visible": true,
+      "blocks": [
+        {
+          "id": "block-0237",
+          "type": "text",
+          "title": "",
+          "text": "HG ab 8 Uhr\nMittagsvesper HG\nNur HG / bei Abreise für 30 € buchbar",
+          "visible": true
+        },
+        {
+          "id": "block-0238",
+          "type": "text",
+          "title": "",
+          "text": "4-Gang-Abendmenü HG\nInklusive in HP\n💡 Kein Abendmenü genutzt →",
+          "visible": true
+        },
+        {
+          "id": "block-0239",
+          "type": "tip",
+          "title": "",
+          "text": "25 € Gutschrift\npro Person auf Zimmerrechnung.\nHausgäste bezahlen Abends auf",
+          "visible": true
+        },
+        {
+          "id": "block-0240",
+          "type": "text",
+          "title": "",
+          "text": "— unterschreiben nur!\nTagesgäste (extern)\n🚶 Externe Gäste — Reservierung nötig",
+          "visible": true
+        },
+        {
+          "id": "block-0241",
+          "type": "text",
+          "title": "",
+          "text": "Frühstück extern\nReservierung erforderlich!\nNur Alte Stube — Reservierung!",
+          "visible": true
+        },
+        {
+          "id": "block-0242",
+          "type": "text",
+          "title": "",
+          "text": "Keine Reservierung nötig\nAbendessen extern\nBegrenzt — Reservierung!",
+          "visible": true
+        },
+        {
+          "id": "block-0243",
+          "type": "text",
+          "title": "",
+          "text": "Tagesgäste brauchen Reservierung\nfür Frühstück, Mittag & Abend!\nEinzige Ausnahme: Kaffee & Kuchen von 14:30–16:30 ohne Reservierung.",
+          "visible": true
+        },
+        {
+          "id": "block-0244",
+          "type": "text",
+          "title": "",
+          "text": "BergSpa & Aktivprogramm\n🧖 BergSpa für Tagesgäste\nNur mit Voranmeldung — begrenzte Plätze!",
+          "visible": true
+        },
+        {
+          "id": "block-0245",
+          "type": "text",
+          "title": "",
+          "text": "Auf Anfrage",
+          "visible": true
+        }
+      ]
+    },
+    {
+      "id": "empfang-05",
+      "number": 5,
+      "title": "Zimmer & Kategorien",
+      "description": "9 kompakte Lernkarten",
+      "duration": 6,
+      "visible": true,
+      "blocks": [
+        {
+          "id": "block-0246",
+          "type": "quote",
+          "title": "",
+          "text": "Nur mit Voranmeldung\n💡 Upselling:\n„Möchten Sie gleich einen Platz im BergSpa reservieren? Wir haben noch freie Zeiten.\"",
+          "visible": true
+        },
+        {
+          "id": "block-0247",
+          "type": "text",
+          "title": "",
+          "text": "🎉 Feiern & Gruppen\nAlles zu Veranstaltungen, Rösslestube und Gruppenanfragen.\n🎉 Private Feiern",
+          "visible": true
+        },
+        {
+          "id": "block-0248",
+          "type": "tip",
+          "title": "",
+          "text": "👥 Gruppen\n⚠️ Wichtigste Regel\nDie Halde macht",
+          "visible": true
+        },
+        {
+          "id": "block-0249",
+          "type": "text",
+          "title": "",
+          "text": "KEINE Abendveranstaltungen\nfür externe Gruppen!\nFeiern sind nur",
+          "visible": true
+        },
+        {
+          "id": "block-0250",
+          "type": "text",
+          "title": "",
+          "text": "mittags ab 12:30 Uhr\nmöglich.\nehrlich sagen",
+          "visible": true
+        },
+        {
+          "id": "block-0251",
+          "type": "text",
+          "title": "",
+          "text": "wenn es nicht passt — das ist unser Konzept!\n📅 Wann\nNur mittags, täglich ab 12:30 Uhr",
+          "visible": true
+        },
+        {
+          "id": "block-0252",
+          "type": "text",
+          "title": "",
+          "text": "👥 Bis 8 Personen\nSpontan aus der Tageskarte wählen\n👥 Ab 9 Personen",
+          "visible": true
+        },
+        {
+          "id": "block-0253",
+          "type": "text",
+          "title": "",
+          "text": "Menü muss vorher vereinbart werden. Empfehlung: täglich wechselndes Haldemenü → Überraschung + Vorzugspreis\n🏛️ Max. Gäste\nBis 25 Personen (Rösslestube)",
+          "visible": true
+        },
+        {
+          "id": "block-0254",
+          "type": "text",
+          "title": "",
+          "text": "🏛️ Die Rösslestube",
+          "visible": true
+        }
+      ]
+    },
+    {
+      "id": "empfang-06",
+      "number": 6,
+      "title": "Upgrades passend empfehlen",
+      "description": "9 kompakte Lernkarten",
+      "duration": 6,
+      "visible": true,
+      "blocks": [
+        {
+          "id": "block-0255",
+          "type": "text",
+          "title": "",
+          "text": "Kapazität\nBis 25 Personen\nAb 20 Personen wird der Raum exklusiv gebucht",
+          "visible": true
+        },
+        {
+          "id": "block-0256",
+          "type": "text",
+          "title": "",
+          "text": "Denkmalgeschützt, traditionell-gemütlich, Schwarzwälder Stil\nMenükarten, Kerzen & Blumendeko vom Haus\nSabine Eckert, Blumenwiese Eckert (auf Wunsch)",
+          "visible": true
+        },
+        {
+          "id": "block-0257",
+          "type": "text",
+          "title": "",
+          "text": "Mo–Fr 10–12 Uhr & 14–17 Uhr telefonisch\n✅ Passende Anlässe\nGeburtstag (ab 9 P.)",
+          "visible": true
+        },
+        {
+          "id": "block-0258",
+          "type": "text",
+          "title": "",
+          "text": "Jubiläum\nKommunion / Konfirmation\nKleines Firmenjubiläum",
+          "visible": true
+        },
+        {
+          "id": "block-0259",
+          "type": "text",
+          "title": "",
+          "text": "Hochzeiten (Abend)\nGroße Tagungen\nFirmenevents (groß)",
+          "visible": true
+        },
+        {
+          "id": "block-0260",
+          "type": "question",
+          "title": "",
+          "text": "Passt nicht? → Ehrlich kommunizieren und bei Bedarf weiterempfehlen.\n📋 Checkliste Gruppenanfrage\nFirmenausflug, Familientreffen, Vereinsreise, Incentive?",
+          "visible": true
+        },
+        {
+          "id": "block-0261",
+          "type": "question",
+          "title": "",
+          "text": "Genau oder ca. — Erwachsene / Kinder separat\nAn- und Abreisedatum + Alternativtermin\nDZ, Einzelnutzung, Appartements?",
+          "visible": true
+        },
+        {
+          "id": "block-0262",
+          "type": "text",
+          "title": "",
+          "text": "Nur Frühstück, Halbpension, Vollpension?\nBergSpa, Aktivprogramm, Wanderungen?\nAllergien, Barrierefreiheit, Vegan/Vegetarisch",
+          "visible": true
+        },
+        {
+          "id": "block-0263",
+          "type": "text",
+          "title": "",
+          "text": "Wenn möglich — hilft bei Angebotserstellung",
+          "visible": true
+        }
+      ]
+    },
+    {
+      "id": "empfang-07",
+      "number": 7,
+      "title": "Feiern & Gruppen",
+      "description": "9 kompakte Lernkarten",
+      "duration": 6,
+      "visible": true,
+      "blocks": [
+        {
+          "id": "block-0264",
+          "type": "tip",
+          "title": "",
+          "text": "Name, Telefon, E-Mail für Rückfragen\n🥇 Goldene Regel\nAlles schriftlich!",
+          "visible": true
+        },
+        {
+          "id": "block-0265",
+          "type": "tip",
+          "title": "",
+          "text": "Jede Absprache mit einer Gruppe per E-Mail bestätigen — mündliche Zusagen führen zu Missverständnissen.\nGruppenanfragen immer an die\nweiterleiten. Vorlaufzeit: mind.",
+          "visible": true
+        },
+        {
+          "id": "block-0266",
+          "type": "text",
+          "title": "",
+          "text": "4–6 Wochen\n💰 Was gilt bei Gruppen\nAb ca. 8–10 Personen = Gruppe → individuelles Angebot",
+          "visible": true
+        },
+        {
+          "id": "block-0267",
+          "type": "text",
+          "title": "",
+          "text": "Keine Standardpreise — Reservierung entscheidet\nStornofristen strenger als bei Einzelgästen — schriftlich festhalten\nAnzahlung üblich, Rest bei Anreise oder nach Aufenthalt",
+          "visible": true
+        },
+        {
+          "id": "block-0268",
+          "type": "text",
+          "title": "",
+          "text": "Genaue Ankunftszeit erfragen — Rezeption & Küche müssen vorbereitet sein\n🧖 BergSpa · 1.100 m²\nExklusives Wellness-Erlebnis auf 1.147m Höhe — inklusive für alle Hausgäste.",
+          "visible": true
+        },
+        {
+          "id": "block-0269",
+          "type": "text",
+          "title": "",
+          "text": "🏊 Panorama-Hallenbad\n🧨 Finnische Sauna\n🌿 Kräuter-Sanarium",
+          "visible": true
+        },
+        {
+          "id": "block-0270",
+          "type": "text",
+          "title": "",
+          "text": "💨 Kräuterdampfbad\n🛋️ Ruheplätze\n🌊 Naturbadeteich",
+          "visible": true
+        },
+        {
+          "id": "block-0271",
+          "type": "text",
+          "title": "",
+          "text": "🌿 Liegewiese\n💆 Massagen (alle Arten)\n🌸 Ayurveda",
+          "visible": true
+        },
+        {
+          "id": "block-0272",
+          "type": "text",
+          "title": "",
+          "text": "✨ Kosmetik & Pflege",
+          "visible": true
+        }
+      ]
+    },
+    {
+      "id": "empfang-08",
+      "number": 8,
+      "title": "BergSpa & Aktivitäten",
+      "description": "9 kompakte Lernkarten",
+      "duration": 6,
+      "visible": true,
+      "blocks": [
+        {
+          "id": "block-0273",
+          "type": "text",
+          "title": "",
+          "text": "🍯 Salz-Honig-Peeling\nAktivprogramm (täglich wechselnd)\n🧘 Hatha Yoga",
+          "visible": true
+        },
+        {
+          "id": "block-0274",
+          "type": "text",
+          "title": "",
+          "text": "🧘 Pilates\n🧘 Meditation\n💦 Aqua Fitness",
+          "visible": true
+        },
+        {
+          "id": "block-0275",
+          "type": "text",
+          "title": "",
+          "text": "💪 Rückentraining\n🚶 Nordic Walking\n🥾 Geführte Wanderungen",
+          "visible": true
+        },
+        {
+          "id": "block-0276",
+          "type": "text",
+          "title": "",
+          "text": "❄️ Schneeschuhtouren (Winter)\n🚴 E-Bike Verleih\n🚵 Mountainbike Verleih",
+          "visible": true
+        },
+        {
+          "id": "block-0277",
+          "type": "text",
+          "title": "",
+          "text": "⛷️ Langlauf-Loipe am Hotel\nTagesSpa & NightSpa\nTagesgäste können das BergSpa als",
+          "visible": true
+        },
+        {
+          "id": "block-0278",
+          "type": "quote",
+          "title": "",
+          "text": "nutzen.\n💬 Upselling:\n„Möchten Sie gleich einen Platz im BergSpa reservieren? Ich buche das gerne für Sie ein.\"",
+          "visible": true
+        },
+        {
+          "id": "block-0279",
+          "type": "quote",
+          "title": "",
+          "text": "💡 Upselling-Skripte\n„Soll ich Ihnen gleich eine Massage für morgen Vormittag einbuchen?\"\nBergSpa Tagesgast",
+          "visible": true
+        },
+        {
+          "id": "block-0280",
+          "type": "tip",
+          "title": "",
+          "text": "„Möchten Sie heute Nachmittag noch einen Platz im BergSpa? Ich reserviere das gerne für Sie.\"\n„Als Geschenk für jemanden? Wir haben Wellness-Gutscheine — auch noch kurzfristig.\"\n📋 Buchungsregeln",
+          "visible": true
+        },
+        {
+          "id": "block-0281",
+          "type": "tip",
+          "title": "",
+          "text": "Mindestaufenthalt, Kommunikation & wichtige Regeln für die Rezeption.",
+          "visible": true
+        }
+      ]
+    },
+    {
+      "id": "empfang-09",
+      "number": 9,
+      "title": "Aufenthalt & Mindestnächte",
+      "description": "9 kompakte Lernkarten",
+      "duration": 6,
+      "visible": true,
+      "blocks": [
+        {
+          "id": "block-0282",
+          "type": "text",
+          "title": "",
+          "text": "Schnellübersicht\nSo, Mo, Di, Mi\n2 Nächte (So–Do)",
+          "visible": true
+        },
+        {
+          "id": "block-0283",
+          "type": "text",
+          "title": "",
+          "text": "Do, Fr\n3 Nächte (Do–So / Fr–Mo)\n3 Nächte (Sa–Di)",
+          "visible": true
+        },
+        {
+          "id": "block-0284",
+          "type": "text",
+          "title": "",
+          "text": "Auf Fr-Anreise hinweisen\nFeiertag / Brücke\nIndividuell prüfen",
+          "visible": true
+        },
+        {
+          "id": "block-0285",
+          "type": "tip",
+          "title": "",
+          "text": "Immer im System nachschauen!\nWarum Mindestaufenthalt?\nDie Halde ist ein Erholungshotel — kurze 1-Nacht-Aufenthalte passen nicht zum Konzept. Gäste sollen ankommen, abschalten und wirklich erholen.",
+          "visible": true
+        },
+        {
+          "id": "block-0286",
+          "type": "quote",
+          "title": "",
+          "text": "Unter der Woche\n„Für einen Aufenthalt unter der Woche benötigen wir mindestens 2 Nächte.\"\nAm Wochenende",
+          "visible": true
+        },
+        {
+          "id": "block-0287",
+          "type": "quote",
+          "title": "",
+          "text": "„Am Wochenende gilt bei uns eine Mindestaufenthaltsdauer von 3 Nächten.\"\nBegründung\n„Das ermöglicht Ihnen, wirklich in die Ruhe des Schwarzwalds einzutauchen — 1 Nacht reicht dafür kaum.\"",
+          "visible": true
+        },
+        {
+          "id": "block-0288",
+          "type": "quote",
+          "title": "",
+          "text": "„Wenn Sie flexibel sind, empfehle ich Ihnen gerne einen passenden Zeitraum.\"\nRezeption — Kernaufgaben\nTelefon, Online, Walk-in annehmen",
+          "visible": true
+        },
+        {
+          "id": "block-0289",
+          "type": "text",
+          "title": "",
+          "text": "Check-out bis 10:00 Uhr\nDanach bis 15:00 Uhr im Haus bleiben & BergSpa nutzen\nTagesgäste informieren",
+          "visible": true
+        },
+        {
+          "id": "block-0290",
+          "type": "text",
+          "title": "",
+          "text": "Restaurant, TagesSpa — nur mit Voranmeldung!",
+          "visible": true
+        }
+      ]
+    },
+    {
+      "id": "empfang-10",
+      "number": 10,
+      "title": "Check-in, Check-out & Service",
+      "description": "8 kompakte Lernkarten",
+      "duration": 6,
+      "visible": true,
+      "blocks": [
+        {
+          "id": "block-0291",
+          "type": "text",
+          "title": "",
+          "text": "Schauinsland, Steinwasenpark, Todtnau Wasserfall\nGutscheine verkaufen\nAuch kurzfristig — Wellness-Gutscheine sehr beliebt",
+          "visible": true
+        },
+        {
+          "id": "block-0292",
+          "type": "text",
+          "title": "",
+          "text": "Transfer organisieren\nSeilbahn, Bahnhof — auf Anfrage gegen Gebühr\n💡 Upselling bei Check-in",
+          "visible": true
+        },
+        {
+          "id": "block-0293",
+          "type": "quote",
+          "title": "",
+          "text": "„Wir haben heute noch ein Feldberg-Appartement mit Balkon — herrlicher Panoramablick, darf ich es für Sie anfragen?\"\nBegrüßung · Kommunikation\n39 Kategorien + Upselling",
+          "visible": true
+        },
+        {
+          "id": "block-0294",
+          "type": "text",
+          "title": "",
+          "text": "HG vs. Tagesgäste\nRösslestube · Gruppen\n1.100 m² · Upselling",
+          "visible": true
+        },
+        {
+          "id": "block-0295",
+          "type": "text",
+          "title": "",
+          "text": "Empfang · Rezeption\n0 4px 20px rgba(91,163,204,0.1)\nDie Halde",
+          "visible": true
+        },
+        {
+          "id": "block-0296",
+          "type": "text",
+          "title": "",
+          "text": "chip chip-inactive\n🏠 Home\nchip chip-active-gold",
+          "visible": true
+        },
+        {
+          "id": "block-0297",
+          "type": "text",
+          "title": "",
+          "text": "← Übersicht\nchip chip-active-blue\n/sw.js",
+          "visible": true
+        },
+        {
+          "id": "block-0298",
+          "type": "text",
+          "title": "",
+          "text": "Halde Guide: Offline-Modus aktiv ✓\nSW Fehler:",
+          "visible": true
+        }
+      ]
+    }
+  ]
+}
