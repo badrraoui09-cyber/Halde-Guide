@@ -72,6 +72,8 @@
 
   function home() {
     const next = nextModule();
+    const hours = moduleBy('genuss', ['wann gibt es was']);
+    const timeBlocks = (hours?.blocks || []).filter(visible).slice(0, 4);
     const arrival = moduleBy('empfang', ['empfangsregeln', 'begrüßung']);
     const table = moduleBy('service', ['der tisch', 'erster tischkontakt']);
     const recommend = moduleBy('genuss', ['offene weine', 'aperitivo']);
@@ -90,8 +92,20 @@
         </div>
       </section>
 
+      <section class="today-brief">
+        <div class="today-heading">
+          <p class="eyebrow">HEUTE AUF DER HALDE</p>
+          <h2>Wann ist was?</h2>
+          <p>Diese Zeiten brauchst du im Service. Bei Änderungen gilt immer das Tagesbriefing.</p>
+          <button class="brief-action" data-open-module="${esc(hours?.id || '')}" data-dept="genuss">Alle Zeiten &amp; Details →</button>
+        </div>
+        <div class="time-grid">
+          ${timeBlocks.map(block => `<button class="time-card" data-open-module="${esc(hours.id)}" data-dept="genuss"><span>${esc(block.title || 'Halde Info')}</span><strong>${esc(block.text)}</strong><b>→</b></button>`).join('')}
+        </div>
+      </section>
+
       <section class="mission-zone">
-        <header class="zone-head"><div><p class="eyebrow">SCHNELL IN DIE SITUATION</p><h2>Was passiert gerade?</h2></div><button class="text-action" data-action="search">⌕ Alles durchsuchen</button></header>
+        <header class="zone-head"><div><p class="eyebrow">SITUATION WÄHLEN</p><h2>Was machst du jetzt?</h2></div><button class="text-action" data-action="search">⌕ Alles durchsuchen</button></header>
         <div class="mission-grid">
           ${missionCard('Gast kommt an', 'Begrüßen, orientieren, sicher starten', '👋', '#d9a84e', arrival)}
           ${missionCard('Tisch startet', 'Vorbereiten und den ersten Kontakt führen', '✦', '#7aa071', table)}
