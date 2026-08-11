@@ -30,7 +30,7 @@
   };
   const nextModule = () => modules().find(module => !completed.has(module.id)) || modules()[0];
   const compact = text => String(text || '').replace(/\s+/g, ' ').trim();
-  const contentLines = text => String(text || '').split('\n').map(line => line.trim()).filter(line => line && !line.includes('€'));
+  const contentLines = text => String(text || '').split('\n').map(line => line.trim().replace(/\s*€\s*$/, '').replace(/\s+\d{1,3}(?:[,.]\d{1,2})\s*$/, '')).filter(line => line && !line.includes('€'));
   const headline = text => {
     const parts = String(text || '').split('.').map(part => part.trim()).filter(Boolean);
     return parts.length > 1 ? `${esc(parts[0])}. <em>${esc(parts.slice(1).join('. '))}.</em>` : esc(text);
