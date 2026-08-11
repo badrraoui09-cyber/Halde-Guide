@@ -70,16 +70,12 @@ collections:
         label: "1. Service am Tisch"
         name: "service"
         fields: *department_fields
-      - file: "content/empfang.json"
-        label: "2. Gastgeber sein"
-        name: "empfang"
-        fields: *department_fields
       - file: "content/genuss-wissen.json"
-        label: "3. Getränke & Genusswissen"
+        label: "2. Getränke & Genusswissen"
         name: "genuss_wissen"
         fields: *department_fields
       - file: "content/bar-rezepte.json"
-        label: "4. Bar & Rezepte"
+        label: "3. Bar & Rezepte"
         name: "bar_rezepte"
         fields: *department_fields
 
