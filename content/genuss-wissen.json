@@ -10,44 +10,44 @@
     {
       "id": "genuss-01",
       "number": 1,
-      "title": "Wann gibt es was?",
-      "description": "Angebotszeiten sicher kommunizieren.",
-      "duration": 5,
+      "title": "Öffnungszeiten & Angebote",
+      "description": "Feste Zeiten sicher und verbindlich kommunizieren.",
+      "duration": 4,
       "visible": true,
       "blocks": [
         {
-          "id": "block-1031",
+          "id": "clean-2001",
           "type": "tip",
           "title": "Kaffee & Kuchen",
           "text": "Ab 12:30 Uhr den ganzen Tag.",
-          "source": "KaffeeKuchenSnacks ab 10.07.26. .docx",
+          "source": "Kartenmaterial Halde: ohne Preise",
           "status": "current",
           "visible": true
         },
         {
-          "id": "block-1032",
+          "id": "clean-2002",
           "type": "tip",
           "title": "Warme Küche",
           "text": "12:30–14:30 Uhr und 17:30–19:30 Uhr; jeweils letzte Bestellung.",
-          "source": "KaffeeKuchenSnacks ab 10.07.26. .docx",
+          "source": "Kartenmaterial Halde: ohne Preise",
           "status": "current",
           "visible": true
         },
         {
-          "id": "block-1033",
+          "id": "clean-2003",
           "type": "tip",
           "title": "Küchenpause",
           "text": "16:30–17:30 Uhr. In dieser Zeit keine warmen Speisen versprechen.",
-          "source": "KaffeeKuchenSnacks ab 10.07.26. .docx",
+          "source": "Kartenmaterial Halde: ohne Preise",
           "status": "current",
           "visible": true
         },
         {
-          "id": "block-1034",
+          "id": "clean-2004",
           "type": "tip",
           "title": "Kaminbar",
-          "text": "Geöffnet bis 23:00 Uhr. Cocktails ab 17:30 Uhr. Barfood 17:30–22:00 Uhr.",
-          "source": "halde barkarte Badr entwurf.docx",
+          "text": "Bis 23:00 Uhr geöffnet. Cocktails ab 17:30 Uhr, Barfood 17:30–22:00 Uhr.",
+          "source": "Kartenmaterial Halde: ohne Preise",
           "status": "current",
           "visible": true
         }
@@ -57,115 +57,43 @@
       "id": "genuss-02",
       "number": 2,
       "title": "Kaffee & Tee",
-      "description": "Produkte kennen und sicher anbieten.",
-      "duration": 8,
+      "description": "Heißgetränke klar erklären und sicher anbieten.",
+      "duration": 5,
       "visible": true,
       "blocks": [
         {
-          "id": "block-1035",
-          "type": "text",
-          "title": "",
-          "text": "Heiße Getränke\nKaffee von PURO Fairtrade Coffee\nDer Kaffee, welcher im Schatten einheimischer Bäume unserer Reservate in Harmonie mit der Natur wächst und gedeiht, wird von Fairtrade Kooperationen geliefert. Die Kaffeebauern erhalten einen fairen Preis für die Bohnen und es wird sogar noch mehr investiert wie z. B. in Schulen, in die Wiederraufforstung und um die landwirtschaftliche Verbesserung voran zu treiben.Der Erlös, aus dem Verkauf von Puro Produkten wird wiederverwendet, um Regenwald Gebiete, aus denen unser Kaffee kommt, zu kaufen und dadurch zu schützen.",
-          "source": "KaffeeKuchenSnacks ab 10.07.26. .docx",
+          "id": "clean-2005",
+          "type": "tip",
+          "title": "Kaffee von PURO",
+          "text": "Fairtrade-Kaffee aus dem Schattenanbau. Kurz, freundlich und ohne langen Vortrag erklären.",
+          "source": "Kartenmaterial Halde: ohne Preise",
           "status": "current",
           "visible": true
         },
         {
-          "id": "block-1036",
-          "type": "text",
-          "title": "",
-          "text": "Kaffee ∙ kleine Tasse 3,9\nKaffee ∙ große Tasse4,8\nEspresso / Espresso Macchiato2,9",
-          "source": "KaffeeKuchenSnacks ab 10.07.26. .docx",
+          "id": "clean-2006",
+          "type": "tip",
+          "title": "Klassiker sicher anbieten",
+          "text": "Kaffee, Espresso, Cappuccino, Milchkaffee, Latte Macchiato, Moccaccino und heiße Schokolade gehören zum Grundangebot.",
+          "source": "Kartenmaterial Halde: ohne Preise",
           "status": "current",
           "visible": true
         },
         {
-          "id": "block-1037",
-          "type": "text",
-          "title": "",
-          "text": "Cappuccino 4,6\nMilchkaffee ∙ große Tasse5,2\nLatte Macchiato5,2",
-          "source": "KaffeeKuchenSnacks ab 10.07.26. .docx",
+          "id": "clean-2007",
+          "type": "tip",
+          "title": "Milchalternative",
+          "text": "Getränke können mit Hafermilch zubereitet werden. Bei Allergien oder Unverträglichkeiten nie raten, sondern nachfragen und prüfen.",
+          "source": "Kartenmaterial Halde: ohne Preise",
           "status": "current",
           "visible": true
         },
         {
-          "id": "block-1038",
-          "type": "text",
-          "title": "",
-          "text": "Moccaccino ∙ heiße Schokolade mit Espresso5,2\nHeiße Schokolade ∙ mit Sahne5,2\nHeiße Schokolade ∙ ohne Sahne4,9",
-          "source": "KaffeeKuchenSnacks ab 10.07.26. .docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1039",
-          "type": "text",
-          "title": "",
-          "text": "Chai Latte ∙ Gewürztee mit heißer Milch 5,2\nGerne bereiten wir euer Getränk mit Hafermilch zu!\nUnser Bio-Tee",
-          "source": "KaffeeKuchenSnacks ab 10.07.26. .docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1040",
-          "type": "text",
-          "title": "",
-          "text": "Von Pure Tea “ALTHAUS”\nTEE ∙ GROSSES KÄNNCHEN 0,6l ∙ 6,3\nJAMES – Aromatisierter Bio-Schwarztee (Earl Grey)",
-          "source": "KaffeeKuchenSnacks ab 10.07.26. .docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1041",
-          "type": "text",
-          "title": "",
-          "text": "AMAN – Bio Darjeeling\nCLAIRE – Bio Kräutertee mit Verbene\nTRAUDL – Bio AlmkräuternteeHAYOTO – Bio Sencha-Grüntee JINJIN – Aromatisierter Grüntee mit Mango",
-          "source": "KaffeeKuchenSnacks ab 10.07.26. .docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1042",
-          "type": "text",
-          "title": "",
-          "text": "AYURVEDA – Herbs and Ginger\nBONGANI - Bio Rooibos-Vanilletee\nDIGESTIF TEE ∙ GROSSES KÄNNCHEN",
-          "source": "KaffeeKuchenSnacks ab 10.07.26. .docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1043",
-          "type": "text",
-          "title": "",
-          "text": "fürs Magenwohl\n7x7DETOX TEE - Kräutertee von Jentschura 0,6l ∙ 6,3\nDer 49-Kräuter Basentee für eine bewusste Balance",
-          "source": "KaffeeKuchenSnacks ab 10.07.26. .docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1044",
-          "type": "text",
-          "title": "",
-          "text": "VITALIS - Kräutertee von Dr. Joseph 0,6l ∙ 6,3\nVon Südtiroler Bergkräutern aus den Dolomiten\nTEE IM GLAS 0,4l ∙ 4,0",
-          "source": "KaffeeKuchenSnacks ab 10.07.26. .docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1045",
-          "type": "text",
-          "title": "",
-          "text": "Kräuter Tee – Mountain Herbs von Ronnefeldt\nPfefferminze\nGrüntee",
-          "source": "KaffeeKuchenSnacks ab 10.07.26. .docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1046",
-          "type": "text",
-          "title": "",
-          "text": "Schwarztee\nFrüchtetee",
-          "source": "KaffeeKuchenSnacks ab 10.07.26. .docx",
+          "id": "clean-2008",
+          "type": "tip",
+          "title": "Teeauswahl",
+          "text": "Bio-Tees von ALTHAUS sowie Kräuter-, Grün-, Schwarz- und Früchtetee. Erst nach Geschmack fragen: frisch, kräftig, fruchtig oder beruhigend.",
+          "source": "Kartenmaterial Halde: ohne Preise",
           "status": "current",
           "visible": true
         }
@@ -175,223 +103,43 @@
       "id": "genuss-03",
       "number": 3,
       "title": "Kuchen, Eis & Süßes",
-      "description": "Sortiment, Besonderheiten und passende Zusatzangebote.",
-      "duration": 17,
+      "description": "Süßes appetitlich beschreiben, ohne die aktuelle Karte auswendig zu lernen.",
+      "duration": 5,
       "visible": true,
       "blocks": [
         {
-          "id": "block-1047",
-          "type": "text",
-          "title": "",
-          "text": "Kaffee & Kuchen\nSüßes & Snacks\nCafé & Kuchen gibt´s ab 12:30 Uhr den ganzen Tag",
-          "source": "KaffeeKuchenSnacks ab 10.07.26. .docx",
+          "id": "clean-2009",
+          "type": "tip",
+          "title": "Tagesangebot zuerst prüfen",
+          "text": "Kuchen und Eis können sich ändern. Vor einer Empfehlung die aktuelle Karte oder Auslage prüfen.",
+          "source": "Kartenmaterial Halde: ohne Preise",
           "status": "current",
           "visible": true
         },
         {
-          "id": "block-1048",
-          "type": "text",
-          "title": "",
-          "text": "Warme Küche ab 12:30 Uhr bis 14:30 Uhr (letzte Bestellung)\nund ab 17:30 Uhr bis 19:30 Uhr (letzte Bestellung)\nKüchenpause von 16:30 Uhr bis 17:30 Uhr",
-          "source": "KaffeeKuchenSnacks ab 10.07.26. .docx",
+          "id": "clean-2010",
+          "type": "tip",
+          "title": "Haldentorte",
+          "text": "Schokoladennussboden mit Beeren und Vanillecrème; lactose- und glutenfrei.",
+          "source": "Kartenmaterial Halde: ohne Preise",
           "status": "current",
           "visible": true
         },
         {
-          "id": "block-1049",
-          "type": "text",
-          "title": "",
-          "text": "Heiße Getränke\nKaffee von PURO Fairtrade Coffee\nDer Kaffee, welcher im Schatten einheimischer Bäume unserer Reservate in Harmonie mit der Natur wächst und gedeiht, wird von Fairtrade Kooperationen geliefert. Die Kaffeebauern erhalten einen fairen Preis für die Bohnen und es wird sogar noch mehr investiert wie z. B. in Schulen, in die Wiederraufforstung und um die landwirtschaftliche Verbesserung voran zu treiben.Der Erlös, aus dem Verkauf von Puro Produkten wird wiederverwendet, um Regenwald Gebiete, aus denen unser Kaffee kommt, zu kaufen und dadurch zu schützen.",
-          "source": "KaffeeKuchenSnacks ab 10.07.26. .docx",
+          "id": "clean-2011",
+          "type": "tip",
+          "title": "Klassische Kuchen",
+          "text": "Käsekuchen, Schwarzwälder Kirschtorte, Johannisbaiserkuchen, Apfelkuchen und Rotwein-Schokoladenkuchen gehören zum bekannten Angebot.",
+          "source": "Kartenmaterial Halde: ohne Preise",
           "status": "current",
           "visible": true
         },
         {
-          "id": "block-1050",
-          "type": "text",
-          "title": "",
-          "text": "Kaffee ∙ kleine Tasse 3,9\nKaffee ∙ große Tasse4,8\nEspresso / Espresso Macchiato2,9",
-          "source": "KaffeeKuchenSnacks ab 10.07.26. .docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1051",
-          "type": "text",
-          "title": "",
-          "text": "Cappuccino 4,6\nMilchkaffee ∙ große Tasse5,2\nLatte Macchiato5,2",
-          "source": "KaffeeKuchenSnacks ab 10.07.26. .docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1052",
-          "type": "text",
-          "title": "",
-          "text": "Moccaccino ∙ heiße Schokolade mit Espresso5,2\nHeiße Schokolade ∙ mit Sahne5,2\nHeiße Schokolade ∙ ohne Sahne4,9",
-          "source": "KaffeeKuchenSnacks ab 10.07.26. .docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1053",
-          "type": "text",
-          "title": "",
-          "text": "Chai Latte ∙ Gewürztee mit heißer Milch 5,2\nGerne bereiten wir euer Getränk mit Hafermilch zu!\nUnser Bio-Tee",
-          "source": "KaffeeKuchenSnacks ab 10.07.26. .docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1054",
-          "type": "text",
-          "title": "",
-          "text": "Von Pure Tea “ALTHAUS”\nTEE ∙ GROSSES KÄNNCHEN 0,6l ∙ 6,3\nJAMES – Aromatisierter Bio-Schwarztee (Earl Grey)",
-          "source": "KaffeeKuchenSnacks ab 10.07.26. .docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1055",
-          "type": "text",
-          "title": "",
-          "text": "AMAN – Bio Darjeeling\nCLAIRE – Bio Kräutertee mit Verbene\nTRAUDL – Bio AlmkräuternteeHAYOTO – Bio Sencha-Grüntee JINJIN – Aromatisierter Grüntee mit Mango",
-          "source": "KaffeeKuchenSnacks ab 10.07.26. .docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1056",
-          "type": "text",
-          "title": "",
-          "text": "AYURVEDA – Herbs and Ginger\nBONGANI - Bio Rooibos-Vanilletee\nDIGESTIF TEE ∙ GROSSES KÄNNCHEN",
-          "source": "KaffeeKuchenSnacks ab 10.07.26. .docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1057",
-          "type": "text",
-          "title": "",
-          "text": "fürs Magenwohl\n7x7DETOX TEE - Kräutertee von Jentschura 0,6l ∙ 6,3\nDer 49-Kräuter Basentee für eine bewusste Balance",
-          "source": "KaffeeKuchenSnacks ab 10.07.26. .docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1058",
-          "type": "text",
-          "title": "",
-          "text": "VITALIS - Kräutertee von Dr. Joseph 0,6l ∙ 6,3\nVon Südtiroler Bergkräutern aus den Dolomiten\nTEE IM GLAS 0,4l ∙ 4,0",
-          "source": "KaffeeKuchenSnacks ab 10.07.26. .docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1059",
-          "type": "text",
-          "title": "",
-          "text": "Kräuter Tee – Mountain Herbs von Ronnefeldt\nPfefferminze\nGrüntee",
-          "source": "KaffeeKuchenSnacks ab 10.07.26. .docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1060",
-          "type": "text",
-          "title": "",
-          "text": "Schwarztee\nFrüchtetee\nKuchen",
-          "source": "KaffeeKuchenSnacks ab 10.07.26. .docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1061",
-          "type": "text",
-          "title": "",
-          "text": "HALDENTORTE\nlactosefrei und glutenfrei 5,5\nSchokoladennussboden",
-          "source": "KaffeeKuchenSnacks ab 10.07.26. .docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1062",
-          "type": "text",
-          "title": "",
-          "text": "Beeren ∙ Vanillecrème\nKÄSEKUCHEN 5,5\nunser Klassiker",
-          "source": "KaffeeKuchenSnacks ab 10.07.26. .docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1063",
-          "type": "text",
-          "title": "",
-          "text": "SCHWARZWÄLDER KIRSCHTORTE 6,0\nSchokobiskuit ∙ Schattenmorellen\nKirschwasser ∙ Sahne",
-          "source": "KaffeeKuchenSnacks ab 10.07.26. .docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1064",
-          "type": "text",
-          "title": "",
-          "text": "JOHANNISBAISERKUCHEN 5,5\nBaiserhaube ∙ Mürbeteigboden\nAPFELKUCHEN 5,5",
-          "source": "KaffeeKuchenSnacks ab 10.07.26. .docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1065",
-          "type": "text",
-          "title": "",
-          "text": "Mürbeteigboden ∙ Sauerrahmguss\nROTWEIN-SCHOKOLADENKUCHEN 4,2\nPORTION SAHNE EXTRA+ 0,5",
-          "source": "KaffeeKuchenSnacks ab 10.07.26. .docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1066",
-          "type": "text",
-          "title": "",
-          "text": "Süßes\n... ab 12:30 bis 21:00 Uhr\nKÜCHENPAUSE VON 16:30 UHR BIS 17:30 UHR",
-          "source": "KaffeeKuchenSnacks ab 10.07.26. .docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1067",
-          "type": "text",
-          "title": "",
-          "text": "ESPRESSO AFFOGATO 7,90\nEspresso ∙ Vanilleeis ∙ kleiner Muffin\nERDBEERBECHER11,00",
-          "source": "KaffeeKuchenSnacks ab 10.07.26. .docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1068",
-          "type": "text",
-          "title": "",
-          "text": "Erdbeereis ∙ Vanilleeis ∙ Zitronensorbet\nmarinierte Erdbeeren ∙ Holunderblütensirup\nSchlagsahne ∙ Pistazien",
-          "source": "KaffeeKuchenSnacks ab 10.07.26. .docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1069",
-          "type": "text",
-          "title": "",
-          "text": "BAUERNHOFEIS VOM RUHBAUERNHOF je Kugel 4,0\nVanille ∙ Erdbeere ∙ Schokolade ∙ Zitrone ∙ Nuss\nHAUSGEMACHTES SORBETje Kugel 4,0",
-          "source": "KaffeeKuchenSnacks ab 10.07.26. .docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1070",
-          "type": "text",
-          "title": "",
-          "text": "Je nach Tagesangebot\nEISKAFFEE7,0\nVanilleeis ∙ Schlagsahne ∙ Schokoraspeln",
-          "source": "KaffeeKuchenSnacks ab 10.07.26. .docx",
+          "id": "clean-2012",
+          "type": "tip",
+          "title": "Eis & Dessert",
+          "text": "Affogato, Eisbecher, Bauernhofeis, Sorbet und Eiskaffee. Immer Zutaten und mögliche Allergene verbindlich prüfen.",
+          "source": "Kartenmaterial Halde: ohne Preise",
           "status": "current",
           "visible": true
         }
@@ -400,98 +148,44 @@
     {
       "id": "genuss-04",
       "number": 4,
-      "title": "Vesper & Barfood",
-      "description": "Kleine Gerichte korrekt beschreiben und verkaufen.",
-      "duration": 7,
+      "title": "Barfood & kleine Gerichte",
+      "description": "Gäste orientieren und passende kleine Begleiter empfehlen.",
+      "duration": 4,
       "visible": true,
       "blocks": [
         {
-          "id": "block-1071",
-          "type": "text",
-          "title": "",
-          "text": "Vesper Karte\n... ab 12:30 Uhr nur im Restaurant oder auf der Terrasse\nKÜCHENPAUSE VON 16:30 UHR BIS 17:30 UHR",
-          "source": "KaffeeKuchenSnacks ab 10.07.26. .docx",
+          "id": "clean-2013",
+          "type": "tip",
+          "title": "Wann gibt es Barfood?",
+          "text": "Täglich 17:30–22:00 Uhr. Bei Küchenpause keine warmen Alternativen versprechen.",
+          "source": "Kartenmaterial Halde: ohne Preise",
           "status": "current",
           "visible": true
         },
         {
-          "id": "block-1072",
-          "type": "text",
-          "title": "",
-          "text": "TAGESSUPPE 9,0\nBUNTER SALATTELLER11,0\nZwetschgen-Senf-Dressing · Gemüsesalate · Kerne Radieschen",
-          "source": "KaffeeKuchenSnacks ab 10.07.26. .docx",
+          "id": "clean-2014",
+          "type": "tip",
+          "title": "Zum Aperitif",
+          "text": "Oliven, Flammkuchen oder ein Apéro-Plättli passen gut zu Sprizz und Wein.",
+          "source": "Kartenmaterial Halde: ohne Preise",
           "status": "current",
           "visible": true
         },
         {
-          "id": "block-1073",
-          "type": "text",
-          "title": "",
-          "text": "BROT-KÖRBLE ∙ Gedeckpro Person 1,50\nBrotkorb mit Salz & bestem Olivenöl\nAPÉRO-PLÄTTLI 21,0",
-          "source": "KaffeeKuchenSnacks ab 10.07.26. .docx",
+          "id": "clean-2015",
+          "type": "tip",
+          "title": "Bei Fragen zur Auswahl",
+          "text": "Aktuelle Karte prüfen, dann ehrlich und konkret empfehlen. Bei Allergenen oder Zutaten niemals schätzen.",
+          "source": "Kartenmaterial Halde: ohne Preise",
           "status": "current",
           "visible": true
         },
         {
-          "id": "block-1074",
-          "type": "text",
-          "title": "",
-          "text": "Fenchel-Salami · Schwarzwälder Schinken\nRadieschen-Hummus · Bergblütenkäse\nZiegenkäse vom Ringlihof Lachsforelle · Meerrettich · Brot",
-          "source": "KaffeeKuchenSnacks ab 10.07.26. .docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1075",
-          "type": "text",
-          "title": "",
-          "text": "REHRAGOUT AUS DER HALDE JAGD 36,0\nSpitzkohlgemüse · Pilze · Preiselbeeren · Spätzle\nWIENER SCHNITZEL VOM KALB 34,0",
-          "source": "KaffeeKuchenSnacks ab 10.07.26. .docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1076",
-          "type": "text",
-          "title": "",
-          "text": "Preiselbeeren ∙ Pommes Frites ∙ Zitrone\nWURSTSALAT 14,50\nRadieschen ∙ Gurke ∙ rote Zwiebeln ∙ hauseigenes Brot",
-          "source": "KaffeeKuchenSnacks ab 10.07.26. .docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1077",
-          "type": "text",
-          "title": "",
-          "text": "Snacks & Barfood\nVon 17:30 Uhr bis 22:00 Uhr\nTagessuppe9,0",
-          "source": "halde barkarte Badr entwurf.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1078",
-          "type": "text",
-          "title": "",
-          "text": "Jeden Tag anders — serviert mit unserem Hausbrot\nMarinierte Oliven8,0\nGetrocknete Tomaten · Knoblauch · Kräuter · Baguettes",
-          "source": "halde barkarte Badr entwurf.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1079",
-          "type": "text",
-          "title": "",
-          "text": "Flammkuchen14,0\nElsässer Art mit Sauerrahm, Zwiebeln & Speck\nVegetarisch mit Käse & Lauch",
-          "source": "halde barkarte Badr entwurf.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1080",
-          "type": "text",
-          "title": "",
-          "text": "Apéro-Plättli21,0\nFenchel-Salami · Schwarzwälder Schinken · Radieschen Hummus · Bergblütenkäse · Ziegenkäse vom Ringlihof · Lachsforelle · Meerrettich · Brot",
-          "source": "halde barkarte Badr entwurf.docx",
+          "id": "clean-2016",
+          "type": "quote",
+          "title": "So kannst du es sagen",
+          "text": "„Zum Aperitif passt unser Apéro-Plättli sehr schön. Wenn Sie etwas Warmes möchten, schaue ich gern direkt auf die aktuelle Auswahl.“",
+          "source": "Kartenmaterial Halde: ohne Preise",
           "status": "current",
           "visible": true
         }
@@ -501,124 +195,70 @@
       "id": "genuss-05",
       "number": 5,
       "title": "Aperitivo & alkoholfrei",
-      "description": "Aperitifs und alkoholfreie Alternativen sicher erklären.",
-      "duration": 9,
+      "description": "Aperitifs geschmacklich erklären und eine passende Alternative anbieten.",
+      "duration": 6,
       "visible": true,
       "blocks": [
         {
-          "id": "block-1081",
-          "type": "text",
-          "title": "",
-          "text": "Aperitivo & Sprizz\nApero Zero X alkoholfrei 9,0\nOrange · Hibiskus · Maracuja · Grapefruit · Limette · Tonic · Sekt Weingut Alexander Laible · Durbach",
-          "source": "halde barkarte Badr entwurf.docx",
+          "id": "clean-2017",
+          "type": "tip",
+          "title": "Zitronen-Basilikum Sprizz",
+          "text": "Frisch, zitrisch und leicht kräutrig; auch alkoholfrei möglich.",
+          "source": "Kartenmaterial Halde: ohne Preise",
           "status": "current",
           "visible": true
         },
         {
-          "id": "block-1082",
-          "type": "text",
-          "title": "",
-          "text": "Halde Apéro-Sprizz9,0\nApero 36 · feiner Kräuter-Weinaperitif · Zähringer Winzersekt · Bitter Lemon · Soda\nZitronen-Basilikum Sprizz9,0",
-          "source": "halde barkarte Badr entwurf.docx",
+          "id": "clean-2018",
+          "type": "tip",
+          "title": "Maracuja-Minze Sprizz",
+          "text": "Fruchtig, frisch und lebendig; auch alkoholfrei möglich.",
+          "source": "Kartenmaterial Halde: ohne Preise",
           "status": "current",
           "visible": true
         },
         {
-          "id": "block-1083",
-          "type": "text",
-          "title": "",
-          "text": "Frisch, zitrisch und leicht krautig\nAuch alkoholfrei erhältlich\nMaracuja-Minze Sprizz NEU 9,0",
-          "source": "halde barkarte Badr entwurf.docx",
+          "id": "clean-2019",
+          "type": "tip",
+          "title": "Campari Sprizz",
+          "text": "Bitter, klar und klassisch – für Gäste, die einen herberen Aperitif mögen.",
+          "source": "Kartenmaterial Halde: ohne Preise",
           "status": "current",
           "visible": true
         },
         {
-          "id": "block-1084",
-          "type": "text",
-          "title": "",
-          "text": "Maracuja-Sirup · frische Minze · Winzersekt · Soda\nAuch alkoholfrei erhältlich\nCampari Sprizz9,0",
-          "source": "halde barkarte Badr entwurf.docx",
+          "id": "clean-2020",
+          "type": "tip",
+          "title": "Erdbeere-Rhabarber Sprizz",
+          "text": "Fruchtig und weich mit frischer Minze; auch alkoholfrei möglich.",
+          "source": "Kartenmaterial Halde: ohne Preise",
           "status": "current",
           "visible": true
         },
         {
-          "id": "block-1085",
-          "type": "text",
-          "title": "",
-          "text": "Campari · Winzersekt · Soda\nHouse of Natural Taste — der natürliche Bio-Aperitif vom Chiemsee. Leichte Aperitifs auf Gin-Basis mit Tonic · Sekt · Soda.\nPink Passion Sprizz9,0",
-          "source": "halde barkarte Badr entwurf.docx",
+          "id": "clean-2021",
+          "type": "tip",
+          "title": "Apero Zero X",
+          "text": "Aperitif mit weniger als 0,5 % vol.; nicht als 0,0 % bezeichnen.",
+          "source": "Kartenmaterial Halde: ohne Preise",
           "status": "current",
           "visible": true
         },
         {
-          "id": "block-1086",
-          "type": "text",
-          "title": "",
-          "text": "H’NT Pink Grapefruit · Moro Blutorange\nForbidden Berry9,0\nH’NT Schwarze Johannisbeere · Blaubeere",
-          "source": "halde barkarte Badr entwurf.docx",
+          "id": "clean-2022",
+          "type": "tip",
+          "title": "Alkoholfreie Auswahl",
+          "text": "Martini Floreale, Verde sowie ausgewählte Sprizz-Varianten. Immer sauber getrennt zubereiten.",
+          "source": "Kartenmaterial Halde: ohne Preise",
           "status": "current",
           "visible": true
         },
         {
-          "id": "block-1087",
-          "type": "text",
-          "title": "",
-          "text": "The Amalfi9,0\nH’NT Sizilianische Zitrone · Clementine\nVermouth",
-          "source": "halde barkarte Badr entwurf.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1088",
-          "type": "text",
-          "title": "",
-          "text": "White & Tonic8,0\nWeißer Vermouth · Schweppes Tonic\nRosé Royal9,0",
-          "source": "halde barkarte Badr entwurf.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1089",
-          "type": "text",
-          "title": "",
-          "text": "Rosé Vermouth · Tonic · Sekt\nVermouth Pur6,0\nWeiß · Rot · Rosé",
-          "source": "halde barkarte Badr entwurf.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1090",
-          "type": "text",
-          "title": "",
-          "text": "Ohne Promille\nMartini Floreale6,5\nAlkoholfreies Martini · Tonic · Soda",
-          "source": "halde barkarte Badr entwurf.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1091",
-          "type": "text",
-          "title": "",
-          "text": "Zitrone-Ingwer-Cocktail8,0\nZitrone-Ingwer-Sirup · Apfelsecco · Soda\n„Verde“ NEU 6,5",
-          "source": "halde barkarte Badr entwurf.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1092",
-          "type": "text",
-          "title": "",
-          "text": "Holunderblüte oder Stachelbeere — auf Basis von Verjus\nBio-Weingut Klenert · Kraichgau · 0,2 l\nWaldwiese8,0",
-          "source": "halde barkarte Badr entwurf.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1093",
-          "type": "text",
-          "title": "",
-          "text": "Holunderblütensirup · frische Minze · Gurke · Tonic\nHell, klar und nach Sommer im Schwarzwald",
-          "source": "halde barkarte Badr entwurf.docx",
+          "id": "clean-2023",
+          "type": "quote",
+          "title": "So kannst du es sagen",
+          "text": "„Mögen Sie es eher frisch-zitrisch, fruchtig oder lieber bitter? Dann empfehle ich Ihnen gern etwas Passendes.“",
+          "source": "Kartenmaterial Halde: ohne Preise",
           "status": "current",
           "visible": true
         }
@@ -627,242 +267,44 @@
     {
       "id": "genuss-09",
       "number": 9,
-      "title": "Offene Weine & Sprizz",
-      "description": "Offene Weine erkennen und passend empfehlen.",
-      "duration": 18,
+      "title": "Wein sicher empfehlen",
+      "description": "Nicht auswendig aufsagen: zuhören, Richtung finden, klar empfehlen.",
+      "duration": 5,
       "visible": true,
       "blocks": [
         {
-          "id": "block-1101",
-          "type": "text",
-          "title": "",
-          "text": "Offene Weine Rot 0,1l · 0,75\n2022 PINOT & SYRAH TROCKEN 5,5 · 34\nWEINGUT FRITZ WAßMER · MARKGRÄFLERLAND",
-          "source": "HP Weine + Getränke Offen VorlageNEU -.docx",
+          "id": "clean-2024",
+          "type": "check",
+          "title": "Drei Fragen vor der Empfehlung",
+          "text": "Was essen Sie? / Eher frisch und leicht oder kräftig und weich? / Lieber ein Glas oder eine Flasche?",
+          "source": "Kartenmaterial Halde: ohne Preise",
           "status": "current",
           "visible": true
         },
         {
-          "id": "block-1102",
-          "type": "text",
-          "title": "",
-          "text": "Blaubeere, schwarze Kirsche, Pflaume, trockene Kräuter und Salz.\n2020 SPÄTBURGUNDER GG „FRAUENBERG“ ∙ trocken 9,5 ∙ 57\nWEINGUT LÄMMLIN-SCHINDLER∙MAUCHEN-SCHLIENGEN MARKGRÄFLERLANDKräutrige Noten, Kirsche, Schwarze Johannisbeere, Tinte, etwas Hagebutte.",
-          "source": "HP Weine + Getränke Offen VorlageNEU -.docx",
+          "id": "clean-2025",
+          "type": "tip",
+          "title": "Zum Start",
+          "text": "Sekt, Champagner oder ein frischer, leichter Weißwein passen gut als Aperitif.",
+          "source": "Kartenmaterial Halde: ohne Preise",
           "status": "current",
           "visible": true
         },
         {
-          "id": "block-1103",
-          "type": "text",
-          "title": "",
-          "text": "2022 UNSER HAUSWEIN MERLOT ∙ trocken 6,0 ∙ 36\nWEINGUT LÄMMLIN-SCHINDLER ∙ MAUCHEN SCHLIENGEN MARKGRÄFLERLANDFrucht ∙ Würze ∙ samtig ∙ kraftvoll\n2023 CUVEE NR.1 ∙ trocken 5,3 ∙ 32",
-          "source": "HP Weine + Getränke Offen VorlageNEU -.docx",
+          "id": "clean-2026",
+          "type": "tip",
+          "title": "Zu Fisch & feinen Gerichten",
+          "text": "Frische, mineralische oder aromatische Weißweine empfehlen.",
+          "source": "Kartenmaterial Halde: ohne Preise",
           "status": "current",
           "visible": true
         },
         {
-          "id": "block-1104",
-          "type": "text",
-          "title": "",
-          "text": "WEINGUT KLUMPP ∙ BRUCHSAL i. KRAICHGAU\nCassis und Kakao, kandierte Kirschen in Schokolade.\nReben: Blaufränkisch, St. Laurent, Spätburgunder, Cabernet Sauvignon.",
-          "source": "HP Weine + Getränke Offen VorlageNEU -.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1105",
-          "type": "text",
-          "title": "",
-          "text": "2022 „CALMO“ ROTWEIN CUVEE ∙ trocken 7,5 ∙ 45\nWEINGUT MARTIN WASSMER ∙ SCHLAT KROZINGEN ∙ MARKGRÄFLERLAND\nRobsorten : Cabernet Sauvignon, Merlot, Syrah und St. Laurent.",
-          "source": "HP Weine + Getränke Offen VorlageNEU -.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1106",
-          "type": "text",
-          "title": "",
-          "text": "kräftiger, im Barrique gereift\n2019 CERRO AÑON ∙„GRAN RESERVA“ ∙ trocken 6,0 ∙ 36\nBODEGAS OLARRA ∙ LOGROÑO ∙ RIOJA",
-          "source": "HP Weine + Getränke Offen VorlageNEU -.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1107",
-          "type": "text",
-          "title": "",
-          "text": "Tempranillo & Garnacha ∙ beeindruckender Wein ∙ aromatische Aromen von Waldbeeren Pflaumen ∙ Tabak ∙ Leder ∙ vollmundig und rassig\n2022 GHENOS PRIMITIVO ∙ trocken 5,0 ∙ 30\nWEINGUT TORREVENTO ∙ APULIEN ∙ Italien",
-          "source": "HP Weine + Getränke Offen VorlageNEU -.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1108",
-          "type": "text",
-          "title": "",
-          "text": "Vollmundig und feinwürzig, weicher Rotwein\nAlkoholfreie Weine 0,1l\nSAUVIGNON BLANC ∙ Weingut Zotz . Heitersheim 4,0",
-          "source": "HP Weine + Getränke Offen VorlageNEU -.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1109",
-          "type": "text",
-          "title": "",
-          "text": "CREATION ROSE ∙ Weingut Zotz ∙ Heitersheim 4,0\nCREATION ROUGE ∙ Weingut Zotz ∙ Heitersheim 4,0\nHabt Ihr Lust in unserem Weinkeller zu stöbern?",
-          "source": "HP Weine + Getränke Offen VorlageNEU -.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1110",
-          "type": "text",
-          "title": "",
-          "text": "Gerne könnt ihr auf eigene Faust von 17:30 -21 Uhr\nEuren Wein für´s Abendessen aussuchen!\nDer Weinkeller befindet sich unterhalb von unseren “Schwarzwälder Gaststuben”.Fragt unsere Mitarbeiter doch gerne nach dem Weg.",
-          "source": "HP Weine + Getränke Offen VorlageNEU -.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1111",
-          "type": "text",
-          "title": "",
-          "text": "Sparkling\nPINOT ROSÉ ∙ Brut 9,0\nLämmlin-Schindler ∙ Mauchen ∙ Markgräflerland",
-          "source": "HP Weine + Getränke Offen VorlageNEU -.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1112",
-          "type": "text",
-          "title": "",
-          "text": "CHARDONNAY & SAUVIGNON BLANC ∙ Cuvée ∙ Brut9,0\nHEINEMANN ∙ MARKGRÄFLERLANDSPARKLING TEA ∙ ”frukt”∙ Hibiscus Tea Schorle 6,5\nFruchtig-frische Schorle mit kräftigem Hibiskus, lebendiger Grapefruit und saftigen Trauben",
-          "source": "HP Weine + Getränke Offen VorlageNEU -.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1113",
-          "type": "text",
-          "title": "",
-          "text": "Aperitivo & Sprizz\nAPERO X · 0,2l 9,0\nAperol vom Winzer Laible mit Limette, Tonic & Sekt",
-          "source": "HP Weine + Getränke Offen VorlageNEU -.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1114",
-          "type": "text",
-          "title": "",
-          "text": "auch alkoholfrei möglich\nAMALFI SPRIZZ · 0,2l 9,0\nAromatik: Sizilianische Zitrone & Clementine",
-          "source": "HP Weine + Getränke Offen VorlageNEU -.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1115",
-          "type": "text",
-          "title": "",
-          "text": "Leichter Gin-Cocktail mit Soda & CrémantMARACUJA-MINZE SPRIZZ · 0,2l8,0\nMaracuja-Sirup · frische Minze · Winzersekt · Soda\nauch alkoholfrei möglich",
-          "source": "HP Weine + Getränke Offen VorlageNEU -.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1116",
-          "type": "text",
-          "title": "",
-          "text": "Alkoholfreie Apéros\nSTUDIO ITALIANO SPRIZZ · 0,2l6,5\nAlkoholfreies Martini · Tonic · SodaMARTINI FLOREALE · 0,2l6,5",
-          "source": "HP Weine + Getränke Offen VorlageNEU -.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1117",
-          "type": "text",
-          "title": "",
-          "text": "Alkoholfreies Martini · Tonic · SodaZITRONE-INGWER SPRIZZ · 0,2l8,0Zitrone-Ingwer · Apfelsecco von Köbelin · Soda\n“VERDE” von Bio-Weingut Klenert ∙ 0,2l6,5\nSTACHELBEERE",
-          "source": "HP Weine + Getränke Offen VorlageNEU -.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1118",
-          "type": "text",
-          "title": "",
-          "text": "eine erfrischend ungewöhnliche und charakterstarke Alternative\nentsteht auf Basis von Verjus dem Saft unreifer, grüner Trauben.\nOffene Weine Weiß 0,1l · 0,75l",
-          "source": "HP Weine + Getränke Offen VorlageNEU -.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1119",
-          "type": "text",
-          "title": "",
-          "text": "FRISCH . FRUCHTIG . LEICHT\nWEISSBURGUNDER & CHARDONNAY 2023 5,3 · 32\nBio - Weingut Lämmlin-Schindler · Mauchen · Markgräflerland",
-          "source": "HP Weine + Getränke Offen VorlageNEU -.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1120",
-          "type": "text",
-          "title": "",
-          "text": "Unser Haus-Cuvée, frisch, gelbfruchtig und animierend2023 “CLARETTE“ ROSÉ Saignée · trocken 5,3 ∙ 32\nWEINGUT KNIPSER· LAUMERSHEIM · PFALZ\nCuvée aus verschiedenen Cabernet-Rebsorten und Merlot ∙ saftig, fruchtbetont und herrlich unkompliziert.2025 SAUVIGNON BLANC ∙ TRADITION ∙ trocken 6,3 ∙ 38WEINGUT PHILIPP KUHN ∙ PFALZ",
-          "source": "HP Weine + Getränke Offen VorlageNEU -.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1121",
-          "type": "text",
-          "title": "",
-          "text": "lebendige Frische und deutliche sortentypische Aromen.2024 FREISTIL · GELBER MUSKATELLER · trocken 5,3 ∙ 32\nWEINGUT PHILIPP KUHN . LAUMERSHEIM . PFALZHolunder, grüner Apfel, Pfirsich und dezente Anistöne, leichtfüßig und trinkfreudig.\n2025 GRAUER BURGUNDER ∙ trocken 5,5 ∙ 34",
-          "source": "HP Weine + Getränke Offen VorlageNEU -.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1122",
-          "type": "text",
-          "title": "",
-          "text": "MARTIN WAßMER ∙ BAD KROZINGEN-SCHLATT ∙ BADEN\nKlarer badischer Grauburgunder mit gelber Frucht, sanfter Fülle und frischem, trockenem Finale.\nAROMATISCH . ELEGANT",
-          "source": "HP Weine + Getränke Offen VorlageNEU -.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1123",
-          "type": "text",
-          "title": "",
-          "text": "2025 CHARDONNAY ** ∙ trocken 6,5 ∙ 39\nWEINGUT ALEXANDER LAIBLE ∙ DURBACH ∙ ORTENAU\nzeigt Quitte, Melone und Apfel; saftig, charmant und mit schönem Schmelz.2025 EISQUELL RIESLING ∙ VDP.Gutswein ∙ trocken 5,8 ∙ 35",
-          "source": "HP Weine + Getränke Offen VorlageNEU -.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1124",
-          "type": "text",
-          "title": "",
-          "text": "WEINGUT BATTENFELD-SPANIER ∙ RHEINHESSEN\nfruchtig, mineralisch, mit animierender Säure.\nSOMMER DURSTLÖSCHER” Most Wanted” Craft Cider SCHORLE ∙ trocken ∙ 0,3l5,0",
-          "source": "HP Weine + Getränke Offen VorlageNEU -.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1125",
-          "type": "text",
-          "title": "",
-          "text": "Frisch – fruchtiger ApfelCider von Manufaktur Geiger\n”VERJUS ROSSO” SCHORLE ∙ WEINGUT TEMENT ∙ 0,3l6,5\nder Saft unreifer roter Trauben überzeugt mitfeiner Frucht, eleganter Säure und einer besonders klaren, belebenden Frische.WEIN-SCHORLE ∙ Rot ∙ Rosé ∙ Weiss ∙ 0,3l 5,0",
-          "source": "HP Weine + Getränke Offen VorlageNEU -.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1126",
-          "type": "text",
-          "title": "",
-          "text": "alkoholfrei Wein\nCHENIN BLANC von RAISIN ∙ Loire ∙ ∙ 0,1l 4,5",
-          "source": "HP Weine + Getränke Offen VorlageNEU -.docx",
+          "id": "clean-2027",
+          "type": "tip",
+          "title": "Zu kräftigen Gerichten",
+          "text": "Körperreichere Weißweine oder Rotweine mit Struktur anbieten.",
+          "source": "Kartenmaterial Halde: ohne Preise",
           "status": "current",
           "visible": true
         }
@@ -871,170 +313,44 @@
     {
       "id": "genuss-10",
       "number": 10,
-      "title": "Champagner, Sekt & Süßwein",
-      "description": "Aperitif, Prickelndes und Dessertbegleitung.",
-      "duration": 13,
+      "title": "Sekt, Champagner & Süßwein",
+      "description": "Perlage, Anlass und Stil einfach erklären.",
+      "duration": 4,
       "visible": true,
       "blocks": [
         {
-          "id": "block-1127",
-          "type": "text",
-          "title": "",
-          "text": "Habt Ihr Lust in unserem Weinkeller zu stöbern?\nGerne könnt ihr auf eigene Faust von 17:30–21 Uhr\nEuren Wein fürs Abendessen aussuchen!",
-          "source": "Weinkarte_FINAL.docx",
+          "id": "clean-2028",
+          "type": "tip",
+          "title": "Winzersekt",
+          "text": "Eine elegante Empfehlung zum Aperitif oder für einen besonderen Einstieg.",
+          "source": "Kartenmaterial Halde: ohne Preise",
           "status": "current",
           "visible": true
         },
         {
-          "id": "block-1128",
-          "type": "text",
-          "title": "",
-          "text": "Der Weinkeller befindet sich unterhalb unserer „Schwarzwälder Gaststuben“.\nFragt unsere Mitarbeiter doch gerne nach dem Weg.\nCHAMPAGNER",
-          "source": "Weinkarte_FINAL.docx",
+          "id": "clean-2029",
+          "type": "tip",
+          "title": "Champagner",
+          "text": "Für besondere Anlässe: präzise, feinperlig und komplex. Erst nach Geschmack und Anlass fragen.",
+          "source": "Kartenmaterial Halde: ohne Preise",
           "status": "current",
           "visible": true
         },
         {
-          "id": "block-1129",
-          "type": "text",
-          "title": "",
-          "text": "PHILIPPONNAT · MAREUIL-SUR-AYROYALE RESERVE BRUT NON DOSAGE 92\nStraff, präzise und mineralisch; reife Frucht, feine Würze und ein sehr trockener Stil.\nLOUIS ROEDERER · REIMS Collection 246 98",
-          "source": "Weinkarte_FINAL.docx",
+          "id": "clean-2030",
+          "type": "tip",
+          "title": "Alkoholfreier Schaumwein",
+          "text": "Eine hochwertige Alternative für Gäste, die auf Alkohol verzichten.",
+          "source": "Kartenmaterial Halde: ohne Preise",
           "status": "current",
           "visible": true
         },
         {
-          "id": "block-1130",
-          "type": "text",
-          "title": "",
-          "text": "Frische Zitrusfrucht, feine Perlage und cremige Textur; elegant, klar und harmonisch.\nBrut Rosé 120\nRote Beeren, Blutorange und feine Würze; seidig, frisch und mit nobler Spannung.",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1131",
-          "type": "text",
-          "title": "",
-          "text": "Cristal ∙ brut ∙ 2008 Jahrgangschampagner380\nDer fulminante \"Cristal\" aus dem Jahrhundertjahrgang 2008 explodiert förmlich am Gaumen! Brioche, Zitrus, reife Frucht und salzige Mineralität; präzise, tief und außergewöhnlich lang. Die Prestige-Cuvée von Roederer erhielt die Traumnote 100.\nWINZERSEKTE",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1132",
-          "type": "text",
-          "title": "",
-          "text": "RHEINHESSEN & PFALZSEKTHAUS RAUMLANDRAUMLAND TRADITION ∙ PINOT NOIR ∙ brut54\nRAUMLAND TRIUMVIRAT GRAND RESERVE 2015 ∙ brut89\nGRIESEL & COMPAGNIE . Bensheim",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1133",
-          "type": "text",
-          "title": "",
-          "text": "GRIESEL Riesling Tradition Brut 202252\nGRIESEL Blanc de Noir Tradition Brut 52\nGRIESEL Riesling Prestige Brut Nature 202065",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1134",
-          "type": "text",
-          "title": "",
-          "text": "Weingut Markus Schneider . Pfalz\nKAITUI SAUVIGNON BLANC SEKT · brut49\nBADENPINOT ROSÉ ∙ brut ∙ BIO Lämmlin-Schindler ∙ Mauchen ∙ Markgräflerland 45",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1135",
-          "type": "text",
-          "title": "",
-          "text": "PINOT ROSÉ ∙ brut ∙ Weingut Clauss ∙ Nack-Lottstetten a. Hochrhein 48\nMUSKATELLER SEKT ∙ extra brut ∙ Kiefer-Seufert ∙ Ballrechten-Dottingen 42Alkoholfreie Schaumweine 0,0 % vol\nWEINGUT LAIBLE ∙ DURBACH 38",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1136",
-          "type": "text",
-          "title": "",
-          "text": "Rosé Sekt ∙ ZERO\nAlkoholfreier Rosé-Secco mit feiner Perlage, roten Beeren und lebendigem Säurespiel.\nGRIESEL Sektmanufaktur",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1137",
-          "type": "text",
-          "title": "",
-          "text": "Von Wiesen: Eisenkraut & Quitte 39\nVerbene, Quitte und feine Perlage; herb, klar und als Aperitif sehr elegant.\nBrombeerblatt & Apfel 39",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1138",
-          "type": "text",
-          "title": "",
-          "text": "Gelber Apfel, Wiesenkräuter und zarter Gerbstoff; trocken, ruhig und erwachsen.\nDESSERT - & fruchtsüße WEINE\n... AUCH ZUM APERITIF",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1139",
-          "type": "text",
-          "title": "",
-          "text": "Flasche ∙ Glas 5cl\n2023 RIESLANER∙AUSLESE0,375l Fl 39 ∙ 4,5\nWeingut Wöhrle∙Lahr Ortenau",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1140",
-          "type": "text",
-          "title": "",
-          "text": "Unser LieblingsSüsswein∙Glockenklare Beerenaromatik\nPerfektes Zusammenspiel von Süsse und Säure\n2019 TOKAJI∙DISZNÓKÖ∙1413∙Ungarn0,5l Fl 42∙ 5,0",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1141",
-          "type": "text",
-          "title": "",
-          "text": "Rebsorte: Furmint feiner Aperitif & Dessertwein, sowie zu Käse\nSehr vielseitig∙von Gänseleber bis zu Fischgerichten… ein Gedicht\n2020 WEISSBURGUNDER ∙AUSLESE0,5l Fl 39 ∙ 4,80",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1142",
-          "type": "text",
-          "title": "",
-          "text": "Weingut Franz Herbster . Kirchhofen Markgräflerland\nKastanienhonig, Bienenwachs und reife Frucht im Bukett.\nOpulent und intensiv am Gaumen.",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1143",
-          "type": "text",
-          "title": "",
-          "text": "2020 MÜLLER THURGAU AUSLESE 0,375l Fl 39 ∙ 4,80\nWeingut Köbelin . Eichstetten a. kaiserstuhl\n2021 St. Patrick Beerenauslese0,375l Fl 39 ∙ 4,5",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1144",
-          "type": "text",
-          "title": "",
-          "text": "Weingut Johner . Bischoffingen\n2022 GEWÜRZTRAMINER 0,75l Fl 36\nWeingut Fritz Waßmer . Schlat – Krozingen 0,1l Glas 5,5",
-          "source": "Weinkarte_FINAL.docx",
+          "id": "clean-2031",
+          "type": "tip",
+          "title": "Süßwein",
+          "text": "Passt als Abschluss zu Dessert, Käse oder als kleiner besonderer Moment.",
+          "source": "Kartenmaterial Halde: ohne Preise",
           "status": "current",
           "visible": true
         }
@@ -1043,557 +359,44 @@
     {
       "id": "genuss-11",
       "number": 11,
-      "title": "Weißwein – aromatisch & regional",
-      "description": "Gutedel, Burgunder, Riesling und internationale Weißweine.",
-      "duration": 43,
+      "title": "Weißwein",
+      "description": "Stil verstehen und mit einfachen Worten beschreiben.",
+      "duration": 5,
       "visible": true,
       "blocks": [
         {
-          "id": "block-1145",
-          "type": "text",
-          "title": "",
-          "text": "NATURE WEINE\nWEINGUT ZÄHRINGER ∙ HEITERSHEIM ∙ MARKGRÄFLERLAND45\n2022 WEISSBURGUNDER∙ „Orange“ ∙trocken\nAus biodynamischem Anbau. Vergoren auf der Maische und 15 Monate",
-          "source": "Weinkarte_FINAL.docx",
+          "id": "clean-2032",
+          "type": "tip",
+          "title": "Frisch & mineralisch",
+          "text": "Klar, leicht, zitrisch und geradlinig – gut zu leichten Speisen oder als Aperitif.",
+          "source": "Kartenmaterial Halde: ohne Preise",
           "status": "current",
           "visible": true
         },
         {
-          "id": "block-1146",
-          "type": "text",
-          "title": "",
-          "text": "im Barrique gelagert. ungefiltert. streng „natural wine“ vinifiziert.\nHerrlich aromatisch..\nBIO WEINGUT LÄMMLIN-SCHINDLER . MARKGRÄFLERLAND\n2022 „ORANGE“ ∙ trocken 45",
-          "source": "Weinkarte_FINAL.docx",
+          "id": "clean-2033",
+          "type": "tip",
+          "title": "Aromatisch",
+          "text": "Duftig, fruchtig und ausdrucksstark – passend für Gäste, die etwas Duftiges mögen.",
+          "source": "Kartenmaterial Halde: ohne Preise",
           "status": "current",
           "visible": true
         },
         {
-          "id": "block-1147",
-          "type": "text",
-          "title": "",
-          "text": "Orange Wine (auf der Maische vergoren) aus Weißburgunder und Gewürztraminer.\nFeingliedrige Tannine, intensive gelbe Früchte, mit ordentlich Zug.\nDer perfekte Einstieg in die Welt der Orange Weine!\nGRÜNER VELTLINER",
-          "source": "Weinkarte_FINAL.docx",
+          "id": "clean-2034",
+          "type": "tip",
+          "title": "Regional",
+          "text": "Baden und Markgräflerland stehen im Mittelpunkt. Herkunft darf man stolz und einfach erzählen.",
+          "source": "Kartenmaterial Halde: ohne Preise",
           "status": "current",
           "visible": true
         },
         {
-          "id": "block-1148",
-          "type": "text",
-          "title": "",
-          "text": "WEINGUT NOTHNAGL ∙ WACHAU ∙ ÖSTERREICH36\n2025 GRÜNER VELTLINER ∙ RIED SETZBERG SMARAGD ∙ trocken\ngewachsen an der Donau auf alten Steinterrassen ∙ Alte Reben\nMUSKATELLER & SCHEUREBE",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1149",
-          "type": "text",
-          "title": "",
-          "text": "WEINGUT NOTHNAGL ∙ WACHAU ∙ ÖSTERREICH32\n2025 GELBER MUSKATELLER ∙ trocken\nSehr aromatisch∙deutliches Muskatbouquet ∙ blumige Noten\nWEINGUT KUREK ∙ NONNENHORN ∙ BODENSEE 35",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1150",
-          "type": "text",
-          "title": "",
-          "text": "2024 MUSKATELLER ∙ trocken\nVom Bodensee: Blütenduft, Traube und frischer Zug; trocken und sehr direkt.\nWEINGUT PHILIPP KUHN . LAUMERSHEIM . PFALZ32\n2024 GELBER MUSKATELLER „FREISTIL“ trocken..",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1151",
-          "type": "text",
-          "title": "",
-          "text": "Muskattraube, Limette und Jasmin; klar, schlank und ideal für den ersten Schluck.\nVdP WEINGUT SALWEY . OBERROTWEIL . KAISERSTUHL 34\n2024 GELBER MUSKATELLER Gutswein trocken..\nVeilchen und Sommerwiese, getragen von belebender Säure; aromatisch, nie laut.WEINGUT ALEXANDER LAIBLE ∙ DURBACH ∙ ORTENAU39",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1152",
-          "type": "text",
-          "title": "",
-          "text": "2025 SCHEUREBE *** CHARA ∙ trocken Mango, Maracuja und rosa Grapefruit; saftig, präzise und voller Strahlkraft.\nGUTEDEL\nWEINGUT ZÄHRINGER ∙ HEITERSHEIM ∙ MARKGRÄFLERLAND\n2023 CHASSELAS „VIERLIG“ trocken 36",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1153",
-          "type": "text",
-          "title": "",
-          "text": "Weißwein, mit zartem, nussigem und an Mandeln erinnerndem Bukett.\nDer Gutedel erhält durch die Reifung im Markgräfler VIERLIG-Eichenholzfaß\neine weiche angenehme Säure. Herrlicher Wein zu allen FischgerichtenBIO WEINGUT LÄMMLIN-SCHINDLER ∙ MAUCHEN∙MARKGRÄFLERLAND\n2025 GUTEDEL ∙ VDP∙ Ortswein ∙ trocken34",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1154",
-          "type": "text",
-          "title": "",
-          "text": "Aus ertragsreduzierten Gutedelanlagen in Mauchen, nach Vergärung in gebrauchten Barriquefässern und nach einem langen Hefelager ist ein fruchtiger, schmelziger Chasselas auf der Flasche. Cremig, frisch und attraktiv!\nWEINGUT FRANZ HERBSTER ∙ KIRCHHOFEN ∙ MARKGRÄFLERLAND35\n2024 CHASSELAS *** ∙ trocken\nZart nussig, leise gelbfruchtig und mild in der Säure; ein feiner Tischwein.",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1155",
-          "type": "text",
-          "title": "",
-          "text": "BIODEMETER WEINGUT SOMMERHALTER ∙ SCHLIENGEN39\n2021 CHASSELAS HEAVEN ∙ trocken\nRauchige Würze, reifes Steinobst und griffige Struktur; Chasselas mit Tiefe.\nWEINGUT ZIEREISEN ∙ EFRINGEN-KIRCHEN ∙ MARKGRÄFLERLAND",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1156",
-          "type": "text",
-          "title": "",
-          "text": "2022 STEINGRÜBLE GUTEDEL CHASSELAS ∙ trocken32\nFeuerstein, Heu, gelber Apfel und Mandel; vollmundig, mineralisch und mit feiner Länge.\nWEINGUT ZIEREISEN ∙ EFRINGEN-KIRCHEN ∙ MARKGRÄFLERLAND\n2021 JASPIS GUTEDEL „10 hoch 4“ ∙ trocken140",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1157",
-          "type": "text",
-          "title": "",
-          "text": "Königsklasse ∙ Immense Dichte und Mineralität ∙ Unglaubliche Länge und Nachhall ∙ mit steinigem ∙ mineralisch-salzigen Druck ∙ Enorme Konzentration ∙ dabei gertenschlank mit großem Trinkfluss ∙ Einzigartig! Burgund lässt grüßen\nParker: “This is perhaps the greatest Gutedel on planet wine”\nLUGANA\nWEINGUT CA DIE FRATI , GARDASEE LOMBARDEI ITALIEN 39",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1158",
-          "type": "text",
-          "title": "",
-          "text": "2025 „I FRATI“ LUGANA TREBBIANO\nFrisch, fein mineralisch und elegant; mit zarter Frucht, lebendigem Zug und mediterraner Leichtigkeit.\nWEISSWEINCUVÉE\nWEINGUT LÄMMLIN-SCHINDLER ∙ MAUCHEN-SCHLIENGEN 32",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1159",
-          "type": "text",
-          "title": "",
-          "text": "2024 WEISSBURGUNDER & CHARDONNAY …unser HausCuvée ∙ trocken\nFeine Burgunderfrucht mit ruhigem Schmelz; unkompliziert, aber sehr gepflegt.\nWEINGUT LANDERER ∙ OBERROTWEIL a. KAISERSTUHL 34\n2024 WEISSBURGUNDER & CHARDONNAY ∙ trocken",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1160",
-          "type": "text",
-          "title": "",
-          "text": "Intensives gelb, dezente Frucht nach Birne, Quitte,\nMirabelle, würzig, salzig, cremig, frisch\nWEINGUT KUREK ∙ NONNENHORN ∙ BODENSEE35\n2024 NONNENHORNER BLANC ∙ trocken",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1161",
-          "type": "text",
-          "title": "",
-          "text": "Cuvée aus Grauburgunder, Chardonnay und Muskateller.\nWEINGUT KUREK ∙ NONNENHORN ∙ BODENSEE32\n2024 CUVÉE BLANC ∙ trocken\nJohanniter, Müller-Thurgau, Bacchus und Muskateller.",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1162",
-          "type": "text",
-          "title": "",
-          "text": "WEINGUT CLAUSS ∙ NACK-LOTTSTETTEN ∙ BODENSEE\n2024 WEISSER MILAN ∙ WEISSWEIN-CUVÉE ∙ trocken ∙ 0,75 l\nWeißburgunder, Müller-Thurgau und Sauvignon Blanc; frisch, fruchtbetont und ideal als Aperitif.\nWEINGUT ALBRECHT SCHWEGLER ∙ KORB ∙ REMSTAL34",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1163",
-          "type": "text",
-          "title": "",
-          "text": "CUVÉE VON DER PARZELLE ∙ trocken\nRiesling bringt Tempo, Burgunder und Chardonnay geben Schmelz; vielseitig mit Anspruch.\nSAUVIGNON BLANC & VIOGNIER\nfrisch & trinkig ∙ animierend",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1164",
-          "type": "text",
-          "title": "",
-          "text": "WEINGUT LANDERER ∙ OBERROTWEIL a. KAISERSTUHL\n2025 SAUVIGNON BLANC DAC ∙ trocken 36\nVolle, reife Frucht nach Kiwi, Passionsfrucht und Mango.\nAm Gaumen traditionell nach Holunder und Stachelbeere.",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1165",
-          "type": "text",
-          "title": "",
-          "text": "WEINGUT KÖBELIN ∙ Eichstetten a. Kaiserstuhl\n2025 SAUVIGNON BLANC “NIEMANDSTAL” ∙ trocken 35\nSaftig ∙ Frisch.. spritzig und aromatisch\nWEINGUT PHILIPP KUHN . LAUMERSHEIM . PFALZ",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1166",
-          "type": "text",
-          "title": "",
-          "text": "2025 SAUVIGNON BLANC ∙ TRADITION ∙ trocken38\nGelbe Frucht, Stachelbeere und Kräuter; trocken, klar und mit Pfälzer Spannung.\nWEINGUT KARL H. JOHNER ∙ BISCHOFFINGEN ∙ KAISERSTUHL\n2025 SAUVIGNON BLANC OUVERTÜRE",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1167",
-          "type": "text",
-          "title": "",
-          "text": "Stachelbeere, Passionsfrucht, Pfirsich und Holunderblüte; saftig und mit feinem Grip.\nElegant ∙ aromatisch ∙ fruchtbetont\nWEINGUT FRANZ HERBSTER ∙ KIRCHHOFEN ∙ MARKGRÄFLERLAND\n2024 FUMÉ SAUVIGNON BLANC ∙ trocken 34",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1168",
-          "type": "text",
-          "title": "",
-          "text": "Ein harmonischer Wein mit erfrischender Art und fruchtigem Nachhall∙6 Monate im Stückfass ausgebaut ∙ Perfekter Allrounder – unser LieblingsWein\nWEINGUT TEMENT ∙ SÜDSTEIERMARK ∙ ÖSTERREICH 42\n2024 KALK & KREIDE ∙ SAUVIGNON BLANC DAC ∙ trocken\nAromatisch ∙ fein & elegant ∙ Cassis ∙ Holunder ∙ Zitrus…",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1169",
-          "type": "text",
-          "title": "",
-          "text": "Komplexität durch Spontanvergärung und leichten Holzfasseinsatz WEINGUT MARKUS SCHNEIDER . PFALZ\n2025 „KAITUI“ SAUVIGNON BLANC ∙ trocken 45\nKiwi, Cassis und Limette; aromatisch, präzise und mit kühlem Zug.\nCLOUDY BAY ∙ MARLBOROUGH ∙ NEUSEELAND59",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1170",
-          "type": "text",
-          "title": "",
-          "text": "2025 SAUVIGNON BLANC ∙ trocken\nPassionsfrucht, Limette und salzige Frische; Marlborough pur mit langem Finale.\nWEINGUT JÜLG ∙ PFALZ39\n2024 SAUVIGNON BLANC FUMÉ ∙ trocken",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1171",
-          "type": "text",
-          "title": "",
-          "text": "Cassis, Minze und zarter Rauch; salzig, elegant und mit kühlem Trinkfluss.\nWEINGUT KLEIN ∙ PFALZ32\n2025 SAUVIGNON BLANC ∙ trocken\nMaracuja, Mango und Stachelbeere; druckvoll, pikant und mit schönem Biss.",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1172",
-          "type": "text",
-          "title": "",
-          "text": "SALOMON & ANDREW ∙ MARLBOROUGH ∙ NEUSEELAND45\n2025 SAUVIGNON BLANC ∙ trocken\nWeiße Blüten, Stachelbeere und Limette; Marlborough-Stil mit feiner Cassis-Spur.\nWEINGUT FRITZ Waßmer . MARKGRÄFLERLAND",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1173",
-          "type": "text",
-          "title": "",
-          "text": "2023 „VIOGNIER RESERVE“ ∙ trocken 48\nDer Viognier Réserve von Weinheld Felix Waßmer ist ein kühler und\ngeheimnisvoller Weißwein, der durch seine feinen fruchtigen Aromen und\nseinen vollmundigen Geschmack besticht.",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1174",
-          "type": "text",
-          "title": "",
-          "text": "CHARDONNAY\nfrisch & trinkig ∙ animierend\nWEINGUT HEINEMANN ∙ SCHERZINGEN ∙ MARKGRÄFLERLAND35\n2021 CHARDONNAY ALTE REBEN ∙ trocken",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1175",
-          "type": "text",
-          "title": "",
-          "text": "Zitronenzeste, feines Holz und dichter Extrakt; straff, burgundisch und seriös.\nWEINGUT ALEXANDER LAIBLE ∙ DURBACH ∙ ORTENAU39\n2025 CHARDONNAY ** ∙ trocken\nQuitten und Galiamelone, hinzu kommen Boskopapfel, Pfirsich und Mandarinen.",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1176",
-          "type": "text",
-          "title": "",
-          "text": "Am Gaumen gelbe Mangoimpressionen. Schöner Schmelz und Saft.\nElegant ∙ aromatisch ∙ fruchtbetont\nWEINGUT FRANZ HERBSTER . Kirchhofen i. Markgräflerland 422024 „PRÄLATEN“ CHARDONNAY Holzfass ∙ trocken Aus der Spitzenlage Prälaten, im Stückfass ausgebaut; balanciert, ausdrucksvoll und mit feiner Holzprägung\nWEINGUT LANDERER . Oberrotweil am Kaiserstuhl 392024 „SCHWARZE ERDE“ CHARDONNAY ∙ trocken",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1177",
-          "type": "text",
-          "title": "",
-          "text": "Floral mit Lindenblüte und Akazie, dazu feiner Schmelz, lebendige Säure und elegante Pikanz.\nDOMAINE PHILIPPE GIRARD . Burgund . Frankreich 45\n2023 „RULLY“ CHARDONNAY ∙ trocken\nAngenehm frisch & mineralisch, ein anspruchsvoller Spaßmacher.",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1178",
-          "type": "text",
-          "title": "",
-          "text": "WEINGUT R. & C. SCHNEIDER . ENDINGEN AM KAISERSTUHL\n2023 CHARDONNAY ∙ SPÄTLESE ∙ trocken 38\nvoller Schmelz ∙ ätherischem Duft ∙ feiner Würze nach Quitte und Mandarine.\nvon Kräutern und enormer Länge, mit schönem Schmelz und saftiger Struktur.",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1179",
-          "type": "text",
-          "title": "",
-          "text": "Kräftig ∙ ausdrucksvoll ∙ groß\nWEINGUT LÄMMLIN-SCHINDLER ∙ MAUCHEN ∙ MARKGRÄFLERLAND59\n2023 CHARDONNAY ∙ GG ∙ VDP ∙ Große Lage ∙ trocken\nEin wahrlich Großes Gewächs mit herzhaft eleganter Mineralik ∙",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1180",
-          "type": "text",
-          "title": "",
-          "text": "exotischen Fruchtnoten bei schön langem Nachhall ∙\nEin toller Gaumenschmeichler!\nWEINGUT LANDERER . Oberrotweil am Kaiserstuhl 48 2023 HENKENBERG CHARDONNAY Großes Gewächs ∙ trocken\nKräftige gelbe Farbe .Schmelzige Note mit passender Tannin Struktur",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1181",
-          "type": "text",
-          "title": "",
-          "text": "Ein filigran gereifter Barriquewein\nWEINGUT ZIEREISEN . MARKGRÄFLERLAND 49 2022 „HARD“ CHARDONNAY ∙ trocken\n22 Monate Barriquefass . kühle Aromatik, burgundischer Stil, elegant und schlank\nWEISSBURGUNDER & AUXERROIS",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1182",
-          "type": "text",
-          "title": "",
-          "text": "frisch & trinkig ∙ animierend\nWEINGUT KLUMPP ∙ BRUCHSAL i. KRAICHGAU ∙ Bioweingut 36\n2025 AUXERROIS ∙ trocken\nIn Deutschland nur selten anzutreffen: Auxerrois. .. im Kraichgau ein Klassiker",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1183",
-          "type": "text",
-          "title": "",
-          "text": "Mit der schönen Aromatik von gelbem Steinobst und Kräutern wirbt dieser Wein eindrucksvoll für die Rebsorte.\nWEINGUT WÖHRLE ∙ LAHR ∙ BADEN34\n2024 LAHRER AUXERROIS ∙ trocken\nBio-Ortswein mit gelber Frucht, Mineralität und saftiger, harmonischer Dichte.",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1184",
-          "type": "text",
-          "title": "",
-          "text": "WEINGUT KLENERT · KRAICHTAL-MÜNZESHEIM · BADEN32\n2025 AUXERROIS ∙ trocken\nReife Birne, gelbe Frucht und sanfte Säure; rund, leise würzig und unkompliziert.\nWEINGUT ARNDT KÖBELIN ∙ EICHSTETTEN ∙ KAISERSTUHL32",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1185",
-          "type": "text",
-          "title": "",
-          "text": "2024 WEISSBURGUNDER ∙ GUTSWEIN ∙ trockenFrühlingswiese, feiner nussiger Touch und klare Frische; schlank, saftig und kompakt im Nachhall.\nElegant ∙ aromatisch ∙ fruchtbetont\nVdP WEINGUT SALWEY . OBERROTWEIL . KAISERSTUHL 34\n2024 WEISSBURGUNDER ∙ VdP Gutswein ∙ trocken",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1186",
-          "type": "text",
-          "title": "",
-          "text": "Löss und Vulkanboden geben feine Würze; hellfruchtig, trocken und vielseitig einsetzbar.\nWEINGUT MARTIN WAßMER ∙ BADEN32\n2025 WEISSER BURGUNDER ∙ trocken\nBirne, weißer Pfirsich und feiner Schmelz; geradlinig, elegant und badisch klar.",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1187",
-          "type": "text",
-          "title": "",
-          "text": "WEINGUT KLENERT · KRAICHTAL-MÜNZESHEIM · BADEN32\n2024 WEISSBURGUNDER ∙ trocken\nGrapefruit, Quitte und Ananas; leicht, spontan vergoren und mit eleganter Säure.\nWEINGUT ALEXANDER LAIBLE ∙ DURBACH ∙ ORTENAU39",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1188",
-          "type": "text",
-          "title": "",
-          "text": "2025 WEISSBURGUNDER MUSCHELKALK ** ∙ trocken\nFeinfruchtige Aromen von Mirabelle-und Mango ∙ reifen Äpfeln und Zitrus\nSchöner Schmelz\nKräftig ∙ ausdrucksvoll ∙ groß",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1189",
-          "type": "text",
-          "title": "",
-          "text": "WEINGUT BERTHOLD CLAUSS ∙ NACK-LOTTSTETTEN ∙ BODENSEE 42\n2023 PINOT BLANC ∙ „URBANUS“ ∙ trocken\nGelbfruchtige Aromen, leichtes Holz .. sehr elegant\nBIO WEINGUT KLUMPP ∙ BRUCHSAL i. KRAICHGAU 78",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1190",
-          "type": "text",
-          "title": "",
-          "text": "2023 KIRCHBERG CHARDONNAY ∙ trocken\nGelbfleischige Frucht, Zitrus und Feuerstein; cremig, salzig und von kühler Mineralität getragen.\nWEINGUT LANDERER . OBERROTWEIL . KAISERSTUHL 54\n2022 GESTÜHL ∙ WEISSBURGUNDER LAGENWEIN LEISELHEIMER GESTÜHL ∙ trocken",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1191",
-          "type": "text",
-          "title": "",
-          "text": "Kräftiger und spannender Wein, mineralisch und saftig\nWEINGUT ARNDT KÖBELIN ∙ EICHSTETTEN ∙ KAISERSTUHL452023 WEISSBURGUNDER ∙ „Lösswand *** Selection“ ∙ trockenim großen Holzfass gereift; cremig, saftig und mit feiner Burgunderwürze.GRAUBURGUNDER\nfrisch & trinkig ∙ animierend\nWEINGUT ARNDT KÖBELIN ∙ EICHSTETTEN ∙ KAISERSTUHL34",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1192",
-          "type": "text",
-          "title": "",
-          "text": "2024/25 GRAUBURGUNDER∙KABINETT ∙ trocken\nAus mächtigem Lössboden: Finesse, Kraft und Mineralität; saftig-frisch, ausgewogen und ein echter Allrounder.\nVdP WEINGUT SALWEY ∙ OBERROTWEIL . KAISERSTUHL36\n2024 GRAUBURGUNDER . GUTSWEIN ∙ trocken",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1193",
-          "type": "text",
-          "title": "",
-          "text": "Gelbe reife Frucht, etwas Zitrus und würzige Mineralität; trocken, kernig und ein vielseitiger Tischwein.\nElegant ∙ aromatisch ∙ fruchtbetont\nVdP WEINGUT FRANZ KELLER∙ OBERBERGEN . KAISERSTUHL\n2023 GRAUBURGUNDER ∙BASSGEIGE ∙ VdP ORTSWEIN trocken42",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1194",
-          "type": "text",
-          "title": "",
-          "text": "Reife Apfel- und Birnenfrucht, feine Würze und dezenter Holzton; mineralisch, kraftvoll und elegant ausbalanciert.\nWEINGUT KLUMPP . KRAICHGAU ( …at it´s Best )\n2025 „HAND in HAND“ GRAUBURGUNDER ∙ trocken38\nFruchtig und elegant .. Aprikosenduftig, animierend und lecker",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1195",
-          "type": "text",
-          "title": "",
-          "text": "WEINGUT ARNDT KÖBELIN ∙ EICHSTETTEN ∙ KAISERSTUHL\n2023/24 GRAUBURGUNDER ∙„Lösswand *** Selection“ ∙ trocken45\nRöstaromen und Vanille ∙ Kraftvoller Körper ∙ Zarte Tannine\nVdP WEINGUT SALWEY ∙ OBERROTWEIL . KAISERSTUHL52",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1196",
-          "type": "text",
-          "title": "",
-          "text": "2022 „KÄSLEBERG“ GRAUBURGUNDER . 1. LAGE ∙ trocken\nFruchtbetont, weich und vom Löss geprägt; harmonische Säure, feiner Schmelz und gutes Reifepotenzial.\nKräftig ∙ ausdrucksvoll ∙ groß\nWEINGUT BERTHOLD CLAUSS ∙ NACK-LOTTSTETTEN ∙ BODENSEE 54",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1197",
-          "type": "text",
-          "title": "",
-          "text": "2023 PINOT GRIS ∙ „URBANUS“ ∙ trocken\nRöstiges Holz, Burgunderfrucht und ein Hauch Blütenhonig; cremig, kalkmineralisch und lang.\nWEINGUT R.&C. SCHNEIDER . ENDINGEN a. KAISERSTUHL 42\n2021 RULÄNDER „FLOH“ ∙ trocken",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1198",
-          "type": "text",
-          "title": "",
-          "text": "Geschmeidiger Ruländer mit viel Extrakt, lebendiger Säure und feinem Holz; kraftvoller Essensbegleiter mit Eleganz.\nRIESLING\nfrisch & trinkig ∙ animierend\nWEINGUT ALEXANDER LAIBLE ∙ DURBACH ∙ ORTENAU 32",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1199",
-          "type": "text",
-          "title": "",
-          "text": "2025 RIESLING ∙ * *∙ Gutswein ∙ trocken\nfeine Frucht ∙ dezente Süße ∙ ein Gute-Laune-Macher\nWEINGUT ALEXANDER LAIBLE ∙ DURBACH ∙ ORTENAU 39\n2025 RIESLING ∙ *** ∙ GRENZENLOS ∙ trocken",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1200",
-          "type": "text",
-          "title": "",
-          "text": "Saftige Aprikosen, Weinbergpfirsich Am Gaumen saftig mit sehr viel Schmelz\nund einem tollen Finish, große Mineralik\nWEINGUT KNIPSER ∙ PFALZ 33\n2023 RIESLING ∙ KALKMERGEL ∙ Gutswein ∙ trocken",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1201",
-          "type": "text",
-          "title": "",
-          "text": "Kalkgeprägter Riesling mit klarer Zitrusfrucht, feiner Kräuterwürze\nund animierender Mineralität. Präzise, trocken und geradlinig.\nWEINGUT PHILIPP KUHN ∙ LAUMERSHEIM . PFALZ 34\n2024 RIESLING ∙ „ TRADITION“ ∙ Gutswein ∙ trocken",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1202",
-          "type": "text",
-          "title": "",
-          "text": "Saftiger Pfälzer Riesling mit reifer gelber Frucht, lebendiger Frische\nund feinem Schmelz. Zugänglich, harmonisch und sehr trinkfreudig.\nElegant ∙ aromatisch ∙ fruchtbetont\nWEINGUT PHILIPP KUHN ∙ LAUMERSHEIM . PFALZ 49",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1203",
-          "type": "text",
-          "title": "",
-          "text": "2024 RIESLING ∙ „ KAPELLENBERG “ ∙ VdP Erste Lage ∙ trocken\nVoluminöser Riesling aus alten Reben. Saftig Elegant,\nmineralisch und schöner Schmelz.\nWEINGUT ARNDT KÖBELIN ∙ EICHSTETTEN ∙ KAISERSTUHL33",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1204",
-          "type": "text",
-          "title": "",
-          "text": "2025 RIESLING VULKANSTEIN ∙ trocken\nAnanas, Pfirsich und Maracuja, dazu vulkanische Mineralität und spielerischer Zug.\nWEINGUT KLUMPP ∙ BRUCHSAL i. KRAICHGAU 38\n2023 RIESLING „Himmelreich“ ∙ trocken",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1205",
-          "type": "text",
-          "title": "",
-          "text": "Ein konzentrierter exotischer und cremiger Riesling mit langem Nachhall.\nWEINGUT LUKAS HAMMELMANN · ZEISKAM · PFALZ59\n2022 RIESLING „HAMBACHER SCHLOSSBERG“ ∙ trocken\nReife Zitrusfrucht, gelber Apfel und Steinobst; trocken, saftig und strukturiert mit salziger Mineralität.",
-          "source": "Weinkarte_FINAL.docx",
+          "id": "clean-2035",
+          "type": "tip",
+          "title": "Orange Wine",
+          "text": "Auf der Maische vergorener Weißwein mit mehr Struktur. Nur gezielt empfehlen und den Stil kurz erklären.",
+          "source": "Kartenmaterial Halde: ohne Preise",
           "status": "current",
           "visible": true
         }
@@ -1603,259 +406,43 @@
       "id": "genuss-12",
       "number": 12,
       "title": "Rosé & Spätburgunder",
-      "description": "Vom unkomplizierten Rosé bis zu großen badischen Pinot Noirs.",
-      "duration": 20,
+      "description": "Farbe ist nicht der Stil: Geschmack klar einordnen.",
+      "duration": 4,
       "visible": true,
       "blocks": [
         {
-          "id": "block-1206",
-          "type": "text",
-          "title": "",
-          "text": "ROSÉWEINE\nWEINGUT KNIPSER ∙ LAUMERSHEIM ∙ PFALZ 34\n2025 CLARETTE ROSÉ ∙ trocken\nCabernet-Cuvée mit Erdbeere, Cassis und pikantem Zug; Rosé mit ernstem Trinkfluss.",
-          "source": "Weinkarte_FINAL.docx",
+          "id": "clean-2036",
+          "type": "tip",
+          "title": "Rosé",
+          "text": "Frisch, saftig und unkompliziert. Gut für Gäste, die etwas Leichtes und Fruchtiges suchen.",
+          "source": "Kartenmaterial Halde: ohne Preise",
           "status": "current",
           "visible": true
         },
         {
-          "id": "block-1207",
-          "type": "text",
-          "title": "",
-          "text": "WEINGUT LANDERER ∙ OBERROTWEIL a. KAISERSTUHL 32\n2024 SAIGNÉE ROSÉ ∙ trocken\nFrisch, unkompliziert und im Edelstahltank ausgebaut; lebendig, klar und mit feiner Rosé-Frucht.\nWEINGUT ARNDT KÖBELIN ∙ EICHSTETTEN A. KAISERSTUHL 30",
-          "source": "Weinkarte_FINAL.docx",
+          "id": "clean-2037",
+          "type": "tip",
+          "title": "Spätburgunder",
+          "text": "Fein, elegant und oft beerig. Je nach Ausbau leicht bis strukturiert.",
+          "source": "Kartenmaterial Halde: ohne Preise",
           "status": "current",
           "visible": true
         },
         {
-          "id": "block-1208",
-          "type": "text",
-          "title": "",
-          "text": "2024 SPÄTBURGUNDER WEISSHERBST ROSÉ ∙ trocken\nBadischer Spätburgunder-Rosé vom Kaiserstuhl; frisch, rund und fruchtbetont mit viel Trinkfreude.\nWEINGUT ABRIL ∙ KAISERSTUHL ∙ BADEN32\n2025 ROSÉ ∙ trocken",
-          "source": "Weinkarte_FINAL.docx",
+          "id": "clean-2038",
+          "type": "tip",
+          "title": "Zur Speise",
+          "text": "Rosé passt gut zu leichten Gerichten; Spätburgunder zu Geflügel, Pilzen oder feineren Fleischgerichten.",
+          "source": "Kartenmaterial Halde: ohne Preise",
           "status": "current",
           "visible": true
         },
         {
-          "id": "block-1209",
-          "type": "text",
-          "title": "",
-          "text": "Granatapfel, Erdbeere und Grapefruit; frisch, trocken und ideal zu leichter Sommerküche.\nVdP WEINGUT SALWEY ∙ OBERROTWEIL ∙ KAISERSTUHL33\n2024 ROSÉ ∙ trocken\nZarte Lachsfarbe, rote Beeren und Pinot-Frische; schlank, elegant und mit rassiger Säure.",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1210",
-          "type": "text",
-          "title": "",
-          "text": "WEINGUT PHILIPP KUHN ∙ LAUMERSHEIM ∙ PFALZ32\n2025 PHILIPP’S ROSÉ ∙ trocken\nWalderdbeere, rote Beeren und milde Säure; feinfruchtig, frisch und animierend.\nSPÄTBURGUNDER| PINOT NOIR . . . aus BADEN",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1211",
-          "type": "text",
-          "title": "",
-          "text": "Würzig ∙ aromatisch ∙ elegant\nWEINGUT R. & C. SCHNEIDER ∙ ENDINGEN\n2020 SPÄTBURGUNDER *** trocken 38\nMaischevergoren ∙ fruchtig & weich. Ein Klassiker vom Kaiserstuhl.",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1212",
-          "type": "text",
-          "title": "",
-          "text": "WEINGUT R & C SCHNEIDER . ENDINGEN A. KAISERSTUHL 42\n2020 SPÄTBURGUNDER „DIEL“ trocken\nRauch, dunkle Kirsche und Kräuter; kühle Eleganz mit feinsandigem Tannin.\nWEINGUT JOHNER ∙ BISCHOFFINGEN ∙ KAISERSTUHL 75",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1213",
-          "type": "text",
-          "title": "",
-          "text": "2020 „SJ“ BLAUER SPÄTBURGUNDER ∙ trocken\nSchön ausgewogene Aromen von Kräutern, dunkelfruchtig\n„Da geht das Herz auf für Pinot – Liebhaber„ WEINGUT LANDERER ∙ OBERROTWEIL KAISERSTUHL 56\n2022 SPÄTBURGUNDER „HENKENBERG“ trocken Barrique",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1214",
-          "type": "text",
-          "title": "",
-          "text": "Mit einem angenehmen spürbarem Körper zeigt dieser trockene Rotwein am Gaumen. Ausgebaut im Barriquefass, verspricht dieser im Geschmack an rote Beeren erinnernde Spätburgunder, beste Qualität im Genuss\nKonzentriert ∙ samtig ∙ groß\nWEINGUT BERTHOLD CLAUSS . NACK-LOTTSTETTEN a. HOCHRHEIN62\n2020 „URBANUS“ GG ∙ PINOT NOIR ∙ Barrique ∙ trocken",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1215",
-          "type": "text",
-          "title": "",
-          "text": "Das Flaggschiff der Klettgauer Premiumlage Kapellenberg.\nGrosse Selektion, vollreif gelesen. Der Ausbau erfolgt unfiltriert\nin Barriques. Tiefe dunkle Farbe und ein intensiver Duft nach\nschwarzen Kirschen. Komplex und vollmundig.",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1216",
-          "type": "text",
-          "title": "",
-          "text": "WEINGUT ARNDT KÖBELIN ∙ KAISERSTUHL78\n2023 SPÄTBURGUNDER ∙ „EICHENLAUB“ ∙ Reserve ∙ trocken\nleuchtendes Burgunderrot ∙ Fein und elegant ∙ Feiner Duft Nach Kirschen∙\nZarte Holznote ∙ Himbeere & Kirsche am Gaumen ∙ im Barrique gereift",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1217",
-          "type": "text",
-          "title": "",
-          "text": "VdP WEINGUT BERNHARD HUBER . MALTERDINGEN . BREISGAU 85\n2022 „ALTE REBEN“ Ortswein Spätburgunder trocken\nMineralischer und feiner Burgunder . sanftes Tannin\nKirsche, Gewürze und ein Hauch Rauch",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1218",
-          "type": "text",
-          "title": "",
-          "text": "VdP WEINGUT SALWEY . OBERROTWEIL . KAISERSTUHL 85\n2022 „KIRCHBERG“ SPÄTBURGUNDER GG VdP . Große LAGE trocken\nEr stammt aus Lagen, die eine Neigung von 30% haben und wurde bis zu 14 Monate in Barriques aus Kaiserstühler Eiche ausgebaut: Der Kirchberg Spätburgunder ist ein besonderer Botschafter des badischen Weinbaus. Er besitzt ein intensives Bukett mit typischen Kirscharomen, Aromen von ätherischen Ölen sowie rauchigen Noten.\n…elegant und weich, sehr dicht, mit schöner Tanninstruktur.",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1219",
-          "type": "text",
-          "title": "",
-          "text": "…. Aus der Pfalz\nVdP WEINGUT KNIPSER ∙ LAUMERSHEIM ∙ D ∙ PFALZ\nKnipsers Spätburgunder Große Gewächse sind eine Freude für Pinot-Fans\nViel Struktur und Fruchtbetont∙saftig ∙voluminös & kräftig ∙ Pinot-Charakter",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1220",
-          "type": "text",
-          "title": "",
-          "text": "2020 SPÄTBURGUNDER „KIRSCHGARTEN“ ∙\nVdP. GROSSES GEWÄCHS ∙ trocken78\nwarme Lage, Schwarzkirsche, samtiges Tannin und große Balance.\n2020 SPÄTBURGUNDER ∙ “STEINBUCKEL“",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1221",
-          "type": "text",
-          "title": "",
-          "text": "VdP ∙ GROSSES GEWÄCHS ∙ trocken78\nkalkiger, kühler und kräuterwürzig, mit sehr feiner Länge.\n2020 SPÄTBURGUNDER „IM GROSSEN GARTEN“\nVdP GROSSES GEWÄCHS . trocken85",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1222",
-          "type": "text",
-          "title": "",
-          "text": "dunkler, tiefer und würziger, mit straffer Struktur.\n…. Aus der SCHWEIZ\nWEINGUT GANTENBEIN ∙ FLÄSCH ∙ BÜNDNER HERRSCHAFT230\n2018 PINOT NOIR ∙ trocken",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1223",
-          "type": "text",
-          "title": "",
-          "text": "Sauerkirsche, Waldbeeren und reife Himbeere; straff, kraftvoll und doch elegant, mit samtigem Tannin und langem Finale.\nSYRAH\nWEINGUT FRITZ Waßmer ∙ MARKGRÄFLERLAND48\n2021 SYRAH Reserve",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1224",
-          "type": "text",
-          "title": "",
-          "text": "Schwarzer Pfeffer, rote Beeren und feine Würze; frisch, weich im Tannin und lang, ohne schwer zu wirken.\nWEINGUT ZIEREISEN ∙ EFRINGEN-KIRCHEN ∙ MARKGRÄFLERLAND2018 JASPIS „SYRAH 10 hoch 4“ Alte Reben trocken 150\nEnorm Dunkelfruchtige Eleganz, voluminös & kräftig aus besonders reduziertem Anbau\nROTWEINCUVÉES & MERLOT & LEMBERGER & BLAUFRÄNKISCH",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1225",
-          "type": "text",
-          "title": "",
-          "text": "BIO VDP ∙ WEINGUT LÄMMLIN-SCHINDLER ∙ MARKGRÄFLERLAND36\n2022 MERLOT ∙ trocken Weich, geschmeidig und farbkräftig; fruchtbetont, vollmundig und mit guter Lagerfähigkeit.\nBIO WEINGUT AUFRICHT ∙ STETTEN ∙ BODENSEE\n2024 AUFRICHTIG ROT ∙ GUTSWEIN ∙ ROTWEINCUVÉE",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1226",
-          "type": "text",
-          "title": "",
-          "text": "Spätburgunder und Cabernet Noir; dunkle Frucht, erdige Noten und feine Kräuterwürze.\nWürzig ∙ aromatisch ∙ elegant\nWEINGUT FRANZ HERBSTER ∙ MARKGRÄFLERLAND42\n2022 ROTWEINCUVÉE∙ „ CAMENOT“ ∙ trocken",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1227",
-          "type": "text",
-          "title": "",
-          "text": "Cabernet Sauvignon ∙ Merlot ∙ Pinot Noir\nWEINGUT MARKUS SCHNEIDER . PFALZ42\n2022 „BLACK PRINT“ RotweinCuvée ∙ trocken\n5erlei Rebsorten . körperreich und opulent.",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1228",
-          "type": "text",
-          "title": "",
-          "text": "VdP WEINGUT PHILIPP KUHN . LAUMERSHEIM . PFALZ42\n2022 „ Mano Negra “ RotweinCuvée ∙ trocken\nRebsorten: Cabernet Sauvignon , Blaufränkisch\nAromatisch & würzig.",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1229",
-          "type": "text",
-          "title": "",
-          "text": "Konzentriert ∙ samtig ∙ groß\nWEINGUT KNIPSER ∙ LAUMERSHEIM ∙ D ∙ PFALZ 92\n2020 ROTWEINCUVÉE ∙ „CUVÉE X“\nRebsorten: Merlot (58%) ∙ Cabernet Franc (31%) ∙ Cabernet Sauvignon (11%)",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1230",
-          "type": "text",
-          "title": "",
-          "text": "Knipser`s „Cuvée X“ ist ein klassischer Bordeaux-Blend im Stil eines Medocs\nBIO VDP ∙ WEINGUT LÄMMLIN-SCHINDLER ∙ MARKGRÄFLERLAND42\n2022 ROTWEINCUVÉE ∙ „FRAUENFELS“ ∙ trocken Rebsorten: Cabernet Sauvignon & Merlot\nWächst auf felsigem Untergrund, der für den Namen Frauenfels steht",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1231",
-          "type": "text",
-          "title": "",
-          "text": "Internationaler Bioweinpreis 2015 „Großes Gold“∙\nWEINGUT ALBRECHT SCHWEGLER . KORB . REMSTAL i. WÜRTTEMBERG58\n2021 BERYLL ROTWEINCUVÉE trocken\nIm Duft Heidelbeere, Lakritze und auch etwas Zwetschge.",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1232",
-          "type": "text",
-          "title": "",
-          "text": "Nur ein Hauch von Holz. Feine Nuancen, lang anhaltender Genuss.\nWEINGUT ALBRECHT SCHWEGLER . KORB . REMSTAL i. WÜRTTEMBERG68\n2021 LEMBERGER RESERVE trocken\nreife Schwarzkirsch-Frucht , Kräuterwürze , reife Gerbstoffe",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1233",
-          "type": "text",
-          "title": "",
-          "text": "93+\" (falstaff Weinguide Deutschland 2025)",
-          "source": "Weinkarte_FINAL.docx",
+          "id": "clean-2039",
+          "type": "quote",
+          "title": "So kannst du es sagen",
+          "text": "„Der Spätburgunder ist elegant und nicht zu schwer – eine schöne Wahl, wenn Sie Rotwein mögen, aber etwas Feines suchen.“",
+          "source": "Kartenmaterial Halde: ohne Preise",
           "status": "current",
           "visible": true
         }
@@ -1865,160 +452,43 @@
       "id": "genuss-13",
       "number": 13,
       "title": "Rotwein international",
-      "description": "Italien, Frankreich, Portugal und Spanien.",
-      "duration": 12,
+      "description": "Kräftige Rotweine verständlich vermitteln.",
+      "duration": 4,
       "visible": true,
       "blocks": [
         {
-          "id": "block-1234",
-          "type": "text",
-          "title": "",
-          "text": "ITALIEN\nWEINGUT TORREVENTO ∙ APULIEN 32\n2022 GHENOS PRIMITIVO ∙ trocken\nViel Frucht Kirsche und dunkle Beeren, trinkig",
-          "source": "Weinkarte_FINAL.docx",
+          "id": "clean-2040",
+          "type": "tip",
+          "title": "Leichter Rotwein",
+          "text": "Fruchtbetont, weich und unkompliziert – gut zum Einstieg.",
+          "source": "Kartenmaterial Halde: ohne Preise",
           "status": "current",
           "visible": true
         },
         {
-          "id": "block-1235",
-          "type": "text",
-          "title": "",
-          "text": "SAN SILVESTRO ∙ PIEMONT42\n2020 BAROLO PATRES DOCG\nRebsorten: Nebbiolo ∙ Eleganter Stil, harmonisch in Eichenfässerln gereift\nCASTELLO DI AMA . TOSKANA49",
-          "source": "Weinkarte_FINAL.docx",
+          "id": "clean-2041",
+          "type": "tip",
+          "title": "Struktur & Tiefe",
+          "text": "Kräftigere Rotweine haben mehr Tannin, Würze und Länge. Passend zu intensiven Gerichten.",
+          "source": "Kartenmaterial Halde: ohne Preise",
           "status": "current",
           "visible": true
         },
         {
-          "id": "block-1236",
-          "type": "text",
-          "title": "",
-          "text": "2023 AMA . CHIANTI CLASSICO RISERVA\nSatte Kirsche . Klar . Frisch . Gewürznelken\nFRANKREICH\nDOMAINE PHILIPPE GIRARD ∙ POMMARD ∙ BURGUND65",
-          "source": "Weinkarte_FINAL.docx",
+          "id": "clean-2042",
+          "type": "tip",
+          "title": "Temperatur",
+          "text": "Rotwein nicht zu warm servieren. Bei Unsicherheit Flasche und aktuellen Standard prüfen.",
+          "source": "Kartenmaterial Halde: ohne Preise",
           "status": "current",
           "visible": true
         },
         {
-          "id": "block-1237",
-          "type": "text",
-          "title": "",
-          "text": "2021 POMMARD ∙ “Vieilles Vignes” ∙ trocken\nSüßer Tabak ∙ sanft & kraftvoll zugleich ∙ leichtes Leder\nDOMAINE PHILIPPE GIRARD ∙ BURGUND75\n2022 CHAMBOLLE de MUSIGNY",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1238",
-          "type": "text",
-          "title": "",
-          "text": "Rebsorten 100% PINOT NOIR\nKomplexer Körper und viel Tiefe\nWEINGUT CHÂTEAU BRANE-CANTENAC ∙ CANTENAC ∙ BORDEAUX 56\n2019 MARGAUX DE BRANE",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1239",
-          "type": "text",
-          "title": "",
-          "text": "Rebsorten: 77 % Merlot, 18 % Cabernet Sauvignon, 5 % Cabernet Franc\nmittelkräftig und rund, wird von einer schönen Säure begleitet - sehr ausgewogenPORTUGAL & SPANIEN\nPORTUGAL\nWEINGUT QUINTA DO NOVAL ∙ DOURO TAL ∙ PORTUGAL 452021 CEDRO do NOVAL ∙ trocken",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1240",
-          "type": "text",
-          "title": "",
-          "text": "Der Wein ist eine Cuvée aus Touriga Nacional, Syrah, Touriga Franca und Tinto Cão\nEr reifte über 10 Monate in Barriques aus französischer Eiche\nSPANIEN - BIERZO\nBODEGAS PALACIOS ∙ BIERZO ∙ SPANIEN39",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1241",
-          "type": "text",
-          "title": "",
-          "text": "2023 PETALOS\nFür Liebhaber der Mencia-Traube.\nGeradliniger Wein, dunkelfruchtig und komplex\nSPANIEN – MALLORCA",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1242",
-          "type": "text",
-          "title": "",
-          "text": "BODEGAS 4KILOS ∙ VINICOLA . SPANIEN45\n2023 12 VOLTS . Biowein trocken\nKultwein aus Mallorca . RotweinCuvée , fruchtig & harmonisch\nAngenehm würzig.",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1243",
-          "type": "text",
-          "title": "",
-          "text": "SPANIEN – PRIORAT\nBODEGAS TERROIR AL LÍMIT ∙ PRIORAT54\n2021 Terra de Cuques ∙ trocken\nRebsorten: Carinena & Garnacha",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1244",
-          "type": "text",
-          "title": "",
-          "text": "Warm und geschmeidig, schwarzfruchtig saftig und ausgewogen.\nCLOS MOGADOR . PRIORAT98\n2020 CLOS MOGADOR GRATALLOPS Rebsorten: Carinena & Garnacha . Syrah & Cabernet Sauvignon Fruchtbetont, würzig . Voluminös & kräftig . Großer Wein\nSPANIEN – RIOJA",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1245",
-          "type": "text",
-          "title": "",
-          "text": "BODEGAS OLARRA ∙ LOGROÑO ∙ RIOJA 39\n2019 CERRO AÑON ∙„GRAN RESERVA“ ∙ trocken\nTempranillo & Garnacha ∙ beeindruckender Wein ∙ aromatische Aromen von Waldbeeren Pflaumen ∙ Tabak ∙ Leder ∙ vollmundig und rassig\nFINCA EMPERATRIZ ∙ RIOJA ALTA 59",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1246",
-          "type": "text",
-          "title": "",
-          "text": "2019 VINO TINTO LA EMPERATRIZ ∙ trocken Tempranillo, Garnacha & Viura Robert Parker 94 / 100 Punkten\nDer Topwein von Emperatriz ist einer der ganz grossen Riojas.\nSchwarze Früchte, üppig am Gaumen kraftvoll, seidig am Gaumen,\nSPANIEN – ANDALUSIEN",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1247",
-          "type": "text",
-          "title": "",
-          "text": "BODEGA CORTIJO LOS AGUILARES ∙ RONDA ∙ ANDALUSIEN65\n2022 TADEO\n100% Petit Verdot ∙ 15 Monate französische Eiche ∙ 14% Vol\nPflaume ∙ Kirsche ∙ Holz ∙ Kräuter ∙ Gewürze ∙ herrliches Bouquet",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1248",
-          "type": "text",
-          "title": "",
-          "text": "SPANIEN – RIBERA del DUERO\nBODEGA ALEJANDRO FERNANDEZ ∙ RIBERA DEL DUERO42\n2021 TINTO PESQUERA CRIANZA ∙ „DO “ ∙ trocken\n100% Tempranillo ∙ Mineralisch ∙ würzig und dunkelfruchtig ∙ harmonisch und elegant",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1249",
-          "type": "text",
-          "title": "",
-          "text": "BODEGA ALEJANDRO FERNANDEZ ∙ RIBERA DEL DUERO62\n2020 TINTO PESQUERA RESERVA ∙ Tempranillo . trocken\nDas Flaggschiff des Weinguts… komplex und elegant. Opulent und gute Länge.\ngroßes Potential für 15 Jahre Entwicklung und mehr.",
-          "source": "Weinkarte_FINAL.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1250",
-          "type": "text",
-          "title": "",
-          "text": "BODEGAS AALTO ∙ RIBERA DEL DUERO 85\n2023 AALTO ∙ trocken 100 % Tempranillo ∙ Robert Parker 95 / 100 Punkten\nTiefviolette Farbe ∙ kraftvoll ∙ mineralisch ∙ Duft nach Pflaumen",
-          "source": "Weinkarte_FINAL.docx",
+          "id": "clean-2043",
+          "type": "tip",
+          "title": "Empfehlung statt Monolog",
+          "text": "Ein klarer Satz genügt: Stil, Herkunft oder Speisenbegleitung. Details nur auf Nachfrage.",
+          "source": "Kartenmaterial Halde: ohne Preise",
           "status": "current",
           "visible": true
         }
@@ -2028,106 +498,43 @@
       "id": "genuss-14",
       "number": 14,
       "title": "Bier, Wasser & Softdrinks",
-      "description": "Alkoholfreie Begleitung und Standardsortiment.",
-      "duration": 8,
+      "description": "Klassiker sicher anbieten und Wasser aktiv platzieren.",
+      "duration": 4,
       "visible": true,
       "blocks": [
         {
-          "id": "block-1251",
-          "type": "text",
-          "title": "",
-          "text": "Bier\nAus der Brauerei Ganter in Freiburg\nGanter Pils ∙ frisch vom Fass ∙ 0,3l4,40",
-          "source": "KaffeeKuchenSnacks ab 10.07.26. .docx",
+          "id": "clean-2044",
+          "type": "tip",
+          "title": "Wasser zuerst",
+          "text": "Still oder sprudelnd aktiv anbieten. Wasser gehört selbstverständlich zum Tisch.",
+          "source": "Kartenmaterial Halde: ohne Preise",
           "status": "current",
           "visible": true
         },
         {
-          "id": "block-1252",
-          "type": "text",
-          "title": "",
-          "text": "Ganter Pils ∙ frisch vom Fass ∙ 0,5l5,20\nGanter Radler ∙ frisch vom Fass ∙ 0,4l4,70\nGanter Hefeweizen ∙ frisch vom Fass ∙ 0,3l4,40",
-          "source": "KaffeeKuchenSnacks ab 10.07.26. .docx",
+          "id": "clean-2045",
+          "type": "tip",
+          "title": "Bier",
+          "text": "Nach Geschmack fragen: hell, herb, alkoholfrei oder etwas Besonderes.",
+          "source": "Kartenmaterial Halde: ohne Preise",
           "status": "current",
           "visible": true
         },
         {
-          "id": "block-1253",
-          "type": "text",
-          "title": "",
-          "text": "Ganter Hefeweizen ∙ frisch vom Fass ∙ 0,5l5,20\nAlkoholfreies Bier\nFreiburger Bierle ∙ alkoholfrei4,4",
-          "source": "KaffeeKuchenSnacks ab 10.07.26. .docx",
+          "id": "clean-2046",
+          "type": "tip",
+          "title": "Softdrinks",
+          "text": "Bei alkoholfreien Alternativen nicht nur süß denken: Tonic, Säfte, alkoholfreie Aperitifs und Wasser sind gleichwertige Empfehlungen.",
+          "source": "Kartenmaterial Halde: ohne Preise",
           "status": "current",
           "visible": true
         },
         {
-          "id": "block-1254",
-          "type": "text",
-          "title": "",
-          "text": "Naturtrüb aus der Flasche ∙ 0,33l\nGanter Hefeweizen ∙ aus der Flasche ∙ 0,5l5,20\nKalte Getränke",
-          "source": "KaffeeKuchenSnacks ab 10.07.26. .docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1255",
-          "type": "text",
-          "title": "",
-          "text": "LIMO´s hausgemacht ∙ 0,5l 4,80\nLimos mit Sirup ∙ Soda ∙ Limette & Minze dekoriert\nHolunderblüte oder Zitrone-Ingwer",
-          "source": "KaffeeKuchenSnacks ab 10.07.26. .docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1256",
-          "type": "text",
-          "title": "",
-          "text": "BIO-SAFTKELTEREI\nBio-Orange ∙ Johannisbeer ∙ Apfel naturtrüb Rhabarber ∙ heimischer Multi ∙ Traube\nPur – oder als Schorle ∙ 0,3l 4,20",
-          "source": "KaffeeKuchenSnacks ab 10.07.26. .docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1257",
-          "type": "text",
-          "title": "",
-          "text": "Pur – oder als Schorle ∙ 0,5l 5,20\nWASSER…\nGrander BergQuellwasser ∙ 0,7l 5,0",
-          "source": "KaffeeKuchenSnacks ab 10.07.26. .docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1258",
-          "type": "text",
-          "title": "",
-          "text": "Bio Bad Dürrheimer Mineralwasser ∙ 0,75l 7,0\nBio Bad Dürrheimer Légère Mineralwasser ∙ 1l 7,0",
-          "source": "KaffeeKuchenSnacks ab 10.07.26. .docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1259",
-          "type": "text",
-          "title": "",
-          "text": "Softdrinks\nFritz Kola ∙ 0,3l 4,30\nFritz Orange ∙ 0,3l4,30",
-          "source": "KaffeeKuchenSnacks ab 10.07.26. .docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1260",
-          "type": "text",
-          "title": "",
-          "text": "Fritz Misch-Masch ∙ 0,3l 4,30\nFritz Light ∙ 0,3l4,30\nBitter Lemon ∙ 0,2l3,90",
-          "source": "KaffeeKuchenSnacks ab 10.07.26. .docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1261",
-          "type": "text",
-          "title": "",
-          "text": "Tonic Water ∙ 0,2l 3,90\nGinger Ale ∙ 0,2l 3,90",
-          "source": "KaffeeKuchenSnacks ab 10.07.26. .docx",
+          "id": "clean-2047",
+          "type": "tip",
+          "title": "Sauber servieren",
+          "text": "Passendes Glas, passende Temperatur und ein sauberer Service zählen genauso wie das Produkt.",
+          "source": "Kartenmaterial Halde: ohne Preise",
           "status": "current",
           "visible": true
         }
@@ -2136,242 +543,44 @@
     {
       "id": "genuss-15",
       "number": 15,
-      "title": "Edelbrände & Digestifs",
-      "description": "Schwarzwälder Brände, Whisky, Rum, Grappa und Cognac.",
-      "duration": 18,
+      "title": "Digestif & Abschluss",
+      "description": "Den letzten Moment aufmerksam gestalten.",
+      "duration": 4,
       "visible": true,
       "blocks": [
         {
-          "id": "block-1262",
-          "type": "text",
-          "title": "",
-          "text": "Schwarzwälder Edelbrände\nserviert in 2 cl\nSTEINOBST",
-          "source": "halde barkarte Badr entwurf.docx",
+          "id": "clean-2048",
+          "type": "tip",
+          "title": "Wann anbieten?",
+          "text": "Nach Dessert oder Kaffee – nicht zu früh und ohne Druck.",
+          "source": "Kartenmaterial Halde: ohne Preise",
           "status": "current",
           "visible": true
         },
         {
-          "id": "block-1263",
-          "type": "text",
-          "title": "",
-          "text": "Zwetschgenbrand5,0\nMarder Fichtenhof\nGelbe Bergflaume9,0",
-          "source": "halde barkarte Badr entwurf.docx",
+          "id": "clean-2049",
+          "type": "tip",
+          "title": "Stil finden",
+          "text": "Fruchtig, kräutrig, nussig, klar oder cremig: erst Vorlieben erfragen.",
+          "source": "Kartenmaterial Halde: ohne Preise",
           "status": "current",
           "visible": true
         },
         {
-          "id": "block-1264",
-          "type": "text",
-          "title": "",
-          "text": "Scheibel · Zitrus · Beeren · Florales\nHimbeergeist8,0\nBrennerei Faude",
-          "source": "halde barkarte Badr entwurf.docx",
+          "id": "clean-2050",
+          "type": "tip",
+          "title": "Edelbrände",
+          "text": "Kurz die Herkunft oder Frucht nennen; keine lange Produktliste aufsagen.",
+          "source": "Kartenmaterial Halde: ohne Preise",
           "status": "current",
           "visible": true
         },
         {
-          "id": "block-1265",
-          "type": "text",
-          "title": "",
-          "text": "Blutorange aus Sizilien9,5\nBrennerei Faude\nFichtensprossengeist7,5",
-          "source": "halde barkarte Badr entwurf.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1266",
-          "type": "text",
-          "title": "",
-          "text": "Brennerei Faude\nKERNOBST\nZibärtle6,0",
-          "source": "halde barkarte Badr entwurf.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1267",
-          "type": "text",
-          "title": "",
-          "text": "Marder Fichtenhof\nWilliams klar6,0\nMünchenbach",
-          "source": "halde barkarte Badr entwurf.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1268",
-          "type": "text",
-          "title": "",
-          "text": "Quittenbrand8,0\nMarder Fichtenhof\nMoor-Birne Fruchtauszug6,5",
-          "source": "halde barkarte Badr entwurf.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1269",
-          "type": "text",
-          "title": "",
-          "text": "Scheibel\nKRÄUTER & NUSSIGES\nAlpenkräuterbrand6,0",
-          "source": "halde barkarte Badr entwurf.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1270",
-          "type": "text",
-          "title": "",
-          "text": "Marder Fichtenhof\nHaselnussgeist6,5\nMarder Fichtenhof",
-          "source": "halde barkarte Badr entwurf.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1271",
-          "type": "text",
-          "title": "",
-          "text": "Schwarzwaldrausch — unser Liebling\nWeisstannenzapfenlikör · das Original · frisch, stark, immer ehrlich · 50% vol. · Familie Jautz · Oberried · 2 cl\n9,0",
-          "source": "halde barkarte Badr entwurf.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1272",
-          "type": "text",
-          "title": "",
-          "text": "Weiteres\nGRAPPA 2 CL\nDi Barbera Nibbio6,5",
-          "source": "halde barkarte Badr entwurf.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1273",
-          "type": "text",
-          "title": "",
-          "text": "Distillerie Berta\nWHISKYS4 CL\nSchwarzwälder Single Malt Cask Peated12,0",
-          "source": "halde barkarte Badr entwurf.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1274",
-          "type": "text",
-          "title": "",
-          "text": "Brennerei MarderLaphroaig Islay PX Cask16,0\nRauchig · Vanille · Apfel · süßlich-medizinisch · salzigFaude Whisky Roggen & Weizen13,0\nSalzkaramell · Mokka · BriocheFaude Whisky Roggen14,0",
-          "source": "halde barkarte Badr entwurf.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1275",
-          "type": "text",
-          "title": "",
-          "text": "Vollkorn · Kaffee · Karamell · Minze\nRUM · 2 CL\nMarder Black Forest9,0",
-          "source": "halde barkarte Badr entwurf.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1276",
-          "type": "text",
-          "title": "",
-          "text": "Süßlich · Vanille · Trockenfrüchte · Orangenschale\nCOGNAC · 2 CL\nHennessy VSOP Privilege10,0",
-          "source": "halde barkarte Badr entwurf.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1277",
-          "type": "text",
-          "title": "",
-          "text": "Vom Fass\nPrivatbrauerei Ganter · Freiburg\nPils · vom Fass0,3 l4,4",
-          "source": "halde barkarte Badr entwurf.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1278",
-          "type": "text",
-          "title": "",
-          "text": "0,5 l5,2\nHefeweizen · vom Fass0,3 l4,4\n0,5 l5,2",
-          "source": "halde barkarte Badr entwurf.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1279",
-          "type": "text",
-          "title": "",
-          "text": "Radler · süßer oder saurer0,4 l4,7\nFreiburger Bierle · alkoholfrei0,33 l4,4\nGanter Hefeweizen · alkoholfrei0,5 l5,2",
-          "source": "halde barkarte Badr entwurf.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1280",
-          "type": "text",
-          "title": "",
-          "text": "Ganter Dreisamhopfen · 0,33 l\nGebraut mit frischem Hopfen aus unserem eigenen Anbau, vom Hopfenfeld an der Bruggaa\n5,2",
-          "source": "halde barkarte Badr entwurf.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1281",
-          "type": "text",
-          "title": "",
-          "text": "Vom Haus\nHausgemachte Limos NEU 4,8\nSirup · Soda · Limette · 0,5 l",
-          "source": "halde barkarte Badr entwurf.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1282",
-          "type": "text",
-          "title": "",
-          "text": "Holunderblüte oder Zitrone-Ingwer\nKennzeichnungspflichtige Zusatzstoffe\nLieber Gast, Qualität und Regionalität liegen uns am Herzen. Wo Zusatzstoffe unvermeidbar sind, kennzeichnen wir diese für Sie.",
-          "source": "halde barkarte Badr entwurf.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1283",
-          "type": "text",
-          "title": "",
-          "text": "Nr. 1 — Konservierungsstoff\nNr. 2 — Farbstoff\nNr. 3 — Antioxidationsmittel",
-          "source": "halde barkarte Badr entwurf.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1284",
-          "type": "text",
-          "title": "",
-          "text": "Nr. 4 — Süßungsmittel Saccharin\nNr. 5 — Süßungsmittel Cyclamat\nNr. 6 — Süßungsmittel Aspartam",
-          "source": "halde barkarte Badr entwurf.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1285",
-          "type": "text",
-          "title": "",
-          "text": "Nr. 7 — Süßungsmittel Acesulfam\nNr. 8 — Phosphat\nNr. 9 — geschwefelt",
-          "source": "halde barkarte Badr entwurf.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1286",
-          "type": "text",
-          "title": "",
-          "text": "Nr. 10 — chininhaltig\nNr. 11 — coffeinhaltig\nNr. 12 — Geschmacksverstärker",
-          "source": "halde barkarte Badr entwurf.docx",
-          "status": "current",
-          "visible": true
-        },
-        {
-          "id": "block-1287",
-          "type": "text",
-          "title": "",
-          "text": "Falls Sie Allergien oder Unverträglichkeiten haben, sprechen Sie uns einfach an.",
-          "source": "halde barkarte Badr entwurf.docx",
+          "id": "clean-2051",
+          "type": "quote",
+          "title": "So kannst du es sagen",
+          "text": "„Darf ich Ihnen noch etwas Kleines zum Abschluss empfehlen – eher fruchtig, kräutrig oder einen Kaffee?“",
+          "source": "Kartenmaterial Halde: ohne Preise",
           "status": "current",
           "visible": true
         }
@@ -2380,63 +589,36 @@
     {
       "id": "genuss-16",
       "number": 16,
-      "title": "Schicht-Check",
-      "description": "Vor der Schicht Verfügbarkeit, Tagesbesonderheiten und Empfehlungen klären.",
-      "duration": 6,
+      "title": "Sicher beraten",
+      "description": "Der gute Ton ist wichtiger als auswendig gelerntes Wissen.",
+      "duration": 3,
       "visible": true,
       "blocks": [
         {
-          "id": "block-1288",
-          "type": "question",
-          "title": "Halde Apéro-Sprizz",
-          "text": "Rezeptkarte nennt 8 €, Barkarte/andere Karte 9 €. Verbindlichen Verkaufspreis festlegen.",
-          "source": "Dokumentenabgleich",
-          "status": "check",
+          "id": "clean-2052",
+          "type": "check",
+          "title": "Vor jeder verbindlichen Aussage",
+          "text": "Aktuelle Karte prüfen / Bei Allergenen und Alkoholgehalt nicht raten / Bei Unsicherheit kurz Rücksprache halten.",
+          "source": "Kartenmaterial Halde: ohne Preise",
+          "status": "current",
           "visible": true
         },
         {
-          "id": "block-1289",
-          "type": "question",
-          "title": "Campari Sprizz",
-          "text": "Rezeptkarte nennt 8 €, Barkarte 9 €. Verbindlichen Verkaufspreis festlegen.",
-          "source": "Dokumentenabgleich",
-          "status": "check",
+          "id": "clean-2053",
+          "type": "tip",
+          "title": "Keine Preise auswendig lernen",
+          "text": "Preise können sich ändern. Für verbindliche Auskünfte immer freigegebene Karte oder Kassensystem nutzen.",
+          "source": "Kartenmaterial Halde: ohne Preise",
+          "status": "current",
           "visible": true
         },
         {
-          "id": "block-1290",
-          "type": "question",
-          "title": "Negroni",
-          "text": "Rezeptkarte nennt 10 €, Barkarte 9 €. Verbindlichen Verkaufspreis festlegen.",
-          "source": "Dokumentenabgleich",
-          "status": "check",
-          "visible": true
-        },
-        {
-          "id": "block-1291",
-          "type": "question",
-          "title": "Amalfi Sprizz",
-          "text": "Rezeptkarte verwendet Amalfi-Sirup + Muskateller Sekt; Barkarte beschreibt H’NT Zitrone/Clementine. Rezept und Produktname angleichen.",
-          "source": "Dokumentenabgleich",
-          "status": "check",
-          "visible": true
-        },
-        {
-          "id": "block-1292",
-          "type": "question",
-          "title": "Zitronen-Basilikum / Mango-Rosmarin",
-          "text": "Mehrere Karten führen Varianten mit und ohne Alkohol sowie unterschiedliche Preise. Bezeichnung, Basisschaumwein und Preis eindeutig festlegen.",
-          "source": "Dokumentenabgleich",
-          "status": "check",
-          "visible": true
-        },
-        {
-          "id": "block-1293",
-          "type": "question",
-          "title": "Öffnungszeiten",
-          "text": "Kaffee/Kuchen-Karte und Barkarte nennen verschiedene Angebotsfenster je Bereich. Vor Veröffentlichung aktuelle Betriebsentscheidung bestätigen.",
-          "source": "Dokumentenabgleich",
-          "status": "check",
+          "id": "clean-2054",
+          "type": "tip",
+          "title": "Gastwunsch vor Produktwissen",
+          "text": "Erst zuhören, dann eine klare Empfehlung geben. Eine gute Wahl ist besser als fünf Möglichkeiten.",
+          "source": "Kartenmaterial Halde: ohne Preise",
+          "status": "current",
           "visible": true
         }
       ]
