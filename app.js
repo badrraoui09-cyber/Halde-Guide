@@ -71,62 +71,56 @@
   }
 
   function home() {
-    const next = nextModule();
     const hours = moduleBy('genuss', ['wann gibt es was']);
-    const timeBlocks = (hours?.blocks || []).filter(visible).slice(0, 4);
     const arrival = moduleBy('empfang', ['empfangsregeln', 'begrüßung']);
     const table = moduleBy('service', ['der tisch', 'erster tischkontakt']);
     const recommend = moduleBy('genuss', ['offene weine', 'aperitivo']);
     const solve = moduleBy('empfang', ['empfangsregeln', 'beschwerden']);
-    const done = modules().filter(module => completed.has(module.id)).length;
-    const hour = new Date().getHours();
-    const shift = hour < 11 ? 'Morgenvorbereitung' : hour < 17 ? 'Tagesservice' : 'Abendservice';
 
     app.innerHTML = `
-      <section class="command-hero">
-        <div class="shift-line"><span class="live-dot"></span><strong>${shift}</strong><span>${done}/${modules().length} Lektionen abgeschlossen</span></div>
-        <div class="command-copy">
-          <p class="eyebrow">${esc(data.settings.welcome)} · DEIN HALDE BEGLEITER</p>
+      <section class="guide-hero">
+        <div class="guide-hero-mark" aria-hidden="true"><span>H</span><i></i><i></i></div>
+        <div class="guide-hero-copy">
+          <p class="eyebrow">DIE HALDE · 1.147 M HOCHGENUSS</p>
           <h1>${headline(data.settings.headline)}</h1>
           <p>${esc(data.settings.intro)}</p>
+          <span class="guide-hero-note">Dein Handbuch für Service, Empfang, Genuss und Bar.</span>
         </div>
       </section>
 
-      <section class="today-brief">
-        <div class="today-heading">
-          <p class="eyebrow">HEUTE AUF DER HALDE</p>
-          <h2>Wann ist was?</h2>
-          <p>Diese Zeiten brauchst du im Service. Bei Änderungen gilt immer das Tagesbriefing.</p>
-          <button class="brief-action" data-open-module="${esc(hours?.id || '')}" data-dept="genuss">Alle Zeiten &amp; Details →</button>
-        </div>
-        <div class="time-grid">
-          ${timeBlocks.map(block => `<button class="time-card" data-open-module="${esc(hours.id)}" data-dept="genuss"><span>${esc(block.title || 'Halde Info')}</span><strong>${esc(block.text)}</strong><b>→</b></button>`).join('')}
+      <section class="guide-entry">
+        <header class="zone-head"><div><p class="eyebrow">HALDE WISSEN</p><h2>Finde deinen Bereich.</h2></div><button class="text-action" data-action="search">⌕ Suche im Guide</button></header>
+        <div class="guide-area-grid">
+          ${departments().map((department, index) => `<button class="guide-area-card" style="--area:${department.accent}" data-open-course="${esc(department.id)}">
+            <span class="area-number">0${index + 1}</span><span class="area-icon">${esc(department.icon)}</span>
+            <p class="eyebrow">${esc(department.kicker)}</p><strong>${esc(department.title)}</strong>
+            <em>${esc(department.description)}</em><small>${department.modules.filter(visible).length} Lernkarten <b>→</b></small>
+          </button>`).join('')}
+          ${hours ? `<button class="guide-area-card reference-area-card" style="--area:var(--gold)" data-open-module="${esc(hours.id)}" data-dept="genuss">
+            <span class="area-number">04</span><span class="area-icon">◷</span>
+            <p class="eyebrow">FESTE INFORMATIONEN</p><strong>Öffnungszeiten<br>&amp; Angebote</strong>
+            <em>Küche, Kaffee, Bar und alles, was Gäste zuverlässig wissen müssen.</em><small>Nachschlagen <b>→</b></small>
+          </button>` : ''}
         </div>
       </section>
 
-      <section class="mission-zone">
-        <header class="zone-head"><div><p class="eyebrow">SITUATION WÄHLEN</p><h2>Was machst du jetzt?</h2></div><button class="text-action" data-action="search">⌕ Alles durchsuchen</button></header>
+      <section class="scenario-zone">
+        <header class="zone-head"><div><p class="eyebrow">SCHRITT FÜR SCHRITT</p><h2>Die wichtigsten Abläufe.</h2></div><button class="text-action" data-go="learn">Alle Themen →</button></header>
         <div class="mission-grid">
-          ${missionCard('Gast kommt an', 'Begrüßen, orientieren, sicher starten', '👋', '#d9a84e', arrival)}
-          ${missionCard('Tisch startet', 'Vorbereiten und den ersten Kontakt führen', '✦', '#7aa071', table)}
-          ${missionCard('Empfehlung gesucht', 'Getränke, Wein und Genuss schnell finden', '◒', '#b77657', recommend)}
-          ${missionCard('Problem lösen', 'Ruhig reagieren und Verantwortung zeigen', '!', '#6d91ad', solve)}
+          ${missionCard('Gast begrüßen', 'Empfang, Name und erster guter Eindruck', '👋', '#d9a84e', arrival)}
+          ${missionCard('Tisch vorbereiten', 'Mise en place und erster Kontakt', '✦', '#7aa071', table)}
+          ${missionCard('Gut empfehlen', 'Getränke, Wein und Genuss verständlich erklären', '◒', '#b77657', recommend)}
+          ${missionCard('Sicher reagieren', 'Beschwerden ruhig und verbindlich lösen', '!', '#6d91ad', solve)}
         </div>
       </section>
 
-      <section class="next-panel">
-        <div class="next-visual"><span>${String(next.number).padStart(2, '0')}</span><i style="--ring:${next.department.accent}"></i></div>
-        <div class="next-copy"><p class="eyebrow">DEINE NÄCHSTE 5-MINUTEN-LEKTION</p><h2>${esc(next.title)}</h2><p>${esc(next.description)}</p><div class="next-meta"><span>${esc(next.department.title)}</span><span>${next.blocks.filter(visible).length} Karten</span><span>${next.duration} Min</span></div></div>
-        <button class="round-action" data-open-module="${esc(next.id)}" data-dept="${esc(next.department.id)}" aria-label="Lektion starten">→</button>
-      </section>
-
-      <section class="path-preview">
-        <header class="zone-head"><div><p class="eyebrow">DEINE HALDE WELT</p><h2>Drei Bereiche. Ein Gastgeber-Gefühl.</h2></div><button class="text-action" data-go="learn">Alle Lernbereiche →</button></header>
-        <div class="path-strip">${departments().map(pathCard).join('')}</div>
+      <section class="guide-promise">
+        <span aria-hidden="true">✦</span><div><p class="eyebrow">KEIN LERNBUCH</p><h2>Klare Standards.<br><em>Herzliche Gastgeber.</em></h2></div>
+        <p>Jede Karte hilft dir in einer konkreten Situation: Was ist wichtig, was sagst du und was machst du als Nächstes?</p>
       </section>
 
       <section class="challenge-card" data-go="quiz">
-        <div><span class="challenge-mark">?</span><p class="eyebrow">SCHICHT-CHECK</p><h2>Bereit für eine echte Situation?</h2><p>Kurze Entscheidungen statt Auswendiglernen.</p></div>
+        <div><span class="challenge-mark">?</span><p class="eyebrow">ÜBEN</p><h2>Bereit für eine echte Situation?</h2><p>Kurze Entscheidungen statt Auswendiglernen.</p></div>
         <button data-go="quiz">Quiz starten →</button>
       </section>`;
   }
