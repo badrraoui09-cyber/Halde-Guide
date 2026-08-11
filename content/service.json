@@ -111,7 +111,7 @@
           "id": "service-03-steps",
           "type": "check",
           "title": "So gehst du vor",
-          "text": "\"Guten Abend Frau/Herr [Name]...\"\nGastnamen 3× nutzen: Begrüßung · zwischendrin · Abschied\nBrot & Aufstriche servieren und ansagen\nBei à la carte: Brot bonnieren!\nTagesempfehlung mit Preis nennen\nHausgäste: Aufpreis nennen (z.B. 12 €)",
+          "text": "\"Guten Abend Frau/Herr [Name]...\"\nGastnamen 3× nutzen: Begrüßung · zwischendrin · Abschied\nBrot & Aufstriche servieren und ansagen\nBei à la carte: Brot bonnieren!\nTagesempfehlung klar nennen\nBei möglichem Aufpreis: aktuelle Karte oder Kassensystem prüfen und verbindlich informieren",
           "status": "current",
           "visible": true
         },
