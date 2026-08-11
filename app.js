@@ -30,6 +30,7 @@
   };
   const nextModule = () => modules().find(module => !completed.has(module.id)) || modules()[0];
   const compact = text => String(text || '').replace(/\s+/g, ' ').trim();
+  const contentLines = text => String(text || '').split('\n').map(line => line.trim()).filter(line => line && !line.includes('€'));
   const headline = text => {
     const parts = String(text || '').split('.').map(part => part.trim()).filter(Boolean);
     return parts.length > 1 ? `${esc(parts[0])}. <em>${esc(parts.slice(1).join('. '))}.</em>` : esc(text);
@@ -82,7 +83,6 @@
     app.innerHTML = `
       <section class="command-hero">
         <div class="shift-line"><span class="live-dot"></span><strong>${shift}</strong><span>${done}/${modules().length} Lektionen abgeschlossen</span></div>
-        <div class="hero-orbit" aria-hidden="true"><span>EMPFANG</span><span>SERVICE</span><span>GENUSS</span><b>H</b></div>
         <div class="command-copy">
           <p class="eyebrow">${esc(data.settings.welcome)} · DEIN HALDE BEGLEITER</p>
           <h1>${headline(data.settings.headline)}</h1>
@@ -130,25 +130,74 @@
   function learn() {
     app.innerHTML = `<header class="page-intro"><p class="eyebrow">LERNEN</p><h1>Vom Wissen<br><em>zum sicheren Handgriff.</em></h1><p>Wähle einen Bereich und gehe die Lektionen in deinem Tempo durch.</p></header><section class="path-stage">${departments().map(department => {
       const first = department.modules.filter(visible)[0];
-      return `<article class="path-feature" style="--path:${department.accent}"><div class="path-symbol">${esc(department.icon)}</div><div><p class="eyebrow">${esc(department.kicker)}</p><h2>${esc(department.title)}</h2><p>${esc(department.description)}</p><div class="feature-meta"><span>${department.modules.filter(visible).length} Lektionen</span><span>${progressFor(department)}% geschafft</span></div></div><button data-open-course="${esc(department.id)}">Öffnen →</button><button class="feature-start" data-open-module="${esc(first.id)}" data-dept="${esc(department.id)}">Direkt starten</button></article>`;
+      return `<article class="path-feature" style="--path:${department.accent}"><div class="path-symbol">${esc(department.icon)}</div><div><p class="eyebrow">${esc(department.kicker)}</p><h2>${esc(department.title)}</h2><p>${esc(department.description)}</p><div class="feature-meta"><span>${department.modules.filter(visible).length} Lektionen</span><span>${progressFor(department)}% geschafft</span></div></div><button data-open-course="${esc(department.id)}">Zum Lernweg →</button></article>`;
     }).join('')}</section>`;
+  }
+
+  function groupFor(department, module, index) {
+    if (department.id === 'service') {
+      if (index < 2) return 'Startklar machen';
+      if (index < 6) return 'Am Tisch begleiten';
+      if (index < 10) return 'Während des Aufenthalts';
+      return 'Zum guten Abschluss';
+    }
+    if (department.id === 'empfang') {
+      if (index < 4) return 'Ankommen lassen';
+      if (index < 7) return 'Aufenthalt gestalten';
+      return 'Verbindlich begleiten';
+    }
+    if (['genuss-06', 'genuss-07', 'genuss-08'].includes(module.id)) return 'Bar & Rezeptur';
+    if (index < 5) return 'Angebot & Servicewissen';
+    return 'Getränkewissen';
+  }
+
+  function missionRow(module, department, index) {
+    return `<button class="mission-row ${completed.has(module.id) ? 'done' : ''}" data-open-module="${esc(module.id)}" data-dept="${esc(department.id)}"><span class="row-index">${completed.has(module.id) ? '✓' : esc(module.icon || String(index + 1).padStart(2, '0'))}</span><span><small>LEVEL ${String(module.number || index + 1).padStart(2, '0')} · ${module.duration} MIN · ${module.blocks.filter(visible).length} KARTEN</small><strong>${esc(module.title)}</strong><em>${esc(module.description)}</em></span><b>→</b></button>`;
   }
 
   function course() {
     const department = data.departments.find(item => item.id === view.department);
     const list = department.modules.filter(visible);
+    let activeGroup = '';
+    const groupedLessons = list.map((module, index) => {
+      const group = groupFor(department, module, index);
+      const heading = group === activeGroup ? '' : `<h2 class="lesson-group-title">${esc(group)}</h2>`;
+      activeGroup = group;
+      return `${heading}${missionRow(module, department, index)}`;
+    }).join('');
     app.innerHTML = `<header class="course-hero" style="--course:${department.accent}">
       <button class="back-button" data-go="learn">← Alle Lernbereiche</button><div class="course-icon">${esc(department.icon)}</div><p class="eyebrow">${esc(department.kicker)}</p><h1>${esc(department.title)}</h1><p>${esc(department.description)}</p>
       <div class="course-meter"><span><i style="width:${progressFor(department)}%"></i></span><small>${progressFor(department)}% geschafft</small></div>
-    </header><section class="mission-list">${list.map((module, index) => `<button class="mission-row ${completed.has(module.id) ? 'done' : ''}" data-open-module="${esc(module.id)}" data-dept="${esc(department.id)}"><span class="row-index">${completed.has(module.id) ? '✓' : esc(module.icon || String(index + 1).padStart(2, '0'))}</span><span><small>LEVEL ${String(module.number || index + 1).padStart(2, '0')} · ${module.duration} MIN · ${module.blocks.filter(visible).length} KARTEN</small><strong>${esc(module.title)}</strong><em>${esc(module.description)}</em></span><b>→</b></button>`).join('')}</section>`;
+    </header><section class="mission-list">${groupedLessons}</section>`;
   }
 
-  function contentLines(text) {
-    return String(text || '').split('\n').map(line => line.trim()).filter(Boolean);
+  function isRecipe(module, card) {
+    return /rezept|sprizz|cocktail|vermouth|gin, klassiker/i.test(`${module.title} ${card.source || ''}`);
   }
 
-  function cardContent(card) {
+  function recipeContent(card) {
     const lines = contentLines(card.text);
+    const glass = lines.find(line => /[🍸🥃🥂]/.test(line)) || '';
+    const method = lines.find(line => line.startsWith('→')) || '';
+    const garnish = lines.find(line => /^garnish\b/i.test(line)) || '';
+    const skip = new Set([glass, method, garnish]);
+    const amount = /^(?:\d+(?:[.,]\d+)?\s*(?:cl|dl|l)|\d+(?:[–-]\d+)?\s*[×x]|schuss)$/i;
+    const ingredients = [];
+
+    for (let index = 0; index < lines.length; index += 1) {
+      const line = lines[index];
+      const next = lines[index + 1];
+      if (skip.has(line) || !amount.test(line) || !next || skip.has(next) || amount.test(next)) continue;
+      ingredients.push({ amount: line, name: next });
+      index += 1;
+    }
+
+    return `<div class="recipe-layout">${glass ? `<div class="recipe-glass"><small>GLAS</small><strong>${esc(glass.replace(/[🍸🥃🥂]/g, '').trim())}</strong></div>` : ''}<div class="recipe-section"><small>ZUTATEN</small><div class="recipe-ingredients">${ingredients.map(item => `<div><b>${esc(item.amount)}</b><span>${esc(item.name)}</span></div>`).join('') || '<p>Rezeptur wird ergänzt.</p>'}</div></div>${method ? `<div class="recipe-section"><small>REIHENFOLGE</small><p>${esc(method.replace(/^→\s*/, '')).replace(/\s*→\s*/g, ' <span aria-hidden="true">→</span> ')}</p></div>` : ''}${garnish ? `<div class="recipe-garnish"><small>GARNITUR</small><strong>${esc(garnish.replace(/^garnish\s*/i, ''))}</strong></div>` : ''}</div>`;
+  }
+
+  function cardContent(card, module) {
+    const lines = contentLines(card.text);
+    if (isRecipe(module, card)) return recipeContent(card);
     if (card.type === 'check' || lines.length > 2) {
       return `<div class="step-list">${lines.map((line, index) => `<button class="step-item ${checkedItems.has(index) ? 'checked' : ''}" data-check-item="${index}"><span>${checkedItems.has(index) ? '✓' : index + 1}</span><p>${esc(line)}</p></button>`).join('')}</div>`;
     }
@@ -178,8 +227,7 @@
       <article class="experience-card" data-type="${esc(card.type)}">
         <div class="experience-symbol">${type.icon}</div><div class="experience-head"><p class="eyebrow">${type.label}</p><small>${type.prompt}</small></div>
         ${card.title ? `<h2>${esc(card.title)}</h2>` : ''}
-        ${cardContent(card)}
-        ${card.source ? `<small class="source-note">Quelle · ${esc(card.source)}</small>` : ''}
+        ${cardContent(card, module)}
       </article>
       <footer class="lesson-controls"><button data-card="prev" ${cardIndex === 0 ? 'disabled' : ''}>←</button><span><b>${cardIndex + 1}</b> von ${cards.length}</span><button data-card="next">${cardIndex === cards.length - 1 ? 'Fertig ✓' : 'Weiter →'}</button></footer>
     </section>`;
@@ -278,13 +326,29 @@
 
   search?.addEventListener('input', event => doSearch(event.target.value));
 
+  const contentFiles = ['settings', 'service', 'empfang', 'genuss-wissen', 'bar-rezepte'];
+
+  function assembleContent(parts) {
+    const [settings, ...departmentsFromFiles] = parts;
+    const byDepartment = new Map();
+    departmentsFromFiles.forEach(part => {
+      const existing = byDepartment.get(part.id);
+      if (existing) existing.modules.push(...part.modules);
+      else byDepartment.set(part.id, { ...part, modules: [...part.modules] });
+    });
+    byDepartment.forEach(department => department.modules.sort((left, right) => Number(left.number) - Number(right.number)));
+    return { settings, departments: [...byDepartment.values()] };
+  }
+
   Promise.all([
-    fetch('/content/site.json', { cache: 'no-store' }),
+    ...contentFiles.map(file => fetch(`/content/${file}.json`, { cache: 'no-store' })),
     fetch('/content/quiz.json', { cache: 'no-store' })
   ]).then(async responses => {
-    if (!responses[0].ok) throw Error('Inhalte konnten nicht geladen werden');
-    data = await responses[0].json();
-    quizData = responses[1].ok ? await responses[1].json() : { title: 'Übungen & Quiz', questions: [] };
+    const contentResponses = responses.slice(0, -1);
+    if (contentResponses.some(response => !response.ok)) throw Error('Inhalte konnten nicht geladen werden');
+    data = assembleContent(await Promise.all(contentResponses.map(response => response.json())));
+    const quizResponse = responses[responses.length - 1];
+    quizData = quizResponse.ok ? await quizResponse.json() : { title: 'Übungen & Quiz', questions: [] };
     document.querySelector('#site-title').textContent = data.settings.title;
     document.querySelector('#site-subtitle').textContent = data.settings.subtitle;
     render();
